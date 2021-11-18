@@ -1,11 +1,10 @@
 ## General Idea
-Unit tags will container one tag for era, i.e. "tag_clan_invasion".
-The tool will then removed that tag, and replace every MUL named faction after it with the corrosponding RT factions for the given era, expanding from MUL factions group first as needed.
+The tag set in the unit definition file will contain one tag for a specific era, e.g. *"era_clan_invasion"*.
+The tool will then remove the era tag, and then replace every MUL entry in the tag list that matches a MUL faction with the corrosponding RT factions for the given era. The MUL faction will be expanded to individual MUL factions first if it is a MUL factions group, e.g. *IS Clan General*.
 
 ##### Notes
 * Factions marked as <span style="color:lightgrey">(Flashpoint faction)</span> are only added if the Era is **Clan Invasion** **Civil War** or **Jihad**.
-
-Factions marked as <span style="color:grey">(Fallback faction)</span> will never be added.
+* Factions marked as <span style="color:grey">(Fallback faction)</span> will never be added.
 
 ## MUL Faction Groups to MUL Factions by Era mappings
 
