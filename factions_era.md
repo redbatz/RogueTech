@@ -9,7 +9,7 @@ The tool will then remove the era tag, and then replace every MUL entry in the t
 ## MUL Faction Groups to MUL Factions by Era mappings
 
 ### Inner Sphere General <a name="inner-sphere"></a>
-* ##### **Clan Invasion** **Civil War** <a name="inner-sphere-1"></a><a name="inner-sphere-2"></a>
+##### **Clan Invasion** **Civil War** <a name="inner-sphere-1"></a><a name="inner-sphere-2"></a>
 * [Capellan Confederation](#capellan-confederation)
 * [ComStar](#comstar)
 * [Draconis Combine](#draconis-combine)
@@ -147,6 +147,7 @@ The tool will then remove the era tag, and then replace every MUL entry in the t
 ## MUL Factions by Era to Roguetech Factions mappings
 
 ### Calderon Protectorate <a name="calderon"></a>
+##### RT Factions
 * "taurianconcordat"
 ##### Belongs to MUL Faction Group Eras
 * [Periphery General - Jihad](#periphery-3)
@@ -155,6 +156,7 @@ The tool will then remove the era tag, and then replace every MUL entry in the t
 
 
 ### Capellan Confederation <a name="capellan-confederation"></a>
+##### RT Factions
 * "liao"
 * "emeralddawn" <span style="color:lightgrey">(Flashpoint faction)</span>
 * "housekhulan <span style="color:lightgrey">(Flashpoint faction)</span>
@@ -163,6 +165,7 @@ The tool will then remove the era tag, and then replace every MUL entry in the t
 * [Inner Sphere General - All Era](#inner-sphere)
 
 ### Circinus Federation <a name="circinus"></a>
+##### RT Factions
 * "circinus"
 ##### Belongs to MUL Faction Group Eras
 * [Periphery General - Clan Invasion](#periphery-1)
@@ -170,37 +173,44 @@ The tool will then remove the era tag, and then replace every MUL entry in the t
 * [Periphery General - Jihad](#periphery-3)
 
 ### Clan Blood Spirit <a name="blood-spirit"></a>
+##### RT Factions
 * "clanbloodspirit"
 ##### Belongs to MUL Faction Group Eras
 *None in RT timeline*
 
 ### Clan Burrock <a name="burrock"></a>
+##### RT Factions
 * "clanstaradder"
 ##### Belongs to MUL Faction Group Eras
 * [HW Clan General - Clan Invasion](#homeworld-clans-1)
 * [HW Clan General - Jihad](#homeworld-clans-3)
 
 ### Clan Cloud Cobra <a name="cloud-cobra"></a>
+##### RT Factions
 * "clancloudcobra"
 ##### Belongs to MUL Faction Group Eras
 * [HW Clan General - All Eras](#homeworld-clans)
 
 ### Clan Coyote <a name="coyote"></a>
+##### RT Factions
 * "clancoyote"
 ##### Belongs to MUL Faction Group Eras
 * [HW Clan General - All Eras](#homeworld-clans)
 
 ### Clan Diamond Shark <a name="diamond-shark"></a>
+##### RT Factions
 * "clandiamondshark"
 ##### Belongs to MUL Faction Group Eras
 * [IS Clan General - All Eras](#inner-sphere-clans)
 
 ### Clan Fire Mandrill <a name="fire-mandrill"></a>
+##### RT Factions
 * "clanfiremandrill"
 ##### Belongs to MUL Faction Group Eras
 * [HW Clan General - All Eras](#homeworld-clans)
 
 ### Clan Ghost Bear <a name="ghost-bear"></a>
+##### RT Factions
 * "clanghostbear"
 ##### Belongs to MUL Faction Group Eras
 * [IS Clan General - Clan Invasion](#inner-sphere-clans-1)
@@ -208,13 +218,15 @@ The tool will then remove the era tag, and then replace every MUL entry in the t
 * [IS Clan General - Jihad](#inner-sphere-clans-3)
 
 ### Clan Goliath Scorpion <a name="goliath-scorpion"></a>
+##### RT Factions
 * "clangoliathscorpion"
-#### Belongs to MUL Faction Group Eras
+##### Belongs to MUL Faction Group Eras
 * [HW Clan General - All Eras](#homeworld-clans)
 
 ### Clan Hell's Horses <a name="hells-horses"></a>
+##### RT Factions
 * "clanhellshorses"
-#### Belongs to MUL Faction Group Eras
+##### Belongs to MUL Faction Group Eras
 * [HW Clan General - Clan Invasion](#homeworld-clans-1)
 * [IS Clan General - Civil War](#inner-sphere-clans-2)
 * [IS Clan General - Jihad](#inner-sphere-clans-3)
@@ -222,119 +234,141 @@ The tool will then remove the era tag, and then replace every MUL entry in the t
 * [IS Clan General - Dark Ages](#inner-sphere-clans-5)
 
 ### Clan Ice Hellion <a name="ice-hellion"></a>
+##### RT Factions
 * "clanicehellion"
-#### Belongs to MUL Faction Group Eras
+##### Belongs to MUL Faction Group Eras
 * [HW Clan General - All Eras](#homeworld-clans)
 
 ### Clan Jade Falcon <a name="jade-falcon"></a>
+##### RT Factions
 * "clanjadefalcon"
-#### Belongs to MUL Faction Group Eras
+##### Belongs to MUL Faction Group Eras
 * [IS Clan General - All Eras](#inner-sphere-clans)
 
 ### Clan Mongoose <a name="mongoose"></a>
+##### RT Factions
 * "clansmokejaguar"
-#### Belongs to MUL Faction Group Eras
+##### Belongs to MUL Faction Group Eras
 *None in RT timeline*
 
 ### Clan Nova Cat <a name="nova-cat"></a>
+##### RT Factions
 * "clannovacat"
-#### Belongs to MUL Faction Group Eras
+##### Belongs to MUL Faction Group Eras
 * [IS Clan General - All Eras](#inner-sphere-clans)
 
 ### Clan Smoke Jaguar <a name="smoke-jaguar"></a>
+##### RT Factions
 * "clansmokejaguar"
-#### Belongs to MUL Faction Group Eras
+##### Belongs to MUL Faction Group Eras
 * [IS Clan General - Clan Invasion](#inner-sphere-clans-1)
 
 ### Clan Snow Raven <a name="snow-raven"></a>
+##### RT Factions
 * "clansnowraven"
+##### Belongs to MUL Faction Group Eras
 * [IS Clan General - Clan Invasion](#inner-sphere-clans-1)
 * [IS Clan General - Civil War](#inner-sphere-clans-2)
 * [HW Clan General - Jihad](#homeworld-clans-3)
 
 ### Clan Star Adder <a name="star-adder"></a>
+##### RT Factions
 * "clanstaradder"
-#### Belongs to MUL Faction Group Eras
+##### Belongs to MUL Faction Group Eras
 * [HW Clan General - All Eras](#homeworld-clans)
 
 ### Clan Sea Fox <a name="sea-fox"></a>
+##### RT Factions
 * "clandiamondshark"
-#### Belongs to MUL Faction Group Eras
+##### Belongs to MUL Faction Group Eras
 * [IS Clan General - Republic](#inner-sphere-clans-4)
 * [IS Clan General - Dark Ages](#inner-sphere-clans-5)
 
 ### Clan Steel Viper <a name="steel-viper"></a>
+##### RT Factions
 * "clansteelviper"
-#### Belongs to MUL Faction Group Eras
+##### Belongs to MUL Faction Group Eras
 * [IS Clan General - Clan Invasion](#inner-sphere-clans-1)
 * [HW Clan General - Civil War](#homeworld-clans-2)
 * [HW Clan General - Jihad](#homeworld-clans-3)
 
 ### Clan Stone Lion <a name="stone-lion"></a>
+##### RT Factions
 * "clanhellshorses"
-#### Belongs to MUL Faction Group Eras
+##### Belongs to MUL Faction Group Eras
 * [HW Clan General - Jihad](#homeworld-clans-3)
 
 ### Clan Widowmaker <a name="widowmaker"></a>
+##### RT Factions
 * "clanwolf"
-#### Belongs to MUL Faction Group Eras
+##### Belongs to MUL Faction Group Eras
 *None in RT timeline*
 
 ### Clan Wolf <a name="wolf"></a>
+##### RT Factions
 * "clanwolf"
-#### Belongs to MUL Faction Group Eras
+##### Belongs to MUL Faction Group Eras
 * [IS Clan General - All Eras](#inner-sphere-clans)
 
 ### Clan Wolf (in Exile) <a name="wolf-in-exile"></a>
+##### RT Factions
 * "clanwolf"
-#### Belongs to MUL Faction Group Eras
+##### Belongs to MUL Faction Group Eras
 * [IS Clan General - All Eras](#inner-sphere-clans)
 
 ### ComStar <a name="comstar"></a>
+##### RT Factions
 * "comstar"
-#### Belongs to MUL Faction Group Eras
+##### Belongs to MUL Faction Group Eras
 * [Inner Sphere General - Clan Invasion](#inner-sphere-1)
 * [Inner Sphere General - Civil War](#inner-sphere-2)
 * [Inner Sphere General - Jihad](#inner-sphere-3)
 
 ### Draconis Combine <a name="draconis-combine"></a>
+##### RT Factions
 * "kurita"
 * "housenakano" <span style="color:lightgrey">(Flashpoint faction)</span>
-#### Belongs to MUL Faction Group Eras
+##### Belongs to MUL Faction Group Eras
 * [Inner Sphere General - All Eras](#inner-sphere)
 
 ### Escorpión Imperio <a name="escorpion-imperio"></a>
+##### RT Factions
 * "clangoliathscorpion"
-#### Belongs to MUL Faction Group Eras
+##### Belongs to MUL Faction Group Eras
 *None*
 
 ### Federated Commonwealth <a name="federated-commonwealth"></a>
+##### RT Factions
 * "davion"
 * "steiner"
-#### Belongs to MUL Faction Group Eras
+##### Belongs to MUL Faction Group Eras
 * [Inner Sphere General - Clan Invasion](#inner-sphere-1)
 * [Inner Sphere General - Civil War](#inner-sphere-2)
 
 ### Federated Suns <a name="federated-suns"></a>
+##### RT Factions
 * "davion"
-#### Belongs to MUL Faction Group Eras
+##### Belongs to MUL Faction Group Eras
 * [Inner Sphere General - All Eras](#inner-sphere)
 
 ### Filtvelt Coalition <a name="filtvelt"></a>
+##### RT Factions
 * "davion"
-#### Belongs to MUL Faction Group Eras
+##### Belongs to MUL Faction Group Eras
 * [Inner Sphere General - Jihad](#inner-sphere-3)
 * [Periphery General - Republic](#periphery-4)
 * [Periphery General - Dark Ages](#periphery-5)
 
 ### Free Rasalhague Republic <a name="free-rasalhague"></a>
+##### RT Factions
 * "rasalhague"
-#### Belongs to MUL Faction Group Eras
+##### Belongs to MUL Faction Group Eras
 * [Inner Sphere General - Clan Invasion](#inner-sphere-1)
 * [Inner Sphere General - Civil War](#inner-sphere-2)
 * [Inner Sphere General - Jihad](#inner-sphere-3)
 
 ### Free Worlds League <a name="free-worlds"></a>
+##### RT Factions
 * "marik"
 * "blackcalderadefense" <span style="color:lightgrey">(Flashpoint faction)</span>
 * ~~"blackcalderadefense_hidden" <span style="color:grey">(Fallback faction)</span>~~
@@ -347,35 +381,40 @@ The tool will then remove the era tag, and then replace every MUL entry in the t
 * Free Worlds League (Oriente Protectorate)
 * Free Worlds League (Regulan Fiefs)
 * Free Worlds League (Rim Commonality)
-#### Belongs to MUL Faction Group Eras
+##### Belongs to MUL Faction Group Eras
 * [Inner Sphere General - All Eras](#inner-sphere)
 
 ### Lyran Alliance <a name="lyran-alliance"></a>
+##### RT Factions
 * "steiner"
-#### Belongs to MUL Faction Group Eras
+##### Belongs to MUL Faction Group Eras
 * [Inner Sphere General - Clan Invasion](#inner-sphere-1)
 * [Inner Sphere General - Civil War](#inner-sphere-2)
 * [Inner Sphere General - Jihad](#inner-sphere-3)
 
 ### Lyran Commonwealth <a name="lyran-commonwealth"></a>
+##### RT Factions
 * "steiner"
-#### Belongs to MUL Faction Group Eras
+##### Belongs to MUL Faction Group Eras
 * [Inner Sphere General - Clan Invasion](#inner-sphere-1)
 * [Inner Sphere General - Civil War](#inner-sphere-2)
 * [Inner Sphere General - Republic](#inner-sphere-4)
 * [Inner Sphere General - Dark Ages](#inner-sphere-5)
 
 ### Magistracy of Canopus <a name="canopus"></a>
+##### RT Factions
 * "magistracyofcanopus"
-#### Belongs to MUL Faction Group Eras
+##### Belongs to MUL Faction Group Eras
 * [Periphery General - All Eras](#periphery)
 
 ### Marian Hegemony <a name="marian"></a>
+##### RT Factions
 * "marian"
-#### Belongs to MUL Faction Group Eras
+##### Belongs to MUL Faction Group Eras
 * [Periphery General - All Eras](#periphery)
 
 ### Mercenary <a name="mercenary"></a>
+##### RT Factions
 * "auriganmercenaries"
 * "edcorbu" <span style="color:lightgrey">(Flashpoint faction)</span>
 * "hostilemercenaries" <span style="color:lightgrey">(Flashpoint faction)</span>
@@ -388,18 +427,20 @@ The tool will then remove the era tag, and then replace every MUL entry in the t
 * "redhareregiment" <span style="color:lightgrey">(Flashpoint faction)</span>
 * "securitysolutionsinc" <span style="color:lightgrey">(Flashpoint faction)</span>
 * "steelbeast" <span style="color:lightgrey">(Flashpoint faction)</span>
-##### Alises
+##### Aliases
 * Kell Hounds
 * Wolf's Dragoons
 
 ### Outworlds Alliance <a name="outworld"></a>
+##### RT Factions
 * "outworld"
-#### Belongs to MUL Faction Group Eras
+##### Belongs to MUL Faction Group Eras
 * [Periphery General - Clan Invasion](#periphery-1)
 * [Periphery General - Civil War](#periphery-2)
 * [Periphery General - Jihad](#periphery-3)
 
 ### Pirates <a name="pirates"></a>
+##### RT Factions
 * "auriganpirates" 
 * "axumite" <span style="color:lightgrey">(Conversation faction)</span>
 * "castile" 
@@ -420,55 +461,64 @@ The tool will then remove the era tag, and then replace every MUL entry in the t
 * "valkyrate" 
 
 ### Rasalhague Dominion <a name="rasalhague-dominion"></a>
+##### RT Factions
 * "clanghostbear"
 * "rasalhague"
-#### Belongs to MUL Faction Group Eras
+##### Belongs to MUL Faction Group Eras
 * [IS Clan General - Republic](#inner-sphere-clans-4)
 * [IS Clan General - Dark Ages](#inner-sphere-clans-5)
 
 ### Raven Alliance <a name="raven-alliance"></a>
+##### RT Factions
 * "clansnowraven"
 * "outworld"
-#### Belongs to MUL Faction Group Eras
+##### Belongs to MUL Faction Group Eras
 * [IS Clan General - Republic](#inner-sphere-clans-4)
 * [IS Clan General - Dark Ages](#inner-sphere-clans-5)
 
 ### Republic of the Sphere <a name="republic"></a>
+##### RT Factions
 * "republic"
-#### Belongs to MUL Faction Group Eras
+##### Belongs to MUL Faction Group Eras
 * [Inner Sphere General - Republic](#inner-sphere-4)
 * [Inner Sphere General - Dark Ages](#inner-sphere-5)
 
 ### Society <a name="society"></a>
+##### RT Factions
 * "society"
-#### Belongs to MUL Faction Group Eras
+##### Belongs to MUL Faction Group Eras
 *None*
 
 ### Solaris 7 <a name="solaris7"></a>
+##### RT Factions
 * "solaris7"
-#### Belongs to MUL Faction Group Eras
+##### Belongs to MUL Faction Group Eras
 *None*
 
 ### Scorpion Empire <a name="scorpion-empire"></a>
+##### RT Factions
 * "clangoliathscorpion"
 * "hanse"
-#### Belongs to MUL Faction Group Eras
+##### Belongs to MUL Faction Group Eras
 *None*
 
 ### St Ives Compact <a name="st-ives"></a>
+##### RT Factions
 * "ives"
-#### Belongs to MUL Faction Group Eras
+##### Belongs to MUL Faction Group Eras
 * [Inner Sphere General - Clan Invasion](#inner-sphere-1)
 * [Inner Sphere General - Civil War](#inner-sphere-2)
 
 ### Taurian Concardat <a name="taurian"></a>
+##### RT Factions
 * "taurianconcordat"
-#### Belongs to MUL Faction Group Eras
+##### Belongs to MUL Faction Group Eras
 * [Periphery General - All Eras](#periphery)
 
 ### Word of Blake <a name="word-of-blake"></a>
+##### RT Factions
 * "wordofblake"
-#### Belongs to MUL Faction Group Eras
+##### Belongs to MUL Faction Group Eras
 * [Inner Sphere General - Clan Invasion](#inner-sphere-1)
 * [Inner Sphere General - Civil War](#inner-sphere-2)
 * [Inner Sphere General - Jihad](#inner-sphere-3)
@@ -476,58 +526,6 @@ The tool will then remove the era tag, and then replace every MUL entry in the t
 
 ## Combination factions
 * "clansgeneric": All of [*IS Clan*](#inner-sphere-clans) and [*HW Clan*](#homeworld-clans) for that era present
-
-## Remaining Unmapped
-
-### MUL factions
-
-##### Clan Wolverine
-Where do we map wolverine specific units?
-
-##### Rim Worlds Republic - Home Guard
-Do we bother mapping it to RT factions? Only used for **Age of War** and **Early Succession War** eras in MUL.
-
-##### Rim Worlds Republic - Terran Corps
-Do we bother mapping it to RT factions? Only used for **Star League** era in MUL.
-
-* ##### Star League General, Star League Regular Star League Royal
-Do we bother mapping it to RT factions? Only used for **Star League** era in MUL.
-
-##### Star League in Exile
-Do we bother mapping it to RT factions? Only used for **Early Succession War** era in MUL.
-
-##### Star League (Second)
-Covers **Clan Invasion** and **Civil War** eras.
-
-##### Terran Hegemony
-Do we bother mapping it to RT factions? Only used for **Star League** era in MUL.
-
-### Roguetech Factions
-* "aurigandirectorate"
-* "auriganrestoration"
-* "betrayers"
-* "magistracycentrella"
-* "moderbjorn" <span style="color:lightgrey">(Flashpoint faction)</span>
-* "nautilus
-* "profhorvat" <span style="color:lightgrey">(Flashpoint faction)</span>
-* "SelfEmployed" <span style="color:lightgrey">(Flashpoint faction)</span>
-* "SelfEmployed_Yang" <span style="color:lightgrey">(Flashpoint faction)</span>
-* "SelfEmployed_Sumire <span style="color:lightgrey">(Flashpoint faction)</span>
-* "SelfEmployed_Farah" <span style="color:lightgrey">(Flashpoint faction)</span>
-
-## Fallback factions
-* "Faction_Employer"
-* "Faction_EmployersAlly"
-* "Faction_Target"
-* "Faction_TargetsAlly"
-* "Faction_Neutral"
-* "Faction_Hostile"
-* "INVALID_UNSET" 
-* "NoFaction" 
-* "Owner" 
-* "Player1sMercUnit" 
-* "Player2sMercUnit"
-* "Unknown" 
 
 ## Roguetech to MUL mappings
 * "auriganmercenaries" 
@@ -665,3 +663,28 @@ Do we bother mapping it to RT factions? Only used for **Star League** era in MUL
     * [Inner Sphere General - Civil War](#inner-sphere-2)
     * [Inner Sphere General - Jihad](#inner-sphere-3)
     * [Word of Blake](#word-of-blake)
+
+## Remaining Unmapped Factions
+
+#### Roguetech Factions
+* "aurigandirectorate"
+* "auriganrestoration"
+* "betrayers"
+* "magistracycentrella"
+* "moderbjorn" <span style="color:lightgrey">(Flashpoint faction)</span>
+* "nautilus
+* "profhorvat" <span style="color:lightgrey">(Flashpoint faction)</span>
+* "SelfEmployed" <span style="color:lightgrey">(Flashpoint faction)</span>
+* "SelfEmployed_Yang" <span style="color:lightgrey">(Flashpoint faction)</span>
+* "SelfEmployed_Sumire <span style="color:lightgrey">(Flashpoint faction)</span>
+* "SelfEmployed_Farah" <span style="color:lightgrey">(Flashpoint faction)</span>
+
+#### MUL factions
+
+* *Clan Wolverine* - Where do we map wolverine specific units?
+* *Rim Worlds Republic - Home Guard* - Do we bother mapping it to RT factions? Only used for **Age of War** and **Early Succession War** eras in MUL.
+* *Rim Worlds Republic - Terran Corps* - Do we bother mapping it to RT factions? Only used for **Star League** era in MUL.
+* *Star League General, Star League Regular, Star League Royal* - Do we bother mapping them to RT factions? Only used for **Star League** era in MUL.
+* *Star League in Exile* - Do we bother mapping it to RT factions? Only used for **Early Succession War** era in MUL.
+* *Star League (Second)* - Do we map? Covers **Clan Invasion** and **Civil War** eras.
+* *Terran Hegemony* - Do we bother mapping it to RT factions? Only used for **Star League** era in MUL.
