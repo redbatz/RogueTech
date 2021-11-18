@@ -1,10 +1,13 @@
 ## General Idea
 The tag set in the unit definition file will contain one tag for a specific era, e.g. *"era_clan_invasion"*.
-The tool will then remove the era tag, and then replace every MUL entry in the tag list that matches a MUL faction with the corrosponding RT factions for the given era. The MUL faction will be expanded to individual MUL factions first if it is a MUL factions group, e.g. *IS Clan General*.
+
+The tool will then remove the era tag, and then replace every MUL entry in the tag list that matches a MUL faction with the corrosponding RT factions for the given era. 
+
+The MUL faction will be expanded to individual MUL factions first if it is a MUL factions group, e.g. *IS Clan General*.
 
 ##### Notes
-* Factions marked as <span style="color:lightgrey">(Flashpoint faction)</span> are only added if the Era is **Clan Invasion** **Civil War** or **Jihad**.
-* Factions marked as <span style="color:grey">(Fallback faction)</span> will never be added.
+* Factions marked as *(Flashpoint faction)* are only added if the Era is **Clan Invasion** **Civil War** or **Jihad**.
+* Factions marked as *(Fallback faction)* will never be added.
 
 ## MUL Faction Groups to MUL Factions by Era mappings
 
@@ -146,7 +149,7 @@ The tool will then remove the era tag, and then replace every MUL entry in the t
 
 ## MUL Factions by Era to Roguetech Factions mappings
 
-### Calderon Protectorate <a name="calderon"></a>
+### <img height="80" width="100" src="https://i.ibb.co/ysG11CV/calderon-protectorate.png"> Calderon Protectorate <a name="calderon"></a>
 ##### RT Factions
 * "taurianconcordat"
 ##### Belongs to MUL Faction Group Eras
@@ -158,9 +161,9 @@ The tool will then remove the era tag, and then replace every MUL entry in the t
 ### Capellan Confederation <a name="capellan-confederation"></a>
 ##### RT Factions
 * "liao"
-* "emeralddawn" <span style="color:lightgrey">(Flashpoint faction)</span>
-* "housekhulan <span style="color:lightgrey">(Flashpoint faction)</span>
-* "siantriumphant" <span style="color:lightgrey">(Flashpoint faction)</span>
+* "emeralddawn" *(Flashpoint faction)*
+* "housekhulan *(Flashpoint faction)*
+* "siantriumphant" *(Flashpoint faction)*
 ##### Belongs to MUL Faction Group Eras
 * [Inner Sphere General - All Era](#inner-sphere)
 
@@ -327,7 +330,7 @@ The tool will then remove the era tag, and then replace every MUL entry in the t
 ### Draconis Combine <a name="draconis-combine"></a>
 ##### RT Factions
 * "kurita"
-* "housenakano" <span style="color:lightgrey">(Flashpoint faction)</span>
+* "housenakano" *(Flashpoint faction)*
 ##### Belongs to MUL Faction Group Eras
 * [Inner Sphere General - All Eras](#inner-sphere)
 
@@ -370,9 +373,9 @@ The tool will then remove the era tag, and then replace every MUL entry in the t
 ### Free Worlds League <a name="free-worlds"></a>
 ##### RT Factions
 * "marik"
-* "blackcalderadefense" <span style="color:lightgrey">(Flashpoint faction)</span>
-* ~~"blackcalderadefense_hidden" <span style="color:grey">(Fallback faction)</span>~~
-* "duchyofandurien" <span style="color:lightgrey">(Flashpoint faction)</span>
+* "blackcalderadefense" *(Flashpoint faction)*
+* ~~"blackcalderadefense_hidden" *(Fallback faction)*~~
+* "duchyofandurien" *(Flashpoint faction)*
 ##### Aliases
 * Free Worlds League (Duchy of Andurien)
 * Free Worlds League (Duchy of Tamarind-Abbey)
@@ -416,17 +419,17 @@ The tool will then remove the era tag, and then replace every MUL entry in the t
 ### Mercenary <a name="mercenary"></a>
 ##### RT Factions
 * "auriganmercenaries"
-* "edcorbu" <span style="color:lightgrey">(Flashpoint faction)</span>
-* "hostilemercenaries" <span style="color:lightgrey">(Flashpoint faction)</span>
-* "kellhounds" <span style="color:lightgrey">(Flashpoint faction)</span>
+* "edcorbu" *(Flashpoint faction)*
+* "hostilemercenaries" *(Flashpoint faction)*
+* "kellhounds" *(Flashpoint faction)*
 * "locals"
-* "localsbrockwayrefugees" <span style="color:lightgrey">(Flashpoint faction)</span>
-* "masonsmarauders" <span style="color:lightgrey">(Flashpoint faction)</span>
-* "paladinprotectionllc" <span style="color:grey">(Fallback faction)</span>
-* "razorbackmercs" <span style="color:lightgrey">(Flashpoint faction)</span>
-* "redhareregiment" <span style="color:lightgrey">(Flashpoint faction)</span>
-* "securitysolutionsinc" <span style="color:lightgrey">(Flashpoint faction)</span>
-* "steelbeast" <span style="color:lightgrey">(Flashpoint faction)</span>
+* "localsbrockwayrefugees" *(Flashpoint faction)*
+* "masonsmarauders" *(Flashpoint faction)*
+* "paladinprotectionllc" *(Fallback faction)*
+* "razorbackmercs" *(Flashpoint faction)*
+* "redhareregiment" *(Flashpoint faction)*
+* "securitysolutionsinc" *(Flashpoint faction)*
+* "steelbeast" *(Flashpoint faction)*
 ##### Aliases
 * Kell Hounds
 * Wolf's Dragoons
@@ -442,19 +445,19 @@ The tool will then remove the era tag, and then replace every MUL entry in the t
 ### Pirates <a name="pirates"></a>
 ##### RT Factions
 * "auriganpirates" 
-* "axumite" <span style="color:lightgrey">(Conversation faction)</span>
+* "axumite" *(Conversation faction)*
 * "castile" 
 * "chainelane" 
 * "circinus" 
 * "delphi" 
 * "elysia" 
-* "flakjackals" <span style="color:lightgrey">(Flashpoint faction)</span>
+* "flakjackals" *(Flashpoint faction)*
 * "hanse" 
 * "illyrian" 
 * "jarnfolk" 
 * "locals" 
 * "lothian" 
-* "localsbrockwayrefugees" <span style="color:lightgrey">(Flashpoint faction)</span>
+* "localsbrockwayrefugees" *(Flashpoint faction)*
 * "marian" 
 * "oberon" 
 * "tortuga" 
@@ -671,13 +674,13 @@ The tool will then remove the era tag, and then replace every MUL entry in the t
 * "auriganrestoration"
 * "betrayers"
 * "magistracycentrella"
-* "moderbjorn" <span style="color:lightgrey">(Flashpoint faction)</span>
+* "moderbjorn" *(Flashpoint faction)*
 * "nautilus
-* "profhorvat" <span style="color:lightgrey">(Flashpoint faction)</span>
-* "SelfEmployed" <span style="color:lightgrey">(Flashpoint faction)</span>
-* "SelfEmployed_Yang" <span style="color:lightgrey">(Flashpoint faction)</span>
-* "SelfEmployed_Sumire <span style="color:lightgrey">(Flashpoint faction)</span>
-* "SelfEmployed_Farah" <span style="color:lightgrey">(Flashpoint faction)</span>
+* "profhorvat" *(Flashpoint faction)*
+* "SelfEmployed" *(Flashpoint faction)*
+* "SelfEmployed_Yang" *(Flashpoint faction)*
+* "SelfEmployed_Sumire *(Flashpoint faction)*
+* "SelfEmployed_Farah" *(Flashpoint faction)*
 
 #### MUL factions
 
