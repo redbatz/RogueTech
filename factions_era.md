@@ -149,7 +149,7 @@ The MUL faction will be expanded to individual MUL factions first if it is a MUL
 
 ## MUL Factions by Era to Roguetech Factions mappings
 
-### <img height="50" width="60" src="https://i.ibb.co/ysG11CV/calderon-protectorate.png"> Calderon Protectorate <a name="calderon"></a>
+### <img height="22" width="30" src="https://i.ibb.co/ysG11CV/calderon-protectorate.png"> Calderon Protectorate <a name="calderon"></a>
 ##### RT Factions
 * "taurianconcordat"
 ##### Belongs to MUL Faction Group Eras
