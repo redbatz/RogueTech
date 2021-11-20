@@ -183,7 +183,7 @@ The MUL faction will be expanded to individual MUL factions first if it is a MUL
 ##### RT Factions
 * "liao"
 * "emeralddawn" *(Flashpoint faction)*
-* "housekhulan *(Flashpoint faction)*
+* "housekhulan" *(Flashpoint faction)*
 * "siantriumphant" *(Flashpoint faction)*
 #### Belongs to MUL Faction Group Eras
 * [Inner Sphere General - All Era](#inner-sphere)
@@ -455,7 +455,7 @@ The MUL faction will be expanded to individual MUL factions first if it is a MUL
 * "locals"
 * "localsbrockwayrefugees" *(Flashpoint faction)*
 * "masonsmarauders" *(Flashpoint faction)*
-* "paladinprotectionllc" *(Fallback faction)*
+* ~~"paladinprotectionllc" *(Fallback faction)*~~
 * "razorbackmercs" *(Flashpoint faction)*
 * "redhareregiment" *(Flashpoint faction)*
 * "securitysolutionsinc" *(Flashpoint faction)*
@@ -558,11 +558,11 @@ The MUL faction will be expanded to individual MUL factions first if it is a MUL
 * "clansgeneric": All of [*IS Clan*](#inner-sphere-clans) and [HW Clan](#homeworld-clans) for that era present
 
 ## Roguetech to MUL mappings
+### Standard RT factions
 * "aurigandirectorate" 
     * [Periphery General - Clan Invasion](#periphery-1)
-* "auriganmercenaries" 
-    * [Mercenary](#mercenary)
-    * [Periphery General - Clan Invasion](#periphery-1)
+* "auriganpirates" 
+    * [Pirates](#pirates)   
 * "auriganrestoration" 
     * [Periphery General - Clan Invasion](#periphery-1)
 * "axumite"
@@ -731,26 +731,69 @@ The MUL faction will be expanded to individual MUL factions first if it is a MUL
     * [Inner Sphere General - Civil War](#inner-sphere-2)
     * [Inner Sphere General - Jihad](#inner-sphere-3)
     * [Word of Blake](#word-of-blake)
+### Flashpoint RT factions
+Only mapped during **Clan Invasion**, **Civil War** and **Jihad** eras.
 
-## Remaining Unmapped Factions
+* "auriganmercenaries" 
+    * [Mercenary](#mercenary)
+    * [Periphery General - Clan Invasion](#periphery-1)
+* "duchyofandurien"
+    * [Free Worlds League](#worlds-league)
+* "edcorbu"
+    * [Mercenary](#mercenary)
+* "emeralddawn"
+    * [Capellan Confederation](#capellan-confederation)
+* "flakjackals" *(Flashpoint faction)*
+    * [Pirates](#pirates)
+* "hostilemercenaries"
+    * [Mercenary](#mercenary)
+* "housekhulan"
+    * [Capellan Confederation](#capellan-confederation)
+* "housenakano"
+    * [Draconis Combine](#draconis-combine)
+* "kellhounds"
+    * [Mercenary](#mercenary)
+* "localsbrockwayrefugees"
+    * [Mercenary](#mercenary)
+    * [Pirates](#pirates)
+* "masonsmarauders"
+    * [Mercenary](#mercenary)
+* "razorbackmercs"
+    * [Mercenary](#mercenary)
+* "redhareregiment"
+    * [Mercenary](#mercenary)
+* "securitysolutionsinc"
+    * [Mercenary](#mercenary)
+* "siantriumphant"
+    * [Capellan Confederation](#capellan-confederation)
+* "steelbeast"
+    * [Mercenary](#mercenary)
 
-#### Roguetech Factions
-* "betrayers" *(Flashpoint faction)*
-* "magistracycentrella" *(Flashpoint faction)*
-* "moderbjorn" *(Flashpoint faction)*
-* "nautilus *(Flashpoint faction)*
-* "profhorvat" *(Flashpoint faction)*
-* "SelfEmployed" *(Flashpoint faction)*
-* "SelfEmployed_Yang" *(Flashpoint faction)*
-* "SelfEmployed_Sumire *(Flashpoint faction)*
-* "SelfEmployed_Farah" *(Flashpoint faction)*
 
-#### MUL factions
+## Unmapped Roguetech Factions
 
-* <img height="15" width="27" src="https://i.ibb.co/C6rHVJL/clan-wolverine.png"> *Clan Wolverine* - Where do we map wolverine specific units?
-* <img height="15" width="27" src="https://i.ibb.co/bPsZCqx/rim-worlds-republic.png"> *Rim Worlds Republic - Home Guard* - Do we bother mapping it to RT factions? Only used for **Age of War** and **Early Succession War** eras in MUL.
-* <img height="15" width="27" src="https://i.ibb.co/bPsZCqx/rim-worlds-republic.png"> *Rim Worlds Republic - Terran Corps* - Do we bother mapping it to RT factions? Only used for **Star League** era in MUL.
-* <img height="15" width="27" src="https://i.ibb.co/djKL1Kz/star-league.png"> *Star League General, <img height="15" width="27" src="https://i.ibb.co/djKL1Kz/star-league.png"> Star League Regular, <img height="15" width="27" src="https://i.ibb.co/djKL1Kz/star-league.png"> Star League Royal* - Do we bother mapping them to RT factions? Only used for **Star League** era in MUL.
-* <img height="15" width="27" src="https://i.ibb.co/djKL1Kz/star-league.png"> *Star League in Exile* - Do we bother mapping it to RT factions? Only used for **Early Succession War** era in MUL.
-* <img height="15" width="27" src="https://i.ibb.co/djKL1Kz/star-league.png"> *Star League (Second)* - Do we map? Covers **Clan Invasion** and **Civil War** eras.
-* <img height="15" width="27" src="https://i.ibb.co/TtdbsS4/terran-hegemony.png"> *Terran Hegemony* - Do we bother mapping it to RT factions? Only used for **Star League** era in MUL.
+### Flashpoint factions
+* "baumanngroup"
+* "betrayers"
+* "blackwidowcompany"
+* "magistracycentrella"
+* "moderbjorn"
+* "nautilus"
+* "profhorvat"
+* "SelfEmployed"
+* "SelfEmployed_Yang"
+* "SelfEmployed_Sumire"
+* "SelfEmployed_Farah"
+
+### Fallback factions
+* "blackcalderadefense_hidden"
+* "bountyhunterassociates"
+* "faction_employer"
+* "faction_employersally"
+* "faction_hostile"
+* "faction_neutral"
+* "faction_target"
+* "faction_targetsally"
+* "owner"
+* "paladinprotectionllc"
+* "player2smercunit"
