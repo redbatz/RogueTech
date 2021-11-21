@@ -12,7 +12,7 @@ The MUL faction will be expanded to individual MUL factions first if it is a MUL
 ## MUL Faction Groups to MUL Factions by Era mappings
 
 ### <img height="22" width="30" src="https://i.ibb.co/9vz0TS3/inner-sphere-general.png"> Inner Sphere General <a name="inner-sphere"></a>
-#### Clan Invasion Civil War <a name="inner-sphere-1"></a><a name="inner-sphere-2"></a>
+#### Clan Invasion, Civil War <a name="inner-sphere-1"></a><a name="inner-sphere-2"></a>
 * [Capellan Confederation](#capellan-confederation)
 * [ComStar](#comstar)
 * [Draconis Combine](#draconis-combine)
