@@ -129,7 +129,7 @@ The MUL faction will be expanded to individual MUL factions first if it is a MUL
 * [Outworlds Alliance](#outworld)
 * [Pirates](#pirates)
 * [Taurian Concordat](#taurian)
-##### RT Factions
+###### RT Factions
 * "auriganmercenaries" *(Flashpoint faction)*
 * "aurigandirectorate" *(Flashpoint faction)*
 * "auriganrestoration" *(Flashpoint faction)*
@@ -143,7 +143,7 @@ The MUL faction will be expanded to individual MUL factions first if it is a MUL
 * [Outworlds Alliance](#outworld)
 * [Pirates](#pirates)
 * [Taurian Concordat](#taurian)
-##### RT Factions
+###### RT Factions
 * "hanse"
 
 #### Jihad <a name="periphery-3"></a>
@@ -154,7 +154,7 @@ The MUL faction will be expanded to individual MUL factions first if it is a MUL
 * [Outworlds Alliance](#outworld)
 * [Pirates](#pirates)
 * [Taurian Concordat](#taurian)
-##### RT Factions
+###### RT Factions
 * "hanse"
 
 #### Republic, Dark Ages <a name="periphery-4"></a><a name="periphery-5"></a>
@@ -164,14 +164,14 @@ The MUL faction will be expanded to individual MUL factions first if it is a MUL
 * [Marian Hegemony](#marian)
 * [Pirates](#pirates)
 * [Taurian Concordat](#taurian)
-##### RT Factions
+###### RT Factions
 * "hanse"
 * "lothian"
 
 ## MUL Factions by Era to Roguetech Factions mappings
 
 ### <img height="22" width="30" src="https://i.ibb.co/ysG11CV/calderon-protectorate.png"> Calderon Protectorate <a name="calderon"></a>
-##### RT Factions
+###### RT Factions
 * "taurianconcordat"
 #### Belongs to MUL Faction Group Eras
 * [Periphery General - Jihad](#periphery-3)
@@ -180,7 +180,7 @@ The MUL faction will be expanded to individual MUL factions first if it is a MUL
 
 
 ### <img height="22" width="30" src="https://i.ibb.co/NNkwg8m/capellan-confederation.png"> Capellan Confederation <a name="capellan-confederation"></a>
-##### RT Factions
+###### RT Factions
 * "liao"
 * "emeralddawn" *(Flashpoint faction)*
 * "housekhulan" *(Flashpoint faction)*
@@ -189,7 +189,7 @@ The MUL faction will be expanded to individual MUL factions first if it is a MUL
 * [Inner Sphere General - All Era](#inner-sphere)
 
 ### <img height="22" width="30" src="https://i.ibb.co/z4Bk4d0/circinus-federation.png"> Circinus Federation <a name="circinus"></a>
-##### RT Factions
+###### RT Factions
 * "circinus"
 #### Belongs to MUL Faction Group Eras
 * [Periphery General - Clan Invasion](#periphery-1)
@@ -197,13 +197,13 @@ The MUL faction will be expanded to individual MUL factions first if it is a MUL
 * [Periphery General - Jihad](#periphery-3)
 
 ### <img height="22" width="30" src="https://i.ibb.co/px59kpH/clan-blood-spirit.png"> Clan Blood Spirit <a name="blood-spirit"></a>
-##### RT Factions
+###### RT Factions
 * "clanbloodspirit"
 #### Belongs to MUL Faction Group Eras
 * [HW Clan General - All Eras](#homeworld-clans)
 
 ### <img height="22" width="30" src="https://i.ibb.co/px59kpH/clan-burrock.png"> Clan Burrock <a name="burrock"></a>
-##### RT Factions
+###### RT Factions
 * "clanburrock"
 * "society"
 #### Belongs to MUL Faction Group Eras
@@ -211,32 +211,32 @@ The MUL faction will be expanded to individual MUL factions first if it is a MUL
 * [HW Clan General - Jihad](#homeworld-clans-3)
 
 ### <img height="22" width="30" src="https://i.ibb.co/tPFnXGH/clan-cloud-cobra.png"> Clan Cloud Cobra <a name="cloud-cobra"></a>
-##### RT Factions
+###### RT Factions
 * "clancloudcobra"
 #### Belongs to MUL Faction Group Eras
 * [HW Clan General - All Eras](#homeworld-clans)
 
 ### <img height="22" width="30" src="https://i.ibb.co/WDWNbrW/clan-coyote.png"> Clan Coyote <a name="coyote"></a>
-##### RT Factions
+###### RT Factions
 * "clancoyote"
 * "society"
 #### Belongs to MUL Faction Group Eras
 * [HW Clan General - All Eras](#homeworld-clans)
 
 ### <img height="22" width="30" src="https://i.ibb.co/9nqkkw8/clan-diamond-shark.png"> Clan Diamond Shark <a name="diamond-shark"></a>
-##### RT Factions
+###### RT Factions
 * "clandiamondshark"
 #### Belongs to MUL Faction Group Eras
 * [IS Clan General - All Eras](#inner-sphere-clans)
 
 ### <img height="22" width="30" src="https://i.ibb.co/CwzpxQd/clan-fire-mandrill.png"> Clan Fire Mandrill <a name="fire-mandrill"></a>
-##### RT Factions
+###### RT Factions
 * "clanfiremandrill"
 #### Belongs to MUL Faction Group Eras
 * [HW Clan General - All Eras](#homeworld-clans)
 
 ### <img height="22" width="30" src="https://i.ibb.co/KzW4Tjf/clan-ghost-bear.png"> Clan Ghost Bear <a name="ghost-bear"></a>
-##### RT Factions
+###### RT Factions
 * "clanghostbear"
 #### Belongs to MUL Faction Group Eras
 * [IS Clan General - Clan Invasion](#inner-sphere-clans-1)
@@ -244,13 +244,13 @@ The MUL faction will be expanded to individual MUL factions first if it is a MUL
 * [IS Clan General - Jihad](#inner-sphere-clans-3)
 
 ### <img height="22" width="30" src="https://i.ibb.co/9TFCB29/clan-goliath-scorpion.png"> Clan Goliath Scorpion <a name="goliath-scorpion"></a>
-##### RT Factions
+###### RT Factions
 * "clangoliathscorpion"
 #### Belongs to MUL Faction Group Eras
 * [HW Clan General - All Eras](#homeworld-clans)
 
 ### <img height="22" width="30" src="https://i.ibb.co/zn4Mzwd/clan-hell-s-horses.png"> Clan Hell's Horses <a name="hells-horses"></a>
-##### RT Factions
+###### RT Factions
 * "clanhellshorses"
 #### Belongs to MUL Faction Group Eras
 * [HW Clan General - Clan Invasion](#homeworld-clans-1)
@@ -260,37 +260,37 @@ The MUL faction will be expanded to individual MUL factions first if it is a MUL
 * [IS Clan General - Dark Ages](#inner-sphere-clans-5)
 
 ### <img height="22" width="30" src="https://i.ibb.co/FY0zP7J/clan-ice-hellion.png"> Clan Ice Hellion <a name="ice-hellion"></a>
-##### RT Factions
+###### RT Factions
 * "clanicehellion"
 #### Belongs to MUL Faction Group Eras
 * [HW Clan General - All Eras](#homeworld-clans)
 
 ### <img height="22" width="30" src="https://i.ibb.co/F5vPGmb/clan-jade-falcon.png"> Clan Jade Falcon <a name="jade-falcon"></a>
-##### RT Factions
+###### RT Factions
 * "clanjadefalcon"
 #### Belongs to MUL Faction Group Eras
 * [IS Clan General - All Eras](#inner-sphere-clans)
 
 ### <img height="22" width="30" src="https://i.ibb.co/vctj4b7/clan-mongoose.png"> Clan Mongoose <a name="mongoose"></a>
-##### RT Factions
+###### RT Factions
 * "clansmokejaguar"
 #### Belongs to MUL Faction Group Eras
 *None in RT timeline*
 
 ### <img height="22" width="30" src="https://i.ibb.co/CMGksvH/clan-nova-cat.png"> Clan Nova Cat <a name="nova-cat"></a>
-##### RT Factions
+###### RT Factions
 * "clannovacat"
 #### Belongs to MUL Faction Group Eras
 * [IS Clan General - All Eras](#inner-sphere-clans)
 
 ### <img height="22" width="30" src="https://i.ibb.co/YX6vBQj/clan-smoke-jaguar.png"> Clan Smoke Jaguar <a name="smoke-jaguar"></a>
-##### RT Factions
+###### RT Factions
 * "clansmokejaguar"
 #### Belongs to MUL Faction Group Eras
 * [IS Clan General - Clan Invasion](#inner-sphere-clans-1)
 
 ### <img height="22" width="30" src="https://i.ibb.co/VDDnffB/clan-snow-raven.png"> Clan Snow Raven <a name="snow-raven"></a>
-##### RT Factions
+###### RT Factions
 * "clansnowraven"
 #### Belongs to MUL Faction Group Eras
 * [HW Clan General - Clan Invasion](#homeworld-clans-1)
@@ -298,20 +298,20 @@ The MUL faction will be expanded to individual MUL factions first if it is a MUL
 * [IS Clan General - Jihad](#inner-sphere-clans-3)
 
 ### <img height="22" width="30" src="https://i.ibb.co/rfPxQhm/clan-star-adder.png"> Clan Star Adder <a name="star-adder"></a>
-##### RT Factions
+###### RT Factions
 * "clanstaradder"
 #### Belongs to MUL Faction Group Eras
 * [HW Clan General - All Eras](#homeworld-clans)
 
 ### <img height="22" width="30" src="https://i.ibb.co/KwNXn58/clan-sea-fox.png"> Clan Sea Fox <a name="sea-fox"> </a>
-##### RT Factions
+###### RT Factions
 * "clandiamondshark"
 #### Belongs to MUL Faction Group Eras
 * [IS Clan General - Republic](#inner-sphere-clans-4)
 * [IS Clan General - Dark Ages](#inner-sphere-clans-5)
 
 ### <img height="22" width="30" src="https://i.ibb.co/PT5ffLM/clan-steel-viper.png"> Clan Steel Viper <a name="steel-viper"></a>
-##### RT Factions
+###### RT Factions
 * "clansteelviper"
 #### Belongs to MUL Faction Group Eras
 * [IS Clan General - Clan Invasion](#inner-sphere-clans-1)
@@ -319,37 +319,37 @@ The MUL faction will be expanded to individual MUL factions first if it is a MUL
 * [HW Clan General - Jihad](#homeworld-clans-3)
 
 ### <img height="22" width="30" src="https://i.ibb.co/NmKGX8x/clan-stone-lion.png"> Clan Stone Lion <a name="stone-lion"></a>
-##### RT Factions
+###### RT Factions
 * "clanhellshorses"
 #### Belongs to MUL Faction Group Eras
 * [HW Clan General - Jihad](#homeworld-clans-3)
 
 ### <img height="22" width="30" src="https://i.ibb.co/SvbFWc4/clan-widowmaker.png"> Clan Widowmaker <a name="widowmaker"></a>
-##### RT Factions
+###### RT Factions
 * "clanwolf"
 #### Belongs to MUL Faction Group Eras
 *None in RT timeline*
 
 ### <img height="22" width="30" src="https://i.ibb.co/6Xp37Mw/clan-wolf.png"> Clan Wolf <a name="wolf"></a>
-##### RT Factions
+###### RT Factions
 * "clanwolf"
 #### Belongs to MUL Faction Group Eras
 * [IS Clan General - All Eras](#inner-sphere-clans)
 
 ### <img height="22" width="30" src="https://i.ibb.co/6Xp37Mw/clan-wolf.png"> Clan Wolf (in Exile) <a name="wolf-in-exile"></a>
-##### RT Factions
+###### RT Factions
 * "clanwolf"
 #### Belongs to MUL Faction Group Eras
 * [IS Clan General - All Eras](#inner-sphere-clans)
 
 ### <img height="22" width="30" src="https://i.ibb.co/C6rHVJL/clan-wolverine.png"> Clan Wolverine <a name="wolverine"></a>
-##### RT Factions
+###### RT Factions
 *Not used*
 #### Belongs to MUL Faction Group Eras
 *None in RT timeline*
 
 ### <img height="30" width="12" src="https://i.ibb.co/WpyqYyw/comstar.png"> ComStar <a name="comstar"></a>
-##### RT Factions
+###### RT Factions
 * "comstar"
 #### Belongs to MUL Faction Group Eras
 * [Inner Sphere General - Clan Invasion](#inner-sphere-1)
@@ -357,21 +357,21 @@ The MUL faction will be expanded to individual MUL factions first if it is a MUL
 * [Inner Sphere General - Jihad](#inner-sphere-3)
 
 ### <img height="22" width="30" src="https://i.ibb.co/LxGZ4qN/draconis-combine.png"> Draconis Combine <a name="draconis-combine"></a>
-##### RT Factions
+###### RT Factions
 * "kurita"
 * "housenakano" *(Flashpoint faction)*
 #### Belongs to MUL Faction Group Eras
 * [Inner Sphere General - All Eras](#inner-sphere)
 
 ### <img height="22" width="30" src="https://i.ibb.co/X8mfdBF/Escorpion-Imperio.png"> Escorpión Imperio <a name="escorpion-imperio"></a>
-##### RT Factions
+###### RT Factions
 * "castile"
 * "clangoliathscorpion"
 #### Belongs to MUL Faction Group Eras
 *None*
 
 ### <img height="22" width="30" src="https://i.ibb.co/9pSN1vc/federated-commonwealth.png"> Federated Commonwealth <a name="federated-commonwealth"></a>
-##### RT Factions
+###### RT Factions
 * "davion"
 * "steiner"
 #### Belongs to MUL Faction Group Eras
@@ -379,13 +379,13 @@ The MUL faction will be expanded to individual MUL factions first if it is a MUL
 * [Inner Sphere General - Civil War](#inner-sphere-2)
 
 ### <img height="22" width="30" src="https://i.ibb.co/z21VJty/federated-suns.png"> Federated Suns <a name="federated-suns"></a>
-##### RT Factions
+###### RT Factions
 * "davion"
 #### Belongs to MUL Faction Group Eras
 * [Inner Sphere General - All Eras](#inner-sphere)
 
 ### <img height="22" width="30" src="https://i.ibb.co/yppfWkD/filtvelt-coalition.png"> Filtvelt Coalition <a name="filtvelt"></a>
-##### RT Factions
+###### RT Factions
 * "davion"
 #### Belongs to MUL Faction Group Eras
 * [Inner Sphere General - Jihad](#inner-sphere-3)
@@ -393,7 +393,7 @@ The MUL faction will be expanded to individual MUL factions first if it is a MUL
 * [Periphery General - Dark Ages](#periphery-5)
 
 ### <img height="22" width="30" src="https://i.ibb.co/L5pk2tG/free-rasalhague-republic.png"> Free Rasalhague Republic <a name="free-rasalhague"></a>
-##### RT Factions
+###### RT Factions
 * "rasalhague"
 #### Belongs to MUL Faction Group Eras
 * [Inner Sphere General - Clan Invasion](#inner-sphere-1)
@@ -401,7 +401,7 @@ The MUL faction will be expanded to individual MUL factions first if it is a MUL
 * [Inner Sphere General - Jihad](#inner-sphere-3)
 
 ### <img height="22" width="30" src="https://i.ibb.co/Vt38nXW/free-worlds-league.png"> Free Worlds League <a name="free-worlds"></a>
-##### RT Factions
+###### RT Factions
 * "marik"
 * "blackcalderadefense" *(Flashpoint faction)*
 * ~~"blackcalderadefense_hidden" *(Fallback faction)*~~
@@ -418,7 +418,7 @@ The MUL faction will be expanded to individual MUL factions first if it is a MUL
 * [Inner Sphere General - All Eras](#inner-sphere)
 
 ### <img height="22" width="30" src="https://i.ibb.co/9n9zqD7/lyran-alliance.png"> Lyran Alliance <a name="lyran-alliance"></a>
-##### RT Factions
+###### RT Factions
 * "steiner"
 #### Belongs to MUL Faction Group Eras
 * [Inner Sphere General - Clan Invasion](#inner-sphere-1)
@@ -426,7 +426,7 @@ The MUL faction will be expanded to individual MUL factions first if it is a MUL
 * [Inner Sphere General - Jihad](#inner-sphere-3)
 
 ### <img height="22" width="30" src="https://i.ibb.co/CJ61yP1/lyran-commonwealth.png"> Lyran Commonwealth <a name="lyran-commonwealth"></a>
-##### RT Factions
+###### RT Factions
 * "steiner"
 #### Belongs to MUL Faction Group Eras
 * [Inner Sphere General - Clan Invasion](#inner-sphere-1)
@@ -435,19 +435,19 @@ The MUL faction will be expanded to individual MUL factions first if it is a MUL
 * [Inner Sphere General - Dark Ages](#inner-sphere-5)
 
 ### <img height="22" width="30" src="https://i.ibb.co/CwS2qkh/magistracy-of-canopus.png"> Magistracy of Canopus <a name="canopus"></a>
-##### RT Factions
+###### RT Factions
 * "magistracyofcanopus"
 #### Belongs to MUL Faction Group Eras
 * [Periphery General - All Eras](#periphery)
 
 ### <img height="22" width="30" src="https://i.ibb.co/RygBbs6/marian-hegemony.png"> Marian Hegemony <a name="marian"></a>
-##### RT Factions
+###### RT Factions
 * "marian"
 #### Belongs to MUL Faction Group Eras
 * [Periphery General - All Eras](#periphery)
 
 ### <img height="22" width="30" src="https://i.ibb.co/r3rJXx3/mercenary.png"> Mercenary <a name="mercenary"></a>
-##### RT Factions
+###### RT Factions
 * "auriganmercenaries" *(Flashpoint faction)*
 * "edcorbu" *(Flashpoint faction)*
 * "hostilemercenaries" *(Flashpoint faction)*
@@ -465,7 +465,7 @@ The MUL faction will be expanded to individual MUL factions first if it is a MUL
 * <img height="11" width="15" src="https://i.ibb.co/5RqC4vx/wolfs-dragoons.png"> Wolf's Dragoons
 
 ### <img height="22" width="30" src="https://i.ibb.co/bX5vgNT/outworlds-alliance.png"> Outworlds Alliance <a name="outworld"></a>
-##### RT Factions
+###### RT Factions
 * "outworld"
 #### Belongs to MUL Faction Group Eras
 * [Periphery General - Clan Invasion](#periphery-1)
@@ -473,7 +473,7 @@ The MUL faction will be expanded to individual MUL factions first if it is a MUL
 * [Periphery General - Jihad](#periphery-3)
 
 ### <img height="22" width="30" src="https://i.ibb.co/1b1mJFW/pirates.png"> Pirates <a name="pirates"></a>
-##### RT Factions
+###### RT Factions
 * "auriganpirates" 
 * "axumite" *(Conversation faction)*
 * "chainelane" 
@@ -490,7 +490,7 @@ The MUL faction will be expanded to individual MUL factions first if it is a MUL
 * "valkyrate" 
 
 ### <img height="22" width="30" src="https://i.ibb.co/VJs7VhM/rasalhague-dominion.png"> Rasalhague Dominion <a name="rasalhague-dominion"></a>
-##### RT Factions
+###### RT Factions
 * "clanghostbear"
 * "rasalhague"
 #### Belongs to MUL Faction Group Eras
@@ -498,7 +498,7 @@ The MUL faction will be expanded to individual MUL factions first if it is a MUL
 * [IS Clan General - Dark Ages](#inner-sphere-clans-5)
 
 ### <img height="22" width="30" src="https://i.ibb.co/51h6DjP/raven-alliance.png"> Raven Alliance <a name="raven-alliance"></a>
-##### RT Factions
+###### RT Factions
 * "clansnowraven"
 * "outworld"
 #### Belongs to MUL Faction Group Eras
@@ -506,14 +506,14 @@ The MUL faction will be expanded to individual MUL factions first if it is a MUL
 * [IS Clan General - Dark Ages](#inner-sphere-clans-5)
 
 ### <img height="22" width="30" src="https://i.ibb.co/hDHXr3T/republic-of-the-sphere.png"> Republic of the Sphere <a name="republic"></a>
-##### RT Factions
+###### RT Factions
 * "republic"
 #### Belongs to MUL Faction Group Eras
 * [Inner Sphere General - Republic](#inner-sphere-4)
 * [Inner Sphere General - Dark Ages](#inner-sphere-5)
 
 ### <img height="22" width="30" src="https://i.ibb.co/7v0qV1c/Scorpion-Empire.png"> Scorpion Empire <a name="scorpion-empire"></a>
-##### RT Factions
+###### RT Factions
 * "castile"
 * "clangoliathscorpion"
 * "hanse"
@@ -521,32 +521,32 @@ The MUL faction will be expanded to individual MUL factions first if it is a MUL
 *None*
 
 ### <img height="22" width="30" src="https://i.ibb.co/stjrwqC/society.png"> Society <a name="society"></a>
-##### RT Factions
+###### RT Factions
 * "society"
 #### Belongs to MUL Faction Group Eras
 *None*
 
 ### <img height="22" width="30" src="https://i.ibb.co/R3DcRVf/solaris-7.png"> Solaris 7 <a name="solaris7"></a>
-##### RT Factions
+###### RT Factions
 * "solaris7"
 #### Belongs to MUL Faction Group Eras
 *None*
 
 ### <img height="22" width="30" src="https://i.ibb.co/rFDd0Fh/st-ives-compact.png"> St Ives Compact <a name="st-ives"></a>
-##### RT Factions
+###### RT Factions
 * "ives"
 #### Belongs to MUL Faction Group Eras
 * [Inner Sphere General - Clan Invasion](#inner-sphere-1)
 * [Inner Sphere General - Civil War](#inner-sphere-2)
 
 ### <img height="22" width="30" src="https://i.ibb.co/GPNb9Ry/taurian-concordat.png"> Taurian Concardat <a name="taurian"></a>
-##### RT Factions
+###### RT Factions
 * "taurianconcordat"
 #### Belongs to MUL Faction Group Eras
 * [Periphery General - All Eras](#periphery)
 
 ### <img height="22" width="30" src="https://i.ibb.co/CQngXkW/word-of-blake.png"> Word of Blake <a name="word-of-blake"></a>
-##### RT Factions
+###### RT Factions
 * "wordofblake"
 #### Belongs to MUL Faction Group Eras
 * [Inner Sphere General - Clan Invasion](#inner-sphere-1)
