@@ -149,6 +149,7 @@ The MUL faction will be expanded to individual MUL factions first if it is a MUL
 #### Jihad <a name="periphery-3"></a>
 * [Calderon Protectorate](#calderon)
 * [Circinus Federation](#circinus)
+* [Fronc Reaches](#fronc-reaches)
 * [Magistracy of Canopus](#canopus)
 * [Marian Hegemony](#marian)
 * [Outworlds Alliance](#outworld)
@@ -160,6 +161,7 @@ The MUL faction will be expanded to individual MUL factions first if it is a MUL
 #### Republic, Dark Ages <a name="periphery-4"></a><a name="periphery-5"></a>
 * [Calderon Protectorate](#calderon)
 * [Filtvelt Coalition](#filtvelt)
+* [Fronc Reaches](#fronc-reaches)
 * [Magistracy of Canopus](#canopus)
 * [Marian Hegemony](#marian)
 * [Pirates](#pirates)
@@ -416,6 +418,16 @@ The MUL faction will be expanded to individual MUL factions first if it is a MUL
 * <img height="22" width="30" src="https://i.ibb.co/7r5h7tF/free-worlds-league-rim-commonality.png"> Free Worlds League (Rim Commonality)
 #### Belongs to MUL Faction Group Eras
 * [Inner Sphere General - All Eras](#inner-sphere)
+
+### <img height="22" width="30" src="https://i.ibb.co/2SdQ8Bn/fronc-reaches.png"> Fronc Reaches <a name="fronc-reaches"></a>
+###### RT Factions
+* "magistracyofcanopus"
+* "taurianconcordat"
+#### Belongs to MUL Faction Group Eras
+* [Periphery General - Jihad](#periphery-3)
+* [Periphery General - Republic](#periphery-4)
+* [Periphery General - Dark Ages](#periphery-5)
+
 
 ### <img height="22" width="30" src="https://i.ibb.co/9n9zqD7/lyran-alliance.png"> Lyran Alliance <a name="lyran-alliance"></a>
 ###### RT Factions
@@ -684,6 +696,7 @@ The MUL faction will be expanded to individual MUL factions first if it is a MUL
     * [Periphery General - Republic](#periphery-4)
     * [Periphery General - Dark Ages](#periphery-5)
 * "magistracyofcanopus"
+    * [Fronc Reaches](#fronc-reaches)
     * [Magistracy of Canopus](#canopus)
     * [Periphery General - All Eras](#periphery)
 * "marian"
@@ -719,9 +732,10 @@ The MUL faction will be expanded to individual MUL factions first if it is a MUL
     * [Lyran Alliance](#lyran-alliance)
     * [Lyran Commonwealth](#lyran-commonwealth)
 * "taurianconcordat"
+    * [Calderon Protectorate](#caledoran)
+    * [Fronc Reaches](#fronc-reaches)
     * [Periphery General - All Eras](#periphery)
     * [Taurian Concordat](#taurian)
-    * [Calderon Protectorate](#caledoran)
 * "tortuga"
     * [Pirates](#pirates)
 * "valkyrate"
