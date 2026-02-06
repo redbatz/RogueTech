@@ -9,6 +9,7 @@
       }
     ],
     "BonusDescriptions": [
+      "AmmoPerShot: 4",
       "VariableDmg: 2",
       "ChemicalLaser",
       "WpnCrits: -50%",
