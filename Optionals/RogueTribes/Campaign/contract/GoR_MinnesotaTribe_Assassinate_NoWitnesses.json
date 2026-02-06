@@ -1,22 +1,22 @@
 {
-  "ID": "GoR_MinnesotaTribe_Rescue_UnwillingAsset",
-  "contractName": "Unwilling Asset",
+  "ID": "GoR_MinnesotaTribe_Assassinate_NoWitnesses",
+  "contractName": "No Witnesses",
   "contractDisplayStyle": "BaseCampaignNormal",
   "difficulty": 8,
   "difficultyUIModifier": 0,
   "weight": 1,
   "scope": "STANDARD",
   "finalDifficulty": 0,
-  "representativeCastDefIDOverride": "castDef_JoannaMcEvedy",
+  "representativeCastDefIDOverride": null,
   "missionSuccessStatementOverride": null,
   "badFaithStatementOverride": null,
   "goodFaithStatementOverride": null,
-  "shortDescription": "<b>Dr. Anika Tilsaye</b> is conducting advanced research in exotic material bonding at a remote research site on <i>Ryerson</i>. Her recent breakthroughs have direct applications to advanced structural latticework—technology the Minnesota Tribe requires.\n\nYou are to infiltrate the target zone, locate the scientist, and extract her by force if necessary. Opposition is expected from local security personnel tasked with her protection. Time is a factor—prolonged engagement may trigger broader response protocols.\n\nThis is a precision operation. Minimize damage to surrounding infrastructure. The asset must be secured alive.",
-  "longDescription": "SLDF training data on a ghost world like this? I don't care how old it is—we can't let the Tribe walk away with a tactical edge.",
-  "salvagePotential": 12,
+  "shortDescription": "<b>Star Captain Elias Jorgensson</b> of [[DM.Factions[faction_GhostBearWatch],Ghost Bear Watch]] has conducted extensive surveillance operations within [[DM.Factions[faction_MinnesotaTribe],Tribe]] territory over the past three months. Intelligence confirms he has mapped our network structure, identified key personnel, and documented operational patterns that could compromise our entire cell organization if transmitted to Ghost Bear command.\n\nJorgensson is currently on <i>Niops</i>, conducting final intelligence gathering before evacuation. Our window to neutralize this threat is narrow. Once he realizes he's been compromised, contingency protocols will activate and he will attempt immediate evacuation from the system.\n\nYou are to locate and eliminate the target in the urban sector before he can reach his evacuation point. Expected opposition includes Jorgensson's advanced mech plus escort lance providing security. Urban terrain will complicate engagement but also provides approach concealment.\n\nOperational security is paramount. Jorgensson possesses intelligence that exposes our entire regional network. He cannot be allowed to reach Ghost Bear Watch command.",
+  "longDescription": "Boss, this guy knows too much about Tribe operations. If he reaches Ghost Bear command with what he's got, Joanna's entire network burns. We stop him here or we don't stop him at all.",
+  "salvagePotential": 16,
   "requirementList": [],
-  "OnContractSuccessResults": [  ],
-  "OnContractFailureResults": [  ],
+  "OnContractSuccessResults": [],
+  "OnContractFailureResults": [],
   "encounterPlayStyle": "SinglePlayer",
   "maxNumberOfPlayerUnits": 16,
   "lanceMinTonnage": -1,
@@ -33,143 +33,33 @@
     -1,
     -1
   ],
-  "mapMood": null,
+  "mapMood": "",
   "startingFogOfWarVisibility": "Surveyed",
   "contractObjectiveList": [
     {
       "contractObjective": {
-        "EncounterObjectGuid": "dee3ebc7-d9df-4e5f-bfbb-0fb7dff587f8"
+        "EncounterObjectGuid": "edafecaf-4d24-4304-98b1-9e645898c6ee"
       },
-      "title": "Secure the Scientist",
-      "description": "",
+      "title": "Assassinate the Watch intelligence officer",
+      "description": "Eliminate the Officer, clear area of additional forces Enemies, and Escape",
       "isPrimary": true,
       "forPlayer": "Player1",
       "objectiveGuids": [
-        "3a4192be-2a53-4383-94ac-19c08883ea5f",
-        "6f4ceb92-9eef-4765-b345-42ed8fe8e1b3",
-        "ff3cb25c-4bd9-4343-be9a-be14fa22718c"
+        "504a1169-8858-4f3d-be89-48eb39f54e4d",
+        "cc0880d2-2c42-40ef-98ed-33fe754c96e6",
+        "650245ff-89b6-4c0f-9b72-31db69cf109c",
+        "ef887928-31f2-4001-a1d8-44f8dc5f5bf8",
+        "3a4192be-2a53-4383-94ac-19c08883ea5f"
       ]
     }
   ],
   "objectiveList": [
     {
       "objective": {
-        "EncounterObjectGuid": "3a4192be-2a53-4383-94ac-19c08883ea5f"
+        "EncounterObjectGuid": "650245ff-89b6-4c0f-9b72-31db69cf109c"
       },
-      "title": "Occupy the extraction zone to retrieve the scientist",
-      "description": "",
-      "isPrimary": true,
-      "OnSuccessResults": [
-        {
-          "Scope": "Company",
-          "Requirements": null,
-          "AddedTags": {
-            "items": [],
-            "tagSetSourceFile": ""
-          },
-          "RemovedTags": {
-            "items": [],
-            "tagSetSourceFile": ""
-          },
-          "Stats": [
-            {
-              "typeString": "System.Single",
-              "name": "ContractBonusRewardPct",
-              "value": "0.05",
-              "set": false,
-              "valueConstant": null
-            }
-          ],
-          "Actions": [],
-          "ForceEvents": [],
-          "TemporaryResult": false,
-          "ResultDuration": 0
-        }
-      ],
-      "OnFailureResults": [],
-      "OnSuccessDialogueGUID": null,
-      "OnFailureDialogueGUID": null
-    },
-    {
-      "objective": {
-        "EncounterObjectGuid": "ebdc7896-2f3b-4d48-b676-b3b8d84015c8"
-      },
-      "title": "Hidden KILL OBJECTIVE for OpFor1",
-      "description": "UNUSED KILL OBJECTIVE for AutoComplete",
-      "isPrimary": false,
-      "OnSuccessResults": [],
-      "OnFailureResults": [],
-      "OnSuccessDialogueGUID": null,
-      "OnFailureDialogueGUID": null
-    },
-    {
-      "objective": {
-        "EncounterObjectGuid": "6f4ceb92-9eef-4765-b345-42ed8fe8e1b3"
-      },
-      "title": "Reach the Evac Zone",
-      "description": "",
-      "isPrimary": true,
-      "OnSuccessResults": [],
-      "OnFailureResults": [],
-      "OnSuccessDialogueGUID": null,
-      "OnFailureDialogueGUID": null
-    },
-    {
-      "objective": {
-        "EncounterObjectGuid": "ff3cb25c-4bd9-4343-be9a-be14fa22718c"
-      },
-      "title": "Unit Carrying the scientist Must Survive",
-      "description": "",
-      "isPrimary": true,
-      "OnSuccessResults": [],
-      "OnFailureResults": [
-        {
-          "Scope": "Company",
-          "Requirements": null,
-          "AddedTags": {
-            "items": [],
-            "tagSetSourceFile": ""
-          },
-          "RemovedTags": {
-            "items": [],
-            "tagSetSourceFile": ""
-          },
-          "Stats": [
-            {
-              "typeString": "System.Single",
-              "name": "ContractBonusRewardPct",
-              "value": "-0.2",
-              "set": false,
-              "valueConstant": null
-            }
-          ],
-          "Actions": [],
-          "ForceEvents": [],
-          "TemporaryResult": false,
-          "ResultDuration": 0
-        }
-      ],
-      "OnSuccessDialogueGUID": null,
-      "OnFailureDialogueGUID": null
-    },
-    {
-      "objective": {
-        "EncounterObjectGuid": "b8e94728-f1b4-4c2b-a4b3-6716dd48e721"
-      },
-      "title": "Recover the research data securing the secondary extraction point",
-      "description": "",
-      "isPrimary": false,
-      "OnSuccessResults": [],
-      "OnFailureResults": [],
-      "OnSuccessDialogueGUID": null,
-      "OnFailureDialogueGUID": null
-    },
-    {
-      "objective": {
-        "EncounterObjectGuid": "5a848ea1-535c-42e2-b125-bb8d2a9d633d"
-      },
-      "title": "Hidden KILL OBJECTIVE for OpFor2",
-      "description": "Hidden KILL OBJECTIVE for autocomplete of mission",
+      "title": "Destroy Supporting Enemy Forces",
+      "description": "The secondary objective to destroy an additional lance supporting the assassination target.",
       "isPrimary": false,
       "OnSuccessResults": [
         {
@@ -204,10 +94,10 @@
     },
     {
       "objective": {
-        "EncounterObjectGuid": "a9f1746b-e990-4c8f-90be-3c4f229da58f"
+        "EncounterObjectGuid": "ef887928-31f2-4001-a1d8-44f8dc5f5bf8"
       },
-      "title": "Keep the data banks safe",
-      "description": "",
+      "title": "Eliminate Ambushers",
+      "description": "Destroy enemy Ambushers before extraction",
       "isPrimary": false,
       "OnSuccessResults": [
         {
@@ -225,7 +115,7 @@
             {
               "typeString": "System.Single",
               "name": "ContractBonusRewardFlat",
-              "value": "150000",
+              "value": "50000",
               "set": false,
               "valueConstant": null
             }
@@ -239,24 +129,84 @@
       "OnFailureResults": [],
       "OnSuccessDialogueGUID": null,
       "OnFailureDialogueGUID": null
+    },
+    {
+      "objective": {
+        "EncounterObjectGuid": "504a1169-8858-4f3d-be89-48eb39f54e4d"
+      },
+      "title": "Eliminate the Warden ",
+      "description": "The objective to destroy the Assassination Target.",
+      "isPrimary": true,
+      "OnSuccessResults": [],
+      "OnFailureResults": [],
+      "OnSuccessDialogueGUID": null,
+      "OnFailureDialogueGUID": null
+    },
+    {
+      "objective": {
+        "EncounterObjectGuid": "c12ee829-2a99-4ed4-be8a-5f16407a2361"
+      },
+      "title": "Destroy Assassination Lance Hidden Objective",
+      "description": "Hidden Objective for AutoComplete, Destroy Assassination Lance",
+      "isPrimary": false,
+      "OnSuccessResults": [],
+      "OnFailureResults": [],
+      "OnSuccessDialogueGUID": null,
+      "OnFailureDialogueGUID": null
+    },
+    {
+      "objective": {
+        "EncounterObjectGuid": "cc0880d2-2c42-40ef-98ed-33fe754c96e6"
+      },
+      "title": "Get to the evac zone",
+      "description": "The objective for the player to escape and complete the mission.",
+      "isPrimary": true,
+      "OnSuccessResults": [],
+      "OnFailureResults": [],
+      "OnSuccessDialogueGUID": null,
+      "OnFailureDialogueGUID": null
+    },
+    {
+      "objective": {
+        "EncounterObjectGuid": "3a4192be-2a53-4383-94ac-19c08883ea5f"
+      },
+      "title": "Keep the Warden from Escaping",
+      "description": "The objective to stop the assassination target for escaping, the player will fail if the target escapes.",
+      "isPrimary": true,
+      "OnSuccessResults": [],
+      "OnFailureResults": [],
+      "OnSuccessDialogueGUID": null,
+      "OnFailureDialogueGUID": null
+    },
+    {
+      "objective": {
+        "EncounterObjectGuid": "1bd16613-2bbe-4bd7-bb7a-240ddb055ac0"
+      },
+      "title": "Armor Breached",
+      "description": "Armor of the Target is breached.",
+      "isPrimary": false,
+      "OnSuccessResults": [],
+      "OnFailureResults": [],
+      "OnSuccessDialogueGUID": null,
+      "OnFailureDialogueGUID": null
     }
   ],
   "artilleryObjectiveList": [],
   "buildingList": [],
   "chunkList": [
     {
-      "name": "Chunk_OccupyRegion_2 (Bonus)",
+      "name": "Chunk_Ambush (Bonus)",
       "encounterChunk": {
-        "EncounterObjectGuid": "a4e9541a-082c-491f-bb80-2f1241b0c349"
+        "EncounterObjectGuid": "19e8fa2a-f850-42f0-a067-15fcafcc8123"
       },
-      "enableChunkFromContract": true,
+      "enableChunkFromContract": false,
       "controlledByContractChunkGroupList": [],
       "requirementList": []
     },
     {
-      "name": "Chunk_EnsureSurvives_Objective (Bonus)",
+      "name": "Chunk_TargetEscape (Bonus)",
       "encounterChunk": {
-        "EncounterObjectGuid": "a9394ab3-13a6-4c6a-9a03-1b0b89127b17"
+        "EncounterObjectGuid": "9a27ee75-f33f-45ac-b0d3-ebc321ae7ffc"
       },
       "enableChunkFromContract": true,
       "controlledByContractChunkGroupList": [],
@@ -267,37 +217,37 @@
     {
       "name": "Spawner_PlayerLance",
       "encounterObject": {
-        "EncounterObjectGuid": "76b654a6-4f2c-4a6f-86e6-d4cf868335fe"
+        "EncounterObjectGuid": "49c80ae9-df2d-4788-a56e-3b21cf381691"
       }
     },
     {
-      "name": "Lance_OpposingForce_1",
+      "name": "Lance_Enemy_OpposingForce",
       "encounterObject": {
-        "EncounterObjectGuid": "9a1bfa77-fc82-4e20-be61-63ebe1d1949e"
+        "EncounterObjectGuid": "72773efa-5537-4273-89f8-5fcf1a06f7ff"
       }
     },
     {
-      "name": "Lance_Enemy_OpposingForce_2",
+      "name": "Lance_Enemy_Ambushers",
       "encounterObject": {
-        "EncounterObjectGuid": "31356694-7216-4a0b-985c-235e2a2d8bb4"
+        "EncounterObjectGuid": "a40b7be1-0b20-445f-a31d-b2b2ff228eda"
       }
     },
     {
-      "name": "Region_Occupy_1",
+      "name": "Lance_Enemy_AssassinationTarget",
       "encounterObject": {
-        "EncounterObjectGuid": "a85da736-7a2e-4cc6-aff3-feb9d73fc7e1"
+        "EncounterObjectGuid": "9d973fb5-9b7e-4c49-969a-6bb3e60caa64"
       }
     },
     {
       "name": "Region_Escape",
       "encounterObject": {
-        "EncounterObjectGuid": "eba2ec63-eab0-4801-b1c5-90964855a7ca"
+        "EncounterObjectGuid": "a25a4728-0069-41cc-ac38-19b1f49023e7"
       }
     },
     {
-      "name": "Region_Occupy_2",
+      "name": "Region_TargetEscapeZone",
       "encounterObject": {
-        "EncounterObjectGuid": "ef65cf21-ed27-4d27-89eb-14aa4da61e93"
+        "EncounterObjectGuid": "a85da736-7a2e-4cc6-aff3-feb9d73fc7e1"
       }
     }
   ],
@@ -310,14 +260,78 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "Commander, one additional note. Dr. Tilsaye’s local databanks remain active. If your forces can secure and extract the core research archive from the nearby data center, the Tribe is prepared to authorize a substantial bonus.",
+          "words": "Target confirmed in the urban sector. Advanced mech with escort lance. They're moving toward the spaceport district. Assumedly for immediate evac.",
           "wordsColor": {
             "r": 1,
             "g": 1,
             "b": 1,
             "a": 1
           },
-          "selectedCastDefId": "castDef_JoannaMcEvedy",
+          "selectedCastDefId": "castDef_SumireDefault",
+          "emote": "Default",
+          "audioName": "NONE",
+          "cameraFocusGuid": "",
+          "cameraDistance": "Far",
+          "cameraHeight": "Default",
+          "revealRadius": -1
+        },
+        {
+          "words": "This is pursuit and elimination. Target knows the terrain and has a head start. We need to intercept before he reaches the evac point.",
+          "wordsColor": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          },
+          "selectedCastDefId": "castDef_DariusDefault",
+          "emote": "Default",
+          "audioName": "NONE",
+          "cameraFocusGuid": "",
+          "cameraDistance": "Far",
+          "cameraHeight": "Default",
+          "revealRadius": -1
+        },
+        {
+          "words": "Urban environment means civilian structures, tight corridors, limited firing lanes. Some collateral damage is unavoidable at this scale of engagement, but let's try avoiding unnecessary damage.",
+          "wordsColor": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          },
+          "selectedCastDefId": "castDef_FarahDefault",
+          "emote": "Default",
+          "audioName": "NONE",
+          "cameraFocusGuid": "",
+          "cameraDistance": "Far",
+          "cameraHeight": "Default",
+          "revealRadius": -1
+        },
+        {
+          "words": "Target's in an advanced mech. Good armor, good weapons. Escorts are providing security but he's the priority. Drop him and the mission's done.",
+          "wordsColor": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          },
+          "selectedCastDefId": "castDef_YangDefault",
+          "emote": "Default",
+          "audioName": "NONE",
+          "cameraFocusGuid": "",
+          "cameraDistance": "Far",
+          "cameraHeight": "Default",
+          "revealRadius": -1
+        },
+        {
+          "words": "Confirmed, target priority is Jorgensson. Eliminate him before he reaches evac. Move in.",
+          "wordsColor": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          },
+          "selectedCastDefId": "castDef_Commander",
           "emote": "Default",
           "audioName": "NONE",
           "cameraFocusGuid": "",
@@ -335,7 +349,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "Dr. Tilsaye is ours, mission is a success. Let's leave before {TEAM_TAR.FactionDef.Demonym} leadership realizes we are here.",
+          "words": "Target eliminated. Jorgensson's dead. Mission accomplished.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -343,6 +357,38 @@
             "a": 1
           },
           "selectedCastDefId": "castDef_DariusDefault",
+          "emote": "Default",
+          "audioName": "NONE",
+          "cameraFocusGuid": "",
+          "cameraDistance": "Far",
+          "cameraHeight": "Default",
+          "revealRadius": -1
+        },
+        {
+          "words": "Collateral damage assessment shows structural damage to surrounding buildings. Standard for urban mech combat at this scale.",
+          "wordsColor": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          },
+          "selectedCastDefId": "castDef_FarahDefault",
+          "emote": "Default",
+          "audioName": "NONE",
+          "cameraFocusGuid": "",
+          "cameraDistance": "Far",
+          "cameraHeight": "Default",
+          "revealRadius": -1
+        },
+        {
+          "words": "Whatever intel Jorgensson had on Tribe operations, it died with him. Joanna's network stays secure.",
+          "wordsColor": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          },
+          "selectedCastDefId": "castDef_SumireDefault",
           "emote": "Default",
           "audioName": "NONE",
           "cameraFocusGuid": "",
@@ -360,7 +406,89 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "Damn, the scientist managed to elude us and is now safe in a panic room. We really should have done better, no choice but to evacuate now.",
+          "words": "Target escaped. Jorgensson made it to the evac point. He's off planet with everything he knows about Tribe operations.",
+          "wordsColor": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          },
+          "selectedCastDefId": "castDef_DariusDefault",
+          "emote": "Default",
+          "audioName": "NONE",
+          "cameraFocusGuid": "",
+          "cameraDistance": "Far",
+          "cameraHeight": "Default",
+          "revealRadius": -1
+        },
+        {
+          "words": "That intelligence is going straight to Ghost Bear Watch command. Joanna's network is compromised. This is bad.",
+          "wordsColor": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          },
+          "selectedCastDefId": "castDef_SumireDefault",
+          "emote": "Default",
+          "audioName": "NONE",
+          "cameraFocusGuid": "",
+          "cameraDistance": "Far",
+          "cameraHeight": "Default",
+          "revealRadius": -1
+        }
+      ]
+    },
+    {
+      "dialogue": {
+        "EncounterObjectGuid": "dafa63cd-96e8-4a03-8383-6abfd360bde8"
+      },
+      "name": "Dialogue_Interrupt_KillConfirmedEscapeInstruction",
+      "overrideDialogueBucketId": "",
+      "dialogueContent": [
+        {
+          "words": "Target down! Jorgensson's mech is destroyed. Confirm pilot KIA.",
+          "wordsColor": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          },
+          "selectedCastDefId": "castDef_DariusDefault",
+          "emote": "Default",
+          "audioName": "NONE",
+          "cameraFocusGuid": "",
+          "cameraDistance": "Far",
+          "cameraHeight": "Default",
+          "revealRadius": -1
+        },
+        {
+          "words": "Confirmed. Target eliminated. Primary objective complete. We can withdraw now or mop up remaining hostiles.",
+          "wordsColor": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          },
+          "selectedCastDefId": "castDef_SumireDefault",
+          "emote": "Default",
+          "audioName": "NONE",
+          "cameraFocusGuid": "",
+          "cameraDistance": "Far",
+          "cameraHeight": "Default",
+          "revealRadius": -1
+        }
+      ]
+    },
+    {
+      "dialogue": {
+        "EncounterObjectGuid": "cbb7a848-5367-478a-82f2-256bb94080e6"
+      },
+      "name": "Dialogue_AmbushDestroyed",
+      "overrideDialogueBucketId": "",
+      "dialogueContent": [
+        {
+          "words": "That’s all of the backup extraction forces dealt with.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -379,38 +507,29 @@
     },
     {
       "dialogue": {
-        "EncounterObjectGuid": "bcbee1e2-4d86-4ddb-89ec-c59295cae62d"
+        "EncounterObjectGuid": "cc82de54-d0b5-4227-bb23-dc845ea88833"
       },
-      "name": "Dialogue_Interrupt_OccupyRegionStarted",
+      "name": "Dialogue_TargetDamaged",
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "We have the target's biosignal on close sensors. Search the nearby area for their exact location.",
+          "words": "Target's taking damage! Jorgensson's armor is compromised. Keep the pressure on!",
           "wordsColor": {
             "r": 1,
             "g": 1,
             "b": 1,
             "a": 1
           },
-          "selectedCastDefId": "castDef_DariusDefault",
+          "selectedCastDefId": "castDef_SumireDefault",
           "emote": "Default",
           "audioName": "NONE",
-          "cameraFocusGuid": "a85da736-7a2e-4cc6-aff3-feb9d73fc7e1",
+          "cameraFocusGuid": "",
           "cameraDistance": "Far",
           "cameraHeight": "Default",
           "revealRadius": -1
-        }
-      ]
-    },
-    {
-      "dialogue": {
-        "EncounterObjectGuid": "9d5b076d-c29f-4d82-ae0c-8ff57b0af60e"
-      },
-      "name": "Dialogue_RecoveringUnitDamaged1",
-      "overrideDialogueBucketId": "",
-      "dialogueContent": [
+        },
         {
-          "words": "Commander, the unit carrying Dr. Tilsaye is under fire!",
+          "words": "He knows he's in trouble. Don't give him room to maneuver!",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -429,20 +548,20 @@
     },
     {
       "dialogue": {
-        "EncounterObjectGuid": "62f3ce2e-81e0-4082-952c-63d174c82d96"
+        "EncounterObjectGuid": "4a6a16e6-15ea-4c14-8075-a77089825af7"
       },
-      "name": "Dialogue_RecoveringUnitDamaged2",
+      "name": "Dialogue_AmbushWarning",
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "Commander, be careful! Don't let those data banks take any damage!",
+          "words": "Secondary Watch force approaching fast. Likely to help expedite the extraction of the Star Colonel!",
           "wordsColor": {
             "r": 1,
             "g": 1,
             "b": 1,
             "a": 1
           },
-          "selectedCastDefId": "castDef_DariusDefault",
+          "selectedCastDefId": "castDef_SumireDefault",
           "emote": "Default",
           "audioName": "NONE",
           "cameraFocusGuid": "",
@@ -454,63 +573,29 @@
     },
     {
       "dialogue": {
-        "EncounterObjectGuid": "5cfa1621-2a66-4321-a749-9649c9632db0"
+        "EncounterObjectGuid": "9fb497e2-e3cf-410a-92c6-8943c6e09533"
       },
-      "name": "Dialogue_RecoveredTarget1",
+      "name": "Dialogue_TargetFleeing",
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "Primary objective achieved, the scientist is safely recovered.",
+          "words": "Target's running! He's breaking off toward the evac zone!",
           "wordsColor": {
             "r": 1,
             "g": 1,
             "b": 1,
             "a": 1
           },
-          "selectedCastDefId": "castDef_DariusDefault",
+          "selectedCastDefId": "castDef_SumireDefault",
           "emote": "Default",
           "audioName": "NONE",
           "cameraFocusGuid": "",
           "cameraDistance": "Far",
           "cameraHeight": "Default",
           "revealRadius": -1
-        }
-      ]
-    },
-    {
-      "dialogue": {
-        "EncounterObjectGuid": "8b2c266f-ac37-4f07-acd2-290228af6e04"
-      },
-      "name": "Dialogue_RecoveredTarget2",
-      "overrideDialogueBucketId": "",
-      "dialogueContent": [
+        },
         {
-          "words": "The data is secure, that bonus better have been worth all the extra work.",
-          "wordsColor": {
-            "r": 1,
-            "g": 1,
-            "b": 1,
-            "a": 1
-          },
-          "selectedCastDefId": "castDef_DariusDefault",
-          "emote": "Default",
-          "audioName": "NONE",
-          "cameraFocusGuid": "",
-          "cameraDistance": "Far",
-          "cameraHeight": "Default",
-          "revealRadius": -1
-        }
-      ]
-    },
-    {
-      "dialogue": {
-        "EncounterObjectGuid": "fdf5b937-45a0-4448-a0ba-03f8df083863"
-      },
-      "name": "Dialogue_Interrupt_RecoveringUnitDestroyed2",
-      "overrideDialogueBucketId": "",
-      "dialogueContent": [
-        {
-          "words": "The data banks are destroyed! I hope Dr. Tilsaye remembers what was on there...",
+          "words": "Stay on him! Don't let him reach that extraction point!",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -530,7 +615,7 @@
   ],
   "extractionOverrideList": [],
   "overwriteMissionCompleteWhenAutoComplete": true,
-  "overrideAutoCompleteDialogueId": null,
+  "overrideAutoCompleteDialogueId": "",
   "disableNegotations": false,
   "disableLanceConfiguration": false,
   "disableCancelButton": false,
@@ -545,7 +630,7 @@
   "excludedFromProceduralGeneration": true,
   "player1Team": {
     "encounterLayerData": {
-      "EncounterObjectGuid": "6e35a974-504f-4997-b224-01d07737e560"
+      "EncounterObjectGuid": ""
     },
     "teamGuid": "bf40fd39-ccf9-47c4-94a6-061809681140",
     "teamName": "Player 1",
@@ -554,7 +639,7 @@
     "lanceOverrideList": [
       {
         "lanceSpawner": {
-          "EncounterObjectGuid": "76b654a6-4f2c-4a6f-86e6-d4cf868335fe"
+          "EncounterObjectGuid": "49c80ae9-df2d-4788-a56e-3b21cf381691"
         },
         "name": "Spawner_PlayerLance",
         "lanceDefId": "Manual",
@@ -571,17 +656,17 @@
           "tagSetSourceFile": "tags/SpawnEffectTags"
         },
         "lanceDifficultyAdjustment": 0,
-        "selectedLanceDefId": null,
+        "selectedLanceDefId": "",
         "selectedLanceDifficulty": 0,
         "unitSpawnPointOverrideList": [
           {
             "unitSpawnPoint": {
-              "EncounterObjectGuid": "ec9d2280-ca9a-4d90-8a20-963d8a4c0a39"
+              "EncounterObjectGuid": "d7b3b2a0-a5ea-449b-8f20-e75ec9593a8b"
             },
-            "customUnitName": null,
-            "customHeraldryDefId": null,
-            "unitType": "UNDEFINED",
-            "unitDefId": "",
+            "customUnitName": "",
+            "customHeraldryDefId": "",
+            "unitType": "Mech",
+            "unitDefId": "mechDef_None",
             "unitTagSet": {
               "items": [],
               "tagSetSourceFile": "tags/UnitTags"
@@ -604,17 +689,17 @@
               "tagSetSourceFile": "tags/PilotTags"
             },
             "selectedUnitType": "UNDEFINED",
-            "selectedUnitDefId": null,
-            "selectedPilotDefId": null
+            "selectedUnitDefId": "",
+            "selectedPilotDefId": ""
           },
           {
             "unitSpawnPoint": {
-              "EncounterObjectGuid": "ebc06b6a-c5a8-4165-95ce-480bcf335570"
+              "EncounterObjectGuid": "9c2cae94-8f3a-46ab-ad5b-574051e6ad07"
             },
-            "customUnitName": null,
-            "customHeraldryDefId": null,
-            "unitType": "UNDEFINED",
-            "unitDefId": "",
+            "customUnitName": "",
+            "customHeraldryDefId": "",
+            "unitType": "Mech",
+            "unitDefId": "mechDef_None",
             "unitTagSet": {
               "items": [],
               "tagSetSourceFile": "tags/UnitTags"
@@ -637,17 +722,17 @@
               "tagSetSourceFile": "tags/PilotTags"
             },
             "selectedUnitType": "UNDEFINED",
-            "selectedUnitDefId": null,
-            "selectedPilotDefId": null
+            "selectedUnitDefId": "",
+            "selectedPilotDefId": ""
           },
           {
             "unitSpawnPoint": {
-              "EncounterObjectGuid": "d50f1e9d-0a0b-4dc8-9a06-a33233aaa8a1"
+              "EncounterObjectGuid": "f2e3b2cf-b22e-4355-b990-fbcee4021c8d"
             },
-            "customUnitName": null,
-            "customHeraldryDefId": null,
-            "unitType": "UNDEFINED",
-            "unitDefId": "",
+            "customUnitName": "",
+            "customHeraldryDefId": "",
+            "unitType": "Mech",
+            "unitDefId": "mechDef_None",
             "unitTagSet": {
               "items": [],
               "tagSetSourceFile": "tags/UnitTags"
@@ -670,17 +755,17 @@
               "tagSetSourceFile": "tags/PilotTags"
             },
             "selectedUnitType": "UNDEFINED",
-            "selectedUnitDefId": null,
-            "selectedPilotDefId": null
+            "selectedUnitDefId": "",
+            "selectedPilotDefId": ""
           },
           {
             "unitSpawnPoint": {
-              "EncounterObjectGuid": "461141c2-f956-49a5-b2c6-6f951b957a94"
+              "EncounterObjectGuid": "ba11e63f-b04a-475c-a01d-915686e3669a"
             },
-            "customUnitName": null,
-            "customHeraldryDefId": null,
-            "unitType": "UNDEFINED",
-            "unitDefId": "",
+            "customUnitName": "",
+            "customHeraldryDefId": "",
+            "unitType": "Mech",
+            "unitDefId": "mechDef_None",
             "unitTagSet": {
               "items": [],
               "tagSetSourceFile": "tags/UnitTags"
@@ -703,8 +788,8 @@
               "tagSetSourceFile": "tags/PilotTags"
             },
             "selectedUnitType": "UNDEFINED",
-            "selectedUnitDefId": null,
-            "selectedPilotDefId": null
+            "selectedUnitDefId": "",
+            "selectedPilotDefId": ""
           }
         ]
       }
@@ -712,7 +797,7 @@
   },
   "player2Team": {
     "encounterLayerData": {
-      "EncounterObjectGuid": "6e35a974-504f-4997-b224-01d07737e560"
+      "EncounterObjectGuid": ""
     },
     "teamGuid": "757173dd-b4e1-4bb5-9bee-d78e623cc867",
     "teamName": "Player 2",
@@ -722,7 +807,7 @@
   },
   "employerTeam": {
     "encounterLayerData": {
-      "EncounterObjectGuid": "6e35a974-504f-4997-b224-01d07737e560"
+      "EncounterObjectGuid": ""
     },
     "teamGuid": "ecc8d4f2-74b4-465d-adf6-84445e5dfc230",
     "teamName": "Employer",
@@ -732,7 +817,7 @@
   },
   "targetTeam": {
     "encounterLayerData": {
-      "EncounterObjectGuid": "6e35a974-504f-4997-b224-01d07737e560"
+      "EncounterObjectGuid": ""
     },
     "teamGuid": "be77cadd-e245-4240-a93e-b99cc98902a5",
     "teamName": "Target",
@@ -741,13 +826,171 @@
     "lanceOverrideList": [
       {
         "lanceSpawner": {
-          "EncounterObjectGuid": "9a1bfa77-fc82-4e20-be61-63ebe1d1949e"
+          "EncounterObjectGuid": "72773efa-5537-4273-89f8-5fcf1a06f7ff"
         },
-        "name": "Lance_OpposingForce_1",
+        "name": "Lance_Enemy_OpposingForce",
         "lanceDefId": "Tagged",
         "lanceTagSet": {
           "items": [
-            "lance_type_battle",
+            "lance_type_battle"
+          ],
+          "tagSetSourceFile": "tags/LanceTags"
+        },
+        "lanceExcludedTagSet": {
+          "items": [],
+          "tagSetSourceFile": "tags/LanceTags"
+        },
+        "spawnEffectTags": {
+          "items": [],
+          "tagSetSourceFile": "tags/SpawnEffectTags"
+        },
+        "lanceDifficultyAdjustment": 2,
+        "selectedLanceDefId": "",
+        "selectedLanceDifficulty": 0,
+        "unitSpawnPointOverrideList": [
+          {
+            "unitSpawnPoint": {
+              "EncounterObjectGuid": "dd1b3129-0f5d-4e93-b87d-42ab13c68e7d"
+            },
+            "customUnitName": "",
+            "customHeraldryDefId": "",
+            "unitType": "Mech",
+            "unitDefId": "mechDef_InheritLance",
+            "unitTagSet": {
+              "items": [],
+              "tagSetSourceFile": "tags/UnitTags"
+            },
+            "unitExcludedTagSet": {
+              "items": [],
+              "tagSetSourceFile": "tags/UnitTags"
+            },
+            "spawnEffectTags": {
+              "items": [],
+              "tagSetSourceFile": "tags/SpawnEffectTags"
+            },
+            "pilotDefId": "pilotDef_InheritLance",
+            "pilotTagSet": {
+              "items": [],
+              "tagSetSourceFile": "tags/PilotTags"
+            },
+            "pilotExcludedTagSet": {
+              "items": [],
+              "tagSetSourceFile": "tags/PilotTags"
+            },
+            "selectedUnitType": "UNDEFINED",
+            "selectedUnitDefId": "",
+            "selectedPilotDefId": ""
+          },
+          {
+            "unitSpawnPoint": {
+              "EncounterObjectGuid": "2d62bfad-c89a-488e-94a4-25cb748f0423"
+            },
+            "customUnitName": "",
+            "customHeraldryDefId": "",
+            "unitType": "Mech",
+            "unitDefId": "mechDef_InheritLance",
+            "unitTagSet": {
+              "items": [],
+              "tagSetSourceFile": "tags/UnitTags"
+            },
+            "unitExcludedTagSet": {
+              "items": [],
+              "tagSetSourceFile": "tags/UnitTags"
+            },
+            "spawnEffectTags": {
+              "items": [],
+              "tagSetSourceFile": "tags/SpawnEffectTags"
+            },
+            "pilotDefId": "pilotDef_InheritLance",
+            "pilotTagSet": {
+              "items": [],
+              "tagSetSourceFile": "tags/PilotTags"
+            },
+            "pilotExcludedTagSet": {
+              "items": [],
+              "tagSetSourceFile": "tags/PilotTags"
+            },
+            "selectedUnitType": "UNDEFINED",
+            "selectedUnitDefId": "",
+            "selectedPilotDefId": ""
+          },
+          {
+            "unitSpawnPoint": {
+              "EncounterObjectGuid": "16d4b3f5-6d90-40c5-8b5b-6d0e2f69a229"
+            },
+            "customUnitName": "",
+            "customHeraldryDefId": "",
+            "unitType": "Mech",
+            "unitDefId": "mechDef_InheritLance",
+            "unitTagSet": {
+              "items": [],
+              "tagSetSourceFile": "tags/UnitTags"
+            },
+            "unitExcludedTagSet": {
+              "items": [],
+              "tagSetSourceFile": "tags/UnitTags"
+            },
+            "spawnEffectTags": {
+              "items": [],
+              "tagSetSourceFile": "tags/SpawnEffectTags"
+            },
+            "pilotDefId": "pilotDef_InheritLance",
+            "pilotTagSet": {
+              "items": [],
+              "tagSetSourceFile": "tags/PilotTags"
+            },
+            "pilotExcludedTagSet": {
+              "items": [],
+              "tagSetSourceFile": "tags/PilotTags"
+            },
+            "selectedUnitType": "UNDEFINED",
+            "selectedUnitDefId": "",
+            "selectedPilotDefId": ""
+          },
+          {
+            "unitSpawnPoint": {
+              "EncounterObjectGuid": "a2920539-8765-4260-ba55-1f155ae0bda8"
+            },
+            "customUnitName": "",
+            "customHeraldryDefId": "",
+            "unitType": "Mech",
+            "unitDefId": "mechDef_InheritLance",
+            "unitTagSet": {
+              "items": [],
+              "tagSetSourceFile": "tags/UnitTags"
+            },
+            "unitExcludedTagSet": {
+              "items": [],
+              "tagSetSourceFile": "tags/UnitTags"
+            },
+            "spawnEffectTags": {
+              "items": [],
+              "tagSetSourceFile": "tags/SpawnEffectTags"
+            },
+            "pilotDefId": "pilotDef_InheritLance",
+            "pilotTagSet": {
+              "items": [],
+              "tagSetSourceFile": "tags/PilotTags"
+            },
+            "pilotExcludedTagSet": {
+              "items": [],
+              "tagSetSourceFile": "tags/PilotTags"
+            },
+            "selectedUnitType": "UNDEFINED",
+            "selectedUnitDefId": "",
+            "selectedPilotDefId": ""
+          }
+        ]
+      },
+      {
+        "lanceSpawner": {
+          "EncounterObjectGuid": "a40b7be1-0b20-445f-a31d-b2b2ff228eda"
+        },
+        "name": "Lance_Enemy_Ambushers",
+        "lanceDefId": "Tagged",
+        "lanceTagSet": {
+          "items": [
+            "lance_type_cavalry",
             "lance_type_notallvehicles"
           ],
           "tagSetSourceFile": "tags/LanceTags"
@@ -761,15 +1004,15 @@
           "tagSetSourceFile": "tags/SpawnEffectTags"
         },
         "lanceDifficultyAdjustment": 2,
-        "selectedLanceDefId": null,
+        "selectedLanceDefId": "",
         "selectedLanceDifficulty": 0,
         "unitSpawnPointOverrideList": [
           {
             "unitSpawnPoint": {
-              "EncounterObjectGuid": "250eaaa4-6cbf-4ae2-bf23-dd8ab2fa0883"
+              "EncounterObjectGuid": "8e0a56bb-8b5a-49e7-98da-5abbb2c36f8f"
             },
-            "customUnitName": null,
-            "customHeraldryDefId": null,
+            "customUnitName": "",
+            "customHeraldryDefId": "",
             "unitType": "Mech",
             "unitDefId": "mechDef_InheritLance",
             "unitTagSet": {
@@ -794,15 +1037,15 @@
               "tagSetSourceFile": "tags/PilotTags"
             },
             "selectedUnitType": "UNDEFINED",
-            "selectedUnitDefId": null,
-            "selectedPilotDefId": null
+            "selectedUnitDefId": "",
+            "selectedPilotDefId": ""
           },
           {
             "unitSpawnPoint": {
-              "EncounterObjectGuid": "3033608e-9551-4c83-96d5-74946b8e4ea8"
+              "EncounterObjectGuid": "32f2da7d-0c4d-474d-9917-6963eca1b3d9"
             },
-            "customUnitName": null,
-            "customHeraldryDefId": null,
+            "customUnitName": "",
+            "customHeraldryDefId": "",
             "unitType": "Mech",
             "unitDefId": "mechDef_InheritLance",
             "unitTagSet": {
@@ -827,15 +1070,15 @@
               "tagSetSourceFile": "tags/PilotTags"
             },
             "selectedUnitType": "UNDEFINED",
-            "selectedUnitDefId": null,
-            "selectedPilotDefId": null
+            "selectedUnitDefId": "",
+            "selectedPilotDefId": ""
           },
           {
             "unitSpawnPoint": {
-              "EncounterObjectGuid": "420c7662-0f08-4687-ad60-9134038f9ca6"
+              "EncounterObjectGuid": "121ef017-a2af-41f2-b135-7c17bea334c7"
             },
-            "customUnitName": null,
-            "customHeraldryDefId": null,
+            "customUnitName": "",
+            "customHeraldryDefId": "",
             "unitType": "Mech",
             "unitDefId": "mechDef_InheritLance",
             "unitTagSet": {
@@ -860,15 +1103,15 @@
               "tagSetSourceFile": "tags/PilotTags"
             },
             "selectedUnitType": "UNDEFINED",
-            "selectedUnitDefId": null,
-            "selectedPilotDefId": null
+            "selectedUnitDefId": "",
+            "selectedPilotDefId": ""
           },
           {
             "unitSpawnPoint": {
-              "EncounterObjectGuid": "6e366cb6-fb37-44d5-94f1-8ca595d1e8aa"
+              "EncounterObjectGuid": "c47cb632-8b27-46b7-a53a-4320736216ae"
             },
-            "customUnitName": null,
-            "customHeraldryDefId": null,
+            "customUnitName": "",
+            "customHeraldryDefId": "",
             "unitType": "Mech",
             "unitDefId": "mechDef_InheritLance",
             "unitTagSet": {
@@ -893,44 +1136,45 @@
               "tagSetSourceFile": "tags/PilotTags"
             },
             "selectedUnitType": "UNDEFINED",
-            "selectedUnitDefId": null,
-            "selectedPilotDefId": null
+            "selectedUnitDefId": "",
+            "selectedPilotDefId": ""
           }
         ]
       },
       {
         "lanceSpawner": {
-          "EncounterObjectGuid": "31356694-7216-4a0b-985c-235e2a2d8bb4"
+          "EncounterObjectGuid": "9d973fb5-9b7e-4c49-969a-6bb3e60caa64"
         },
-        "name": "Lance_Enemy_OpposingForce_2",
+        "name": "Lance_Enemy_AssassinationTarget",
         "lanceDefId": "Tagged",
         "lanceTagSet": {
           "items": [
-            "lance_type_support",
-            "lance_type_notallvehicles"
+            "lance_type_solo"
           ],
           "tagSetSourceFile": "tags/LanceTags"
         },
         "lanceExcludedTagSet": {
-          "items": [],
+          "items": [
+            "no_extended_lance"
+          ],
           "tagSetSourceFile": "tags/LanceTags"
         },
         "spawnEffectTags": {
           "items": [],
           "tagSetSourceFile": "tags/SpawnEffectTags"
         },
-        "lanceDifficultyAdjustment": -1,
-        "selectedLanceDefId": null,
+        "lanceDifficultyAdjustment": 6,
+        "selectedLanceDefId": "",
         "selectedLanceDifficulty": 0,
         "unitSpawnPointOverrideList": [
           {
             "unitSpawnPoint": {
-              "EncounterObjectGuid": "34c6b3c4-c466-47d4-af9c-2804a6e57fb5"
+              "EncounterObjectGuid": "6cd3107e-0f9d-4809-ab8c-fb30faf4cd80"
             },
-            "customUnitName": null,
-            "customHeraldryDefId": null,
+            "customUnitName": "Star Colonel Jorgensson",
+            "customHeraldryDefId": "",
             "unitType": "Mech",
-            "unitDefId": "mechDef_InheritLance",
+            "unitDefId": "UseLance",
             "unitTagSet": {
               "items": [],
               "tagSetSourceFile": "tags/UnitTags"
@@ -943,7 +1187,7 @@
               "items": [],
               "tagSetSourceFile": "tags/SpawnEffectTags"
             },
-            "pilotDefId": "pilotDef_InheritLance",
+            "pilotDefId": "pilot_d10_pilot",
             "pilotTagSet": {
               "items": [],
               "tagSetSourceFile": "tags/PilotTags"
@@ -953,17 +1197,17 @@
               "tagSetSourceFile": "tags/PilotTags"
             },
             "selectedUnitType": "UNDEFINED",
-            "selectedUnitDefId": null,
-            "selectedPilotDefId": null
+            "selectedUnitDefId": "",
+            "selectedPilotDefId": ""
           },
           {
             "unitSpawnPoint": {
-              "EncounterObjectGuid": "d086cbbd-6a84-4452-9ac1-fc8536531959"
+              "EncounterObjectGuid": "32a78eeb-e3ee-4f2c-96ce-3f2aa6aefa6b"
             },
-            "customUnitName": null,
-            "customHeraldryDefId": null,
+            "customUnitName": "",
+            "customHeraldryDefId": "",
             "unitType": "Mech",
-            "unitDefId": "mechDef_InheritLance",
+            "unitDefId": "mechDef_None",
             "unitTagSet": {
               "items": [],
               "tagSetSourceFile": "tags/UnitTags"
@@ -976,7 +1220,7 @@
               "items": [],
               "tagSetSourceFile": "tags/SpawnEffectTags"
             },
-            "pilotDefId": "pilotDef_InheritLance",
+            "pilotDefId": "",
             "pilotTagSet": {
               "items": [],
               "tagSetSourceFile": "tags/PilotTags"
@@ -986,17 +1230,17 @@
               "tagSetSourceFile": "tags/PilotTags"
             },
             "selectedUnitType": "UNDEFINED",
-            "selectedUnitDefId": null,
-            "selectedPilotDefId": null
+            "selectedUnitDefId": "",
+            "selectedPilotDefId": ""
           },
           {
             "unitSpawnPoint": {
-              "EncounterObjectGuid": "ce16d609-ecb3-448a-a887-cc1b1544cc2b"
+              "EncounterObjectGuid": "fd6cffb3-edef-4892-8495-d1a5943869cf"
             },
-            "customUnitName": null,
-            "customHeraldryDefId": null,
+            "customUnitName": "",
+            "customHeraldryDefId": "",
             "unitType": "Mech",
-            "unitDefId": "mechDef_InheritLance",
+            "unitDefId": "mechDef_None",
             "unitTagSet": {
               "items": [],
               "tagSetSourceFile": "tags/UnitTags"
@@ -1009,7 +1253,7 @@
               "items": [],
               "tagSetSourceFile": "tags/SpawnEffectTags"
             },
-            "pilotDefId": "pilotDef_InheritLance",
+            "pilotDefId": "",
             "pilotTagSet": {
               "items": [],
               "tagSetSourceFile": "tags/PilotTags"
@@ -1019,17 +1263,17 @@
               "tagSetSourceFile": "tags/PilotTags"
             },
             "selectedUnitType": "UNDEFINED",
-            "selectedUnitDefId": null,
-            "selectedPilotDefId": null
+            "selectedUnitDefId": "",
+            "selectedPilotDefId": ""
           },
           {
             "unitSpawnPoint": {
-              "EncounterObjectGuid": "0e94c058-66e2-461b-aaf2-d23345bc2a7f"
+              "EncounterObjectGuid": "f9d76bd8-5c43-41c2-85d6-be237d2ca505"
             },
-            "customUnitName": null,
-            "customHeraldryDefId": null,
+            "customUnitName": "",
+            "customHeraldryDefId": "",
             "unitType": "Mech",
-            "unitDefId": "mechDef_InheritLance",
+            "unitDefId": "mechDef_None",
             "unitTagSet": {
               "items": [],
               "tagSetSourceFile": "tags/UnitTags"
@@ -1042,7 +1286,7 @@
               "items": [],
               "tagSetSourceFile": "tags/SpawnEffectTags"
             },
-            "pilotDefId": "pilotDef_InheritLance",
+            "pilotDefId": "",
             "pilotTagSet": {
               "items": [],
               "tagSetSourceFile": "tags/PilotTags"
@@ -1052,8 +1296,8 @@
               "tagSetSourceFile": "tags/PilotTags"
             },
             "selectedUnitType": "UNDEFINED",
-            "selectedUnitDefId": null,
-            "selectedPilotDefId": null
+            "selectedUnitDefId": "",
+            "selectedPilotDefId": ""
           }
         ]
       }
@@ -1061,7 +1305,7 @@
   },
   "targetsAllyTeam": {
     "encounterLayerData": {
-      "EncounterObjectGuid": "6e35a974-504f-4997-b224-01d07737e560"
+      "EncounterObjectGuid": ""
     },
     "teamGuid": "31151ed6-cfc2-467e-98c4-9ae5bea784cf",
     "teamName": "Target's Ally",
@@ -1071,7 +1315,7 @@
   },
   "neutralToAllTeam": {
     "encounterLayerData": {
-      "EncounterObjectGuid": "6e35a974-504f-4997-b224-01d07737e560"
+      "EncounterObjectGuid": ""
     },
     "teamGuid": "61612bb3-abf9-4586-952a-0559fa9dcd75",
     "teamName": "Neutral to All",
@@ -1081,7 +1325,7 @@
   },
   "hostileToAllTeam": {
     "encounterLayerData": {
-      "EncounterObjectGuid": "6e35a974-504f-4997-b224-01d07737e560"
+      "EncounterObjectGuid": ""
     },
     "teamGuid": "3c9f3a20-ab03-4bcb-8ab6-b1ef0442bbf0",
     "teamName": "Hostile to All",
@@ -1097,6 +1341,6 @@
     "teamLeaderCastDefId": "castDef_TeamLeader_Current",
     "lanceOverrideList": []
   },
-  "contractType": "Rescue",
-  "contractTypeID": "Rescue"
+  "contractType": "Assassinate",
+  "contractTypeID": "Assassinate"
 }

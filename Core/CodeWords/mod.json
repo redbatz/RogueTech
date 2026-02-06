@@ -176,7 +176,10 @@
       "GoR_MinnesotaTribe_Rescue_UnwillingAsset",
       "GoR_MinnesotaTribe_SimpleBattle_AcquireRareMaterials",
       "GoR_MinnesotaTribe_SimpleBattle_AshAndSteel",
-      "GoR_MinnesotaTribe_SimpleBattle_YoungGeneration"
+      "GoR_MinnesotaTribe_SimpleBattle_YoungGeneration",
+      "GoR_MinnesotaTribe_AmbushConvoy_ThePoisonPath",
+      "GoR_MinnesotaTribe_Assassinate_NoWitnesses",
+      "GoR_MinnesotaTribe_DestroyBase_ScorchedData"
     ],
     "ExcludeContractsWithName": [
       "Clever Girl",
