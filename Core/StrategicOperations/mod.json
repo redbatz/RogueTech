@@ -102,6 +102,7 @@
         "AbilityDefID": "AbilityDefCMD_UAVLaunch",
         "FactionIDs": [
           "ComStar3031",
+          "circinus3031",
           "Illyrian3031",
           "Ives3031",
           "Kurita3031",
@@ -1458,6 +1459,7 @@
       {
         "AbilityDefID": "AbilityDefCMD_Strafe_AI",
         "FactionIDs": [
+          "circinus3031",
           "Illyrian3031",
           "Lothian3031",
           "MagistracyOfCanopus3031",
