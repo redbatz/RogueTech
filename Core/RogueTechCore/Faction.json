@@ -3974,6 +3974,29 @@
             "IsCareerStartingDisplayFaction": false,
             "IsStoryStartingDisplayFaction": false,
             "HasAIBehaviorVariableScope": false
+        },
+        {
+            "ID": 5120,
+            "Name": "Circinus3031",
+            "FriendlyName": "Circinus3031",
+            "Description": "",
+            "FactionDefID": "faction_Circinus3031",
+            "IsRealFaction": true,
+            "IsGreatHouse": false,
+            "IsClan": false,
+            "IsMercenary": false,
+            "IsPirate": false,
+            "DoesGainReputation": false,
+            "CanAlly": false,
+            "IsProceduralContractFaction": false,
+            "IsPossibleNeutralToAllFaction": false,
+            "IsPossibleHostileToAllFaction": false,
+            "IsPossibleAllyFallbackFaction": false,
+            "IsCareerScoringFaction": false,
+            "IsCareerIgnoredContractTarget": false,
+            "IsCareerStartingDisplayFaction": false,
+            "IsStoryStartingDisplayFaction": false,
+            "HasAIBehaviorVariableScope": false
         }
     ]
 }
