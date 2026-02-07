@@ -37,10 +37,8 @@
       "marik3031",
       "Marik3150",
       "MarikStewart",
-      "oberon3031",
-      "tortuga3031",
-      "valkyrate3031",
       "NewOberonConfederation",
+      "oberon3031",
       "OrienteProtectorate",
       "RagnarokUnion",
       "RegulanFiefs",
@@ -53,7 +51,9 @@
       "steiner",
       "TamarindAbbey",
       "TaurianConcordat3150",
-      "TikonovFreeRepublic"
+      "TikonovFreeRepublic",
+      "tortuga3031",
+      "valkyrate3031"
     ],
     "tagSetSourceFile": ""
   },
