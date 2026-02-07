@@ -75,6 +75,11 @@
           "val": 0
         },
         {
+          "obj": "Employer.Circinus3031",
+          "op": "Equal",
+          "val": 0
+        },
+        {
           "obj": "Employer.ComStar",
           "op": "Equal",
           "val": 0
