@@ -101,6 +101,21 @@
       {
         "AbilityDefID": "AbilityDefCMD_UAVLaunch",
         "FactionIDs": [
+          "ComStar3031",
+          "Illyrian3031",
+          "Ives3031",
+          "Kurita3031",
+          "Liao3031",
+          "Lothian3031",
+          "MagistracyOfCanopus3031",
+          "Marian3031",
+          "Marik3031",
+          "Oberon3031",
+          "Outworld3031",
+          "TaurianConcordat3031",
+          "Tortuga3031",
+          "Valkyrate3031",
+          "Rasalhague3034",
           "ClanWolfInExile",
           "EscorpionImperio",
           "ClanBurrock",
@@ -409,6 +424,42 @@
       {
         "AbilityDefID": "AbilityDefCMD_Strafe_AI",
         "FactionIDs": [
+          "Marik3031"
+        ],
+        "AddChance": -0.2,
+        "DiffMod": 0.02,
+        "MaxUsersAddedPerContract": 2,
+        "AvailableBeacons": [
+          {
+            "UnitDefID": "vehicledef_LIGHTNING_AERO",
+            "Weight": 2,
+            "StrafeWaves": 3
+          },
+          {
+            "UnitDefID": "vehicledef_STINGRAY_AERO",
+            "Weight": 1,
+            "StrafeWaves": 3
+          },
+          {
+            "UnitDefID": "vehicledef_CORSAIR_V12M_AERO",
+            "Weight": 1,
+            "StrafeWaves": 3
+          },
+          {
+            "UnitDefID": "vehicledef_TRANSIT_TR-11_AERO",
+            "Weight": 1,
+            "StrafeWaves": 3
+          },
+          {
+            "UnitDefID": "vehicledef_GOTHA_AERO",
+            "Weight": 1,
+            "StrafeWaves": 3
+          }
+        ]
+      },
+      {
+        "AbilityDefID": "AbilityDefCMD_Strafe_AI",
+        "FactionIDs": [
           "Marik",
           "MarikStewart",
           "RimCommonality",
@@ -448,6 +499,47 @@
           },
           {
             "UnitDefID": "vehicledef_GOTHA_AERO",
+            "Weight": 1,
+            "StrafeWaves": 3
+          }
+        ]
+      },
+      {
+        "AbilityDefID": "AbilityDefCMD_Strafe_AI",
+        "FactionIDs": [
+          "ComStar3031"
+        ],
+        "AddChance": -0.2,
+        "DiffMod": 0.02,
+        "MaxUsersAddedPerContract": 2,
+        "AvailableBeacons": [
+          {
+            "UnitDefID": "vehicledef_LIGHTNING_AERO",
+            "Weight": 2,
+            "StrafeWaves": 3
+          },
+          {
+            "UnitDefID": "vehicledef_STINGRAY_AERO",
+            "Weight": 1,
+            "StrafeWaves": 3
+          },
+          {
+            "UnitDefID": "vehicledef_IRONSIDES_AERO",
+            "Weight": 1,
+            "StrafeWaves": 3
+          },
+          {
+            "UnitDefID": "vehicledef_GOTHA_AERO",
+            "Weight": 2,
+            "StrafeWaves": 3
+          },
+          {
+            "UnitDefID": "vehicledef_HELLCAT_II_214_AERO",
+            "Weight": 1,
+            "StrafeWaves": 3
+          },
+          {
+            "UnitDefID": "vehicledef_HELLCAT_II_213B_AERO",
             "Weight": 1,
             "StrafeWaves": 3
           }
@@ -731,6 +823,8 @@
       {
         "AbilityDefID": "AbilityDefCMD_Strafe_AI",
         "FactionIDs": [
+          "Ives3031",
+          "Liao3031",
           "TikonovFreeRepublic"
         ],
         "AddChance": -0.2,
@@ -1084,6 +1178,52 @@
       {
         "AbilityDefID": "AbilityDefCMD_Strafe_AI",
         "FactionIDs": [
+          "Kurita3031"
+        ],
+        "AddChance": -0.2,
+        "DiffMod": 0.02,
+        "MaxUsersAddedPerContract": 2,
+        "AvailableBeacons": [
+          {
+            "UnitDefID": "vehicledef_SHILONE_AERO",
+            "Weight": 3,
+            "StrafeWaves": 3
+          },
+          {
+            "UnitDefID": "vehicledef_SHILONE_AC_AERO",
+            "Weight": 2,
+            "StrafeWaves": 3
+          },
+          {
+            "UnitDefID": "vehicledef_LIGHTNING_AERO",
+            "Weight": 1,
+            "StrafeWaves": 3
+          },
+          {
+            "UnitDefID": "vehicledef_CORSAIR_AERO",
+            "Weight": 1,
+            "StrafeWaves": 3
+          },
+          {
+            "UnitDefID": "vehicledef_SAMURAI_AERO",
+            "Weight": 2,
+            "StrafeWaves": 3
+          },
+          {
+            "UnitDefID": "vehicledef_LUCIFER_AERO",
+            "Weight": 1,
+            "StrafeWaves": 3
+          },
+          {
+            "UnitDefID": "vehicledef_LUCIFER_R16K_AERO",
+            "Weight": 1,
+            "StrafeWaves": 3
+          }
+        ]
+      },
+      {
+        "AbilityDefID": "AbilityDefCMD_Strafe_AI",
+        "FactionIDs": [
           "Kurita"
         ],
         "AddChance": -0.2,
@@ -1138,6 +1278,52 @@
           {
             "UnitDefID": "vehicledef_LUCIFER_R16KR_AERO",
             "Weight": 1,
+            "StrafeWaves": 3
+          },
+          {
+            "UnitDefID": "vehicledef_LUCIFER_R16K_AERO",
+            "Weight": 1,
+            "StrafeWaves": 3
+          }
+        ]
+      },
+      {
+        "AbilityDefID": "AbilityDefCMD_Strafe_AI",
+        "FactionIDs": [
+          "Rasalhague3034"
+        ],
+        "AddChance": -0.2,
+        "DiffMod": 0.02,
+        "MaxUsersAddedPerContract": 2,
+        "AvailableBeacons": [
+          {
+            "UnitDefID": "vehicledef_SHILONE_AERO",
+            "Weight": 2,
+            "StrafeWaves": 3
+          },
+          {
+            "UnitDefID": "vehicledef_SHILONE_AC_AERO",
+            "Weight": 2,
+            "StrafeWaves": 3
+          },
+          {
+            "UnitDefID": "vehicledef_LIGHTNING_AERO",
+            "Weight": 2,
+            "StrafeWaves": 3
+          },
+          {
+            "UnitDefID": "vehicledef_CORSAIR_AERO",
+            "Weight": 1,
+            "StrafeWaves": 3
+          },
+          {
+            "UnitDefID": "vehicledef_LUCIFER_AERO",
+            "Weight": 1,
+            "StrafeWaves": 3
+          },
+          {
+            "UnitDefID": "vehicledef_SAMURAI_AERO",
+            "Weight": 2,
             "StrafeWaves": 3
           },
           {
@@ -1272,6 +1458,15 @@
       {
         "AbilityDefID": "AbilityDefCMD_Strafe_AI",
         "FactionIDs": [
+          "Illyrian3031",
+          "Lothian3031",
+          "MagistracyOfCanopus3031",
+          "Marian3031",
+          "Oberon3031",
+          "Outworld3031",
+          "TaurianConcordat3031",
+          "Tortuga3031",
+          "Valkyrate3031",
           "TaurianConcordat",
           "CalderonProtectorate",
           "MagistracyOfCanopus",
@@ -10051,8 +10246,8 @@
       "ThreeWayBattle_PositionalBearing"
     ],
     "BeaconExclusionConfig": {
-      "DuoDuel": { },
-      "SoloDuel": { },
+      "DuoDuel": {},
+      "SoloDuel": {},
       "DefendBase": {
         "ExcludedPlayerSpawn": false,
         "ExcludedPlayerStrafe": false,
@@ -10071,63 +10266,63 @@
         "ExcludedAISpawn": false,
         "ExcludedAIStrafe": false
       },
-      "solaris_assault_4x4battle_mech_2": { },
-      "solaris_assault_4x4battle_mech_5": { },
-      "solaris_assault_4x4battle_mech_8": { },
-      "solaris_assault_4x4ctf_mech_2": { },
-      "solaris_assault_4x4ctf_mech_5": { },
-      "solaris_assault_4x4ctf_mech_8": { },
-      "solaris_assault_4x4freeforall_mech_2": { },
-      "solaris_assault_4x4freeforall_mech_5": { },
-      "solaris_assault_4x4freeforall_mech_8": { },
-      "solaris_heavy_4x4battle_mech_2": { },
-      "solaris_heavy_4x4battle_mech_5": { },
-      "solaris_heavy_4x4battle_mech_8": { },
-      "solaris_heavy_4x4ctf_mech_2": { },
-      "solaris_heavy_4x4ctf_mech_5": { },
-      "solaris_heavy_4x4ctf_mech_8": { },
-      "solaris_heavy_4x4freeforall_mech_2": { },
-      "solaris_heavy_4x4freeforall_mech_5": { },
-      "solaris_heavy_4x4freeforall_mech_8": { },
-      "solaris_light_4x4battle_mech_2": { },
-      "solaris_light_4x4battle_mech_5": { },
-      "solaris_light_4x4battle_mech_8": { },
-      "solaris_light_4x4ctf_mech_2": { },
-      "solaris_light_4x4ctf_mech_5": { },
-      "solaris_light_4x4ctf_mech_8": { },
-      "solaris_light_4x4freeforall_mech_2": { },
-      "solaris_light_4x4freeforall_mech_5": { },
-      "solaris_light_4x4freeforall_mech_8": { },
-      "solaris_medium_4x4battle_mech_2": { },
-      "solaris_medium_4x4battle_mech_5": { },
-      "solaris_medium_4x4battle_mech_8": { },
-      "solaris_medium_4x4ctf_mech_2": { },
-      "solaris_medium_4x4ctf_mech_5": { },
-      "solaris_medium_4x4ctf_mech_8": { },
-      "solaris_medium_4x4freeforall_mech_2": { },
-      "solaris_medium_4x4freeforall_mech_5": { },
-      "solaris_medium_4x4freeforall_mech_8": { },
-      "solaris_offseason_4x4battle_mech_2": { },
-      "solaris_offseason_4x4battle_mech_5": { },
-      "solaris_offseason_4x4battle_mech_8": { },
-      "solaris_offseason_4x4ctf_mech_2": { },
-      "solaris_offseason_4x4ctf_mech_5": { },
-      "solaris_offseason_4x4ctf_mech_8": { },
-      "solaris_offseason_4x4freeforall_mech_2": { },
-      "solaris_offseason_4x4freeforall_mech_5": { },
-      "solaris_offseason_4x4freeforall_mech_8": { },
+      "solaris_assault_4x4battle_mech_2": {},
+      "solaris_assault_4x4battle_mech_5": {},
+      "solaris_assault_4x4battle_mech_8": {},
+      "solaris_assault_4x4ctf_mech_2": {},
+      "solaris_assault_4x4ctf_mech_5": {},
+      "solaris_assault_4x4ctf_mech_8": {},
+      "solaris_assault_4x4freeforall_mech_2": {},
+      "solaris_assault_4x4freeforall_mech_5": {},
+      "solaris_assault_4x4freeforall_mech_8": {},
+      "solaris_heavy_4x4battle_mech_2": {},
+      "solaris_heavy_4x4battle_mech_5": {},
+      "solaris_heavy_4x4battle_mech_8": {},
+      "solaris_heavy_4x4ctf_mech_2": {},
+      "solaris_heavy_4x4ctf_mech_5": {},
+      "solaris_heavy_4x4ctf_mech_8": {},
+      "solaris_heavy_4x4freeforall_mech_2": {},
+      "solaris_heavy_4x4freeforall_mech_5": {},
+      "solaris_heavy_4x4freeforall_mech_8": {},
+      "solaris_light_4x4battle_mech_2": {},
+      "solaris_light_4x4battle_mech_5": {},
+      "solaris_light_4x4battle_mech_8": {},
+      "solaris_light_4x4ctf_mech_2": {},
+      "solaris_light_4x4ctf_mech_5": {},
+      "solaris_light_4x4ctf_mech_8": {},
+      "solaris_light_4x4freeforall_mech_2": {},
+      "solaris_light_4x4freeforall_mech_5": {},
+      "solaris_light_4x4freeforall_mech_8": {},
+      "solaris_medium_4x4battle_mech_2": {},
+      "solaris_medium_4x4battle_mech_5": {},
+      "solaris_medium_4x4battle_mech_8": {},
+      "solaris_medium_4x4ctf_mech_2": {},
+      "solaris_medium_4x4ctf_mech_5": {},
+      "solaris_medium_4x4ctf_mech_8": {},
+      "solaris_medium_4x4freeforall_mech_2": {},
+      "solaris_medium_4x4freeforall_mech_5": {},
+      "solaris_medium_4x4freeforall_mech_8": {},
+      "solaris_offseason_4x4battle_mech_2": {},
+      "solaris_offseason_4x4battle_mech_5": {},
+      "solaris_offseason_4x4battle_mech_8": {},
+      "solaris_offseason_4x4ctf_mech_2": {},
+      "solaris_offseason_4x4ctf_mech_5": {},
+      "solaris_offseason_4x4ctf_mech_8": {},
+      "solaris_offseason_4x4freeforall_mech_2": {},
+      "solaris_offseason_4x4freeforall_mech_5": {},
+      "solaris_offseason_4x4freeforall_mech_8": {},
       "Assassinate_OverlordFight": {
         "ExcludedPlayerSpawn": false,
         "ExcludedPlayerStrafe": true,
         "ExcludedAISpawn": false,
         "ExcludedAIStrafe": false
       },
-      "solaris_offseason_8x8battle_mech_2": { },
-      "solaris_offseason_8x8battle_mech_5": { },
-      "solaris_offseason_8x8battle_mech_8": { },
-      "solaris_offseason_8x8ctf_mech_2": { },
-      "solaris_offseason_8x8ctf_mech_5": { },
-      "solaris_offseason_8x8ctf_mech_8": { }
+      "solaris_offseason_8x8battle_mech_2": {},
+      "solaris_offseason_8x8battle_mech_5": {},
+      "solaris_offseason_8x8battle_mech_8": {},
+      "solaris_offseason_8x8ctf_mech_2": {},
+      "solaris_offseason_8x8ctf_mech_5": {},
+      "solaris_offseason_8x8ctf_mech_8": {}
     },
     "DisableGarrisons": false,
     "GarrisonBuildingArmorFactor": 0.5,
