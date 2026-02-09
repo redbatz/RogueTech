@@ -11,8 +11,8 @@
   "missionSuccessStatementOverride": null,
   "badFaithStatementOverride": null,
   "goodFaithStatementOverride": null,
-  "shortDescription": "Long-range sensors have detected a formation of BattleMechs moving through the remote terrain of <i>Melidron</i>. Their formation pattern, thermal profiles, and signal behavior match those of the advanced modified designs first observed during earlier encounters—machines believed to be connected to the long since Annihilated Clan Wolverine.\n\nThese are not relics. These are active combat units—modernized, field-tested, and hidden behind silence.\n\nEngagement is authorized. The objective is not complete destruction, but recovery—of data, wreckage, or any identifying components. Transmission must be prevented at all costs. If these units withdraw intact, another chance may not come again.\n\nThey have erased their history and masked their movements. But now, the updated Wolverine-born designs have been seen in the open. They must be forced to leave something behind.",
-  "longDescription": "Those are the same kind of 'Mechs we saw back at the start—reforged Wolverines, no doubt. If we’re finally seeing them out in the open, this isn’t just a lucky break. It’s a test. Let’s not fail it.",
+  "shortDescription": "Long-range sensors have detected a formation of BattleMechs moving through the remote terrain of <i>Melidron</i>. Their formation pattern, thermal profiles, and signal behavior match those of the advanced modified designs first observed during earlier encounters. Machines believed to be connected to the long since Annihilated Clan Wolverine.\n\nThese are not relics. These are active combat units. Modernized, field-tested, and hidden behind silence.\n\nEngagement is authorized. The objective is not complete destruction, but recovery of data, wreckage, or any identifying components. Transmission must be prevented at all costs. If these units withdraw intact, another chance may not come again.\n\nThey have erased their history and masked their movements. But now, the updated Wolverine-born designs have been seen in the open. They must be forced to leave something behind.",
+  "longDescription": "Those are the same kind of 'Mechs we saw back at the start. Reforged Wolverines, no doubt. If we're finally seeing them out in the open, this isn't just a lucky break. It's a test. Let's not fail it.",
   "salvagePotential": 8,
   "requirementList": [
     {
@@ -185,7 +185,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "Coming in low—visual contact confirmed. Multiple hostiles on the ridgeline. And… yeah, some of those chassis are the same refitted types we’ve been tracking.",
+          "words": "Coming in low. Visual contact confirmed. Multiple hostiles on the ridgeline. And… yeah, some of those chassis are the same refitted types we've been tracking.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -201,7 +201,7 @@
           "revealRadius": -1
         },
         {
-          "words": "I’m reading weapon profiles I don’t recognize. Energy spikes are off-pattern. These aren’t standard loadouts",
+          "words": "I'm reading weapon profiles I don't recognize. Energy spikes are off-pattern. These aren't standard loadouts",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -217,7 +217,7 @@
           "revealRadius": -1
         },
         {
-          "words": "Great. First they bring back the Wolverines, now they’re arming them with mystery tech. That’s just what we need.",
+          "words": "Great. First they bring back the Wolverines, now they're arming them with mystery tech. That's just what we need.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -233,7 +233,7 @@
           "revealRadius": -1
         },
         {
-          "words": "Stay sharp. If we don’t know what they’re packing, we treat everything like it bites hard.",
+          "words": "Stay sharp. If we don't know what they're packing, we treat everything like it bites hard.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -249,7 +249,7 @@
           "revealRadius": -1
         },
         {
-          "words": "Copy that. Unknown weapons, unknown rules. Let’s not be the ones writing the cautionary tale today.",
+          "words": "Copy that. Unknown weapons, unknown rules. Let's not be the ones writing the cautionary tale today.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -274,7 +274,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "Mission’s a success. We got what we came for—and more. Those weapons they used were like nothing I’ve seen before. With any luck, Jorgensson’s techs can pull something useful from the wreckage.",
+          "words": "Mission's a success. We got what we came for, and more. Those weapons they used were like nothing I've seen before. With any luck, Jorgensson's techs can pull something useful from the wreckage.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -299,7 +299,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "That was a disaster. We didn’t just lose—we got dismantled. Whatever those things were firing, we weren’t even close to ready for it. No salvage, no leads… just wreckage and regret.",
+          "words": "That was a disaster. We didn't just lose, we got dismantled. Whatever those things were firing, we weren't even close to ready for it. No salvage, no leads… just wreckage and regret.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -324,7 +324,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "Hold up—new signals just lit up on the far ridge! Multiple fast movers closing in. It’s an ambush—get ready!",
+          "words": "Hold up! New signals just lit up on the far ridge! Multiple fast movers closing in. It's an ambush, get ready!",
           "wordsColor": {
             "r": 1,
             "g": 1,

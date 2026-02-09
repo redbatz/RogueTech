@@ -11,8 +11,8 @@
   "missionSuccessStatementOverride": null,
   "badFaithStatementOverride": null,
   "goodFaithStatementOverride": null,
-  "shortDescription": "Commander {COMMANDER.Callsign},\n\nA target of interest is currently moving through a low-traffic sector under minimal escort. This presents a rare window to eliminate it before it reaches secure territory. Your mission is to intercept and destroy the convoy—swiftly, quietly, and without attracting unnecessary attention.\n\nBe advised: rapid-response forces are stationed nearby. A drop too large will trigger an immediate alarm. This operation demands precision—deploy only a small, fast strike group, neutralize the targets, and extract before reinforcements mobilize.\n\nThere will be no questions, no debrief, and no salvage rights—none. Compensation will be delivered via direct C-bill transfer outside standard MRBC channels. You will receive <b>three million</b> c-bills total, a sum that includes a significant bonus in return for your discretion in not reporting this operation through official channels.\n\nThis is a closed-loop assignment. Accept. Execute. Move on.\n\n-Mizuki Bekker\n\n<color=red>Contract Restrictions: Maximum of 4 units and 280 total tons. No individual unit may exceed 70 tons.</color>",
-  "longDescription": "Commander, this contract reeks—no salvage, payment outside the system, limited forces, and vague targets. Something’s definitely off. But the payout? It’s well above standard. We might be walking into a trap, or something bigger. Still, with that kind of money, it’s hard to say no. Proceed cautiously.",
+  "shortDescription": "Commander {COMMANDER.Callsign},\n\nA target of interest is currently moving through a low-traffic sector under minimal escort. This presents a rare window to eliminate it before it reaches secure territory. Your mission is to intercept and destroy the convoy. Swiftly, quietly, and without attracting unnecessary attention.\n\nBe advised: rapid-response forces are stationed nearby. A drop too large will trigger an immediate alarm. This operation demands precision. Deploy only a small, fast strike group, neutralize the targets, and extract before reinforcements mobilize.\n\nThere will be no questions, no debrief, and no salvage rights. None. Compensation will be delivered via direct C-bill transfer outside standard MRBC channels. You will receive <b>three million</b> c-bills total, a sum that includes a significant bonus in return for your discretion in not reporting this operation through official channels.\n\nThis is a closed-loop assignment. Accept. Execute. Move on.\n\n-Mizuki Bekker\n\n<color=red>Contract Restrictions: Maximum of 4 units and 280 total tons. No individual unit may exceed 70 tons.</color>",
+  "longDescription": "Commander, this contract reeks. No salvage, payment outside the system, limited forces, and vague targets. Something's definitely off. But the payout? It's well above standard. We might be walking into a trap, or something bigger. Still, with that kind of money, it's hard to say no. Proceed cautiously.",
   "salvagePotential": 0,
   "requirementList": [],
   "OnContractSuccessResults": [
@@ -202,7 +202,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "Uh... Commander, we’ve got another dropship on approach—close. Just set down a lance maybe a klick out. Not hostile. Not talking either.",
+          "words": "Uh... Commander, we've got another dropship on approach. Close. Just set down a lance maybe a klick out. Not hostile. Not talking either.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -218,7 +218,7 @@
           "revealRadius": -1
         },
         {
-          "words": "What? That wasn’t in the op briefing. Are they local security? Mercs?",
+          "words": "What? That wasn't in the op briefing. Are they local security? Mercs?",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -250,7 +250,7 @@
           "revealRadius": -1
         },
         {
-          "words": "I’m pulling sensor data now. Their mechs... it’s Clan-era tech, no doubt—but odd. Configurations don’t match any known TO&E I’ve seen. Some SLDF components too, but modified. Like someone’s been tinkering with relics they shouldn’t have.",
+          "words": "I'm pulling sensor data now. Their mechs... it's Clan-era tech, no doubt, but odd. Configurations don't match any known TO&E I've seen. Some SLDF components too, but modified. Like someone's been tinkering with relics they shouldn't have.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -266,7 +266,7 @@
           "revealRadius": -1
         },
         {
-          "words": "Yeah, I’m seein’ ‘em on the feed. That ain't right. Those machines look like ghosts—half Star League, half Clan, and all wrong. Gives me the damn chills.",
+          "words": "Yeah, I'm seein' 'em on the feed. That ain't right. Those machines look like ghosts. Half Star League, half Clan, and all wrong. Gives me the damn chills.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -282,7 +282,7 @@
           "revealRadius": -1
         },
         {
-          "words": "If they’re not hostile, they’re probably friendly… but I don’t like being surprised mid-drop. Stay sharp.",
+          "words": "If they're not hostile, they're probably friendly… but I don't like being surprised mid-drop. Stay sharp.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -298,7 +298,7 @@
           "revealRadius": -1
         },
         {
-          "words": "No kidding. I’ll keep an eye on them. If they twitch wrong, we’ll know before they blink.",
+          "words": "No kidding. I'll keep an eye on them. If they twitch wrong, we'll know before they blink.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -323,7 +323,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "Heads up, Commander—our \"friends\" are sweeping the wreckage. They’re torching everything they’re not taking. No comms, just moving fast.",
+          "words": "Heads up, Commander. Our \"friends\" are sweeping the wreckage. They're torching everything they're not taking. No comms, just moving fast.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -371,7 +371,7 @@
           "revealRadius": -1
         },
         {
-          "words": "Whoever they are—they planned this down to the second. We were just one more moving part.",
+          "words": "Whoever they are, they planned this down to the second. We were just one more moving part.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -387,7 +387,7 @@
           "revealRadius": -1
         },
         {
-          "words": "Let’s hope that’s the end of it. No more mystery jobs, no more ghost lances... but I’ve got a bad feeling we’re not done yet.",
+          "words": "Let's hope that's the end of it. No more mystery jobs, no more ghost lances... but I've got a bad feeling we're not done yet.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -412,7 +412,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "Damn it—this op was a mess from the start. No comms from our so-called allies, no coordination, just silence. Hard to pull off a clean mission when half the team won’t even talk. We never had a real chance.",
+          "words": "Damn it. This op was a mess from the start. No comms from our so-called allies, no coordination, just silence. Hard to pull off a clean mission when half the team won't even talk. We never had a real chance.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -437,7 +437,7 @@
       "overrideDialogueBucketId": null,
       "dialogueContent": [
         {
-          "words": "Alright, we’ve got eyes on the convoy. If everything goes to plan, this should be in and out—clean and fast. Just once, I’d like one of these shady gigs to actually go smooth. Fingers crossed.",
+          "words": "Alright, we've got eyes on the convoy. If everything goes to plan, this should be in and out. Clean and fast. Just once, I'd like one of these shady gigs to actually go smooth. Fingers crossed.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -462,7 +462,7 @@
       "overrideDialogueBucketId": null,
       "dialogueContent": [
         {
-          "words": "There it is—first shot’s landed. Let’s keep it tight and quiet, don’t want those reinforcements showing up early.",
+          "words": "There it is! First shot's landed. Let's keep it tight and quiet, don't want those reinforcements showing up early.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -487,7 +487,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "Escorts are down. Smooth work, team. Let’s keep this momentum—but stay alert.",
+          "words": "Escorts are down. Smooth work, team. Let's keep this momentum, but stay alert.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -512,7 +512,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "They’re trying to pull out fast—no time to waste. Cut them off now, and don’t let them slip away!",
+          "words": "They're trying to pull out fast! No time to waste. Cut them off now, and don't let them slip away!",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -537,7 +537,7 @@
       "overrideDialogueBucketId": null,
       "dialogueContent": [
         {
-          "words": "Good work, Commander. First target down—let’s keep the pressure on and finish this clean.",
+          "words": "Good work, Commander. First target down. Let's keep the pressure on and finish this clean.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -562,7 +562,7 @@
       "overrideDialogueBucketId": null,
       "dialogueContent": [
         {
-          "words": "All convoy targets are down. Let’s wrap this up and get out clean.",
+          "words": "All convoy targets are down. Let's wrap this up and get out clean.",
           "wordsColor": {
             "r": 1,
             "g": 1,

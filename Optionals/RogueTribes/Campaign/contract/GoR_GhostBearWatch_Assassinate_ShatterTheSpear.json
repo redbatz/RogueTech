@@ -11,8 +11,8 @@
   "missionSuccessStatementOverride": null,
   "badFaithStatementOverride": null,
   "goodFaithStatementOverride": null,
-  "shortDescription": "Intelligence recovered from intercepted Tribe communications has confirmed the presence of <i>Red Snow</i>—the elusive tactical commander responsible for orchestrating the Tribe’s precision strikes across multiple regions. His command style is decentralized, but surgical—he’s been the architect behind most of their recent raids, including the vault incursion.\n\nAccording to Ghost Bear Watch analysis, Red Snow is personally overseeing the fallback operation following the failed assault on <i>Dunianshire VI</i>. He’s expected to maintain position at a forward logistics post to monitor retreat routes, with a dedicated escort detail.\n\nThis is a rare opportunity. Eliminating Red Snow will degrade the Tribe’s ability to coordinate rapid strike operations and may expose the broader structure behind their strategic planning.\n\nExpect fallback paths, mobile escorts, and the possibility of withdrawal maneuvers. If the target attempts escape, stop him at all costs.",
-  "longDescription": "Red Snow’s the sharpest blade in their kit. Take him off the board, and the whole Tribe offensive might lose its rhythm. We won’t get this shot twice.",
+  "shortDescription": "Intelligence recovered from intercepted Tribe communications has confirmed the presence of <i>Red Snow</i>, the elusive tactical commander responsible for orchestrating the Tribe's precision strikes across multiple regions. His command style is decentralized but surgical. He has been the architect behind most of their recent raids, including the vault incursion.\n\nAccording to Ghost Bear Watch analysis, Red Snow is personally overseeing the fallback operation following the failed assault on <i>Dunianshire VI</i>. He's expected to maintain position at a forward logistics post to monitor retreat routes, with a dedicated escort detail.\n\nThis is a rare opportunity. Eliminating Red Snow will degrade the Tribe's ability to coordinate rapid strike operations and may expose the broader structure behind their strategic planning.\n\nExpect fallback paths, mobile escorts, and the possibility of withdrawal maneuvers. If the target attempts escape, stop him at all costs.",
+  "longDescription": "Red Snow's the sharpest blade in their kit. Take him off the board, and the whole Tribe offensive might lose its rhythm. We won't get this shot twice.",
   "salvagePotential": 16,
   "requirementList": [  ],
   "OnContractSuccessResults": [],
@@ -41,7 +41,7 @@
         "EncounterObjectGuid": "edafecaf-4d24-4304-98b1-9e645898c6ee"
       },
       "title": "Eliminate Red Snow and Escape",
-      "description": "Eliminate Red Snow, clear area of additional forces Enemies, and Escape",
+      "description": "Eliminate Red Snow, clear area of additional forces, and Escape",
       "isPrimary": true,
       "forPlayer": "Player1",
       "objectiveGuids": [
@@ -260,7 +260,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "Target location is locked in. No sign of active jamming, but expect trouble—this guy doesn’t move without layers of misdirection.",
+          "words": "Target location is locked in. No sign of active jamming, but expect trouble. This guy doesn't move without layers of misdirection.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -276,7 +276,7 @@
           "revealRadius": -1
         },
         {
-          "words": "Red Snow doesn’t field rank-and-file. He’s got elite scouts, fallback paths, and probably a few dirty tricks waiting. We need to keep eyes sharp.",
+          "words": "Red Snow doesn't field rank-and-file. He's got elite scouts, fallback paths, and probably a few dirty tricks waiting. We need to keep eyes sharp.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -292,7 +292,7 @@
           "revealRadius": -1
         },
         {
-          "words": "If he’s anything like his transmissions suggest, he won’t wait around for us to line up the shot. Get in, cut him down fast, and be ready for pursuit protocols.",
+          "words": "If he's anything like his transmissions suggest, he won't wait around for us to line up the shot. Get in, cut him down fast, and be ready for pursuit protocols.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -308,7 +308,7 @@
           "revealRadius": -1
         },
         {
-          "words": "Wouldn’t be surprised if his ride’s already warmed up. Don’t waste time with the grunts—drop Red Snow, and we call it.",
+          "words": "Wouldn't be surprised if his ride's already warmed up. Don't waste time with the grunts. Just drop Red Snow, and we call it.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -324,7 +324,7 @@
           "revealRadius": -1
         },
         {
-          "words": "We’re here to sever their command chain. No speeches, no mercy. Move out.",
+          "words": "We're here to sever their command chain. No speeches, no mercy. Move out.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -349,7 +349,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "Target eliminated. That’s going to sting. Their next strike just lost its mastermind.",
+          "words": "Target eliminated. That's going to sting. Their next strike just lost its mastermind.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -374,7 +374,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "Mission’s burned. We walked into his playbook and paid for it. That bastard’s still breathing.",
+          "words": "Mission's burned. We walked into his playbook and paid for it. That bastard's still breathing.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -399,7 +399,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "Target’s down—clean kill confirmed. That was the keystone. Let’s not linger for the rubble to fall.",
+          "words": "Target's down. Clean kill confirmed. That was the keystone. Let's not linger for the rubble to fall.",
           "wordsColor": {
             "r": 1,
             "g": 1,

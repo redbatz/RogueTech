@@ -11,8 +11,8 @@
   "missionSuccessStatementOverride": null,
   "badFaithStatementOverride": null,
   "goodFaithStatementOverride": null,
-  "shortDescription": "Ghost Bear analysts have confirmed that Minnesota Tribe forces recently raided an abandoned Star League-era weather research station on <i>Cygnus III</i>. That facility contained experimental ECM prototypes designed to function under intense atmospheric interference—specifically calibrated for the electromagnetic storm conditions on this world.\n\nNow the Tribe is attempting to extract those systems off-world.\n\nIntelligence assets have flagged a mobile convoy—medium vehicles and escort 'Mechs—transporting the stolen hardware toward a remote launch point. You are to intercept and destroy the convoy before it reaches orbit.\n\nIf this technology is recovered, the Tribe could mask future operations from standard monitoring protocols. This cannot be allowed.",
-  "longDescription": "Advanced ECM that works during lightning storms? That’s a nightmare scenario. Cut the convoy down before they slip the net and vanish behind sensor static.",
+  "shortDescription": "Ghost Bear analysts have confirmed that Minnesota Tribe forces recently raided an abandoned Star League-era weather research station on <i>Cygnus III</i>. That facility contained experimental ECM prototypes designed to function under intense atmospheric interference, specifically calibrated for the electromagnetic storm conditions on this world.\n\nNow the Tribe is attempting to extract those systems off-world.\n\nIntelligence assets have flagged a mobile convoy of medium vehicles and escort 'Mechs transporting the stolen hardware toward a remote launch point. You are to intercept and destroy the convoy before it reaches orbit.\n\nIf this technology is recovered, the Tribe could mask future operations from standard monitoring protocols. This cannot be allowed.",
+  "longDescription": "Advanced ECM that works during lightning storms? That's a nightmare scenario. Cut the convoy down before they slip the net and vanish behind sensor static.",
   "salvagePotential": 16,
   "requirementList": [],
   "OnContractSuccessResults": [],
@@ -283,7 +283,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "Convoy’s running silent, but I’ve got faint engine traces—definitely mobile. Looks like they’re trying to sneak out under storm cover.",
+          "words": "Convoy's running silent, but I've got faint engine traces. Definitely mobile. Looks like they're trying to sneak out under storm cover.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -299,7 +299,7 @@
           "revealRadius": -1
         },
         {
-          "words": "Signals are spiking. Whatever they’re carrying is throwing off interference—probably those ECM cores.",
+          "words": "Signals are spiking. Whatever they're carrying is throwing off interference. Probably those ECM cores.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -315,7 +315,7 @@
           "revealRadius": -1
         },
         {
-          "words": "You know the drill—intercept, destroy, confirm. No survivors, no salvage. That gear doesn’t make it off-world.",
+          "words": "You know the drill. Intercept, destroy, confirm. No survivors, no salvage. That gear doesn't make it off-world.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -340,7 +340,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "Convoy’s wrecked. Whatever tech they stole, it’s not leaving this planet.",
+          "words": "Convoy's wrecked. Whatever tech they stole, it's not leaving this planet.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -381,7 +381,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "They slipped the noose. That tech’s gone—and we’ll be chasing its signal across half the sector.",
+          "words": "They slipped the noose. That tech's gone, and we'll be chasing its signal across half the sector.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -406,7 +406,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "Eyes on target—convoy confirmed. Five vehicles, moving fast through that ridge valley.",
+          "words": "Eyes on target. Convoy confirmed. Five vehicles, moving fast through that ridge valley.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -431,7 +431,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "Good hit! Crack a few more like that and we’ll be scooping ECM off the rocks.",
+          "words": "Good hit! Crack a few more like that and we'll be scooping ECM off the rocks.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -456,7 +456,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "That’s the last of the defenders. Escorts wiped.",
+          "words": "That's the last of the defenders. Escorts wiped.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -481,7 +481,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "One’s getting close to the evac zone—cut it off now or we lose it!",
+          "words": "One's getting close to the evac zone! Cut it off now or we lose it!",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -556,7 +556,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "Sensors just lit up—new heat signatures inbound. Looks like they called in backup!",
+          "words": "Sensors just lit up! New heat signatures inbound. Looks like they called in backup!",
           "wordsColor": {
             "r": 1,
             "g": 1,

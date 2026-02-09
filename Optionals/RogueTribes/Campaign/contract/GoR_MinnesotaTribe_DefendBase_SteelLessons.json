@@ -11,8 +11,8 @@
   "missionSuccessStatementOverride": null,
   "badFaithStatementOverride": null,
   "goodFaithStatementOverride": null,
-  "shortDescription": "The Minnesota Tribe’s principal training compound on <i>Rim Worlds Republic Outpost #11</i> has come under direct assault by Ghost Bear forces. This facility is responsible for preparing the Tribe’s seasoned MechWarriors for frontline deployment across the periphery.\n\nGhost Bear strategists have likely determined that crippling this center of discipline and doctrine will stall the Tribe’s military readiness. Their attack will be swift, concentrated, and unrelenting.\n\nYour mission is to defend the compound at all costs. Expect organized Watch lances, supported by heavy elements and potentially long-range artillery. No evacuation is planned—failure here would be a critical blow to the Tribe’s war effort.",
-  "longDescription": "They’re not hitting some backwater post. This is one of the Tribe’s real teeth—and Ghost Bear wants it broken.",
+  "shortDescription": "The Minnesota Tribe's principal training compound on <i>Rim Worlds Republic Outpost #11</i> has come under direct assault by Ghost Bear forces. This facility is responsible for preparing the Tribe's seasoned MechWarriors for frontline deployment across the periphery.\n\nGhost Bear strategists have likely determined that crippling this center of discipline and doctrine will stall the Tribe's military readiness. Their attack will be swift, concentrated, and unrelenting.\n\nYour mission is to defend the compound at all costs. Expect organized Watch lances, supported by heavy elements and potentially long-range artillery. No evacuation is planned. Failure here would be a critical blow to the Tribe's war effort.",
+  "longDescription": "They're not hitting some backwater post. This is one of the Tribe's real teeth, and Ghost Bear wants it broken.",
   "salvagePotential": 12,
   "requirementList": [],
   "OnContractSuccessResults": [
@@ -464,7 +464,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "Ghost Bear contacts closing fast. Facility’s already powering up its defense grids. They’re ready—we’d better be too.",
+          "words": "Ghost Bear contacts closing fast. Facility's already powering up its defense grids. They're ready, so we'd better be too.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -489,7 +489,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "Target force neutralized. Facility’s intact, and the Tribe's veterans just got their next orders. That’s how you hold ground.",
+          "words": "Target force neutralized. Facility's intact, and the Tribe's veterans just got their next orders. That's how you hold ground.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -514,7 +514,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "Training compound’s overrun. That’s a major loss... and Ghost Bear knows it.",
+          "words": "Training compound's overrun. That's a major loss... and Ghost Bear knows it.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -539,7 +539,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "Control linked! Turrets are coming online now—brace for automatic targeting!",
+          "words": "Control linked! Turrets are coming online now. Brace for automatic targeting!",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -555,7 +555,7 @@
           "revealRadius": -1
         },
         {
-          "words": "Confirmed. Power spike and heat buildup—turrets are green!",
+          "words": "Confirmed. Power spike and heat buildup, turrets are green!",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -571,7 +571,7 @@
           "revealRadius": -1
         },
         {
-          "words": "Finally. Time to let the base pull its weight.”",
+          "words": "Finally. Time to let the base pull its weight.\"",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -596,7 +596,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "New sensor spikes—east quadrant. Looks like a second Ghost Bear wave.",
+          "words": "New sensor spikes, east quadrant. Looks like a second Ghost Bear wave.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -646,7 +646,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "One of the primary sims just went up. That's irreplaceable hardware—damn it!",
+          "words": "One of the primary sims just went up. That's irreplaceable hardware. Damn it!",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -671,7 +671,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "That’s the last structure still standing. If it falls, we’re done here.",
+          "words": "That's the last structure still standing. If it falls, we're done here.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -696,7 +696,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "Friendly IFF tags incoming! Tribe reinforcements—looks like we won’t be standing alone for much longer.",
+          "words": "Friendly IFF tags incoming! Tribe reinforcements are here. Looks like we won't be standing alone for much longer.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -721,7 +721,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "Turret control stations are offline. We’re moving in now—keep us covered or they stay dead!",
+          "words": "Turret control stations are offline. We're moving in now, so keep us covered or they stay dead!",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -737,7 +737,7 @@
           "revealRadius": -1
         },
         {
-          "words": "You heard them. Guard those techs like your life depends on it—because it might.",
+          "words": "You heard them. Guard those techs like your life depends on it, because it might.",
           "wordsColor": {
             "r": 1,
             "g": 1,

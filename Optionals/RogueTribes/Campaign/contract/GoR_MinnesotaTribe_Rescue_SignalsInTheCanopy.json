@@ -11,8 +11,8 @@
   "missionSuccessStatementOverride": null,
   "badFaithStatementOverride": null,
   "goodFaithStatementOverride": null,
-  "shortDescription": "A scout team dispatched to the northern jungles of <i>Horgens</i> has gone dark. Their objective was twofold: assess terrain viability for future Tribe expansion and retrieve key schematics from a remote data relay. Their last transmission confirmed contact with Ghost Bear Watch forces before cutting out.\n\nSensor triangulation has narrowed down their likely position. It is believed they are still alive and evading capture. The unit must locate the scout team, secure their data package, and extract them safely before Watch troops close in.\n\nFailure to recover the scouts would mean the loss of valuable intelligence concerning the Tribe’s forward command infrastructure on <i>Horgens</i>.",
-  "longDescription": "Scout unit went dark, and now we’re the rescue detail. Not ideal terrain for a clean op, but if they’re still breathing, we better get them out.",
+  "shortDescription": "A scout team dispatched to the northern jungles of <i>Horgens</i> has gone dark. Their objective was twofold. Assess terrain viability for future Tribe expansion and retrieve key schematics from a remote data relay. Their last transmission confirmed contact with Ghost Bear Watch forces before cutting out.\n\nSensor triangulation has narrowed down their likely position. It is believed they are still alive and evading capture. The unit must locate the scout team, secure their data package, and extract them safely before Watch troops close in.\n\nFailure to recover the scouts would mean the loss of valuable intelligence concerning the Tribe's forward command infrastructure on <i>Horgens</i>.",
+  "longDescription": "Scout unit went dark, and now we're the rescue detail. Not ideal terrain for a clean op, but if they're still breathing, we better get them out.",
   "salvagePotential": 12,
   "requirementList": [],
   "OnContractSuccessResults": [
@@ -265,7 +265,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "Scout’s last ping came from this sector. Find them fast, before the Watch does.",
+          "words": "Scout's last ping came from this sector. Find them fast, before the Watch does.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -290,7 +290,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "Scout’s out, and their intel is in one piece. That’s a win.",
+          "words": "Scout's out, and their intel is in one piece. That's a win.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -315,7 +315,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "Scout’s gone. And with them, everything they were carrying.",
+          "words": "Scout's gone. And with them, everything they were carrying.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -340,7 +340,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "Bio-sign detected—it's them! Stay in place so they can mount up.",
+          "words": "Bio-sign detected, it's them! Stay in place so they can mount up.",
           "wordsColor": {
             "r": 1,
             "g": 1,

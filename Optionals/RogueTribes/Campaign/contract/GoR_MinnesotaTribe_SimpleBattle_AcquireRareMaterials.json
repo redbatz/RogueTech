@@ -12,7 +12,7 @@
   "badFaithStatementOverride": null,
   "goodFaithStatementOverride": null,
   "shortDescription": "The industrial colony on <i>Gallis</i> maintains several open-surface storage yards containing lattice-grade raw materials intended for off-world shipment. These compounds are vital to ongoing Minnesota Tribe operations and have been marked for immediate acquisition.\n\nYour unit is to engage and eliminate the defending security forces positioned around the primary storage perimeter. The defenders include planetary militia and contracted local armor elements. Once resistance has been neutralized, Tribe recovery teams will land and secure the materials.\n\nYou are not to engage civilian personnel or enter any warehouse structures. The objective is solely the removal of armed opposition. Exercise precision and avoid unnecessary collateral damage.",
-  "longDescription": "Cold world, cold welcome. The locals guarding those warehouses aren’t pushovers, but they’re not professional either. Drop hard, drop fast, and clear the field before they know what hit them.",
+  "longDescription": "Cold world, cold welcome. The locals guarding those warehouses aren't pushovers, but they're not professional either. Drop hard, drop fast, and clear the field before they know what hit them.",
   "salvagePotential": 12,
   "requirementList": [],
   "OnContractSuccessResults": [],
@@ -170,7 +170,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "Landing zone’s clear—far as I can tell. Open ground, but they’ve got good sightlines. Stay sharp.",
+          "words": "Landing zone's clear, far as I can tell. Open ground, but they've got good sightlines. Stay sharp.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -186,7 +186,7 @@
           "revealRadius": -1
         },
         {
-          "words": "Doesn’t look like much, but don’t underestimate them. These locals are dug in, and they know the terrain.",
+          "words": "Doesn't look like much, but don't underestimate them. These locals are dug in, and they know the terrain.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -211,7 +211,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "That’s the last of them. Storage zone’s wide open—Tribe teams are on approach.",
+          "words": "That's the last of them. Storage zone's wide open. Tribe teams are on approach.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -236,7 +236,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "We’re done here. Defenders held the line—we lost the site.",
+          "words": "We're done here. Defenders held the line and we lost the site.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -261,7 +261,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "Ambush! Picking up hostiles coming in fast from the treeline—close range, no warning!",
+          "words": "Ambush! Picking up hostiles coming in fast from the treeline. Close range, no warning!",
           "wordsColor": {
             "r": 1,
             "g": 1,

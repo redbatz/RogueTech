@@ -11,8 +11,8 @@
   "missionSuccessStatementOverride": null,
   "badFaithStatementOverride": null,
   "goodFaithStatementOverride": null,
-  "shortDescription": "Intelligence assets from the Watch have located a recently constructed Minnesota Tribe forward operations post on <i>Doggerbank Zeta</i>—likely used to coordinate strikes into anti-spinward sectors. This facility is sparsely manned but equipped with hardened systems, pre-fab barracks, and reinforced storage bays. Ghost Bear Command has designated it a high-priority capture objective.\n\nYour objective is to seize the compound intact. Local defenses include automated turrets and a smaller garrison. Expect fallback contingencies or demolition failsafes—Tribe doctrine rarely allows anything to fall uncontested.\n\nCommand intends to convert this site into a regional foothold. Secure the area with minimal structural damage.",
-  "longDescription": "This is their keystone, Commander. We take it now, they can’t hold anything else out here. Hit fast, hold the ground, and lock it down.",
+  "shortDescription": "Intelligence assets from the Watch have located a recently constructed Minnesota Tribe forward operations post on <i>Doggerbank Zeta</i>, likely used to coordinate strikes into anti-spinward sectors. This facility is sparsely manned but equipped with hardened systems, pre-fab barracks, and reinforced storage bays. Ghost Bear Command has designated it a high-priority capture objective.\n\nYour objective is to seize the compound intact. Local defenses include automated turrets and a smaller garrison. Expect fallback contingencies or demolition failsafes. Tribe doctrine rarely allows anything to fall uncontested.\n\nCommand intends to convert this site into a regional foothold. Secure the area with minimal structural damage.",
+  "longDescription": "This is their keystone, Commander. We take it now, they can't hold anything else out here. Hit fast, hold the ground, and lock it down.",
   "salvagePotential": 16,
   "requirementList": [],
   "OnContractSuccessResults": [],
@@ -300,7 +300,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "We’ve got visual on the Tribe outpost. Looks like a full modular setup—hab blocks, command node, and some rudimentary infrastructure.",
+          "words": "We've got visual on the Tribe outpost. Looks like a full modular setup. Hab blocks, command node, and some rudimentary infrastructure.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -316,7 +316,7 @@
           "revealRadius": -1
         },
         {
-          "words": "Perimeter’s hot with automated turrets. Watch your approach.",
+          "words": "Perimeter's hot with automated turrets. Watch your approach.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -341,7 +341,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "The compound’s secure. Ghost Bear advance units can land in under two hours. Not bad for a ‘dead’ rock.",
+          "words": "The compound's secure. Ghost Bear advance units can land in under two hours. Not bad for a ‘dead' rock.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -366,7 +366,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "We’re pulling out. Arelle's not gonna like this—but we’re too banged up to hold a toothbrush out here, let alone a base.",
+          "words": "We're pulling out. Arelle's not gonna like this, but we're too banged up to hold a toothbrush out here, let alone a base.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -491,7 +491,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "Turrets are live—tribal ID patterns confirmed. Keep your spacing tight and move fast.",
+          "words": "Turrets are live. Tribal ID patterns confirmed. Keep your spacing tight and move fast.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -516,7 +516,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "There it is—Tribe forward base dead ahead. Still looks fresh, like they just finished setting it up.",
+          "words": "There it is. Tribe forward base dead ahead. Still looks fresh, like they just finished setting it up.",
           "wordsColor": {
             "r": 1,
             "g": 1,

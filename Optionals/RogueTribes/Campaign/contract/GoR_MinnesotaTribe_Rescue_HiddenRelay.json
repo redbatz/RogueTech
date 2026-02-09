@@ -11,8 +11,8 @@
   "missionSuccessStatementOverride": null,
   "badFaithStatementOverride": null,
   "goodFaithStatementOverride": null,
-  "shortDescription": "A long-forgotten [[DM.Factions[faction_SLDF],SLDF]] relay buried under dust holds encrypted logs that trace Tribe movement and long-range coordination.\n\nThe Ghost Bear intends to destroy it before the data can be recovered, hoping to erase signs of deeper Tribe activity in the region. This intelligence may hold key locations, deployment routes, or even lost tech records.\n\nRecovering this data is not just a strategic win—it might shape the next phase of the campaign.",
-  "longDescription": "Fast in, fast out—just like the old days. But don’t count on luck.",
+  "shortDescription": "A long-forgotten [[DM.Factions[faction_SLDF],SLDF]] relay buried under dust holds encrypted logs that trace Tribe movement and long-range coordination.\n\nThe Ghost Bear intends to destroy it before the data can be recovered, hoping to erase signs of deeper Tribe activity in the region. This intelligence may hold key locations, deployment routes, or even lost tech records.\n\nRecovering this data is not just a strategic win. It might shape the next phase of the campaign.",
+  "longDescription": "Fast in, fast out. Just like the old days. But don't count on luck.",
   "salvagePotential": 12,
   "requirementList": [],
   "OnContractSuccessResults": [

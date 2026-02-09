@@ -11,8 +11,8 @@
   "missionSuccessStatementOverride": null,
   "badFaithStatementOverride": null,
   "goodFaithStatementOverride": null,
-  "shortDescription": "Commander {COMMANDER.CallSign}.\n\nThis operation is not optional. You will proceed as instructed.\n\nReconnaissance over Maisons identified a battlefield where an unknown force eradicated a pirate band with surgical precision. The site has since been sanitized—clearly an attempt to remove all traces.\n\nOne item remains: a BattleMech arm, partially buried and overlooked. Spectral analysis confirms residual energy patterns consistent with the anomalous units encountered during your prior engagement—units that remain unidentified and unclaimed by any known faction. That fragment is now your objective.\n\nThe surviving pirates are searching for it as well. Intelligence suggests they believe the arm may reveal the identity of their attackers—information they intend to use for retaliation. You are to intercept them. Do not allow recovery or transmission of any data.\n\nYou have seven days to begin this mission. After that, the evidence will be lost—retrieved, destroyed, or buried beyond reach.\n\nSalvage is yours. Compensation will be minimal. This assignment serves as a test of your competence and reliability.\n\nComplete it, or do not expect further contact.\n\n— Star Colonel Arelle Jorgensson\nGhost Bear Watch, Theta-Level Command",
-  "longDescription": "I don't like this, Commander. We’re chasing buried scraps on a dead battlefield for a Clan spook who won’t even tell us what we’re really looking at. Still… it’s a paying job. Just don’t be surprised if this ‘fragment’ drags us into something a hell of a lot bigger than pirates.",
+  "shortDescription": "Commander {COMMANDER.CallSign}.\n\nThis operation is not optional. You will proceed as instructed.\n\nReconnaissance over Maisons identified a battlefield where an unknown force eradicated a pirate band with surgical precision. The site has since been sanitized, clearly an attempt to remove all traces.\n\nOne item remains: a BattleMech arm, partially buried and overlooked. Spectral analysis confirms residual energy patterns consistent with the anomalous units encountered during your prior engagement. Units that remain unidentified and unclaimed by any known faction. That fragment is now your objective.\n\nThe surviving pirates are searching for it as well. Intelligence suggests they believe the arm may reveal the identity of their attackers, information they intend to use for retaliation. You are to intercept them. Do not allow recovery or transmission of any data.\n\nYou have seven days to begin this mission. After that, the evidence will be lost. Retrieved, destroyed, or buried beyond reach.\n\nSalvage is yours. Compensation will be minimal. This assignment serves as a test of your competence and reliability.\n\nComplete it, or do not expect further contact.\n\n- Star Colonel Arelle Jorgensson\nGhost Bear Watch, Theta-Level Command",
+  "longDescription": "I don't like this, Commander. We're chasing buried scraps on a dead battlefield for a Clan spook who won't even tell us what we're really looking at. Still… it's a paying job. Just don't be surprised if this ‘fragment' drags us into something a hell of a lot bigger than pirates.",
   "salvagePotential": 8,
   "requirementList": [],
   "OnContractSuccessResults": [],
@@ -286,7 +286,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "Touchdown confirmed. We’re on the grid at the coordinates Jorgensson provided.",
+          "words": "Touchdown confirmed. We're on the grid at the coordinates Jorgensson provided.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -302,7 +302,7 @@
           "revealRadius": -1
         },
         {
-          "words": "Contact—pirates are here, just like intel said. Sensors show their weapons are hot. They're not here to talk.",
+          "words": "Contact! Pirates are here, just like intel said. Sensors show their weapons are hot. They're not here to talk.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -318,7 +318,7 @@
           "revealRadius": -1
         },
         {
-          "words": "Of course they’re not. These guys aren’t scavengers. They’re out for revenge.",
+          "words": "Of course they're not. These guys aren't scavengers. They're out for revenge.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -334,7 +334,7 @@
           "revealRadius": -1
         },
         {
-          "words": "Commander, picking up some odd thermal spikes east of the main site—looks like loose ammo of unknown origin, scattered in a half-buried container. Small enough the scouts would've missed it.",
+          "words": "Commander, picking up some odd thermal spikes east of the main site. Looks like loose ammo of unknown origin, scattered in a half-buried container. Small enough the scouts would've missed it.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -350,7 +350,7 @@
           "revealRadius": -1
         },
         {
-          "words": "Copy. Mark it as a secondary recovery zone. We’ll check it once the main site is secure.",
+          "words": "Copy. Mark it as a secondary recovery zone. We'll check it once the main site is secure.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -382,7 +382,7 @@
           "revealRadius": -1
         },
         {
-          "words": "Well. There’s her vote.",
+          "words": "Well. There's her vote.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -423,7 +423,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "That’s it then. We’ve got the arm. No idea what it’s really worth—but I’ve got a bad feeling we just stepped into something bigger than we were told.",
+          "words": "That's it then. We've got the arm. No idea what it's really worth, but I've got a bad feeling we just stepped into something bigger than we were told.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -448,7 +448,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "We lost the arm. Jorgensson’s not going to take that well…",
+          "words": "We lost the arm. Jorgensson's not going to take that well…",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -473,7 +473,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "There’s the arm... but it’s half-buried. We’ll need a moment to dig it out. Hold the line.",
+          "words": "There's the arm... but it's half-buried. We'll need a moment to dig it out. Hold the line.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -548,7 +548,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "Got it. The arm's secure. Let’s hope it was worth all this heat.",
+          "words": "Got it. The arm's secure. Let's hope it was worth all this heat.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -573,7 +573,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "Ammunition secured. No idea what it is, but it sure doesn’t look standard.",
+          "words": "Ammunition secured. No idea what it is, but it sure doesn't look standard.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -598,7 +598,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "Lost the ammo—damn it. Whatever it was, it’s gone now.",
+          "words": "Lost the ammo. Damn it. Whatever it was, it's gone now.",
           "wordsColor": {
             "r": 1,
             "g": 1,
