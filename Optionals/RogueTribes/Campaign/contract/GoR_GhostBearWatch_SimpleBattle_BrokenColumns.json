@@ -11,8 +11,8 @@
   "missionSuccessStatementOverride": null,
   "badFaithStatementOverride": null,
   "goodFaithStatementOverride": null,
-  "shortDescription": "Minnesota Tribe units have regrouped on <i>Landrum II</i> after abandoning several outer systems, using its primitive infrastructure and dense fungal networks to mask movement. Intelligence suggests they are attempting to form a new staging formation deep within the saltflats. You are to engage their forces directly and scatter them before they solidify into a threat. Expect mixed units—'Mechs, vehicles, and possibly entrenched infantry.\n\nEliminating this force will severely impair their ability to reestablish logistics in the region. No fallback. No escape.",
-  "longDescription": "If they're digging in, we’ll have to hit hard and fast before they can anchor. Expect resistance—they’ll know we’re coming.",
+  "shortDescription": "Minnesota Tribe units have regrouped on <i>Landrum II</i> after abandoning several outer systems, using its primitive infrastructure and dense fungal networks to mask movement. Intelligence suggests they are attempting to form a new staging formation deep within the saltflats. You are to engage their forces directly and scatter them before they solidify into a threat. Expect mixed units. 'Mechs, vehicles, and possibly entrenched infantry.\n\nEliminating this force will severely impair their ability to reestablish logistics in the region. No fallback. No escape.",
+  "longDescription": "If they're digging in, we'll have to hit hard and fast before they can anchor. Expect resistance. They'll know we're coming.",
   "salvagePotential": 16,
   "requirementList": [],
   "OnContractSuccessResults": [],
@@ -195,7 +195,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "That did it. Whatever they were staging—won’t be happening now.",
+          "words": "That did it. Whatever they were staging, it won't be happening now.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -220,7 +220,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "They slipped the net—damn it. That’ll cost us later, I can feel it.",
+          "words": "They slipped the net. Damn it. That'll cost us later, I can feel it.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -245,7 +245,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "I’m seeing movement—secondary formation closing in fast!",
+          "words": "I'm seeing movement! Secondary formation closing in fast!",
           "wordsColor": {
             "r": 1,
             "g": 1,

@@ -11,8 +11,8 @@
   "missionSuccessStatementOverride": null,
   "badFaithStatementOverride": null,
   "goodFaithStatementOverride": null,
-  "shortDescription": "A Minnesota Tribe scout escaped initial Watch capture during a recon operation on <i>Horgens III</i>. The scout was carrying schematics tied to regional command infrastructure—but the data was not found in the recovered equipment.\n\nIntercepted chatter suggests the scout hid the data somewhere in the field before fleeing. Recovery efforts are underway.\n\nYou are to locate and capture the scout alive before a Tribe extraction team retrieves them. Time is limited, and resistance will intensify once contact is made. Securing the scout is the only way to recover the missing intel and prevent future coordinated operations against Ghost Bear forces in the system.",
-  "longDescription": "Scout stashed the data somewhere out there. We take them alive, we find out where. Otherwise we’re blind.",
+  "shortDescription": "A Minnesota Tribe scout escaped initial Watch capture during a recon operation on <i>Horgens III</i>. The scout was carrying schematics tied to regional command infrastructure, but the data was not found in the recovered equipment.\n\nIntercepted chatter suggests the scout hid the data somewhere in the field before fleeing. Recovery efforts are underway.\n\nYou are to locate and capture the scout alive before a Tribe extraction team retrieves them. Time is limited, and resistance will intensify once contact is made. Securing the scout is the only way to recover the missing intel and prevent future coordinated operations against Ghost Bear forces in the system.",
+  "longDescription": "Scout stashed the data somewhere out there. We take them alive, we find out where. Otherwise we're blind.",
   "salvagePotential": 12,
   "requirementList": [],
   "OnContractSuccessResults": [
@@ -265,7 +265,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "Confirmed: target went to ground with the package. We bring them in breathing—that’s the only way this intel comes home.",
+          "words": "Confirmed, target went to ground with the package. We bring them in breathing. That's the only way this intel comes home.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -290,7 +290,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "Target’s down and in custody. If the intel’s still out there, they’ll talk.",
+          "words": "Target's down and in custody. If the intel's still out there, they'll talk.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -315,7 +315,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "Scout got out. That data’s lost, and we’re going to feel it later.",
+          "words": "Scout got out. That data's lost, and we're going to feel it later.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -340,7 +340,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "We’ve got the scout. Restraining now—it’ll take a moment to secure them. Hold position.",
+          "words": "We've got the scout. Restraining now. It'll take a moment to secure them. Hold position.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -365,7 +365,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "Commander, the recovery unit’s taking hits! We lose them, we lose the scout!",
+          "words": "Commander, the recovery unit's taking hits! We lose them, we lose the scout!",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -390,7 +390,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "Extraction complete. Scout’s in custody and locked down. We’ll get what we need.",
+          "words": "Extraction complete. Scout's in custody and locked down. We'll get what we need.",
           "wordsColor": {
             "r": 1,
             "g": 1,

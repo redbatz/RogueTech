@@ -11,8 +11,8 @@
   "missionSuccessStatementOverride": null,
   "badFaithStatementOverride": null,
   "goodFaithStatementOverride": null,
-  "shortDescription": "The Minnesota Tribe has reactivated a Star League-era terraforming uplink embedded deep in an abandoned cliffside facility near <i>Eagle Rest II</i>’s equatorial coast.\n\nGhost Bear Watch analysis confirms the site is no longer performing atmospheric regulation—it has been modified into a low-frequency command relay, capable of transmitting encrypted signals across multiple systems without triggering standard monitoring protocols.\n\nThis array is likely supporting long-range logistics, unit coordination, or off-site supply networks hidden beyond known space. You are to destroy the uplink and all associated infrastructure. No salvage is authorized.\n\nTime is critical—if the Tribe has fallback systems linked to this relay, they'll activate them the moment the array begins to fail. Expect defenders.",
-  "longDescription": "Signal relays? Great. Nothing says combat op like stomping through rotting concrete to blow up an antenna some SLDF engineer buried two centuries ago. But hey—if this thing really is tying their war effort together, might be worth the trip.",
+  "shortDescription": "The Minnesota Tribe has reactivated a Star League-era terraforming uplink embedded deep in an abandoned cliffside facility near <i>Eagle Rest II</i>'s equatorial coast.\n\nGhost Bear Watch analysis confirms the site is no longer performing atmospheric regulation. It has been modified into a low-frequency command relay, capable of transmitting encrypted signals across multiple systems without triggering standard monitoring protocols.\n\nThis array is likely supporting long-range logistics, unit coordination, or off-site supply networks hidden beyond known space. You are to destroy the uplink and all associated infrastructure. No salvage is authorized.\n\nTime is critical. If the Tribe has fallback systems linked to this relay, they'll activate them the moment the array begins to fail. Expect defenders.",
+  "longDescription": "Signal relays? Great. Nothing says combat op like stomping through rotting concrete to blow up an antenna some SLDF engineer buried two centuries ago. But hey, if this thing really is tying their war effort together, might be worth the trip.",
   "salvagePotential": 16,
   "requirementList": [  ],
   "OnContractSuccessResults": [],
@@ -319,7 +319,7 @@
           "revealRadius": -1
         },
         {
-          "words": "I’m detecting power cycling in irregular pulses. They’ve tuned that uplink for wide-band low-frequency broadcast. Ghost Bear’s right—this thing could coordinate a full logistics net.",
+          "words": "I'm detecting power cycling in irregular pulses. They've tuned that uplink for wide-band low-frequency broadcast. Ghost Bear was right. This thing could coordinate a full logistics net.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -335,7 +335,7 @@
           "revealRadius": -1
         },
         {
-          "words": "Wouldn’t trust it not to melt your fillings, either. Bet the whole relay’s rigged with backup nodes and old fusion cores.",
+          "words": "Wouldn't trust it not to melt your fillings, either. Bet the whole relay's rigged with backup nodes and old fusion cores.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -351,7 +351,7 @@
           "revealRadius": -1
         },
         {
-          "words": "Alright, we take out that array and anything guarding it. Keep your eyes sharp—we don’t get a second shot.",
+          "words": "Alright, we take out that array and anything guarding it. Keep your eyes sharp. We don't get a second shot.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -376,7 +376,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "Signal’s gone cold. Whatever they were linking to—it’s cut off now.",
+          "words": "Signal's gone cold. Whatever they were linking to, it's cut off now.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -392,7 +392,7 @@
           "revealRadius": -1
         },
         {
-          "words": "That’s one less ghost tower in the sea. Let’s hope they feel it.",
+          "words": "That's one less ghost tower in the sea. Let's hope they feel it.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -417,7 +417,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "We’re pulling back. That uplink’s still standing—but we’re not. Damn it.",
+          "words": "We're pulling back. That uplink's still standing, but we're not. Damn it.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -442,7 +442,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "Movement! They were dug in near that ruined silo—flankers inbound!",
+          "words": "Movement! They were dug in near that ruined silo. Flankers inbound!",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -467,7 +467,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "Relay’s down, base is toast. If we’re done here, let’s get out before they try to drown us in backup.",
+          "words": "Relay's down, base is toast. If we're done here, let's get out before they try to drown us in backup.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -492,7 +492,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "That did it—signal strength just dipped! Another hit should start unraveling the array.",
+          "words": "That did it! Signal strength just dipped! Another hit should start unraveling the array.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -517,7 +517,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "Confirmed—one of the main emitters is offline. Broadcast integrity dropping",
+          "words": "Confirmed, one of the main emitters is offline. Broadcast integrity dropping.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -542,7 +542,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "That’s the last of ‘em. Not a bad showing for a bunch of lazy MechWarriors.",
+          "words": "That's the last of ‘em. Not a bad showing for a bunch of lazy MechWarriors.",
           "wordsColor": {
             "r": 1,
             "g": 1,

@@ -11,8 +11,8 @@
   "missionSuccessStatementOverride": null,
   "badFaithStatementOverride": null,
   "goodFaithStatementOverride": null,
-  "shortDescription": "<b>Dr. Anika Tilsaye</b> is conducting advanced research in exotic material bonding at a remote research site on <i>Ryerson</i>. Her recent breakthroughs have direct applications to advanced structural latticework—technology the Minnesota Tribe requires.\n\nYou are to infiltrate the target zone, locate the scientist, and extract her by force if necessary. Opposition is expected from local security personnel tasked with her protection. Time is a factor—prolonged engagement may trigger broader response protocols.\n\nThis is a precision operation. Minimize damage to surrounding infrastructure. The asset must be secured alive.",
-  "longDescription": "SLDF training data on a ghost world like this? I don't care how old it is—we can't let the Tribe walk away with a tactical edge.",
+  "shortDescription": "<b>Dr. Anika Tilsaye</b> is conducting advanced research in exotic material bonding at a remote research site on <i>Ryerson</i>. Her recent breakthroughs have direct applications to advanced structural latticework, technology the Minnesota Tribe requires.\n\nYou are to infiltrate the target zone, locate the scientist, and extract her by force if necessary. Opposition is expected from local security personnel tasked with her protection. Time is a factor. Prolonged engagement may trigger broader response protocols.\n\nThis is a precision operation. Minimize damage to surrounding infrastructure. The asset must be secured alive.",
+  "longDescription": "SLDF training data on a ghost world like this? I don't care how old it is, we can't let the Tribe walk away with a tactical edge.",
   "salvagePotential": 12,
   "requirementList": [],
   "OnContractSuccessResults": [  ],
@@ -310,7 +310,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "Commander, one additional note. Dr. Tilsaye’s local databanks remain active. If your forces can secure and extract the core research archive from the nearby data center, the Tribe is prepared to authorize a substantial bonus.",
+          "words": "Commander, one additional note. Dr. Tilsaye's local databanks remain active. If your forces can secure and extract the core research archive from the nearby data center, the Tribe is prepared to authorize a substantial bonus.",
           "wordsColor": {
             "r": 1,
             "g": 1,
