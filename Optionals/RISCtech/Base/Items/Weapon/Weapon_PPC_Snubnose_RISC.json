@@ -10,8 +10,9 @@
     ],
     "BonusDescriptions": [
       "PPCDEBUFF: 1",
-      "WpnRecoil: 2",
+      "WpnRecoil: 3",
       "TwinLinkedCap",
+      "HasFireModes: RF/ACC",
       "WeaponJAMFlat: 15%",
       "DmgFallOff: 35%",
       "MineClearanceBoom: 2",
