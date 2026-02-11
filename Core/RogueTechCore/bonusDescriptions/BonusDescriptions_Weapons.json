@@ -1007,7 +1007,7 @@
       "Bonus": "HasFireModes",
       "Short": "FireModes",
       "Long": "Multiple Firemodes",
-      "Full": "This weapon has multiple fire modes. {0}"
+      "Full": "This weapon has multiple fire modes. {0}. Additional details when selected in-combat."
     },
     {
       "Bonus": "AmmoSameLocation",
