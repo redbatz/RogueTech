@@ -75,7 +75,8 @@
       "QuicsellOmni",
       "skip_hardpoint",
       "unit_mechtool",
-      "mr-resize-0.8"
+      "mr-resize-0.8",
+      "OneHanded"
     ],
     "tagSetSourceFile": ""
   },

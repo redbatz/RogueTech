@@ -90,7 +90,8 @@
     "items": [
       "ArmLimitLowerRight",
       "EliteMech",
-      "SLDFMech"
+      "SLDFMech",
+      "OneHanded"
     ],
     "tagSetSourceFile": ""
   },

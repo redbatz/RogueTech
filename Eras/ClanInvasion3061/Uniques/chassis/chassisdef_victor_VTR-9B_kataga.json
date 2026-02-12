@@ -41,7 +41,8 @@
     "items": [
       "ArmLimitLowerRight",
       "UniqueMech",
-      "SLDFMech"
+      "SLDFMech",
+      "OneHanded"
     ],
     "tagSetSourceFile": ""
   },

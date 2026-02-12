@@ -41,7 +41,8 @@
     "items": [
       "ArmLimitLowerLeft",
       "PrototypeMech",
-      "UniqueMech"
+      "UniqueMech",
+      "OneHanded"
     ],
     "tagSetSourceFile": ""
   },

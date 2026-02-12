@@ -37,7 +37,8 @@
   "ChassisTags": {
     "items": [
       "ArmLimitLowerRight",
-      "mr-resize-0.53-0.58-0.51"
+      "mr-resize-0.53-0.58-0.51",
+      "OneHanded"
     ],
     "tagSetSourceFile": ""
   },

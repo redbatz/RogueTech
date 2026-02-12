@@ -52,7 +52,8 @@
     "items": [
       "ArmLimitLowerRight",
       "SLDFMech",
-      "mr-resize-0.71"
+      "mr-resize-0.71",
+      "OneHanded"
     ],
     "tagSetSourceFile": ""
   },

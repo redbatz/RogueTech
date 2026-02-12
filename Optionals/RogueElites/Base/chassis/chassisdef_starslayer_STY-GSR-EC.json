@@ -42,7 +42,8 @@
       "ArmLimitUpperRight",
       "EliteMech",
       "PrototypeMech",
-      "SLDFMech"
+      "SLDFMech",
+      "OneHanded"
     ],
     "tagSetSourceFile": ""
   },
