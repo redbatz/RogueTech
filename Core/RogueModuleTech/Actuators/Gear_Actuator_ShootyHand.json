@@ -6,35 +6,31 @@
       }
     ],
     "BonusDescriptions": [
-      "CarryWeightArm: +10%",
+      "HandHeldQuirk: +1",
       "CBTBEPhysicalAttackAccuracyUpgrade: +1",
-      "CBTBEPunchDamageMulti: +5%",
-      "CBTBEPunchStabilityMulti: +10%",
-      "ChassisBasedWeight: 1%",
+      "ChassisBasedWeight: 0.5%",
       "HandActuator"
     ],
     "Flags": [
       "not_broken"
     ],
     "Weights": {
-      "ComponentByChassisFactor": 0.01
+      "ComponentByChassisFactor": 0.005
     },
     "IBLS": {
       "StorageSize": 1
-    },
-    "CarryLeftOverCapacityChassisFactor": 0.01,
-    "CarryHandCapacityChassisFactor": 0.055
+    }
   },
   "Description": {
-    "Cost": 175000,
+    "Cost": 140000,
     "Rarity": 99,
     "Purchasable": true,
     "Manufacturer": "Coventry",
     "Model": "Alpha",
-    "UIName": "Grippy Hand",
-    "Id": "Gear_Actuator_GrippyHand",
+    "UIName": "Shooty Hand",
+    "Id": "Gear_Actuator_ShootyHand",
     "Name": "Coventry Alpha Arm Mod",
-    "Details": "This thick, sturdy Hand Actuator allows a 'Mech to carry heavier handheld equipment than usual.",
+    "Details": "This upgraded Hand Actuator is built to prioritize finger dexterity above other considerations. It makes handheld weapons much more accurate.",
     "Icon": "uixSvgIcon_equipment_ActuatorArm"
   },
   "BonusValueA": "",
@@ -45,8 +41,8 @@
   "RelativeModifier": 0,
   "AbsoluteModifier": 0,
   "BattleValue": 0,
-  "InventorySize": 2,
-  "Tonnage": 0.5,
+  "InventorySize": 1,
+  "Tonnage": 0,
   "AllowedLocations": "Arms",
   "DisallowedLocations": "All",
   "CriticalComponent": false,
@@ -91,42 +87,19 @@
       "effectType": "StatisticEffect",
       "nature": "Buff",
       "Description": {
-        "Id": "GrippyHand-PunchDamage",
-        "Name": "Grippy Hand: Increased Punch Damage",
-        "Details": "Damage Modifier",
-        "Icon": "uixSvgIcon_equipment_ActuatorArm"
+        "Id": "FCS_MeleeAccuracy3",
+        "Name": "Grippy Hand: Improved Hand Held Accuracy",
+        "Details": "+1 Acc for PPC Weapons.",
+        "Icon": "uixSvgIcon_equipment_TTS"
       },
       "statisticData": {
-        "statName": "CBTBE_Punch_Target_Damage_Multi",
-        "operation": "Float_Multiply",
-        "modValue": "1.05",
-        "modType": "System.Single"
-      }
-    },
-    {
-      "durationData": {
-        "duration": -1,
-        "stackLimit": -1
-      },
-      "targetingData": {
-        "effectTriggerType": "Passive",
-        "effectTargetType": "Creator",
-        "showInTargetPreview": false,
-        "showInStatusPanel": false
-      },
-      "effectType": "StatisticEffect",
-      "nature": "Buff",
-      "Description": {
-        "Id": "GrippyHand-PunchInstability",
-        "Name": "Grippy Hand: Increased Punch Stability Damage",
-        "Details": "Damage Modifier",
-        "Icon": "uixSvgIcon_equipment_ActuatorArm"
-      },
-      "statisticData": {
-        "statName": "CBTBE_Punch_Target_Instability_Multi",
-        "operation": "Float_Multiply",
-        "modValue": "1.10",
-        "modType": "System.Single"
+        "abilifierId": "AccuracyModifierFilter",
+        "statName": "AccuracyModifier",
+        "operation": "Float_Add",
+        "modValue": "-1.0",
+        "modType": "System.Single",
+        "targetCollection": "Weapon",
+        "targetWeaponCategoryID": "SpecialHandHeld"
       }
     }
   ],
