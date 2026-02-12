@@ -41,7 +41,8 @@
     "items": [
       "ArmLimitLowerRight",
       "EliteMech",
-      "RISCBattleMech"
+      "RISCBattleMech",
+      "OneHanded"
     ],
     "tagSetSourceFile": ""
   },

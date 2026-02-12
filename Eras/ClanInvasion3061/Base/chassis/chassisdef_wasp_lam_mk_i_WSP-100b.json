@@ -89,7 +89,8 @@
     "items": [
       "ArmLimitLowerRight",
       "LandAirMech",
-      "mr-resize-1.11"
+      "mr-resize-1.11",
+      "OneHanded"
     ],
     "tagSetSourceFile": ""
   },

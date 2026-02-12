@@ -62,7 +62,8 @@
     "items": [
       "ArmLimitLowerRight",
       "IndustrialMech",
-      "mr-resize-0.53-0.64-0.64"
+      "mr-resize-0.53-0.64-0.64",
+      "OneHanded"
     ],
     "tagSetSourceFile": ""
   },

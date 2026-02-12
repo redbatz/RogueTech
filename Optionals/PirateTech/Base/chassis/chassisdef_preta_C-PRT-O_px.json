@@ -76,7 +76,8 @@
   "VariantName": "C-PRT-O-PX",
   "ChassisTags": {
     "items": [
-      "ArmLimitUpperRight"
+      "ArmLimitUpperRight",
+      "OneHanded"
     ],
     "tagSetSourceFile": ""
   },

@@ -41,7 +41,8 @@
     "items": [
       "ArmLimitLowerRight",
       "UniqueMech",
-      "ClanMech"
+      "ClanMech",
+      "OneHanded"
     ],
     "tagSetSourceFile": ""
   },

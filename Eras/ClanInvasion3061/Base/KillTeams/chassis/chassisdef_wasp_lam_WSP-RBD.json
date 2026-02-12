@@ -93,7 +93,8 @@
       "ArmLimitLowerRight",
       "UniqueMech",
       "LandAirMech",
-      "mr-resize-1.11"
+      "mr-resize-1.11",
+      "OneHanded"
     ],
     "tagSetSourceFile": ""
   },
