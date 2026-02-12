@@ -11,8 +11,8 @@
   "missionSuccessStatementOverride": null,
   "badFaithStatementOverride": null,
   "goodFaithStatementOverride": null,
-  "shortDescription": "A hidden cache of Star League-era industrial material has been located beneath a derelict survey station on <i>Coopertown. Minnesota Tribe salvage teams are en route to extract the payload for off-world transport. Your unit is tasked with securing the operation from initial contact through to extraction and departure.\n\nYou are to move ahead of the salvage team and establish control of the site. Once the area is secure, hold position while technicians retrieve and load the materials. After extraction is complete, escort the convoy to a designated evacuation point, where a Tribe dropship will be waiting.\n\nLocal pirate elements have shown increased activity in the region and may attempt to seize the cache by force. Expect resistance during both the recovery and escort phases. Escort integrity is essential—loss of the cargo will void the operation.",
-  "longDescription": "Hidden vaults, old tech, and pirate raiders crawling all over the place. This one’s gonna get noisy, Commander—just make sure that convoy makes it out in one piece.",
+  "shortDescription": "A hidden cache of Star League-era industrial material has been located beneath a derelict survey station on <i>Coopertown. Minnesota Tribe salvage teams are en route to extract the payload for off-world transport. Your unit is tasked with securing the operation from initial contact through to extraction and departure.\n\nYou are to move ahead of the salvage team and establish control of the site. Once the area is secure, hold position while technicians retrieve and load the materials. After extraction is complete, escort the convoy to a designated evacuation point, where a Tribe dropship will be waiting.\n\nLocal pirate elements have shown increased activity in the region and may attempt to seize the cache by force. Expect resistance during both the recovery and escort phases. Escort integrity is essential. Loss of the cargo will void the operation.",
+  "longDescription": "Hidden vaults, old tech, and pirate raiders crawling all over the place. This one's gonna get noisy, Commander. Just make sure that convoy makes it out in one piece.",
   "salvagePotential": 12,
   "requirementList": [],
   "OnContractSuccessResults": [],
@@ -396,7 +396,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "We’ve got the coordinates. Survey station’s up ahead—barely standing, but it matches the Tribe’s data.",
+          "words": "We've got the coordinates. Survey station's up ahead, barely standing, but it matches the Tribe's data.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -412,7 +412,7 @@
           "revealRadius": -1
         },
         {
-          "words": "Doesn’t matter what shape it’s in. We just need to hold it long enough for their dig team to crack it open.",
+          "words": "Doesn't matter what shape it's in. We just need to hold it long enough for their dig team to crack it open.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -453,7 +453,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "Convoy’s clear and the cargo’s loaded. Whatever was buried here—it’s gone now.",
+          "words": "Convoy's clear and the cargo's loaded. Whatever was buried here, it's gone now.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -478,7 +478,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "Convoy’s down. We lost the cargo. The Tribe’s not gonna take this well.",
+          "words": "Convoy's down. We lost the cargo. The Tribe's not gonna take this well.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -503,7 +503,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "New contacts showing up on sensors. We’ve got reinforcements closing fast.",
+          "words": "New contacts showing up on sensors. We've got reinforcements closing fast.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -528,7 +528,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "Careful, sensors show new units closing in. Signals match elite strike patterns. These aren’t locals.",
+          "words": "Careful, sensors show new units closing in. Signals match elite strike patterns. These aren't locals.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -553,7 +553,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "This is the spot. Their scanners are locking onto the subsurface vault now. Hold position—extraction will take time.",
+          "words": "This is the spot. Their scanners are locking onto the subsurface vault now. Hold position, extraction will take time.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -578,7 +578,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "Convoy’s rolling. Stay tight on them—we’ve got a long walk to the evac zone.",
+          "words": "Convoy's rolling. Stay tight on them, we've got a long walk to the evac zone.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -603,7 +603,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "That’s the last of the convoy safe. We’re done here—clean exit.",
+          "words": "That's the last of the convoy safe. We're done here. Clean exit.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -628,7 +628,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "Convoy’s holding position—they are too far out from our support. Get back in formation before they start panicking.",
+          "words": "Convoy's holding position. They are too far out from our support. Get back in formation before they start panicking.",
           "wordsColor": {
             "r": 1,
             "g": 1,

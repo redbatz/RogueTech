@@ -11,8 +11,8 @@
   "missionSuccessStatementOverride": null,
   "badFaithStatementOverride": null,
   "goodFaithStatementOverride": null,
-  "shortDescription": "Intelligence suggests the Minnesota Tribe has activated a prototype war machine codenamed <b>Armageddon</b>. Recon data is scarce—drone telemetry is unreliable, and the area around the last power surge detection is heavily distorted.\n\nYour objective is simple: find and eliminate the prototype before it can leave <i>Fröislandis VII</i>. Watch operatives believe it is mobile, heavily armored, and possesses devastating firepower.\n\nThis is a kill mission. There is no base to raid, no convoy to intercept—just a ghost in the snow and the end of a long chase. You’re not authorized to retreat unless the target is destroyed.\n\nThe fate of this war may hinge on your success.",
-  "longDescription": "This is it. No more middlemen, no more chasing leads. We take this thing down or we don’t come back. I hope your ‘Mechs are prepped, Commander—because I don’t think this one was ever meant to be killed.",
+  "shortDescription": "Intelligence suggests the Minnesota Tribe has activated a prototype war machine codenamed <b>Armageddon</b>. Recon data is scarce. Drone telemetry is unreliable, and the area around the last power surge detection is heavily distorted.\n\nYour objective is simple: find and eliminate the prototype before it can leave <i>Fröislandis VII</i>. Watch operatives believe it is mobile, heavily armored, and possesses devastating firepower.\n\nThis is a kill mission. There is no base to raid, no convoy to intercept. Just a ghost in the snow and the end of a long chase. You're not authorized to retreat unless the target is destroyed.\n\nThe fate of this war may hinge on your success.",
+  "longDescription": "This is it. No more middlemen, no more chasing leads. We take this thing down or we don't come back. I hope your 'Mechs are prepped, Commander, because I don't think this one was ever meant to be killed.",
   "salvagePotential": 16,
   "requirementList": [],
   "OnContractSuccessResults": [],
@@ -260,7 +260,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "That’s no regular ‘Mech, Commander—sensors can’t even categorize it. It’s moving, but… slow. Heavy. Way beyond anything I’ve ever seen.",
+          "words": "That's no regular 'Mech, Commander. Sensors can't even categorize it. It's moving, but… slow. Heavy. Way beyond anything I've ever seen.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -276,7 +276,7 @@
           "revealRadius": -1
         },
         {
-          "words": "That signature… it’s more massive than a Soarece tank. That thing is walking death.",
+          "words": "That signature… it's more massive than a Soarece tank. That thing is walking death.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -292,7 +292,7 @@
           "revealRadius": -1
         },
         {
-          "words": "This is it. Hit hard, hit fast—before it tears the whole planet open.",
+          "words": "This is it. Hit hard, hit fast. Before it tears the whole planet open.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -317,7 +317,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "That was it. Core’s gone cold. You can pull back—we did it.",
+          "words": "That was it. Core's gone cold. You can pull back. We did it.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -333,7 +333,7 @@
           "revealRadius": -1
         },
         {
-          "words": "They can’t recover from this. You just shattered their entire damn dream.",
+          "words": "They can't recover from this. You just shattered their entire damn dream.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -374,7 +374,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "No, no, no—we’re not stopping that thing now…",
+          "words": "No, no, no... we're not stopping that thing now…",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -406,7 +406,7 @@
           "revealRadius": -1
         },
         {
-          "words": "That machine’s going to burn everything. Just a matter of time.",
+          "words": "That machine's going to burn everything. Just a matter of time.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -431,7 +431,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "Hah! Down it goes! I don’t care what it was—we broke their monster!",
+          "words": "Hah! Down it goes! I don't care what it was. We broke their monster!",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -496,7 +496,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "You’re punching through! Even this beast can bleed!",
+          "words": "You're punching through! Even this beast can bleed!",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -521,7 +521,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "Contact—enemy mechs coming in fast! Ambush formation!",
+          "words": "Contact! Enemy mechs coming in fast! Ambush formation!",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -546,7 +546,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "It’s rerouting power—trying to flee! We can’t let it escape!",
+          "words": "It's rerouting power! It's trying to flee! We can't let it escape!",
           "wordsColor": {
             "r": 1,
             "g": 1,

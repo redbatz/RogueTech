@@ -41,7 +41,8 @@
     "items": [
       "ArmLimitLowerRight",
       "EliteMech",
-      "mr-resize-0.9"
+      "mr-resize-0.9",
+      "OneHanded"
     ],
     "tagSetSourceFile": ""
   },

@@ -36,7 +36,8 @@
   "VariantName": "CRB-27",
   "ChassisTags": {
     "items": [
-      "ArmLimitLowerLeft"
+      "ArmLimitLowerLeft",
+      "OneHanded"
     ],
     "tagSetSourceFile": ""
   },

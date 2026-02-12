@@ -27,7 +27,8 @@
     "altMaps": [
       {
         "chassisIds": [
-          "vehiclechassisdef_ZHUKOV_WOB"
+          "vehiclechassisdef_ZHUKOV_WOB",
+          "chassisdef_dervish_DV-8D2"
         ],
         "idType": "ChassisId"
       }

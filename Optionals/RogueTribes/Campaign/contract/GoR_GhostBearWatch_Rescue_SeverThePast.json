@@ -11,8 +11,8 @@
   "missionSuccessStatementOverride": null,
   "badFaithStatementOverride": null,
   "goodFaithStatementOverride": null,
-  "shortDescription": "Ghost Bear recon elements have confirmed the presence of a Minnesota Tribe recovery team beneath the ruins of a former [[DM.Factions[faction_RimWorldsRepublic],Rim Worlds Republic]] military outpost. The team is excavating a buried [[DM.Factions[faction_SLDF],SLDF]]-era research vault containing experimental training simulators and combat doctrine data—tech that could accelerate their tactical development if recovered.\n\nThe Tribe intends to extract these assets before Ghost Bear Watch forces can intervene. That cannot be allowed.\n\nYou are to intercept the operation, neutralize any salvage teams or escorts, and prevent the recovery of the artifacts. If necessary, destroy the relics to deny their use to the enemy. Expect on-site resistance and possible reinforcement waves once the attack begins.\n\nThis is not just a strike on a salvage run—it’s a blow against the Tribe’s future warfighting edge.",
-  "longDescription": "SLDF training data on a ghost world like this? I don't care how old it is—we can't let the Tribe walk away with a tactical edge.",
+  "shortDescription": "Ghost Bear recon elements have confirmed the presence of a Minnesota Tribe recovery team beneath the ruins of a former [[DM.Factions[faction_RimWorldsRepublic],Rim Worlds Republic]] military outpost. The team is excavating a buried [[DM.Factions[faction_SLDF],SLDF]]-era research vault containing experimental training simulators and combat doctrine data. Tech that could accelerate their tactical development if recovered.\n\nThe Tribe intends to extract these assets before Ghost Bear Watch forces can intervene. That cannot be allowed.\n\nYou are to intercept the operation, neutralize any salvage teams or escorts, and prevent the recovery of the artifacts. If necessary, destroy the relics to deny their use to the enemy. Expect on-site resistance and possible reinforcement waves once the attack begins.\n\nThis is not just a strike on a salvage run. It's a blow against the Tribe's future warfighting edge.",
+  "longDescription": "SLDF training data on a ghost world like this? I don't care how old it is. We can't let the Tribe walk away with a tactical edge.",
   "salvagePotential": 12,
   "requirementList": [],
   "OnContractSuccessResults": [
@@ -265,7 +265,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "Recovery team’s onsite. We end this now or we’re watching those relics come back to life.",
+          "words": "Recovery team's onsite. We end this now or we're watching those relics come back to life.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -290,7 +290,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "Site’s clear. Tech’s either ours or dust. That’s one less ghost whispering to the Tribe.",
+          "words": "Site's clear. Tech's either ours or dust. That's one less ghost whispering to the Tribe.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -315,7 +315,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "They got it. Whatever they just dug up, it’s going to cost us in the long run.",
+          "words": "They got it. Whatever they just dug up, it's going to cost us in the long run.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -340,7 +340,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "We’re at the vault entrance. Starting data recovery—hold position and give it a minute.",
+          "words": "We're at the vault entrance. Starting data recovery. Hold position and give it a minute.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -365,7 +365,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "Commander, the artifact carrier’s under fire! We lose them, we lose everything.",
+          "words": "Commander, the artifact carrier's under fire! We lose them, we lose everything.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -390,7 +390,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "Artifacts are secured. Star League ghosts won’t be helping the Tribe this time.",
+          "words": "Artifacts are secured. Star League ghosts won't be helping the Tribe this time.",
           "wordsColor": {
             "r": 1,
             "g": 1,

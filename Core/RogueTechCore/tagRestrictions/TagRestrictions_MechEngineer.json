@@ -734,6 +734,8 @@
     {
       "Tag": "MissileAttachmentsIncompatible",
       "IncompatibleTags": [
+        "w/m/l/atm",
+        "w/m/l/iatm",
         "ArtemisIVAttachment",
         "ArtemisVAttachment",
         "ApolloAttachment",

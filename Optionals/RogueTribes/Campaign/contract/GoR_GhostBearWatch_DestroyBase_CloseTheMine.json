@@ -11,8 +11,8 @@
   "missionSuccessStatementOverride": null,
   "badFaithStatementOverride": null,
   "goodFaithStatementOverride": null,
-  "shortDescription": "A recently discovered mine on <i>Kuras Drift</i> is the source of the dense, unidentified alloy transported in the intercepted convoy. The mine is operated by the Minnesota Tribe and appears to have been adapted for deep subsurface extraction. Due to the depth, a full collapse is unfeasible. However, the surface-level infrastructure includes atmospheric processors and environmental shielding vital for safe operation.\n\nGhost Bear Watch analysts believe that destroying the facility’s outer structures will make the mine inoperable. With no functional atmospheric support, the Tribe will be forced to abandon the site. Expect reinforced perimeter security and automated defenses.",
-  "longDescription": "They buried their gold too deep to reach—so we’re gonna cut off the air instead. Take down their buildings, and the planet’ll do the rest.",
+  "shortDescription": "A recently discovered mine on <i>Kuras Drift</i> is the source of the dense, unidentified alloy transported in the intercepted convoy. The mine is operated by the Minnesota Tribe and appears to have been adapted for deep subsurface extraction. Due to the depth, a full collapse is unfeasible. However, the surface-level infrastructure includes atmospheric processors and environmental shielding vital for safe operation.\n\nGhost Bear Watch analysts believe that destroying the facility's outer structures will make the mine inoperable. With no functional atmospheric support, the Tribe will be forced to abandon the site. Expect reinforced perimeter security and automated defenses.",
+  "longDescription": "They buried their gold too deep to reach, so we're gonna cut off the air instead. Take down their buildings, and the planet'll do the rest.",
   "salvagePotential": 16,
   "requirementList": [  ],
   "OnContractSuccessResults": [],
@@ -303,7 +303,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "Dust’s thin, gravity’s light, but those turrets won’t care—watch your step out there.",
+          "words": "Dust's thin, gravity's light, but those turrets won't care. Watch your step out there.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -328,7 +328,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "Atmospheric systems are gone. That mine’s as good as sealed.",
+          "words": "Atmospheric systems are gone. That mine's as good as sealed.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -353,7 +353,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "We’re pulling back—those buildings stay standing, and the Tribe keeps digging.",
+          "words": "We're pulling back. Those buildings stay standing, and the Tribe keeps digging.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -378,7 +378,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "Ambush incoming! Guess they really don’t want to lose their shiny rock hole.",
+          "words": "Ambush incoming! Guess they really don't want to lose their shiny rock hole.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -403,7 +403,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "Site’s wrecked. Nothing left but rocks and rubble. Ordered withdrawal is now possible.",
+          "words": "Site's wrecked. Nothing left but rocks and rubble. Ordered withdrawal is now possible.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -428,7 +428,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "Structure’s integrity is starting to buckle—keep on it!",
+          "words": "Structure's integrity is starting to buckle! Keep on it!",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -453,7 +453,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "One down. The air’s going with it.",
+          "words": "One down. The air's going with it.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -478,7 +478,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "That’s the last of their guards. All bark, no bite.",
+          "words": "That's the last of their guards. All bark, no bite.",
           "wordsColor": {
             "r": 1,
             "g": 1,

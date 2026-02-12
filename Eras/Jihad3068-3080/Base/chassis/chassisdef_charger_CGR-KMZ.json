@@ -63,7 +63,8 @@
   "VariantName": "CGR-KMZ",
   "ChassisTags": {
     "items": [
-      "ArmLimitLowerLeft"
+      "ArmLimitLowerLeft",
+      "OneHanded"
     ],
     "tagSetSourceFile": ""
   },

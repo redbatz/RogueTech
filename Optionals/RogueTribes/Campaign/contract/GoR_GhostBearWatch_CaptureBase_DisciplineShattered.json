@@ -11,8 +11,8 @@
   "missionSuccessStatementOverride": null,
   "badFaithStatementOverride": null,
   "goodFaithStatementOverride": null,
-  "shortDescription": "Watch recon elements have pinpointed the [[DM.Factions[faction_MinnesotaTribe],Minnesota Tribe]]’s principal training facility on <i>Carath Prime</i>—a militarized compound reconstructed atop derelict [[DM.Factions[faction_RimWorldsRepublic],Rim Worlds Republic]] infrastructure. From here, the Tribe hones the skills of its officers and tactical leaders.\n\n[[DM.Factions[faction_GhostBearWatch],Ghost Bear]] command has authorized a focused strike. Your objective is to assault and secure the facility. Static defenses may still be active, and trained MechWarriors are certain to be present.\n\nBreaking this installation will leave the Tribe disoriented and leaderless in the region—a blow from which they may not recover.",
-  "longDescription": "This isn’t just about wrecking a base—it’s about reducing the amount of officers available on the battlefield. Hit this place hard enough, and the Tribe’s whole chain of command could start to buckle.",
+  "shortDescription": "Watch recon elements have pinpointed the [[DM.Factions[faction_MinnesotaTribe],Minnesota Tribe]]'s principal training facility on <i>Carath Prime</i>, a militarized compound reconstructed atop derelict [[DM.Factions[faction_RimWorldsRepublic],Rim Worlds Republic]] infrastructure. From here, the Tribe hones the skills of its officers and tactical leaders.\n\n[[DM.Factions[faction_GhostBearWatch],Ghost Bear]] command has authorized a focused strike. Your objective is to assault and secure the facility. Static defenses may still be active, and trained MechWarriors are certain to be present.\n\nBreaking this installation will leave the Tribe disoriented and leaderless in the region. A blow from which they may not recover.",
+  "longDescription": "This isn't just about wrecking a base. It's about reducing the amount of officers available on the battlefield. Hit this place hard enough, and the Tribe's whole chain of command could start to buckle.",
   "salvagePotential": 12,
   "requirementList": [
   ],
@@ -344,7 +344,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "Target is their primary training hub. Expect resistance from both instructors and cadets—some of ‘em might fight like they’ve got something to prove. Lock down the site fast, Commander.",
+          "words": "Target is their primary training hub. Expect resistance from both instructors and cadets. Some of 'em might fight like they've got something to prove. Lock down the site fast, Commander.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -369,7 +369,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "Facility’s in our hands, and their forces just lost a lot of officers. That’s gonna sting hard. Ghost Bear ground teams are moving in to hold it.",
+          "words": "Facility's in our hands, and their forces just lost a lot of officers. That's gonna sting hard. Ghost Bear ground teams are moving in to hold it.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -394,7 +394,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "Damn it… we failed to capture the target. Tribe’s gonna spin that as a victory parade and boost their morale. We’ll be facing the consequences soon enough.",
+          "words": "Damn it… we failed to capture the target. Tribe's gonna spin that as a victory parade and boost their morale. We'll be facing the consequences soon enough.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -419,7 +419,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "Contacts on sensors—charging at full speed. They're not holding back.",
+          "words": "Contacts on sensors, charging at full speed. They're not holding back.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -494,7 +494,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "Dropship inbound. Command says the site’s ours. Good work out there, Commander.",
+          "words": "Dropship inbound. Command says the site's ours. Good work out there, Commander.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -544,7 +544,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "Approaching the main compound now. Looks like the heart of the facility—moving to secure.",
+          "words": "Approaching the main compound now. Looks like the heart of the facility. Moving to secure.",
           "wordsColor": {
             "r": 1,
             "g": 1,

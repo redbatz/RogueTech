@@ -11,8 +11,8 @@
   "missionSuccessStatementOverride": null,
   "badFaithStatementOverride": null,
   "goodFaithStatementOverride": null,
-  "shortDescription": "A buried Star League Defense Force relay has been uncovered beneath the sands of <i>Merovi</i>. The Minnesota Tribe has been quietly using the structure for encrypted long-range coordination across the region—and now they’re trying to wipe it clean.\n\nGhost Bear intercepts confirm the Tribe is attempting to scrub the relay’s logs before we can reach it. That data could expose movement patterns, hidden staging points, or even links to deeper operations.\n\nRecover the data before it's lost. Deploy to the site, secure the relay, and neutralize all enemy elements. This is not just about denying them an asset—it’s about taking their secrets for ourselves.",
-  "longDescription": "They’ve been using that relay to coordinate in the shadows. If we pull those logs, we’ll have a roadmap to everything they’ve built out here. Can’t let 'em wipe it.",
+  "shortDescription": "A buried Star League Defense Force relay has been uncovered beneath the sands of <i>Merovi</i>. The Minnesota Tribe has been quietly using the structure for encrypted long-range coordination across the region, and now they're trying to wipe it clean.\n\nGhost Bear intercepts confirm the Tribe is attempting to scrub the relay's logs before we can reach it. That data could expose movement patterns, hidden staging points, or even links to deeper operations.\n\nRecover the data before it's lost. Deploy to the site, secure the relay, and neutralize all enemy elements. This is not just about denying them an asset. It's about taking their secrets for ourselves.",
+  "longDescription": "They've been using that relay to coordinate in the shadows. If we pull those logs, we'll have a roadmap to everything they've built out here. Can't let 'em wipe it.",
   "salvagePotential": 12,
   "requirementList": [],
   "OnContractSuccessResults": [
@@ -265,7 +265,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "Relay site’s just ahead. Let’s hit hard, grab the data, and hold until it’s secured.",
+          "words": "Relay site's just ahead. Let's hit hard, grab the data, and hold until it's secured.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -290,7 +290,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "Got it. Data’s in our hands, and the Tribe’s team is in shambles. That’ll rattle their command net.",
+          "words": "Got it. Data's in our hands, and the Tribe's team is in shambles. That'll rattle their command net.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -340,7 +340,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "Commander, we’ve reached the relay core. The Tribe’s trying to overwrite the logs—I’m intercepting now. Hold position until retrieval is completed.",
+          "words": "Commander, we've reached the relay core. The Tribe's trying to overwrite the logs. I'm intercepting now. Hold position until retrieval is completed.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -365,7 +365,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "Commander, the unit with the data logs is taking fire! They know what we’re after and they’re not letting it go easy!",
+          "words": "Commander, the unit with the data logs is taking fire! They know what we're after and they're not letting it go easy!",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -390,7 +390,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "Confirmed. Full transfer complete—their logs are ours. This is going to make waves.",
+          "words": "Confirmed. Full transfer complete. Their logs are ours. This is going to make waves.",
           "wordsColor": {
             "r": 1,
             "g": 1,

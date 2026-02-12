@@ -11,8 +11,8 @@
   "missionSuccessStatementOverride": null,
   "badFaithStatementOverride": null,
   "goodFaithStatementOverride": null,
-  "shortDescription": "Ghost Bear Watch surveillance has identified a Minnesota Tribe logistics convoy moving through <i>Kuras Drift</i>. Intel suggests the cargo consists of rare, unrefined materials excavated from the local crust—materials that may play a role in advanced weapons development.\n\nThe convoy is traveling under minimal escort but is making use of the system’s natural interference and debris to mask its movement. Your mission is to intercept and destroy the convoy before it reaches orbit. Expect electronic countermeasures and decoy signals.",
-  "longDescription": "Tribe’s running fast with whatever they dug up here. That usually means it’s valuable, dangerous, or both. We stop them now, we might just get answers—and maybe a payday.",
+  "shortDescription": "Ghost Bear Watch surveillance has identified a Minnesota Tribe logistics convoy moving through <i>Kuras Drift</i>. Intel suggests the cargo consists of rare, unrefined materials excavated from the local crust. Materials that may play a role in advanced weapons development.\n\nThe convoy is traveling under minimal escort but is making use of the system's natural interference and debris to mask its movement. Your mission is to intercept and destroy the convoy before it reaches orbit. Expect electronic countermeasures and decoy signals.",
+  "longDescription": "Tribe's running fast with whatever they dug up here. That usually means it's valuable, dangerous, or both. We stop them now, we might just get answers, and maybe a payday.",
   "salvagePotential": 16,
   "requirementList": [],
   "OnContractSuccessResults": [],
@@ -283,7 +283,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "Picking up motion trails in the dust. This convoy’s on the move—let’s shut it down fast.",
+          "words": "Picking up motion trails in the dust. This convoy's on the move. Let's shut it down fast.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -299,7 +299,7 @@
           "revealRadius": -1
         },
         {
-          "words": "Bet my last socket wrench they’re moving something nasty. Let’s not let it leave the planet.",
+          "words": "Bet my last socket wrench they're moving something nasty. Let's not let it leave the planet.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -315,7 +315,7 @@
           "revealRadius": -1
         },
         {
-          "words": "Sensors show high-mass signatures—this isn’t scrap they’re hauling.",
+          "words": "Sensors show high-mass signatures. This isn't scrap they're hauling.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -331,7 +331,7 @@
           "revealRadius": -1
         },
         {
-          "words": "You know the drill. Hit ’em hard, hit ’em clean, and make sure nothing gets away.",
+          "words": "You know the drill. Hit 'em hard, hit 'em clean, and make sure nothing gets away.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -356,7 +356,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "Convoy wiped. That’ll stall whatever plans they had for that cargo.",
+          "words": "Convoy wiped. That'll stall whatever plans they had for that cargo.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -381,7 +381,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "They’re gone. Whatever they were hauling is offworld now—great.",
+          "words": "They're gone. Whatever they were hauling is offworld now. Great.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -431,7 +431,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "Got a confirmed hit on one of the haulers—keep up the pressure!",
+          "words": "Got a confirmed hit on one of the haulers! Keep up the pressure!",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -456,7 +456,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "Escort’s down. Now punch through to the prize.",
+          "words": "Escort's down. Now punch through to the prize.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -481,7 +481,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "They’re almost clear! If you’re gonna stop them, now’s the time!",
+          "words": "They're almost clear! If you're gonna stop them, now's the time!",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -506,7 +506,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "One crate turned to slag. Let’s finish the rest!",
+          "words": "One crate turned to slag. Let's finish the rest!",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -531,7 +531,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "That’s all of them. Convoy’s dust. We’re clear to pull out.",
+          "words": "That's all of them. Convoy's dust. We're clear to pull out.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -556,7 +556,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "Heads up—reinforcements inbound. Looks like they really want that shipment.",
+          "words": "Heads up, reinforcements inbound. Looks like they really want that shipment.",
           "wordsColor": {
             "r": 1,
             "g": 1,

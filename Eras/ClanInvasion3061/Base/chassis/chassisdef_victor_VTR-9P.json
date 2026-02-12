@@ -63,7 +63,8 @@
   "VariantName": "VTR-9P",
   "ChassisTags": {
     "items": [
-      "ArmLimitUpperRight"
+      "ArmLimitUpperRight",
+      "OneHanded"
     ],
     "tagSetSourceFile": ""
   },

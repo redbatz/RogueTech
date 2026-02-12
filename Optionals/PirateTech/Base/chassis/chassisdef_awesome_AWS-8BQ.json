@@ -52,7 +52,8 @@
   "ChassisTags": {
     "items": [
       "ArmLimitLowerRight",
-      "EliteMech"
+      "EliteMech",
+      "OneHanded"
     ],
     "tagSetSourceFile": ""
   },

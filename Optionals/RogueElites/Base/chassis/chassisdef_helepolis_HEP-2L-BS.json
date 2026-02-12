@@ -48,7 +48,8 @@
     "items": [
       "ArmLimitUpperRight",
       "EliteMech",
-      "skip_hardpoint"
+      "skip_hardpoint",
+      "OneHanded"
     ],
     "tagSetSourceFile": ""
   },

@@ -11,8 +11,8 @@
   "missionSuccessStatementOverride": null,
   "badFaithStatementOverride": null,
   "goodFaithStatementOverride": null,
-  "shortDescription": "A Minnesota Tribe supply convoy transporting critical food reserves, fusion cells, and munitions is en route to a forward operating depot on <i>Horgens III</i>. Intercepted Ghost Bear transmissions indicate a coordinated ambush is being prepared along the convoy’s projected path.\n\nThe convoy will not depart until the route is secured. The operation begins by clearing entrenched Watch forces from the intended staging zone. Once the area is safe, the convoy will proceed and must be escorted to the extraction point.\n\nMaintaining the integrity of this shipment is vital. Without these supplies, the forward base’s operational capability will degrade rapidly—threatening the entire Horgens campaign.",
-  "longDescription": "Classic Ghost Bear play: cut the supply lines, bleed us dry. We keep that convoy moving, or Mizuki’s whole flank starts crumbling.",
+  "shortDescription": "A Minnesota Tribe supply convoy transporting critical food reserves, fusion cells, and munitions is en route to a forward operating depot on <i>Horgens III</i>. Intercepted Ghost Bear transmissions indicate a coordinated ambush is being prepared along the convoy's projected path.\n\nThe convoy will not depart until the route is secured. The operation begins by clearing entrenched Watch forces from the intended staging zone. Once the area is safe, the convoy will proceed and must be escorted to the extraction point.\n\nMaintaining the integrity of this shipment is vital. Without these supplies, the forward base's operational capability will degrade rapidly, threatening the entire Horgens campaign.",
+  "longDescription": "Classic Ghost Bear play. Cut the supply lines, bleed us dry. We keep that convoy moving, or Mizuki's whole flank starts crumbling.",
   "salvagePotential": 12,
   "requirementList": [],
 "OnContractSuccessResults": [
@@ -480,7 +480,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "Convoy’s off the ground. Dropship dust-off confirmed—we got them through.",
+          "words": "Convoy's off the ground. Dropship dust-off confirmed. We got them through.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -496,7 +496,7 @@
           "revealRadius": -1
         },
         {
-          "words": "That’s one less disaster today. Let’s call it a win.",
+          "words": "That's one less disaster today. Let's call it a win.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -537,7 +537,7 @@
           "revealRadius": -1
         },
         {
-          "words": "The depot was depending on that load. We’ve set the whole flank back.",
+          "words": "The depot was depending on that load. We've set the whole flank back.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -562,7 +562,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "New Ghost Bear signatures incoming—fast movers.",
+          "words": "New Ghost Bear signatures incoming! Fast movers.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -587,7 +587,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "I’m seeing IFF tags for one of their elite recon groups—this is bad.",
+          "words": "I'm seeing IFF tags for one of their elite recon groups. This is bad.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -694,7 +694,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "Dropship’s locking on. That’s the last of them going up.",
+          "words": "Dropship's locking on. That's the last of them going up.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -719,7 +719,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "Convoy holding position. You’re too far out—pull back and cover us or we’re not moving another meter!",
+          "words": "Convoy holding position. You're too far out! Pull back and cover us or we're not moving another meter!",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -735,7 +735,7 @@
           "revealRadius": -1
         },
         {
-          "words": "They’re not wrong. Without cover, they’ll get picked apart.",
+          "words": "They're not wrong. Without cover, they'll get picked apart.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -751,7 +751,7 @@
           "revealRadius": -1
         },
         {
-          "words": "Close the gap, Commander. Convoy’s frozen until they feel safe again.",
+          "words": "Close the gap, Commander. Convoy's frozen until they feel safe again.",
           "wordsColor": {
             "r": 1,
             "g": 1,

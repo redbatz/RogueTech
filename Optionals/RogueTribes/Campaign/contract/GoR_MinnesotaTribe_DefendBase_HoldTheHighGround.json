@@ -11,8 +11,8 @@
   "missionSuccessStatementOverride": null,
   "badFaithStatementOverride": null,
   "goodFaithStatementOverride": null,
-  "shortDescription": "This fortified redoubt—originally a Star League observation bunker—is now one of the Tribe’s primary desert logistics posts. It supports multiple nearby strike cells and serves as a refueling and maintenance hub.\n\nGhost Bear forces seek to flatten it before it can be upgraded to a permanent bastion. Its loss would severely reduce operational tempo in this entire region. If you can hold it, the Tribe retains a powerful anchor in hostile territory.",
-  "longDescription": "They’re sending everything they’ve got at this one. Be ready for a grind.",
+  "shortDescription": "This fortified redoubt, originally a Star League observation bunker, is now one of the Tribe's primary desert logistics posts. It supports multiple nearby strike cells and serves as a refueling and maintenance hub.\n\nGhost Bear forces seek to flatten it before it can be upgraded to a permanent bastion. Its loss would severely reduce operational tempo in this entire region. If you can hold it, the Tribe retains a powerful anchor in hostile territory.",
+  "longDescription": "They're sending everything they've got at this one. Be ready for a grind.",
   "salvagePotential": 12,
   "requirementList": [],
   "OnContractSuccessResults": [
