@@ -1185,9 +1185,9 @@ nodes:
               name: Under the Ruins
               employer: MinnesotaTribe
               employerPortrait: castDef_JoannaMcEvedy
-              target: OWNER
+              target: AuriganPirates
               difficulty: 6
-              at: starsystemdef_Coopertown
+              at: starsystemdef_Durabon
               description: |
                   Help the Minnesota Tribe excavate the Star League-era resources before the Pirates can.
         - goto: MinnesotaTribe-UnderTheRuins
@@ -1196,7 +1196,7 @@ nodes:
         - contract:
               id: GoR_MinnesotaTribe_CaptureEscort_UnderTheRuins
               employer: MinnesotaTribe
-              target: OWNER
+              target: AuriganPirates
               onFailGoto: MinnesotaTribe-Retry-UnderTheRuins
               withinDays: 7
         - conversation:
@@ -1219,9 +1219,9 @@ nodes:
               name: Under The Ruins
               employer: MinnesotaTribe
               employerPortrait: castDef_JoannaMcEvedy
-              target: OWNER
+              target: AuriganPirates
               difficulty: 6
-              at: starsystemdef_Coopertown
+              at: starsystemdef_Durabon
               description: |
                   Resume the <b>Ghost of Retribution</b> campaign by retrying the contract.
         - goto: MinnesotaTribe-UnderTheRuins
