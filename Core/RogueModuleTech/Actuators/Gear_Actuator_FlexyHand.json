@@ -28,9 +28,9 @@
     "Manufacturer": "Coventry",
     "Model": "Alpha",
     "UIName": "Shooty Hand",
-    "Id": "Gear_Actuator_ShootyHand",
+    "Id": "Gear_Actuator_FlexyHand",
     "Name": "Coventry Alpha Arm Mod",
-    "Details": "This upgraded Hand Actuator is built to prioritize finger dexterity above other considerations. It makes handheld weapons much more accurate.",
+    "Details": "This upgraded Hand Actuator is built to prioritize high-precision finger movements above other considerations. It makes handheld weapons much more accurate.",
     "Icon": "uixSvgIcon_equipment_ActuatorArm"
   },
   "BonusValueA": "",
