@@ -6,16 +6,15 @@
       }
     ],
     "BonusDescriptions": [
-      "HandHeldQuirk: +1",
       "CBTBEPhysicalAttackAccuracyUpgrade: +2",
-      "ChassisBasedWeight: 1.5%",
+      "ChassisBasedWeight: 0.5%",
       "HandActuator"
     ],
     "Flags": [
       "not_broken"
     ],
     "Weights": {
-      "ComponentByChassisFactor": 0.015
+      "ComponentByChassisFactor": 0.005
     },
     "IBLS": {
       "StorageSize": 1
@@ -30,7 +29,7 @@
     "UIName": "Grippy Hand",
     "Id": "Gear_Actuator_GrippyHand",
     "Name": "Coventry Alpha Arm Mod",
-    "Details": "This sturdy Hand Actuator uses a high-fidelity finger controller, making handheld weapons much more accurate.",
+    "Details": "This sturdy Hand Actuator contains a high-fidelity Armored Finger Controller, making handheld melee weapons much more reliable.",
     "Icon": "uixSvgIcon_equipment_ActuatorArm"
   },
   "BonusValueA": "",
@@ -71,35 +70,6 @@
         "operation": "Int_Add",
         "modValue": "-2",
         "modType": "System.Int32"
-      }
-    },
-    {
-      "durationData": {
-        "duration": -1,
-        "stackLimit": -1
-      },
-      "targetingData": {
-        "effectTriggerType": "Passive",
-        "effectTargetType": "Creator",
-        "showInTargetPreview": false,
-        "showInStatusPanel": false
-      },
-      "effectType": "StatisticEffect",
-      "nature": "Buff",
-      "Description": {
-        "Id": "GrippyHand-RangeAccuracy",
-        "Name": "Grippy Hand: Improved Hand Held Accuracy",
-        "Details": "+1 Acc for ranged HandHeld Weapons.",
-        "Icon": "uixSvgIcon_equipment_TTS"
-      },
-      "statisticData": {
-        "abilifierId": "AccuracyModifierFilter",
-        "statName": "AccuracyModifier",
-        "operation": "Float_Add",
-        "modValue": "-1.0",
-        "modType": "System.Single",
-        "targetCollection": "Weapon",
-        "targetWeaponCategoryID": "SpecialHandHeld"
       }
     }
   ],
