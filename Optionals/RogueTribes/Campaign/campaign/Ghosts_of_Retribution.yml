@@ -1201,8 +1201,8 @@ nodes:
               withinDays: 7
         - conversation:
               id: GoR-MinnesotaTribe-3-AcquireRareMaterials
-              header: Orbit over {TGT_SYSTEM.Name}
-              subheader: Orbit over {CUR_SYSTEM}
+              header: Incoming Encrypted Transmission
+              subheader: Close Orbit over Durabon
         - fakeFlashpoint:
               name: Acquire Rare Materials
               employer: MinnesotaTribe
@@ -1235,8 +1235,8 @@ nodes:
               withinDays: 7
         - conversation:
               id: GoR-MinnesotaTribe-4-QuestionableChoices
-              header: Orbit over {TGT_SYSTEM.Name}
-              subheader: Orbit over {CUR_SYSTEM}
+              header: Crew Officer's Meeting
+              subheader: Orbit over Gallis
         - fakeFlashpoint:
               name: Unwilling Asset
               employer: MinnesotaTribe
@@ -1292,8 +1292,8 @@ nodes:
               withinDays: 7
         - conversation:
               id: GoR-MinnesotaTribe-5-AshesOfKnowledge
-              header: Orbit over {TGT_SYSTEM.Name}
-              subheader: Orbit over {CUR_SYSTEM}
+              header: Crew Officer's Meeting
+              subheader: Orbit over Ryerson
         - fakeFlashpoint:
               name: No Witnesses
               employer: MinnesotaTribe
@@ -1351,8 +1351,8 @@ nodes:
               withinDays: 7
         - conversation:
               id: GoR-MinnesotaTribe-6-HealersAndKillers
-              header: Orbit over {TGT_SYSTEM.Name}
-              subheader: Orbit over {CUR_SYSTEM}
+              header: Urgent Crew Officer's Meeting
+              subheader: Orbit over Niops
         - wait:
               days: 14
               workOrder: Wait for updates from Joanna
