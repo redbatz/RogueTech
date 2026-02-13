@@ -139,13 +139,6 @@
     },
     {
       "MountedLocation": "Head",
-      "ComponentDefID": "Gear_Cockpit_Hotseat",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "Head",
       "ComponentDefID": "Gear_FCS_Melee",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,

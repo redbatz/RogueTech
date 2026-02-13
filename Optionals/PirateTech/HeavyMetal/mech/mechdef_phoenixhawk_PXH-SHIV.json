@@ -221,13 +221,6 @@
     },
     {
       "MountedLocation": "Head",
-      "ComponentDefID": "Gear_Cockpit_Hotseat",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "Head",
       "ComponentDefID": "Gear_Cockpit_LifeSupportA_Piloting",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
