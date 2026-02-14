@@ -30,11 +30,22 @@
     "MultiDefaults": [
       {
         "Location": "LeftArm",
-        "DefID": "Default_HandHeld_Melee_Hatchet_6tons",
+        "DefID": "Default_HandHeld_Melee_Hatchet_4tons",
         "ComponentType": "Upgrade",
         "Categories": [
           "SpecialMelee",
           "HandHeld"
+        ]
+      },
+      {
+        "Location": "LeftArm",
+        "DefID": "Default_Actuator_OneBIGArm",
+        "ComponentType": "Upgrade",
+        "Categories": [
+          "ArmShoulder",
+          "ArmUpperActuator",
+          "ArmLowerActuator",
+          "ArmHandActuator"
         ]
       }
     ]

@@ -117,19 +117,19 @@
     },
     {
       "Location": "LeftLeg",
-      "CurrentArmor": 70,
+      "CurrentArmor": 65,
       "CurrentRearArmor": 0,
       "CurrentInternalStructure": 35,
-      "AssignedArmor": 70,
+      "AssignedArmor": 65,
       "AssignedRearArmor": 0,
       "DamageLevel": "Functional"
     },
     {
       "Location": "RightLeg",
-      "CurrentArmor": 70,
+      "CurrentArmor": 65,
       "CurrentRearArmor": 0,
       "CurrentInternalStructure": 35,
-      "AssignedArmor": 70,
+      "AssignedArmor": 65,
       "AssignedRearArmor": 0,
       "DamageLevel": "Functional"
     }
@@ -190,20 +190,6 @@
       "MountedLocation": "CenterTorso",
       "ComponentDefID": "Gear_EngineCooling_Heatsinks_1",
       "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "RightArm",
-      "ComponentDefID": "Gear_Actuator_Arm_Lower_Melee_Weapon",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "RightArm",
-      "ComponentDefID": "Gear_Actuator_GrippyHand",
-      "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
     },

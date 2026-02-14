@@ -119,19 +119,19 @@
     },
     {
       "Location": "LeftLeg",
-      "CurrentArmor": 70,
+      "CurrentArmor": 65,
       "CurrentRearArmor": 0,
       "CurrentInternalStructure": 35,
-      "AssignedArmor": 70,
+      "AssignedArmor": 65,
       "AssignedRearArmor": 0,
       "DamageLevel": "Functional"
     },
     {
       "Location": "RightLeg",
-      "CurrentArmor": 70,
+      "CurrentArmor": 65,
       "CurrentRearArmor": 0,
       "CurrentInternalStructure": 35,
-      "AssignedArmor": 70,
+      "AssignedArmor": 65,
       "AssignedRearArmor": 0,
       "DamageLevel": "Functional"
     }
@@ -204,14 +204,7 @@
     },
     {
       "MountedLocation": "RightArm",
-      "ComponentDefID": "Gear_Actuator_Arm_Lower_Melee_Weapon",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "RightArm",
-      "ComponentDefID": "Gear_Actuator_GrippyHand",
+      "ComponentDefID": "Lootable_HandHeld_Melee_Hatchet_5tons",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
