@@ -249,8 +249,8 @@
       "DamageLevel": "Functional"
     },
     {
-      "MountedLocation": "LeftArm",
-      "ComponentDefID": "Gear_Actuator_GrippyHand",
+      "MountedLocation": "RightArm",
+      "ComponentDefID": "Gear_Actuator_Arm_Upper_Armored",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
@@ -271,7 +271,7 @@
     },
     {
       "MountedLocation": "RightArm",
-      "ComponentDefID": "Lootable_HandHeld_Melee_Hatchet_8tons",
+      "ComponentDefID": "Lootable_HandHeld_Melee_Hatchet_7tons",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
