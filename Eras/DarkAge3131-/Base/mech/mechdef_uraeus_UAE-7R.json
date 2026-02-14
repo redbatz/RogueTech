@@ -68,29 +68,29 @@
     },
     {
       "Location": "LeftTorso",
-      "CurrentArmor": 115,
-      "CurrentRearArmor": 40,
+      "CurrentArmor": 125,
+      "CurrentRearArmor": 45,
       "CurrentInternalStructure": 80,
-      "AssignedArmor": 115,
-      "AssignedRearArmor": 40,
+      "AssignedArmor": 125,
+      "AssignedRearArmor": 45,
       "DamageLevel": "Functional"
     },
     {
       "Location": "CenterTorso",
       "CurrentArmor": 165,
-      "CurrentRearArmor": 50,
+      "CurrentRearArmor": 54,
       "CurrentInternalStructure": 115,
       "AssignedArmor": 165,
-      "AssignedRearArmor": 50,
+      "AssignedRearArmor": 54,
       "DamageLevel": "Functional"
     },
     {
       "Location": "RightTorso",
-      "CurrentArmor": 115,
-      "CurrentRearArmor": 40,
+      "CurrentArmor": 125,
+      "CurrentRearArmor": 45,
       "CurrentInternalStructure": 80,
-      "AssignedArmor": 115,
-      "AssignedRearArmor": 40,
+      "AssignedArmor": 125,
+      "AssignedRearArmor": 45,
       "DamageLevel": "Functional"
     },
     {
@@ -165,22 +165,22 @@
       "DamageLevel": "Functional"
     },
     {
-      "MountedLocation": "LeftArm",
-      "ComponentDefID": "Gear_Actuator_Arm_Lower_Melee_Weapon",
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Gear_TSM_Standard",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "RightArm",
+      "ComponentDefID": "Gear_Actuator_Arm_Upper_Recoil_Plus",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
     },
     {
       "MountedLocation": "LeftArm",
-      "ComponentDefID": "Gear_Actuator_GrippyHand",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "LeftArm",
-      "ComponentDefID": "Lootable_HandHeld_Melee_VibroSword_5tons",
+      "ComponentDefID": "Lootable_HandHeld_Melee_VibroSword_10tons",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
@@ -236,28 +236,14 @@
     },
     {
       "MountedLocation": "RightTorso",
-      "ComponentDefID": "Ammo_AmmunitionBox_UAC_10",
+      "ComponentDefID": "Ammo_AmmunitionBox_UAC_10_Double",
       "ComponentDefType": "AmmunitionBox",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
     },
     {
       "MountedLocation": "RightTorso",
-      "ComponentDefID": "Ammo_AmmunitionBox_UAC_10",
-      "ComponentDefType": "AmmunitionBox",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "RightTorso",
-      "ComponentDefID": "Ammo_AmmunitionBox_UAC_10",
-      "ComponentDefType": "AmmunitionBox",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "RightTorso",
-      "ComponentDefID": "Ammo_AmmunitionBox_UAC_10",
+      "ComponentDefID": "Ammo_AmmunitionBox_UAC_10_Half",
       "ComponentDefType": "AmmunitionBox",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"

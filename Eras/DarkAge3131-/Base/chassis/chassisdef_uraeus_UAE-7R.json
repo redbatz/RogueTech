@@ -7,7 +7,45 @@
       "PrefabID": "uraeus",
       "Exclude": false,
       "Include": true
-    }
+    },
+    "ChassisCategory": [
+      {
+        "CategoryID": "SpecialMelee",
+        "Limits": [
+          {
+            "Location": "All",
+            "Max": 1
+          },
+          {
+            "Location": "LeftArm",
+            "Min": 1,
+            "Max": 1
+          }
+        ]
+      }
+    ],
+    "MultiDefaults": [
+      {
+        "Location": "LeftArm",
+        "DefID": "Default_HandHeld_Melee_VibroSword_5tons",
+        "ComponentType": "Upgrade",
+        "Categories": [
+          "SpecialMelee",
+          "HandHeld"
+        ]
+      },
+      {
+        "Location": "LeftArm",
+        "DefID": "Default_Actuator_OneBIGArm",
+        "ComponentType": "Upgrade",
+        "Categories": [
+          "ArmShoulder",
+          "ArmUpperActuator",
+          "ArmLowerActuator",
+          "ArmHandActuator"
+        ]
+      }
+    ]
   },
   "CustomParts": {
     "CustomParts": []

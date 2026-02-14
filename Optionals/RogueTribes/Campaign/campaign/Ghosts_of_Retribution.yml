@@ -1185,9 +1185,9 @@ nodes:
               name: Under the Ruins
               employer: MinnesotaTribe
               employerPortrait: castDef_JoannaMcEvedy
-              target: OWNER
+              target: AuriganPirates
               difficulty: 6
-              at: starsystemdef_Coopertown
+              at: starsystemdef_Durabon
               description: |
                   Help the Minnesota Tribe excavate the Star League-era resources before the Pirates can.
         - goto: MinnesotaTribe-UnderTheRuins
@@ -1196,13 +1196,13 @@ nodes:
         - contract:
               id: GoR_MinnesotaTribe_CaptureEscort_UnderTheRuins
               employer: MinnesotaTribe
-              target: OWNER
+              target: AuriganPirates
               onFailGoto: MinnesotaTribe-Retry-UnderTheRuins
               withinDays: 7
         - conversation:
               id: GoR-MinnesotaTribe-3-AcquireRareMaterials
-              header: Orbit over {TGT_SYSTEM.Name}
-              subheader: Orbit over {CUR_SYSTEM}
+              header: Incoming Encrypted Transmission
+              subheader: Close Orbit over Durabon
         - fakeFlashpoint:
               name: Acquire Rare Materials
               employer: MinnesotaTribe
@@ -1219,9 +1219,9 @@ nodes:
               name: Under The Ruins
               employer: MinnesotaTribe
               employerPortrait: castDef_JoannaMcEvedy
-              target: OWNER
+              target: AuriganPirates
               difficulty: 6
-              at: starsystemdef_Coopertown
+              at: starsystemdef_Durabon
               description: |
                   Resume the <b>Ghost of Retribution</b> campaign by retrying the contract.
         - goto: MinnesotaTribe-UnderTheRuins
@@ -1235,8 +1235,8 @@ nodes:
               withinDays: 7
         - conversation:
               id: GoR-MinnesotaTribe-4-QuestionableChoices
-              header: Orbit over {TGT_SYSTEM.Name}
-              subheader: Orbit over {CUR_SYSTEM}
+              header: Crew Officer's Meeting
+              subheader: Orbit over Gallis
         - fakeFlashpoint:
               name: Unwilling Asset
               employer: MinnesotaTribe
@@ -1292,8 +1292,8 @@ nodes:
               withinDays: 7
         - conversation:
               id: GoR-MinnesotaTribe-5-AshesOfKnowledge
-              header: Orbit over {TGT_SYSTEM.Name}
-              subheader: Orbit over {CUR_SYSTEM}
+              header: Crew Officer's Meeting
+              subheader: Orbit over Ryerson
         - fakeFlashpoint:
               name: No Witnesses
               employer: MinnesotaTribe
@@ -1351,8 +1351,8 @@ nodes:
               withinDays: 7
         - conversation:
               id: GoR-MinnesotaTribe-6-HealersAndKillers
-              header: Orbit over {TGT_SYSTEM.Name}
-              subheader: Orbit over {CUR_SYSTEM}
+              header: Urgent Crew Officer's Meeting
+              subheader: Orbit over Niops
         - wait:
               days: 14
               workOrder: Wait for updates from Joanna

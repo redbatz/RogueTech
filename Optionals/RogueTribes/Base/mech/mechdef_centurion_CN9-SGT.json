@@ -77,10 +77,10 @@
     {
       "Location": "CenterTorso",
       "CurrentArmor": 160,
-      "CurrentRearArmor": 75,
+      "CurrentRearArmor": 80,
       "CurrentInternalStructure": 80,
       "AssignedArmor": 160,
-      "AssignedRearArmor": 75,
+      "AssignedRearArmor": 80,
       "DamageLevel": "Functional"
     },
     {
@@ -206,13 +206,6 @@
       "DamageLevel": "Functional"
     },
     {
-      "MountedLocation": "LeftArm",
-      "ComponentDefID": "Gear_Actuator_GrippyHand",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
       "MountedLocation": "RightArm",
       "ComponentDefID": "Gear_Actuator_Arm_Upper_Hardened",
       "ComponentDefType": "Upgrade",
@@ -222,13 +215,6 @@
     {
       "MountedLocation": "RightArm",
       "ComponentDefID": "Gear_Actuator_WeaponMount_Heat",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "RightTorso",
-      "ComponentDefID": "Special_AddOn_IFFJammer_Mk3",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"

@@ -76,10 +76,10 @@
     {
       "Location": "CenterTorso",
       "CurrentArmor": 115,
-      "CurrentRearArmor": 50,
+      "CurrentRearArmor": 46,
       "CurrentInternalStructure": 90,
       "AssignedArmor": 115,
-      "AssignedRearArmor": 50,
+      "AssignedRearArmor": 46,
       "DamageLevel": "Functional"
     },
     {
@@ -180,7 +180,14 @@
     },
     {
       "MountedLocation": "LeftArm",
-      "ComponentDefID": "Gear_Actuator_GrippyHand",
+      "ComponentDefID": "Gear_Actuator_Arm_Lower_Melee_Weapon",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "LeftArm",
+      "ComponentDefID": "Lootable_HandHeld_Shield_6tons",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
@@ -260,13 +267,6 @@
     {
       "MountedLocation": "LeftTorso",
       "ComponentDefID": "Ammo_AmmunitionBox_SRM_Streak",
-      "ComponentDefType": "AmmunitionBox",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Ammo_AmmunitionBox_SRM_Streak_Half",
       "ComponentDefType": "AmmunitionBox",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
