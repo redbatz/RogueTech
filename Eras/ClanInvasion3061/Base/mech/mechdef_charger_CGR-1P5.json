@@ -129,10 +129,10 @@
     {
       "Location": "CenterTorso",
       "CurrentArmor": 195,
-      "CurrentRearArmor": 62,
+      "CurrentRearArmor": 56,
       "CurrentInternalStructure": 125,
       "AssignedArmor": 195,
-      "AssignedRearArmor": 62,
+      "AssignedRearArmor": 56,
       "DamageLevel": "Functional"
     },
     {
@@ -155,19 +155,19 @@
     },
     {
       "Location": "LeftLeg",
-      "CurrentArmor": 165,
+      "CurrentArmor": 160,
       "CurrentRearArmor": 0,
       "CurrentInternalStructure": 85,
-      "AssignedArmor": 165,
+      "AssignedArmor": 160,
       "AssignedRearArmor": 0,
       "DamageLevel": "Functional"
     },
     {
       "Location": "RightLeg",
-      "CurrentArmor": 165,
+      "CurrentArmor": 160,
       "CurrentRearArmor": 0,
       "CurrentInternalStructure": 85,
-      "AssignedArmor": 165,
+      "AssignedArmor": 160,
       "AssignedRearArmor": 0,
       "DamageLevel": "Functional"
     }
@@ -188,22 +188,22 @@
       "DamageLevel": "Functional"
     },
     {
-      "MountedLocation": "RightArm",
-      "ComponentDefID": "Gear_Actuator_Arm_Lower_Melee_Weapon",
+      "MountedLocation": "LeftArm",
+      "ComponentDefID": "Gear_Actuator_Arm_Lower_Melee",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
     },
     {
       "MountedLocation": "RightArm",
-      "ComponentDefID": "Gear_Actuator_GrippyHand",
+      "ComponentDefID": "Gear_Actuator_OneBIGArm",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
     },
     {
       "MountedLocation": "RightArm",
-      "ComponentDefID": "Lootable_HandHeld_Melee_Hatchet_9tons",
+      "ComponentDefID": "Lootable_HandHeld_Melee_Hatchet_10tons",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
@@ -289,13 +289,6 @@
       "MountedLocation": "RightTorso",
       "ComponentDefID": "Ammo_AmmunitionBox_AC_5_Precision",
       "ComponentDefType": "AmmunitionBox",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Gear_HeatSink_Single",
-      "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
     },

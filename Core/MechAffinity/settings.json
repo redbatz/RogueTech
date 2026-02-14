@@ -310,21 +310,21 @@
         "affinityId": "HatamotoFighter",
         "assemblyGroup": [
           "chassisdef_hatamoto-chi_HTM-27T_daniel",
-          "chassisdef_hatamoto-chi_HTM-SAM",
+          "chassisdef_hatamoto-chi_HTM-SAM"
         ]
       },
       {
         "affinityId": "CommandoFighter",
         "assemblyGroup": [
           "chassisdef_commando_COM-SP-2",
-          "chassisdef_commando_COM-SP",
+          "chassisdef_commando_COM-SP"
         ]
       },
       {
         "affinityId": "BlackknightFighter",
         "assemblyGroup": [
           "chassisdef_blackknight_BL-X-KNT",
-          "chassisdef_blackknight_BL-X2-KNT",
+          "chassisdef_blackknight_BL-X2-KNT"
         ]
       }
     ],

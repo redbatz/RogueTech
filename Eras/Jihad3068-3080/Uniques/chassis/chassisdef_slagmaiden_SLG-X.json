@@ -30,7 +30,7 @@
     "MultiDefaults": [
       {
         "Location": "LeftArm",
-        "DefID": "Default_HandHeld_Shield_6tons",
+        "DefID": "Default_HandHeld_Shield_5tons",
         "ComponentType": "Upgrade",
         "Categories": [
           "SpecialShield",
