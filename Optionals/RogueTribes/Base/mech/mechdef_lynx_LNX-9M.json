@@ -191,7 +191,7 @@
       "DamageLevel": "Functional"
     },
     {
-      "MountedLocation": "LeftTorso",
+      "MountedLocation": "RightTorso",
       "ComponentDefID": "Special_AddOn_NightVision",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
