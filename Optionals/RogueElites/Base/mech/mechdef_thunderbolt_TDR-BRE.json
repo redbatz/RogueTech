@@ -256,13 +256,6 @@
       "DamageLevel": "Functional"
     },
     {
-      "MountedLocation": "LeftArm",
-      "ComponentDefID": "Gear_Actuator_GrippyHand",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
       "MountedLocation": "RightArm",
       "ComponentDefID": "Gear_Actuator_Arm_Upper_Hardened",
       "ComponentDefType": "Upgrade",
@@ -285,7 +278,7 @@
     },
     {
       "MountedLocation": "RightTorso",
-      "ComponentDefID": "BoltOn_Weapon_Rocket_20_Tandem_x5",
+      "ComponentDefID": "BoltOn_Weapon_Rocket_20_Tandem_x4",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
       "DamageLevel": "Functional"

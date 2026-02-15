@@ -6,30 +6,30 @@
       }
     ],
     "BonusDescriptions": [
-      "CBTBEPhysicalAttackAccuracyUpgrade: +2",
-      "ChassisBasedWeight: 0.5%",
+      "HandHeldQuirk: +1",
+      "ChassisBasedWeight: 1.5%",
       "HandActuator"
     ],
     "Flags": [
       "not_broken"
     ],
     "Weights": {
-      "ComponentByChassisFactor": 0.005
+      "ComponentByChassisFactor": 0.015
     },
     "IBLS": {
       "StorageSize": 1
     }
   },
   "Description": {
-    "Cost": 66000,
+    "Cost": 130000,
     "Rarity": 99,
     "Purchasable": true,
     "Manufacturer": "Coventry",
     "Model": "Alpha",
-    "UIName": "Grippy Hand",
-    "Id": "Gear_Actuator_GrippyHand",
-    "Name": "Coventry Alpha Arm Mod",
-    "Details": "This sturdy Hand Actuator contains a high-fidelity Armored Finger Controller, making handheld melee weapons much more reliable.",
+    "UIName": "Flexy Hand",
+    "Id": "Gear_Actuator_FlexyHand",
+    "Name": "Coventry Alpha Handgun Mod",
+    "Details": "This upgraded Hand Actuator allows better maneuverability and aim for a weapon held in the 'Mech's hand.",
     "Icon": "uixSvgIcon_equipment_ActuatorArm"
   },
   "BonusValueA": "",
@@ -60,16 +60,19 @@
       "effectType": "StatisticEffect",
       "nature": "Buff",
       "Description": {
-        "Id": "GrippyHand-PhysAccuracy",
-        "Name": "Grippy Hand: Improved Physical Weapon Hit Chance",
-        "Details": "MeleeWeapon Accuracy Modifier",
-        "Icon": "uixSvgIcon_run_n_gun"
+        "Id": "FlexyHand-RangeAccuracy",
+        "Name": "Flexy Hand: Improved Hand Held Accuracy",
+        "Details": "+1 Acc for ranged HandHeld Weapons.",
+        "Icon": "uixSvgIcon_equipment_TTS"
       },
       "statisticData": {
-        "statName": "CBTBE_Physical_Weapon_Attack_Mod",
-        "operation": "Int_Add",
-        "modValue": "-2",
-        "modType": "System.Int32"
+        "abilifierId": "AccuracyModifierFilter",
+        "statName": "AccuracyModifier",
+        "operation": "Float_Add",
+        "modValue": "-1.0",
+        "modType": "System.Single",
+        "targetCollection": "Weapon",
+        "targetWeaponCategoryID": "SpecialHandHeld"
       }
     }
   ],

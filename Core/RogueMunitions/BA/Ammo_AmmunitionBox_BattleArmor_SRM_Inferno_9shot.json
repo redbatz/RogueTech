@@ -8,14 +8,15 @@
     "BonusDescriptions": [
       "BattleArmorAmmo",
       "HeatDamage: +4",
-      "AmmoDamage: -70%",
+      "Inferno: 1",
+      "AmmoDamage: -5",
+      "AmmoVAR: -4",
       "AlwaysStartsFireAnywhere",
       "FireTerrainStrength: 2",
       "FireTerrainDuration: 1",
-      "Inferno: 1",
+      "MissileHP: 3",
       "AmmoCount: Inf SRM, 9",
       "VolatileAmmo",
-      "MissileHP: 2",
       "AmmoCost: 81",
       "AmmoBoxExplosion: 3.8, 3.4, 0.9"
     ],

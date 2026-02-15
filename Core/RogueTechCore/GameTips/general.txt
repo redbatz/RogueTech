@@ -99,7 +99,7 @@ Go ahead. Go right ahead. Don't let me discourage you. Any objections from me wo
 I wonder if Yang remembered to reload my 'Mech?
 I wonder if Yang remembered to repair my 'Mech?
 What is a belly-weegle anyway?
-A disarmed Urby still can be a bullet with jumpjets. Well, a slow bullet.
+A disarmed Urbie still can be a bullet with jumpjets. Well, a slow bullet.
 "Did you see THAT? DID YOU SEE IT?!?" - Glitch
 War. War never changes. The way of humanity will never change and war brings another bloody chapter in our history. At least there's profit to be made.
 Darius has no idea what he's talking about half the time.
@@ -217,7 +217,7 @@ Combat Tip #60: Some VTOL carry powerful bombs, watch out for the big ones!
 Combat Tip #61: Killing Rocket Launcher units before they blow their load is tactically advisable.
 Combat Tip #62: Many missions have lances designated as reinforcements. Your deployments may not always be a milk run.
 Combat Tip #63: Losing your ranged weapons does not mean the battle is lost. It just means that the battle is about to get less civilized.
-Combat Tip #64: A 'Mech splits its melee damage across the number of hits it makes — a 'Mech with two hands making a 30-damage punch attack hits twice for 15 damage.
+Combat Tip #64: A 'Mech splits its punching damage across the number of hits it makes — a 'Mech with two hands making a 30-damage punch attack hits twice for 15 damage.
 Combat Tip #65: Enemy airstrikes can be nullified by strong anti-air (AA) presence. Units can enter "AA Stance" to contribute the AA Factor of their weapons to a total chance of preventing an airstrike.
 Combat Tip #66: If you are in a tight spot you can try to wrap up the mission by completing only the main objective then escaping. If it isn't possible, sometimes withdrawing in bad faith is better than losing your lance completely.
 Combat Tip #67: Firing weapons makes a unit twice as easy to detect. If you want to hide a unit move it out of sight and don't fire.
@@ -229,7 +229,8 @@ Combat Tip #72: Gunnery Skill reduces Jam/Misfire chance by a flat 0.5 percentag
 Combat Tip #73: You can't prioritize targets until you know what's out there. Scout early. Scout often.
 Combat Tip #74: Scouting only matters if you can actually recognize threats when you see them. Get better sensors and increase your 'mech knowledge.
 Combat Tip #75: Attacks against a 'mech from the front or rear spread the damage around the most.
-Combat Tip #76: Attacking a 'mech from the flank can hit anywhere, but focus damage on one side's arm, side torso and leg.
+Combat Tip #76: Attacking a 'mech from the flank can hit anywhere, but focuses damage on one side's arm, side torso and leg.
+Combat Tip #77: To defeat the Atlas, shoot at it until it dies.
 Combat Hotkeys #1: TAB can be used to cycle between valid targets.
 Combat Hotkeys #2: Press V to cycle between valid melee targets.
 Combat Hotkeys #3: Pressing CTRL+T will enable or disable the coloured attack direction indicators.
@@ -240,7 +241,7 @@ Combat Hotkeys #7: Clicking on an objective in the list focuses the camera on re
 Combat Hotkeys #8: Hold shift while clicking reserve to reserve all remaining units down to phase 1.
 Deployment Tip #1: Clicking on a unit in a deployment slot will order the list of pilots by affinity with that unit from highest to lowest.
 Deployment Tip #2: Plan your lance according to the range & strategy you intend to use.
-Deployment Tip #3: Dropping a lance that has a higher rating than the mission rating has a chance to generate additional reinforcements, called "Support Lances". The greater the difference in rating; the higher the chance.
+Deployment Tip #3: Dropping a lance that has a higher rating than the mission rating slightly increases the chance to generate additional reinforcements, called "Support Lances".
 EWAR Tip #1: EWAR stands for "Electronic Warfare," which covers a wide range of equipment used to disrupt the enemy's attempts to target your units.
 EWAR Tip #2: Electronic Warfare (EWAR) equipment such as ECM Suites can provide significant benefits to your lance. Read the tooltips of your equipment to see their effects!
 EWAR Tip #3: ECM stands for "Electronic Countermeasures."
@@ -494,3 +495,4 @@ In an Ambush Convoy mission, the enemy cannot extract so long as you have at lea
 "Do you still remember?; Would you still believe?; That this blackened soul of mine; Was once untarnished?" - Insomnium, Heart Like a Grave
 "Fortunately, I have my stethoscope. We undertakers cannot be too careful. If we bury people before they are dead, they get very cross." - Monsieur Alfonse
 From the moment I understood the weakness of my flesh, it disgusted me. I craved the strength and certainty of steel.
+Find a crew. Find a job. Keep flying.

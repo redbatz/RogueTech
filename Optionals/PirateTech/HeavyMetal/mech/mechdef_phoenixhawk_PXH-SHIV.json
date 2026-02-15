@@ -221,13 +221,6 @@
     },
     {
       "MountedLocation": "Head",
-      "ComponentDefID": "Gear_Cockpit_Hotseat",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "Head",
       "ComponentDefID": "Gear_Cockpit_LifeSupportA_Piloting",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
@@ -298,14 +291,14 @@
     },
     {
       "MountedLocation": "LeftArm",
-      "ComponentDefID": "Gear_Actuator_GrippyHand",
+      "ComponentDefID": "Gear_Actuator_Arm_Lower_Melee_Weapon",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
     },
     {
       "MountedLocation": "RightArm",
-      "ComponentDefID": "Gear_Actuator_Arm_Lower_Melee_Weapon",
+      "ComponentDefID": "Gear_Actuator_GrippyHand",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"

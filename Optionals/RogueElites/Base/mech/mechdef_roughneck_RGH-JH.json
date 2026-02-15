@@ -169,13 +169,6 @@
   ],
   "inventory": [
     {
-      "MountedLocation": "LeftArm",
-      "ComponentDefID": "Gear_AdvancedMaterials1",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
       "MountedLocation": "CenterTorso",
       "ComponentDefID": "Gear_Armor_ReactivePlating",
       "ComponentDefType": "Upgrade",
@@ -184,7 +177,7 @@
     },
     {
       "MountedLocation": "RightTorso",
-      "ComponentDefID": "Gear_ModularArmor_Mk4",
+      "ComponentDefID": "Gear_ModularArmor_Mk3",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
@@ -198,7 +191,7 @@
     },
     {
       "MountedLocation": "RightArm",
-      "ComponentDefID": "Gear_ModularArmor_Mk4",
+      "ComponentDefID": "Gear_ModularArmor_Mk3",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
@@ -323,13 +316,6 @@
       "DamageLevel": "Functional"
     },
     {
-      "MountedLocation": "LeftArm",
-      "ComponentDefID": "Gear_Actuator_GrippyHand",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
       "MountedLocation": "RightArm",
       "ComponentDefID": "Gear_Actuator_Arm_Upper_Hardened",
       "ComponentDefType": "Upgrade",
@@ -345,7 +331,7 @@
     },
     {
       "MountedLocation": "RightArm",
-      "ComponentDefID": "Gear_Actuator_GrippyHand",
+      "ComponentDefID": "Gear_Actuator_FlexyHand",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"

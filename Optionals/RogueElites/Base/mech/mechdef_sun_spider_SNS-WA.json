@@ -46,7 +46,7 @@
     "UIName": "Sun Spider 'Warden'",
     "Id": "mechdef_sun_spider_SNS-WA",
     "Name": "Sun Spider WA",
-    "Details": "A Special Refit of the Sun Spider, Made Deadlier by using Streak Launchers and Battlecomputers. Everything in the Mech is Clan Spec, but the Launchers Look like they're a Weird Mix of Clan and Inner Sphere Tech. From the Markings it Looks Like Either a Showcase Mech for Research, or a Showpiece in a Museum. The Close Range Viability of this Sun Spider is Deadly, so Keep your Distance and you will come out Victorious.\n\n<b><color=#e62e00>Quirk: Narrow/Low Profile</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.15</color></b>\n\n<color=#FFEF00>Arm Actuator Limits: Omni</color>",
+    "Details": "A special refit of the Sun Spider, made deadlier by using Streak Launchers and Battlecomputers. Everything in the 'Mech is Clan spec, but the launchers look like they're a weird mix of Clan and Inner Sphere Tech. From the markings it looks like either a showcase Mech for research, or a museum showpiece. The close range viability of this Sun Spider is deadly, but it has few options at long distance.\n\n<b><color=#e62e00>Quirk: Narrow/Low Profile</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.15</color></b>\n\n<color=#FFEF00>Arm Actuator Limits: Omni</color>",
     "Icon": "uixTxrIcon_sunspider"
   },
   "simGameMechPartCost": 1231112,
@@ -71,28 +71,28 @@
     },
     {
       "Location": "LeftTorso",
-      "CurrentArmor": 150,
+      "CurrentArmor": 145,
       "CurrentRearArmor": 65,
       "CurrentInternalStructure": 75,
-      "AssignedArmor": 150,
+      "AssignedArmor": 145,
       "AssignedRearArmor": 65,
       "DamageLevel": "Functional"
     },
     {
       "Location": "CenterTorso",
       "CurrentArmor": 220,
-      "CurrentRearArmor": 100,
+      "CurrentRearArmor": 85,
       "CurrentInternalStructure": 110,
       "AssignedArmor": 220,
-      "AssignedRearArmor": 100,
+      "AssignedRearArmor": 85,
       "DamageLevel": "Functional"
     },
     {
       "Location": "RightTorso",
-      "CurrentArmor": 150,
+      "CurrentArmor": 145,
       "CurrentRearArmor": 65,
       "CurrentInternalStructure": 75,
-      "AssignedArmor": 150,
+      "AssignedArmor": 145,
       "AssignedRearArmor": 65,
       "DamageLevel": "Functional"
     },
@@ -182,9 +182,23 @@
       "DamageLevel": "Functional"
     },
     {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Gear_Cooling_Pod_x1_Clan",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
       "MountedLocation": "RightTorso",
       "ComponentDefID": "Gear_TargetingTrackingSystem_Cluster",
       "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Gear_Cooling_Pod_x1_Clan",
+      "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
     },
