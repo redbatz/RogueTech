@@ -121,7 +121,7 @@
       "nature": "Buff",
       "Description": {
         "Id": "WeaponEffect-SelfInstability_OnFire",
-        "Name": "HandHeld Long Tom Cannon: Increased Self Instability on Fire",
+        "Name": "Oneshot Long Tom QS: Increased Self Instability on Fire",
         "Details": "Tubthumping",
         "Icon": "uixSvgIcon_run_n_gun"
       },

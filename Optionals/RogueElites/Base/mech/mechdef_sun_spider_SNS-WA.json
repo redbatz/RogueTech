@@ -40,7 +40,7 @@
   },
   "ChassisID": "chassisdef_sun_spider_SNS-WA",
   "Description": {
-    "Cost": 16968412,
+    "Cost": 17132878,
     "Rarity": 5,
     "Purchasable": true,
     "UIName": "Sun Spider 'Warden'",
@@ -49,7 +49,7 @@
     "Details": "A special refit of the Sun Spider, made deadlier by using Streak Launchers and Battlecomputers. Everything in the 'Mech is Clan spec, but the launchers look like they're a weird mix of Clan and Inner Sphere Tech. From the markings it looks like either a showcase Mech for research, or a museum showpiece. The close range viability of this Sun Spider is deadly, but it has few options at long distance.\n\n<b><color=#e62e00>Quirk: Narrow/Low Profile</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.15</color></b>\n\n<color=#FFEF00>Arm Actuator Limits: Omni</color>",
     "Icon": "uixTxrIcon_sunspider"
   },
-  "simGameMechPartCost": 1231112,
+  "simGameMechPartCost": 1230006,
   "Locations": [
     {
       "Location": "Head",
@@ -182,23 +182,9 @@
       "DamageLevel": "Functional"
     },
     {
-      "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Gear_Cooling_Pod_x1_Clan",
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
       "MountedLocation": "RightTorso",
       "ComponentDefID": "Gear_TargetingTrackingSystem_Cluster",
       "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "RightTorso",
-      "ComponentDefID": "Gear_Cooling_Pod_x1_Clan",
-      "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
     },
@@ -297,6 +283,20 @@
       "MountedLocation": "RightTorso",
       "ComponentDefID": "Ammo_AmmunitionBox_SRM_Streak",
       "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Gear_Cooling_Pod_x1_Clan",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Gear_Cooling_Pod_x1_Clan",
+      "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
     }

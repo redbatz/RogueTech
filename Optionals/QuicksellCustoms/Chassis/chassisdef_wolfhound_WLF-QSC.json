@@ -123,8 +123,8 @@
     "items": [
       "ArmLimitLowerRight",
       "QuicsellOmni",
-      "skip_hardpoint",
-      "OneHanded"
+      "OneHanded",
+      "skip_hardpoint"
     ],
     "tagSetSourceFile": ""
   },

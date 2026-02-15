@@ -26,17 +26,6 @@
       "ChassisBasedWeight: 2.5%",
       "HandActuator"
     ],
-    "Flags": [
-      "default",
-      "autorepair",
-      "not_broken"
-    ],
-    "Weights": {
-      "ComponentByChassisFactor": 0.025
-    },
-    "IBLS": {
-      "StorageSize": 5
-    },
     "CarryHandCapacityChassisFactor": 0.085,
     "CriticalEffects": {
       "OnDestroyedEffectIDs": [
@@ -57,7 +46,18 @@
         ]
       ]
     },
-    "Lootable": "Gear_Actuator_OneBIGArm"
+    "Flags": [
+      "default",
+      "autorepair",
+      "not_broken"
+    ],
+    "IBLS": {
+      "StorageSize": 5
+    },
+    "Lootable": "Gear_Actuator_OneBIGArm",
+    "Weights": {
+      "ComponentByChassisFactor": 0.025
+    }
   },
   "Description": {
     "Cost": 150000,
@@ -98,7 +98,7 @@
       "nature": "Buff",
       "Description": {
         "Id": "Punch_Damage_Base",
-        "Name": "Boomstick!: Increased Punch Damage Per Ton",
+        "Name": "Default One BIG Arm: Increased Punch Damage Per Ton",
         "Details": "Damage Modifier",
         "Icon": "uixSvgIcon_equipment_ActuatorArm"
       },
@@ -124,7 +124,7 @@
       "nature": "Buff",
       "Description": {
         "Id": "Punch_Damage_Base",
-        "Name": "Boomstick!: Increased Punch Stability Damage Per Ton",
+        "Name": "Default One BIG Arm: Increased Punch Stability Damage Per Ton",
         "Details": "Damage Modifier",
         "Icon": "uixSvgIcon_equipment_ActuatorArm"
       },
@@ -150,7 +150,7 @@
       "nature": "Buff",
       "Description": {
         "Id": "Hand_MeleeAttacks_Punch",
-        "Name": "Boomstick!: Increased Punch Extra Hits",
+        "Name": "Default One BIG Arm: Increased Punch Extra Hits",
         "Details": "MeleeWeapon Accuracy Modifier",
         "Icon": "uixSvgIcon_run_n_gun"
       },
@@ -176,7 +176,7 @@
       "nature": "Buff",
       "Description": {
         "Id": "MeleeAccuracy_Lower_Weapon",
-        "Name": "Lower Melee Weapon: Improved Physical Weapon Hit Chance",
+        "Name": "Default One BIG Arm: Improved Physical Weapon Hit Chance",
         "Details": "MeleeWeapon Accuracy Modifier",
         "Icon": "uixSvgIcon_run_n_gun"
       },
@@ -202,7 +202,7 @@
       "nature": "Buff",
       "Description": {
         "Id": "MeleeWeaponMechTonScaleDmg",
-        "Name": "Lower Melee Weapon: Increased Physical Weapon Damage Per Ton",
+        "Name": "Default One BIG Arm: Increased Physical Weapon Damage Per Ton",
         "Details": "Damage Modifier",
         "Icon": "uixSvgIcon_equipment_ActuatorArm"
       },
@@ -228,7 +228,7 @@
       "nature": "Buff",
       "Description": {
         "Id": "MeleeWeaponMechTonScaleStability",
-        "Name": "Lower Melee Weapon: Increased Physical Weapon Stability Damage Per Ton",
+        "Name": "Default One BIG Arm: Increased Physical Weapon Stability Damage Per Ton",
         "Details": "Damage Modifier",
         "Icon": "uixSvgIcon_equipment_ActuatorArm"
       },
@@ -254,7 +254,7 @@
       "nature": "Buff",
       "Description": {
         "Id": "MeleeAccuracy_Lower_Punch",
-        "Name": "Lower Melee Punch: Improved Punch Hit Chance",
+        "Name": "Default One BIG Arm: Improved Punch Hit Chance",
         "Details": "MeleeWeapon Accuracy Modifier",
         "Icon": "uixSvgIcon_run_n_gun"
       },
@@ -280,7 +280,7 @@
       "nature": "Buff",
       "Description": {
         "Id": "Lower_Damage_Punch",
-        "Name": "Lower Melee Punch: Increased Punch Damage",
+        "Name": "Default One BIG Arm: Increased Punch Damage",
         "Details": "Damage Modifier",
         "Icon": "uixSvgIcon_equipment_ActuatorArm"
       },
@@ -306,7 +306,7 @@
       "nature": "Buff",
       "Description": {
         "Id": "Fists_Stability_Punch",
-        "Name": "Battle Fist MK3: Increased Punch Stability Damage",
+        "Name": "Default One BIG Arm: Increased Punch Stability Damage",
         "Details": "Damage Modifier",
         "Icon": "uixSvgIcon_equipment_ActuatorArm"
       },
@@ -332,7 +332,7 @@
       "nature": "Buff",
       "Description": {
         "Id": "Status-ReinforcedArmor-{location}",
-        "Name": "Shoulder Armored: Increased {location} Structure",
+        "Name": "Default One BIG Arm: Increased {location} Structure",
         "Details": "Reinforced Leg Armor",
         "Icon": "uixSvgIcon_equipment_ActuatorArm"
       },
@@ -358,7 +358,7 @@
       "nature": "Buff",
       "Description": {
         "Id": "Status-ReinforcedArmor-{location}",
-        "Name": "Shoulder Armored: Increased {location} Armor",
+        "Name": "Default One BIG Arm: Increased {location} Armor",
         "Details": "Reinforced Leg Armor",
         "Icon": "uixSvgIcon_equipment_ActuatorArm"
       },
@@ -378,8 +378,8 @@
       "component_type_stock",
       "QuadIncompatible",
       "LootMagnetBlacklist",
-      "SquadIncompatible",
-      "OneHandedOnly"
+      "OneHandedOnly",
+      "SquadIncompatible"
     ],
     "tagSetSourceFile": ""
   }

@@ -38,8 +38,8 @@
     "items": [
       "ArmLimitLowerRight",
       "TribeMech",
-      "mr-resize-0.75",
-      "OneHanded"
+      "OneHanded",
+      "mr-resize-0.75"
     ],
     "tagSetSourceFile": ""
   },

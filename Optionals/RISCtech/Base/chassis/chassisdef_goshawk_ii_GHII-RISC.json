@@ -60,8 +60,8 @@
     "items": [
       "ArmLimitLowerRight",
       "RISCBattleMech",
-      "mr-resize-0.86",
-      "OneHanded"
+      "OneHanded",
+      "mr-resize-0.86"
     ],
     "tagSetSourceFile": ""
   },

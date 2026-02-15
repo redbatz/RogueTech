@@ -30,7 +30,7 @@
   },
   "ChassisID": "chassisdef_banshee_BNC-PYP",
   "Description": {
-    "Cost": 28222761,
+    "Cost": 28261761,
     "Rarity": 5,
     "Purchasable": false,
     "UIName": "Banshee 'Psychopomp'",
@@ -39,7 +39,7 @@
     "Details": "Classified\n\n<b><color=#e62e00>Quirk: Battle Fists</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.11</color></b>",
     "Icon": "uixTxrIcon_banshee"
   },
-  "simGameMechPartCost": 1162378,
+  "simGameMechPartCost": 1314044,
   "Locations": [
     {
       "Location": "Head",

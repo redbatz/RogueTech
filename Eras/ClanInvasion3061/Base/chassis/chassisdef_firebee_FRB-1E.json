@@ -38,8 +38,8 @@
     "items": [
       "ArmLimitLowerRight",
       "Primitive",
-      "mr-resize-0.7",
-      "OneHanded"
+      "OneHanded",
+      "mr-resize-0.7"
     ],
     "tagSetSourceFile": ""
   },
