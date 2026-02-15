@@ -57,8 +57,8 @@
       "PrototypeMech",
       "UniqueMech",
       "ClanMech",
-      "mr-resize-1.09",
-      "OneHanded"
+      "OneHanded",
+      "mr-resize-1.09"
     ],
     "tagSetSourceFile": ""
   },

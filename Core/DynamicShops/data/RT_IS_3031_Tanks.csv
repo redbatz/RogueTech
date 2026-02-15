@@ -40,7 +40,7 @@ vehicledef_SCORPION_ML,Mech,1,9
 vehicledef_SCORPION_LRM,Mech,1,9
 vehicledef_SCORPION_SRM,Mech,1,9
 vehicledef_APC_MAXIM,Mech,1,8
-vehicledef_APC_MAXIM_SRM,Mech,1wh
+vehicledef_APC_MAXIM_SRM,Mech,1,8
 vehicledef_CARRIER_LASER,Mech,1,6
 vehicledef_CARRIER_AC2,Mech,1,6
 vehicledef_CARRIER_LRM,Mech,1,6

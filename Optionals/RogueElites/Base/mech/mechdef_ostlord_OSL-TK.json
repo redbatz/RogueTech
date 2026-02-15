@@ -28,7 +28,7 @@
       "duchyofandurien",
       "DuchyOfAndurien3150",
       "FederatedCommonwealth",
-       "marik",
+      "marik",
       "marik3031",
       "Marik3150",
       "MarikStewart",
@@ -52,7 +52,7 @@
   },
   "ChassisID": "chassisdef_ostlord_OSL-TK",
   "Description": {
-    "Cost": 26840553,
+    "Cost": 26608353,
     "Rarity": 3,
     "Purchasable": false,
     "UIName": "OstLord 'Teutonic Knight'",

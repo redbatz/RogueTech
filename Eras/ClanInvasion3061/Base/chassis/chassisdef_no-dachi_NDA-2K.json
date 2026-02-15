@@ -60,7 +60,7 @@
     }
   ],
   "Description": {
-    "Cost": 1562429,
+    "Cost": 1318054,
     "Rarity": 1,
     "Purchasable": true,
     "Manufacturer": "",
@@ -75,8 +75,8 @@
   "ChassisTags": {
     "items": [
       "ArmLimitUpperLeft",
-      "mr-resize-0.80-0.89-0.85",
-      "OneHanded"
+      "OneHanded",
+      "mr-resize-0.80-0.89-0.85"
     ],
     "tagSetSourceFile": ""
   },

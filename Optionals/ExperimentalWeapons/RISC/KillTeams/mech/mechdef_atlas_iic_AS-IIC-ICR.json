@@ -32,7 +32,7 @@
   },
   "ChassisID": "chassisdef_atlas_iic_AS-IIC-ICR",
   "Description": {
-    "Cost": 28794423,
+    "Cost": 28834423,
     "Rarity": 5,
     "Purchasable": false,
     "Manufacturer": "",
@@ -43,7 +43,7 @@
     "Details": "Classified\n\n<b><color=#e62e00>Quirk: Melee Actuators</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.17</color></b>",
     "Icon": "uixTxrIcon_atlasiic"
   },
-  "simGameMechPartCost": 2112863,
+  "simGameMechPartCost": 2268418,
   "Locations": [
     {
       "Location": "Head",

@@ -38,8 +38,8 @@
     "items": [
       "ArmLimitUpperLeft",
       "ClanMech",
-      "mr-resize-0.76-0.84-0.76",
-      "OneHanded"
+      "OneHanded",
+      "mr-resize-0.76-0.84-0.76"
     ],
     "tagSetSourceFile": ""
   },

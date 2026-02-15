@@ -8,6 +8,12 @@
         "CategoryID": "TSM"
       }
     ],
+    "WorkOrderCosts": {
+      "Install": {
+        "TechCost": "0.07333 * [[Chassis.Tonnage]]",
+        "CBillCost": "25 * [[Chassis.Tonnage]] * [[Chassis.Tonnage]]"
+      }
+    },
     "BonusDescriptions": [
       "Health: +1",
       "SkillGuts: +1",
@@ -28,13 +34,6 @@
       "CarryWeight: X2",
       "IsCockpit",
       "BleedReduction: 20%"
-    ],
-    "Flags": [
-      "not_broken",
-      "no_salvage",
-      "autorepair",
-      "ignore_shutdown",
-      "default"
     ],
     "ActivatableComponent": {
       "ButtonName": "TSM",
@@ -264,6 +263,7 @@
         }
       ]
     },
+    "CarryCapacityFactor": 2,
     "DynamicSlots": {
       "ReservedSlots": 6,
       "ShowIcon": false,
@@ -271,16 +271,16 @@
       "BonusAText": "Dynamic Slot",
       "BonusBText": " "
     },
-    "WorkOrderCosts": {
-      "Install": {
-        "TechCost": "0.07333 * [[Chassis.Tonnage]]",
-        "CBillCost": "25 * [[Chassis.Tonnage]] * [[Chassis.Tonnage]]"
-      }
-    },
+    "Flags": [
+      "not_broken",
+      "no_salvage",
+      "autorepair",
+      "ignore_shutdown",
+      "default"
+    ],
     "IBLS": {
       "StorageSize": 7
     },
-    "CarryCapacityFactor": 2,
     "Lootable": "Gear_Cockpit_Hotseat"
   },
   "Description": {
@@ -458,7 +458,7 @@
       "nature": "Debuff",
       "Description": {
         "Id": "HotseatPlus-OverheatInjury",
-        "Name": "Cockpit Hotseat+: Enable Injuries on Overheating",
+        "Name": "Cockpit Hotseat +: Enable Injuries on Overheating",
         "Details": "Take Damage on Overheat",
         "Icon": "uixSvgIcon_equipment_Cockpit"
       },

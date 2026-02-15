@@ -38,7 +38,7 @@
   },
   "ChassisID": "chassisdef_impaler_VMP-1X",
   "Description": {
-    "Cost": 9634642,
+    "Cost": 9570892,
     "Rarity": 1,
     "Purchasable": true,
     "Manufacturer": "",
@@ -49,7 +49,7 @@
     "Details": "The Impaler specializes in devastating close-quarters combat, using twin arm-mounted Lances and Stealth Armor to charge and strike lethally while evading enemy fire. Its only ranged weapons are a pair of Light PPCs, used mainly to provoke foes into closing distance. As a striker and ambusher, the Impaler excels at attacking distracted or unaware targets. Its speed combined with Stealth makes it extremely difficult to hit at range. James has added a MASC unit to boost damage and evasiveness. Secretive about its components and capabilities, the Impaler often surprises enemies, striking decisively before they realize the threat.\n\n<b><color=#e62e00>Quirk: Improved Jammer</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.06</color></b>\n\n<b><color=#0064e6>Used with permission from Aries Games and Miniatures.</color></b>",
     "Icon": "uixTxrIcon_impaler"
   },
-  "simGameMechPartCost": 184429,
+  "simGameMechPartCost": 190429,
   "Locations": [
     {
       "Location": "Head",
@@ -125,6 +125,13 @@
     }
   ],
   "inventory": [
+    {
+      "MountedLocation": "Head",
+      "ComponentDefID": "Gear_Spikes_Solaris",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
     {
       "MountedLocation": "CenterTorso",
       "ComponentDefID": "Gear_Armor_Stealth",
@@ -218,13 +225,6 @@
     {
       "MountedLocation": "Head",
       "ComponentDefID": "Gear_Sensors_Reinforced",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "Head",
-      "ComponentDefID": "Gear_Spikes_Solaris",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"

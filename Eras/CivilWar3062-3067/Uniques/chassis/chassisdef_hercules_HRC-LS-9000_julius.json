@@ -41,8 +41,8 @@
     "items": [
       "ArmLimitLowerRight",
       "UniqueMech",
-      "mr-resize-0.91",
-      "OneHanded"
+      "OneHanded",
+      "mr-resize-0.91"
     ],
     "tagSetSourceFile": ""
   },

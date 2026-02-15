@@ -121,7 +121,7 @@
       "nature": "Buff",
       "Description": {
         "Id": "WeaponEffect-SelfInstability_OnFire",
-        "Name": "HandHeld Sniper Artillery Cannon: Increased Self Instability on Fire",
+        "Name": "Oneshot Sniper QS: Increased Self Instability on Fire",
         "Details": "Tubthumping",
         "Icon": "uixSvgIcon_run_n_gun"
       },
