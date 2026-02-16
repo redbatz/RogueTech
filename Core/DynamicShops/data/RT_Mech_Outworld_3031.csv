@@ -1,4 +1,4 @@
-RT_Mech_Periphery_3031,,,
+RT_Mech_Outworld_3031,,,
 mechdef_blackjack_BJ-1,Mech,1,7
 mechdef_blackjack_BJ-1B,Mech,1,7
 mechdef_bombardier_BMB-10D,Mech,1,5
@@ -28,6 +28,7 @@ mechdef_jenner_JR7-D,Mech,1,7
 mechdef_locust_LCT-1V,Mech,1,7
 mechdef_locust_LCT-3V,Mech,1,7
 mechdef_marauder_MAD-3R,Mech,1,5
+mechdef_merlin_MLN-1A,Mech,1,9
 mechdef_mongoose_MON-67,Mech,1,7
 mechdef_panther_PNT-9R,Mech,1,7
 mechdef_ostroc_OSR-2C,Mech,1,5
