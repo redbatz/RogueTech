@@ -11,8 +11,8 @@
   "missionSuccessStatementOverride": null,
   "badFaithStatementOverride": null,
   "goodFaithStatementOverride": null,
-  "shortDescription": "The Minnesota Tribe’s newly established field command node on <i>Horgens III</i> has been identified by Ghost Bear scouts. Intelligence confirms an imminent full-force assault aimed at crippling the command infrastructure and severing strategic coordination for the region.\n\nThe site is still under rapid construction, with incomplete defenses and inactive turret emplacements. Combat engineers will be deployed during the battle to bring automated systems online, but they must be protected while doing so.\n\nHolding the command center is essential. Its loss would compromise communications, logistics, and tactical cohesion across multiple operations in the sector—potentially reversing Tribe gains throughout the <i>Horgens</i> theater.",
-  "longDescription": "Big target, minimal defenses. They’re counting on us to stall a full-blown assault long enough to bring reinforcements in. Let’s hope those engineers move fast.",
+  "shortDescription": "The Minnesota Tribe's newly established field command node on <i>Horgens III</i> has been identified by Ghost Bear scouts. Intelligence confirms an imminent full-force assault aimed at crippling the command infrastructure and severing strategic coordination for the region.\n\nThe site is still under rapid construction, with incomplete defenses and inactive turret emplacements. Combat engineers will be deployed during the battle to bring automated systems online, but they must be protected while doing so.\n\nHolding the command center is essential. Its loss would compromise communications, logistics, and tactical cohesion across multiple operations in the sector, potentially reversing Tribe gains throughout the <i>Horgens</i> theater.",
+  "longDescription": "Big target, minimal defenses. They're counting on us to stall a full-blown assault long enough to bring reinforcements in. Let's hope those engineers move fast.",
   "salvagePotential": 12,
   "requirementList": [],
   "OnContractSuccessResults": [
@@ -464,7 +464,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "Ghost Bear dropships just appeared on long-range scans—vectoring straight for the site.",
+          "words": "Ghost Bear dropships just appeared on long-range scans, vectoring straight for the site.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -480,7 +480,7 @@
           "revealRadius": -1
         },
         {
-          "words": "Here it comes. Hold the line, {COMMANDER.CallSign}. That base is everything to them—and to us.",
+          "words": "Here it comes. Hold the line, {COMMANDER.CallSign}. That base is everything to them, and to us.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -505,7 +505,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "Reinforcements just dropped in. We’re off the hook—Tribe units are locking the site down.",
+          "words": "Reinforcements just dropped in. We're off the hook. Tribe units are locking the site down.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -653,7 +653,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "Structure’s taking hits! Can’t patch concrete, Commander—buy it time.",
+          "words": "Structure's taking hits! Can't patch concrete, Commander. Buy it time.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -703,7 +703,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "One structure left! If it drops, that’s it.",
+          "words": "One structure left! If it drops, that's it.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -728,7 +728,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "Good news—Tribe reinforcements inbound. Hold position a little longer.",
+          "words": "Good news, Tribe reinforcements inbound. Hold position a little longer.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -753,7 +753,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "Turret systems are offline—need our engineers to reach the control nodes.",
+          "words": "Turret systems are offline. Need our engineers to reach the control nodes.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -769,7 +769,7 @@
           "revealRadius": -1
         },
         {
-          "words": "They’re just sitting there useless until we plug them in. Get those teams moving!",
+          "words": "They're just sitting there useless until we plug them in. Get those teams moving!",
           "wordsColor": {
             "r": 1,
             "g": 1,

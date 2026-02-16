@@ -49,7 +49,7 @@
     }
   ],
   "Description": {
-    "Cost": 1171309,
+    "Cost": 956884,
     "Rarity": 1,
     "Purchasable": true,
     "Manufacturer": "",
@@ -63,7 +63,8 @@
   "VariantName": "HCT-7R",
   "ChassisTags": {
     "items": [
-      "ArmLimitLowerRight"
+      "ArmLimitLowerRight",
+      "OneHanded"
     ],
     "tagSetSourceFile": ""
   },

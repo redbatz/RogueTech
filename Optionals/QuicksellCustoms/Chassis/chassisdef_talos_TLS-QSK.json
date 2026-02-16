@@ -73,6 +73,7 @@
     "items": [
       "ArmLimitLowerRight",
       "QuicsellOmni",
+      "OneHanded",
       "skip_hardpoint",
       "unit_mechtool",
       "mr-resize-0.8"

@@ -11,8 +11,8 @@
   "missionSuccessStatementOverride": null,
   "badFaithStatementOverride": null,
   "goodFaithStatementOverride": null,
-  "shortDescription": "Ghost Bear orbital recon has confirmed the presence of a fortified Minnesota Tribe forward operations camp nestled among the ancient ruins of <i>Merovi</i>. The site has become a major launch point for raids across the region—both a tactical stronghold and a symbolic claim over buried Star League history.\n\nYour orders are to assault the location and eliminate all defending Tribe forces. Destroy their position, sever their operational reach, and deny them the myth they’re trying to build. This is more than a battle—it’s a statement.\n\nExpect heavy defenses and fallback positions embedded within the ruins.",
-  "longDescription": "Hit 'em where it hurts, Commander. They’ve been using that camp to launch raids all over—if we burn it down, it’ll throw their whole plan into chaos.",
+  "shortDescription": "Ghost Bear orbital recon has confirmed the presence of a fortified Minnesota Tribe forward operations camp nestled among the ancient ruins of <i>Merovi</i>. The site has become a major launch point for raids across the region, both a tactical stronghold and a symbolic claim over buried Star League history.\n\nYour orders are to assault the location and eliminate all defending Tribe forces. Destroy their position, sever their operational reach, and deny them the myth they're trying to build. This is more than a battle. It's a statement.\n\nExpect heavy defenses and fallback positions embedded within the ruins.",
+  "longDescription": "Hit 'em where it hurts, Commander. They've been using that camp to launch raids all over. If we burn it down, it'll throw their whole plan into chaos.",
   "salvagePotential": 12,
   "requirementList": [],
   "OnContractSuccessResults": [
@@ -213,7 +213,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "This isn’t just a strike, Commander—it’s a message. We tear down their base and their legend. Let’s hit them hard.",
+          "words": "This isn't just a strike, Commander. It's a message. We tear down their base and their legend. Let's hit them hard.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -238,7 +238,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "That did it. Camp’s gone, ruins secured. That’s a serious blow to their ops in this system.",
+          "words": "That did it. Camp's gone, ruins secured. That's a serious blow to their ops in this system.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -263,7 +263,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "Tribe forces held. Damn it. They’ll keep launching strikes out of that place unless we get another shot.",
+          "words": "Tribe forces held. Damn it. They'll keep launching strikes out of that place unless we get another shot.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -288,7 +288,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "Commander—contacts just blinked in from the side! They’re using the terrain to mask their approach. Looks like the Tribe’s got a second line waiting!",
+          "words": "Commander, contacts just blinked in from the side! They're using the terrain to mask their approach. Looks like the Tribe's got a second line waiting!",
           "wordsColor": {
             "r": 1,
             "g": 1,

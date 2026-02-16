@@ -40,7 +40,8 @@
   "ChassisTags": {
     "items": [
       "ArmLimitLowerLeft",
-      "UniqueMech"
+      "UniqueMech",
+      "OneHanded"
     ],
     "tagSetSourceFile": ""
   },

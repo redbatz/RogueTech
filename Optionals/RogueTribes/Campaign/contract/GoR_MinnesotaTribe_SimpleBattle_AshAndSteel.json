@@ -11,8 +11,8 @@
   "missionSuccessStatementOverride": null,
   "badFaithStatementOverride": null,
   "goodFaithStatementOverride": null,
-  "shortDescription": "A key forward operations camp for the Minnesota Tribe has been identified by Ghost Bear recon satellites. Set among ancient ruins, it serves as a crucial staging ground for raids across the sector.\n\nIf this position is lost, the Tribe’s ability to project force from this system will be crippled. The site’s location near ancient Star League infrastructure also makes it symbolically important.\n\nThe Ghost Bear Watch is coming hard—intercept them before they get close to the camp, or risk ceding the entire planet’s tactical value.",
-  "longDescription": "We’re the only thing standing between them and a steamroll. No pressure.",
+  "shortDescription": "A key forward operations camp for the Minnesota Tribe has been identified by Ghost Bear recon satellites. Set among ancient ruins, it serves as a crucial staging ground for raids across the sector.\n\nIf this position is lost, the Tribe's ability to project force from this system will be crippled. The site's location near ancient Star League infrastructure also makes it symbolically important.\n\nThe Ghost Bear Watch is coming hard. Intercept them before they get close to the camp, or risk ceding the entire planet's tactical value.",
+  "longDescription": "We're the only thing standing between them and a steamroll. No pressure.",
   "salvagePotential": 12,
   "requirementList": [],
   "OnContractSuccessResults": [

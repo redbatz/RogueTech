@@ -22,17 +22,10 @@
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Unique_EWS_Overcharged",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
     }
   ],
   "Description": {
-    "Cost": 1658576,
+    "Cost": 826686,
     "Rarity": 5,
     "Purchasable": true,
     "Manufacturer": "",
@@ -92,7 +85,12 @@
   "Locations": [
     {
       "Location": "Head",
-      "Hardpoints": [],
+      "Hardpoints": [
+        {
+          "WeaponMountID": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
       "Tonnage": 0,
       "InventorySlots": 6,
       "MaxArmor": 45,
@@ -137,6 +135,10 @@
           "Omni": false
         },
         {
+          "WeaponMountID": "Missile",
+          "Omni": false
+        },
+        {
           "WeaponMountID": "Special",
           "Omni": false
         }
@@ -149,12 +151,7 @@
     },
     {
       "Location": "CenterTorso",
-      "Hardpoints": [
-        {
-          "WeaponMountID": "AntiPersonnel",
-          "Omni": false
-        }
-      ],
+      "Hardpoints": [],
       "Tonnage": 0,
       "InventorySlots": 13,
       "MaxArmor": 110,
@@ -164,14 +161,6 @@
     {
       "Location": "RightTorso",
       "Hardpoints": [
-        {
-          "WeaponMountID": "Ballistic",
-          "Omni": false
-        },
-        {
-          "WeaponMountID": "Energy",
-          "Omni": false
-        },
         {
           "WeaponMountID": "Missile",
           "Omni": false
@@ -190,6 +179,10 @@
     {
       "Location": "RightArm",
       "Hardpoints": [
+        {
+          "WeaponMountID": "Ballistic",
+          "Omni": false
+        },
         {
           "WeaponMountID": "Ballistic",
           "Omni": false

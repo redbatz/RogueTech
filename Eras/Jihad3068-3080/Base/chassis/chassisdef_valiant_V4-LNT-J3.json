@@ -41,7 +41,7 @@
     "MultiDefaults": [
       {
         "Location": "LeftArm",
-        "DefID": "Default_HandHeld_Melee_Hatchet_1tons",
+        "DefID": "Default_HandHeld_Melee_Hatchet_2tons",
         "ComponentType": "Upgrade",
         "Categories": [
           "SpecialMelee",
@@ -72,7 +72,7 @@
     }
   ],
   "Description": {
-    "Cost": 856521,
+    "Cost": 1038521,
     "Rarity": 1,
     "Purchasable": true,
     "Manufacturer": "",

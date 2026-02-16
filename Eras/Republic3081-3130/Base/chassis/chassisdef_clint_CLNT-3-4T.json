@@ -36,7 +36,8 @@
   "VariantName": "CLNT-3-4T",
   "ChassisTags": {
     "items": [
-      "ArmLimitLowerRight"
+      "ArmLimitLowerRight",
+      "OneHanded"
     ],
     "tagSetSourceFile": ""
   },

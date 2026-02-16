@@ -1140,6 +1140,12 @@
         "SecondaryCPU",
         "DualCockpit"
       ]
+    },
+    {
+      "Tag": "OneHandedOnly",
+      "RequiredTags": [
+        "OneHanded"
+      ]
     }
   ]
 }

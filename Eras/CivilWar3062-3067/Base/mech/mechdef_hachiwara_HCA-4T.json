@@ -200,21 +200,14 @@
     },
     {
       "MountedLocation": "LeftArm",
-      "ComponentDefID": "Gear_Actuator_Arm_Upper_Hardened",
+      "ComponentDefID": "Gear_Actuator_Arm_Upper_Recoil_Plus",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
     },
     {
       "MountedLocation": "RightArm",
-      "ComponentDefID": "Gear_Actuator_Arm_Upper_Hardened",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "RightArm",
-      "ComponentDefID": "Gear_Actuator_Arm_Lower_Melee_Weapon",
+      "ComponentDefID": "Default_HandHeld_Melee_VibroSword_7tons",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"

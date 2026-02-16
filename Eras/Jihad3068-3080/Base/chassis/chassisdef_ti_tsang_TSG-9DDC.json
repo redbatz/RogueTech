@@ -7,34 +7,7 @@
       "PrefabID": "titsang",
       "Exclude": false,
       "Include": true
-    },
-    "ChassisCategory": [
-      {
-        "CategoryID": "SpecialMelee",
-        "Limits": [
-          {
-            "Location": "All",
-            "Max": 1
-          },
-          {
-            "Location": "RightArm",
-            "Min": 1,
-            "Max": 1
-          }
-        ]
-      }
-    ],
-    "MultiDefaults": [
-      {
-        "Location": "RightArm",
-        "DefID": "Default_HandHeld_Melee_Hatchet_2tons",
-        "ComponentType": "Upgrade",
-        "Categories": [
-          "SpecialMelee",
-          "HandHeld"
-        ]
-      }
-    ]
+    }
   },
   "CustomParts": {
     "FiringArc": 130,
@@ -65,6 +38,7 @@
   "ChassisTags": {
     "items": [
       "ArmLimitLowerLeft",
+      "OneHanded",
       "mr-resize-0.71-0.79-0.6"
     ],
     "tagSetSourceFile": ""

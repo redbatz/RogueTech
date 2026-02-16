@@ -27,11 +27,22 @@
     "MultiDefaults": [
       {
         "Location": "RightArm",
-        "DefID": "Default_HandHeld_Melee_Hatchet_2tons",
+        "DefID": "Default_HandHeld_Melee_Hatchet_4tons",
         "ComponentType": "Upgrade",
         "Categories": [
           "SpecialMelee",
           "HandHeld"
+        ]
+      },
+      {
+        "Location": "RightArm",
+        "DefID": "Default_Actuator_OneBIGArm",
+        "ComponentType": "Upgrade",
+        "Categories": [
+          "ArmShoulder",
+          "ArmUpperActuator",
+          "ArmLowerActuator",
+          "ArmHandActuator"
         ]
       }
     ]
@@ -44,13 +55,6 @@
     {
       "MountedLocation": "CenterTorso",
       "ComponentDefID": "Quirk_HyperExtendingActuators",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "RightTorso",
-      "ComponentDefID": "Gear_TSM_Standard",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
@@ -72,6 +76,7 @@
   "ChassisTags": {
     "items": [
       "ArmLimitLowerLeft",
+      "OneHanded",
       "mr-resize-0.71-0.79-0.6"
     ],
     "tagSetSourceFile": ""

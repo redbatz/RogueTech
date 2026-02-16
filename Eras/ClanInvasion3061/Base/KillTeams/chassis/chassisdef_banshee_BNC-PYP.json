@@ -24,6 +24,13 @@
       "DamageLevel": "Functional"
     },
     {
+      "MountedLocation": "Head",
+      "ComponentDefID": "Unique_Cockpit_Ceres_TSM",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
       "MountedLocation": "LeftArm",
       "ComponentDefID": "Unique_Actuator_VibroClaws_Carebear",
       "ComponentDefType": "Upgrade",
@@ -39,7 +46,7 @@
     }
   ],
   "Description": {
-    "Cost": 5811889,
+    "Cost": 6570222,
     "Rarity": 5,
     "Purchasable": true,
     "Manufacturer": "",

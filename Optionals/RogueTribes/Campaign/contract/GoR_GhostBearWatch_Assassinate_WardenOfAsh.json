@@ -11,8 +11,8 @@
   "missionSuccessStatementOverride": null,
   "badFaithStatementOverride": null,
   "goodFaithStatementOverride": null,
-  "shortDescription": "Warden Thalos Rooke, the shadowy administrator of <i>Butzfleth</i>’s mega-prison, has been covertly supplying the Minnesota Tribe with indentured labor—drawn directly from his inmate population. These forced workers are being used to construct defensive redoubts, supply depots, and even sub-surface bunkers across contested systems.\n\nGhost Bear Watch assets have traced encrypted transmissions and unlogged prisoner transfers directly to Rooke’s command. He is personally overseeing the arrangement from a secure operational site beneath the prison’s east wing, flanked by private security and hand-picked loyalists.\n\nEliminate Warden Rooke. Make it clean. No survivors, no traces to us left behind.",
-  "longDescription": "Let me get this straight—we’re assassinating a prison warden on a toxic rock because he’s selling prisoners to the Tribe like they’re crates of ammo? I don’t know what’s worse—the moral collapse or how little it surprises me.",
+  "shortDescription": "Warden Thalos Rooke, the shadowy administrator of <i>Butzfleth</i>'s mega-prison, has been covertly supplying the Minnesota Tribe with indentured labor, drawn directly from his inmate population. These forced workers are being used to construct defensive redoubts, supply depots, and even sub-surface bunkers across contested systems.\n\nGhost Bear Watch assets have traced encrypted transmissions and unlogged prisoner transfers directly to Rooke's command. He is personally overseeing the arrangement from a secure operational site beneath the prison's east wing, flanked by private security and hand-picked loyalists.\n\nEliminate Warden Rooke. Make it clean. No survivors, no traces to us left behind.",
+  "longDescription": "Let me get this straight. We're assassinating a prison warden on a toxic rock because he's selling prisoners to the Tribe like they're crates of ammo? I don't know what's worse, the moral collapse or how little it surprises me.",
   "salvagePotential": 16,
   "requirementList": [],
   "OnContractSuccessResults": [],
@@ -260,7 +260,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "Martian dust and low vis—great combo. Sensors are gonna hate this.",
+          "words": "Martian dust and low vis. Great combo. Sensors are gonna hate this.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -276,7 +276,7 @@
           "revealRadius": -1
         },
         {
-          "words": "Target signature’s locked. It's coming from nearby and moving—the Warden is likely trying to evacuate.",
+          "words": "Target signature's locked. It's coming from nearby and moving. The Warden is likely trying to evacuate.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -292,7 +292,7 @@
           "revealRadius": -1
         },
         {
-          "words": "Rooke’s the reason most of those prisoners are missing. Make it fast, make it loud—and make damn sure he doesn’t walk away.",
+          "words": "Rooke's the reason most of those prisoners are missing. Make it fast, make it loud, and make damn sure he doesn't walk away.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -317,7 +317,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "Confirmed kill. Thalos Rooke is down and his signal’s gone. No command signatures left.",
+          "words": "Confirmed kill. Thalos Rooke is down and his signal's gone. No command signatures left.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -333,7 +333,7 @@
           "revealRadius": -1
         },
         {
-          "words": "Good. That ends his little trafficking operation. The Watch’ll have a field day scrubbing the rest.",
+          "words": "Good. That ends his little trafficking operation. The Watch'll have a field day scrubbing the rest.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -358,7 +358,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "Abort. We’re not getting Rooke, and we’re not losing a lance trying. Cut our losses.",
+          "words": "Abort. We're not getting Rooke, and we're not losing a lance trying. Cut our losses.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -383,7 +383,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "Target’s down—we can withdraw if we want.",
+          "words": "Target's down. We can withdraw if we want.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -408,7 +408,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "That’s the last of the surprise party dealt with.",
+          "words": "That's the last of the surprise party dealt with.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -433,7 +433,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "Target's been hit. Strip the armor off that coward’s coffin.",
+          "words": "Target's been hit. Strip the armor off that coward's coffin.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -483,7 +483,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "He’s on the move—Rooke just broke from cover and is making a run for evac!",
+          "words": "He's on the move! Rooke just broke from cover and is making a run for evac!",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -499,7 +499,7 @@
           "revealRadius": -1
         },
         {
-          "words": "If he gets off-world, this whole op’s blown. Stop him—now.",
+          "words": "If he gets off-world, this whole op's blown. Stop him. Now.",
           "wordsColor": {
             "r": 1,
             "g": 1,

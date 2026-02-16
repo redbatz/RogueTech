@@ -63,7 +63,8 @@
   "VariantName": "VND-6L",
   "ChassisTags": {
     "items": [
-      "ArmLimitLowerRight"
+      "ArmLimitLowerRight",
+      "OneHanded"
     ],
     "tagSetSourceFile": ""
   },

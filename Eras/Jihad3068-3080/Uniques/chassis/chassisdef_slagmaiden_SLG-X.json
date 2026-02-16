@@ -30,7 +30,7 @@
     "MultiDefaults": [
       {
         "Location": "LeftArm",
-        "DefID": "Default_HandHeld_Shield_6tons",
+        "DefID": "Default_HandHeld_Shield_5tons",
         "ComponentType": "Upgrade",
         "Categories": [
           "SpecialShield",
@@ -52,7 +52,7 @@
     }
   ],
   "Description": {
-    "Cost": 1338622,
+    "Cost": 935234,
     "Rarity": 5,
     "Purchasable": true,
     "Manufacturer": "",
@@ -68,6 +68,7 @@
     "items": [
       "ArmLimitLowerRight",
       "UniqueMech",
+      "OneHanded",
       "mr-resize-0.84-0.82-0.82"
     ],
     "tagSetSourceFile": ""

@@ -11,8 +11,8 @@
   "missionSuccessStatementOverride": null,
   "badFaithStatementOverride": null,
   "goodFaithStatementOverride": null,
-  "shortDescription": "Deep in the humid lowlands of <i>Horgens III</i>, the Minnesota Tribe is running a high-value convoy through a network of old aquaculture roads and jungle trails. The planet’s minimal colonial development and dense canopy provide natural cover—perfect for moving critical supplies like fusion cells, munitions, and food to their inland forward depot.\n\nYou are to strike mid-route. The convoy is already en route and under escort—hit them while they’re exposed. Your mission is to destroy all transport vehicles before they can escape to the extraction zone. Expect coordinated resistance from escorts and potential reinforcements responding to the ambush.\n\nFailure to stop the shipment will allow the Tribe to continue reinforcing their forward position on <i>Horgens III</i>, endangering further Ghost Bear operations in the system.",
-  "longDescription": "This convoy’s their lifeline, Commander. You cut this artery, the rest of their ops on <i>Horgens III</i> start bleeding out.",
+  "shortDescription": "Deep in the humid lowlands of <i>Horgens III</i>, the Minnesota Tribe is running a high-value convoy through a network of old aquaculture roads and jungle trails. The planet's minimal colonial development and dense canopy provide natural cover, perfect for moving critical supplies like fusion cells, munitions, and food to their inland forward depot.\n\nYou are to strike mid-route. The convoy is already en route and under escort. Hit them while they're exposed. Your mission is to destroy all transport vehicles before they can escape to the extraction zone. Expect coordinated resistance from escorts and potential reinforcements responding to the ambush.\n\nFailure to stop the shipment will allow the Tribe to continue reinforcing their forward position on <i>Horgens III</i>, endangering further Ghost Bear operations in the system.",
+  "longDescription": "This convoy's their lifeline, Commander. You cut this artery, the rest of their ops on <i>Horgens III</i> start bleeding out.",
   "salvagePotential": 16,
   "requirementList": [],
   "OnContractSuccessResults": [
@@ -326,7 +326,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "No setup, no prep—they’re already moving. Let’s get into position and gut this thing.",
+          "words": "No setup, no prep. They're already moving. Let's get into position and gut this thing.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -351,7 +351,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "Convoy’s wrecked. Whatever tech they stole, it’s not leaving this planet.",
+          "words": "Convoy's wrecked. Whatever tech they stole, it's not leaving this planet.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -392,7 +392,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "They got through. That depot’s going to stay online a while longer—and we’ll feel it.",
+          "words": "They got through. That depot's going to stay online a while longer, and we'll feel it.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -417,7 +417,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "Visual confirmed—convoy’s entering the kill zone. Targets are rolling now.",
+          "words": "Visual confirmed. Convoy's entering the kill zone. Targets are rolling now.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -442,7 +442,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "Hit landed! One of those haulers is limping—keep the pressure on!",
+          "words": "Hit landed! One of those haulers is limping. Keep the pressure on!",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -467,7 +467,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "Escort’s down—their screen’s broken. Now finish the rest.",
+          "words": "Escort's down. Their screen's broken. Now finish the rest.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -492,7 +492,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "They’re making a break for it! If that lead truck reaches the exit, this whole op’s a bust!",
+          "words": "They're making a break for it! If that lead truck reaches the exit, this whole op's a bust!",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -517,7 +517,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "Convoy kill confirmed. That’s one less crate of ammo we’ll have to dodge later.",
+          "words": "Convoy kill confirmed. That's one less crate of ammo we'll have to dodge later.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -567,7 +567,7 @@
       "overrideDialogueBucketId": "DialogBucketDef_Universal_HostilesInbound",
       "dialogueContent": [
         {
-          "words": "Sensors just lit up—new heat signatures inbound. Looks like they called in backup!",
+          "words": "Sensors just lit up! New heat signatures inbound. Looks like they called in backup!",
           "wordsColor": {
             "r": 1,
             "g": 1,

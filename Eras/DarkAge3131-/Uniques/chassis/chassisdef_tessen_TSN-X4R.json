@@ -22,10 +22,17 @@
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Head",
+      "ComponentDefID": "Unique_Cockpit_Ceres_TSM",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
-    "Cost": 922143,
+    "Cost": 1505476,
     "Rarity": 1,
     "Purchasable": true,
     "Manufacturer": "",

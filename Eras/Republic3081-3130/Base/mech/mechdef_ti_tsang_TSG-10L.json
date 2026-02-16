@@ -54,7 +54,7 @@
       "CurrentRearArmor": 0,
       "CurrentInternalStructure": 16,
       "AssignedArmor": 45,
-      "AssignedRearArmor": -1,
+      "AssignedRearArmor": 0,
       "DamageLevel": "Functional"
     },
     {
@@ -63,34 +63,34 @@
       "CurrentRearArmor": 0,
       "CurrentInternalStructure": 50,
       "AssignedArmor": 100,
-      "AssignedRearArmor": -1,
+      "AssignedRearArmor": 0,
       "DamageLevel": "Functional"
     },
     {
       "Location": "LeftTorso",
-      "CurrentArmor": 110,
-      "CurrentRearArmor": 30,
+      "CurrentArmor": 120,
+      "CurrentRearArmor": 45,
       "CurrentInternalStructure": 70,
-      "AssignedArmor": 110,
-      "AssignedRearArmor": 30,
+      "AssignedArmor": 120,
+      "AssignedRearArmor": 45,
       "DamageLevel": "Functional"
     },
     {
       "Location": "CenterTorso",
       "CurrentArmor": 150,
-      "CurrentRearArmor": 50,
+      "CurrentRearArmor": 53,
       "CurrentInternalStructure": 100,
       "AssignedArmor": 150,
-      "AssignedRearArmor": 50,
+      "AssignedRearArmor": 53,
       "DamageLevel": "Functional"
     },
     {
       "Location": "RightTorso",
-      "CurrentArmor": 110,
-      "CurrentRearArmor": 30,
+      "CurrentArmor": 120,
+      "CurrentRearArmor": 45,
       "CurrentInternalStructure": 70,
-      "AssignedArmor": 110,
-      "AssignedRearArmor": 30,
+      "AssignedArmor": 120,
+      "AssignedRearArmor": 45,
       "DamageLevel": "Functional"
     },
     {
@@ -99,7 +99,7 @@
       "CurrentRearArmor": 0,
       "CurrentInternalStructure": 50,
       "AssignedArmor": 100,
-      "AssignedRearArmor": -1,
+      "AssignedRearArmor": 0,
       "DamageLevel": "Functional"
     },
     {
@@ -108,7 +108,7 @@
       "CurrentRearArmor": 0,
       "CurrentInternalStructure": 70,
       "AssignedArmor": 140,
-      "AssignedRearArmor": -1,
+      "AssignedRearArmor": 0,
       "DamageLevel": "Functional"
     },
     {
@@ -117,14 +117,21 @@
       "CurrentRearArmor": 0,
       "CurrentInternalStructure": 70,
       "AssignedArmor": 140,
-      "AssignedRearArmor": -1,
+      "AssignedRearArmor": 0,
       "DamageLevel": "Functional"
     }
   ],
   "inventory": [
     {
       "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Gear_Structure_EndoSteel",
+      "ComponentDefID": "Gear_Structure_EndoComposite",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Gear_Armor_HeatDissipating",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
@@ -138,14 +145,14 @@
     },
     {
       "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Gear_Engine_XL",
+      "ComponentDefID": "Gear_Engine_XXL",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
     },
     {
       "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Linked_Engine_Size_3",
+      "ComponentDefID": "Linked_Engine_Size_6",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -153,17 +160,10 @@
     },
     {
       "MountedLocation": "RightTorso",
-      "ComponentDefID": "Linked_Engine_Size_3",
+      "ComponentDefID": "Linked_Engine_Size_6",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
       "IsFixed": true,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Gear_EngineCooling_Heatsinks_4",
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
       "DamageLevel": "Functional"
     },
     {
@@ -174,15 +174,22 @@
       "DamageLevel": "Functional"
     },
     {
-      "MountedLocation": "RightArm",
-      "ComponentDefID": "Gear_Actuator_Arm_Lower_Melee_Weapon",
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Gear_EngineCooling_Heatsinks_4",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "LeftArm",
+      "ComponentDefID": "Gear_Actuator_Arm_Upper_Hardened",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
     },
     {
-      "MountedLocation": "RightArm",
-      "ComponentDefID": "Lootable_HandHeld_Melee_Hatchet_4tons",
+      "MountedLocation": "LeftArm",
+      "ComponentDefID": "Gear_Actuator_WeaponMount_Accuracy",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
@@ -195,50 +202,78 @@
       "DamageLevel": "Functional"
     },
     {
+      "MountedLocation": "Head",
+      "ComponentDefID": "Gear_FCS_Energy_Accuracy",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Gear_Supercharger",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "LeftLeg",
+      "ComponentDefID": "Gear_Actuator_ReinforcedLeg_Mk3",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "RightLeg",
+      "ComponentDefID": "Gear_Actuator_ReinforcedLeg_Mk3",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
       "MountedLocation": "LeftArm",
-      "ComponentDefID": "Weapon_Laser_ER_Medium",
+      "ComponentDefID": "Weapon_Laser_VSPL_Medium",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
       "DamageLevel": "Functional"
     },
     {
       "MountedLocation": "LeftArm",
-      "ComponentDefID": "Weapon_Laser_ER_Small",
+      "ComponentDefID": "Weapon_Laser_Small",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
       "DamageLevel": "Functional"
     },
     {
       "MountedLocation": "LeftArm",
-      "ComponentDefID": "Weapon_Laser_ER_Small",
+      "ComponentDefID": "Weapon_Laser_Small",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
       "DamageLevel": "Functional"
     },
     {
       "MountedLocation": "LeftArm",
-      "ComponentDefID": "Weapon_Laser_ER_Small",
+      "ComponentDefID": "Weapon_Laser_Small",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
       "DamageLevel": "Functional"
     },
     {
       "MountedLocation": "LeftArm",
-      "ComponentDefID": "Weapon_Laser_ER_Small",
+      "ComponentDefID": "Weapon_Laser_Small",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
       "DamageLevel": "Functional"
     },
     {
       "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Weapon_Laser_ER_Medium",
+      "ComponentDefID": "Weapon_Laser_Medium",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
       "DamageLevel": "Functional"
     },
     {
       "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Weapon_Laser_ER_Medium",
+      "ComponentDefID": "Weapon_Laser_Medium",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
       "DamageLevel": "Functional"
@@ -252,72 +287,23 @@
     },
     {
       "MountedLocation": "RightTorso",
-      "ComponentDefID": "Weapon_Laser_ER_Medium",
+      "ComponentDefID": "BoltOn_Weapon_Rocket_Chaff",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
       "DamageLevel": "Functional"
     },
     {
       "MountedLocation": "RightTorso",
-      "ComponentDefID": "Weapon_Laser_ER_Medium",
+      "ComponentDefID": "Weapon_Laser_Medium",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
       "DamageLevel": "Functional"
     },
     {
-      "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Gear_JumpJet_Heavy",
-      "ComponentDefType": "JumpJet",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
       "MountedLocation": "RightTorso",
-      "ComponentDefID": "Gear_JumpJet_Heavy",
-      "ComponentDefType": "JumpJet",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "LeftLeg",
-      "ComponentDefID": "Gear_JumpJet_Heavy",
-      "ComponentDefType": "JumpJet",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "LeftLeg",
-      "ComponentDefID": "Gear_JumpJet_Heavy",
-      "ComponentDefType": "JumpJet",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "RightLeg",
-      "ComponentDefID": "Gear_JumpJet_Heavy",
-      "ComponentDefType": "JumpJet",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "RightLeg",
-      "ComponentDefID": "Gear_JumpJet_Heavy",
-      "ComponentDefType": "JumpJet",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Gear_HeatSink_Double",
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "RightTorso",
-      "ComponentDefID": "Gear_HeatSink_Double",
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
+      "ComponentDefID": "Weapon_Laser_Medium",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
       "DamageLevel": "Functional"
     }
   ]

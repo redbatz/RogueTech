@@ -81,6 +81,19 @@
 				]
 			},
 			{
+				"Name": "IS3031",
+				"Members": [
+					"St. Ives",
+					"FedCom",
+					"Republic",
+					"Rasalhague",
+					"ComStar",
+					"Kurita",
+					"Liao",
+					"Marik"
+				]
+			},
+			{
 				"Name": "Periphery",
 				"Members": [
 					"The Collective",
@@ -93,6 +106,20 @@
 					"Illyria",
 					"Elysia",
 					"Finmark Free Republic"
+				]
+			},
+			{
+				"Name": "Periphery3031",
+				"Members": [
+					"Circinus",
+					"Illyria",
+					"Lothia",
+					"the Hegemony",
+					"Oberon",
+					"Outworlds",
+					"the Taurians",
+					"Tortuga",
+					"Valkyrate"
 				]
 			},
 			{

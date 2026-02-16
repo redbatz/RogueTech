@@ -37,24 +37,24 @@
       "GalateanLeague",
       "hanse",
       "havens",
-       "illyrian",
+      "illyrian",
       "illyrian3031",
       "Locals",
       "lothian",
       "Lothian3150",
-        "magistracyofcanopus",
+      "magistracyofcanopus",
       "magistracyofcanopus3031",
       "MagistracyOfCanopus3150",
-        "marian",
+      "marian",
       "marian3031",
       "Marian3150",
       "NewOberonConfederation",
-       "oberon",
-            "oberon3031",
-       "outworld",
+      "oberon",
+      "oberon3031",
+      "outworld",
       "outworld3031",
       "RagnarokUnion",
-         "rasalhague",
+      "rasalhague",
       "rasalhague3034",
       "RepublicOfTheBarrens",
       "RimTerritories",
@@ -63,7 +63,7 @@
       "taurianconcordat",
       "taurianconcordat3031",
       "TaurianConcordat3150",
-       "tortuga",
+      "tortuga",
       "tortuga3031",
       "valkyrate",
       "valkyrate3031",
@@ -83,7 +83,7 @@
   },
   "ChassisID": "chassisdef_roughneck_RGH-JH",
   "Description": {
-    "Cost": 15563454,
+    "Cost": 15097329,
     "Rarity": 3,
     "Purchasable": true,
     "UIName": "Roughneck 'Jarhead'",
@@ -92,7 +92,7 @@
     "Details": "This very expensively upgraded Roughneck came from a militia man turned Solaris Gladiator. Mixed Clan and Inner Sphere tech makes this a marvel of technology, with a Battle Rifle in one hand and a heavy shield in the other. It has a MRM40 and Narc to round out its weaponry, while heavily reinforced reactive armour makes this a very tough opponent. This 'Mech was a labour of love, for both its Mechwarrior and MekTek.\n\n<b><color=#e62e00>Quirk: Easy to Maintain</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.15</color></b>",
     "Icon": "uixTxrIcon_roughneck"
   },
-  "simGameMechPartCost": 483801,
+  "simGameMechPartCost": 460701,
   "Locations": [
     {
       "Location": "Head",
@@ -169,13 +169,6 @@
   ],
   "inventory": [
     {
-      "MountedLocation": "LeftArm",
-      "ComponentDefID": "Gear_AdvancedMaterials1",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
       "MountedLocation": "CenterTorso",
       "ComponentDefID": "Gear_Armor_ReactivePlating",
       "ComponentDefType": "Upgrade",
@@ -184,7 +177,7 @@
     },
     {
       "MountedLocation": "RightTorso",
-      "ComponentDefID": "Gear_ModularArmor_Mk4",
+      "ComponentDefID": "Gear_ModularArmor_Mk3",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
@@ -198,7 +191,7 @@
     },
     {
       "MountedLocation": "RightArm",
-      "ComponentDefID": "Gear_ModularArmor_Mk4",
+      "ComponentDefID": "Gear_ModularArmor_Mk3",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
@@ -323,13 +316,6 @@
       "DamageLevel": "Functional"
     },
     {
-      "MountedLocation": "LeftArm",
-      "ComponentDefID": "Gear_Actuator_GrippyHand",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
       "MountedLocation": "RightArm",
       "ComponentDefID": "Gear_Actuator_Arm_Upper_Hardened",
       "ComponentDefType": "Upgrade",
@@ -345,7 +331,7 @@
     },
     {
       "MountedLocation": "RightArm",
-      "ComponentDefID": "Gear_Actuator_GrippyHand",
+      "ComponentDefID": "Gear_Actuator_FlexyHand",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"

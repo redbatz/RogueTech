@@ -33,6 +33,17 @@
           "SpecialMelee",
           "HandHeld"
         ]
+      },
+      {
+        "Location": "LeftArm",
+        "DefID": "Default_Actuator_OneBIGArm",
+        "ComponentType": "Upgrade",
+        "Categories": [
+          "ArmShoulder",
+          "ArmUpperActuator",
+          "ArmLowerActuator",
+          "ArmHandActuator"
+        ]
       }
     ]
   },
@@ -64,6 +75,7 @@
   "ChassisTags": {
     "items": [
       "ArmLimitLowerRight",
+      "OneHanded",
       "mr-resize-1.14-0.9-0.9"
     ],
     "tagSetSourceFile": ""

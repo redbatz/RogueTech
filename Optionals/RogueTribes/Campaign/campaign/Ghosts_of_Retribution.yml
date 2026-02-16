@@ -6,7 +6,7 @@ nodes:
               title: Campaign Info
               sprite: uixTxrLogo_GenericCampaign
               message: |
-                  The “Ghosts of Retribution” campaign is now available. To begin, start the flashpoint in the star system of Maisons.
+                  The \"Ghosts of Retribution\" campaign is now available. To begin, start the flashpoint in the star system of Maisons.
 
                   It will span a over a large number of contracts in several regions of the galaxy. The time investment is considerably longer than normal flashpoints, but the rewards are also much better.
 
@@ -557,7 +557,9 @@ nodes:
         - if:
               companyHasTag: GoR_GB_StayedWithGB
           goto: GhostBearWatch-StayWithGhostBears
-
+        - if:
+              companyHasTag: GoR_GB_SwitchedToMT
+          goto: WorkInProgress
         - goto: Error
 
     GhostBearWatch-MizukiCall-Crew:
@@ -568,7 +570,9 @@ nodes:
         - if:
               companyHasTag: GoR_GB_StayedWithGB
           goto: GhostBearWatch-StayWithGhostBears
-
+        - if:
+              companyHasTag: GoR_GB_SwitchedToMT
+          goto: WorkInProgress
         - goto: Error
 
     GhostBearWatch-StayWithGhostBears:
@@ -905,13 +909,13 @@ nodes:
         - event:
               id: event_GhostsOfRetribution_MinnesotaTribe_FlaggedStars
         - if:
-              companyHasTag: GoR_MT_DefendStarCluster752"
+              companyHasTag: GoR_MT_DefendStarCluster752
           goto: MinnesotaTribe-DefendStarCluster752
         - if:
-              companyHasTag: GoR_MT_DefendHorgens"
+              companyHasTag: GoR_MT_DefendHorgens
           goto: MinnesotaTribe-DefendHorgens
         - if:
-              companyHasTag: GoR_MT_MinnesotaTribe-DefendRWROutpost11"
+              companyHasTag: GoR_MT_MinnesotaTribe-DefendRWROutpost11
           goto: MinnesotaTribe-DefendRWROutpost11
         - goto: Error
 
@@ -1181,9 +1185,9 @@ nodes:
               name: Under the Ruins
               employer: MinnesotaTribe
               employerPortrait: castDef_JoannaMcEvedy
-              target: OWNER
+              target: AuriganPirates
               difficulty: 6
-              at: starsystemdef_Coopertown
+              at: starsystemdef_Durabon
               description: |
                   Help the Minnesota Tribe excavate the Star League-era resources before the Pirates can.
         - goto: MinnesotaTribe-UnderTheRuins
@@ -1192,13 +1196,13 @@ nodes:
         - contract:
               id: GoR_MinnesotaTribe_CaptureEscort_UnderTheRuins
               employer: MinnesotaTribe
-              target: OWNER
+              target: AuriganPirates
               onFailGoto: MinnesotaTribe-Retry-UnderTheRuins
               withinDays: 7
         - conversation:
               id: GoR-MinnesotaTribe-3-AcquireRareMaterials
-              header: Orbit over {TGT_SYSTEM.Name}
-              subheader: Orbit over {CUR_SYSTEM}
+              header: Incoming Encrypted Transmission
+              subheader: Close Orbit over Durabon
         - fakeFlashpoint:
               name: Acquire Rare Materials
               employer: MinnesotaTribe
@@ -1215,9 +1219,9 @@ nodes:
               name: Under The Ruins
               employer: MinnesotaTribe
               employerPortrait: castDef_JoannaMcEvedy
-              target: OWNER
+              target: AuriganPirates
               difficulty: 6
-              at: starsystemdef_Coopertown
+              at: starsystemdef_Durabon
               description: |
                   Resume the <b>Ghost of Retribution</b> campaign by retrying the contract.
         - goto: MinnesotaTribe-UnderTheRuins
@@ -1231,8 +1235,8 @@ nodes:
               withinDays: 7
         - conversation:
               id: GoR-MinnesotaTribe-4-QuestionableChoices
-              header: Orbit over {TGT_SYSTEM.Name}
-              subheader: Orbit over {CUR_SYSTEM}
+              header: Crew Officer's Meeting
+              subheader: Orbit over Gallis
         - fakeFlashpoint:
               name: Unwilling Asset
               employer: MinnesotaTribe
@@ -1263,8 +1267,9 @@ nodes:
               target: OWNER
               onFailGoto: MinnesotaTribe-Retry-UnwillingAsset
               withinDays: 7
-
-        - goto: Exit
+        - event:
+              id: event_GhostsOfRetribution_MinnesotaTribe_TheNextTarget
+        - goto: MinnesotaTribe-ScorchedData
 
     MinnesotaTribe-Retry-UnwillingAsset:
         - fakeFlashpoint:
@@ -1272,8 +1277,117 @@ nodes:
               employer: MinnesotaTribe
               employerPortrait: castDef_JoannaMcEvedy
               target: OWNER
-              difficulty: 8
+              difficulty: 7
               at: starsystemdef_Ryerson
               description: |
                   Resume the <b>Ghost of Retribution</b> campaign by retrying the contract.
         - goto: MinnesotaTribe-UnwillingAsset
+
+    MinnesotaTribe-ScorchedData:
+        - contract:
+              id: GoR_MinnesotaTribe_DestroyBase_ScorchedData
+              employer: MinnesotaTribe
+              target: OWNER
+              onFailGoto: MinnesotaTribe-Retry-ScorchedData
+              withinDays: 7
+        - conversation:
+              id: GoR-MinnesotaTribe-5-AshesOfKnowledge
+              header: Crew Officer's Meeting
+              subheader: Orbit over Ryerson
+        - fakeFlashpoint:
+              name: No Witnesses
+              employer: MinnesotaTribe
+              employerPortrait: castDef_JoannaMcEvedy
+              target: GhostBearWatch
+              difficulty: 7
+              at: starsystemdef_Niops
+              description: |
+                  Assassinate Star Colonel Jorgensson of the Ghost Bear Watch
+        - goto: MinnesotaTribe-NoWitnesses
+
+    MinnesotaTribe-Retry-ScorchedData:
+        - fakeFlashpoint:
+              name: Scorched Data
+              employer: MinnesotaTribe
+              employerPortrait: castDef_JoannaMcEvedy
+              target: OWNER
+              difficulty: 7
+              at: starsystemdef_Ryerson
+              description: |
+                  Resume the <b>Ghost of Retribution</b> campaign by retrying the contract.
+        - goto: MinnesotaTribe-ScorchedData
+
+    MinnesotaTribe-NoWitnesses:
+        - contract:
+              id: GoR_MinnesotaTribe_Assassinate_NoWitnesses
+              employer: MinnesotaTribe
+              target: GhostBearWatch
+              onFailGoto: MinnesotaTribe-Retry-NoWitnesses
+              mapName: mapGeneral_cityCenter_uTech
+              withinDays: 7
+        - event:
+              id: event_GhostsOfRetribution_MinnesotaTribe_CollateralTruths
+        - goto: MinnesotaTribe-ThePoisonPath
+
+    MinnesotaTribe-Retry-NoWitnesses:
+        - fakeFlashpoint:
+              name: No Witnesses
+              employer: MinnesotaTribe
+              employerPortrait: castDef_JoannaMcEvedy
+              target: GhostBearWatch
+              difficulty: 8
+              at: starsystemdef_Niops
+              description: |
+                  Resume the <b>Ghost of Retribution</b> campaign by retrying the contract.
+        - goto: MinnesotaTribe-NoWitnesses
+
+    MinnesotaTribe-ThePoisonPath:
+        - contract:
+              id: GoR_MinnesotaTribe_AmbushConvoy_ThePoisonPath
+              employer: MinnesotaTribe
+              target: OWNER
+              onFailGoto: MinnesotaTribe-Retry-ThePoisonPath
+              mapName: mapGeneral_lostCanyon_aBad
+              withinDays: 7
+        - conversation:
+              id: GoR-MinnesotaTribe-6-HealersAndKillers
+              header: Urgent Crew Officer's Meeting
+              subheader: Orbit over Niops
+        - wait:
+              days: 14
+              workOrder: Wait for updates from Joanna
+              sprite: uixTxrLogo_GenericCampaign
+        - event:
+              id: event_GhostsOfRetribution_MinnesotaTribe_HistoricalVengeance
+        - fakeFlashpoint:
+              name: Liberation Day
+              employer: MinnesotaTribe
+              employerPortrait: castDef_JoannaMcEvedy
+              target: GhostBearWatch
+              difficulty: 10
+              at: starsystemdef_St.Andreas
+              description: |
+                  Rescue the Tribe prisoners from the Ghost Bear prison
+        - goto: WorkInProgress
+
+    MinnesotaTribe-Retry-ThePoisonPath:
+        - fakeFlashpoint:
+              name: The Posion Path
+              employer: MinnesotaTribe
+              employerPortrait: castDef_JoannaMcEvedy
+              target: OWNER
+              difficulty: 8
+              at: starsystemdef_Niops
+              description: |
+                  Resume the <b>Ghost of Retribution</b> campaign by retrying the contract.
+        - goto: MinnesotaTribe-ThePoisonPath
+
+    WorkInProgress:
+        - popup:
+              title: Work in Progress
+              sprite: uixTxrLogo_GenericCampaign
+              message: |
+                  The rest of this branch of the "Ghosts of Retribution" campaign is still a work in progress.
+
+                  Keep your last autosave to resume later.
+        - goto: Exit

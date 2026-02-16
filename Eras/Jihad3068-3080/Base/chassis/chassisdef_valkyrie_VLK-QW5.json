@@ -36,7 +36,8 @@
   "VariantName": "VLK-QW5",
   "ChassisTags": {
     "items": [
-      "ArmLimitLowerRight"
+      "ArmLimitLowerRight",
+      "OneHanded"
     ],
     "tagSetSourceFile": ""
   },

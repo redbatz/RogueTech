@@ -39,7 +39,7 @@
   },
   "ChassisID": "chassisdef_hatchetman_HCT-5S_austin",
   "Description": {
-    "Cost": 5431490,
+    "Cost": 5432940,
     "Rarity": 3,
     "Purchasable": true,
     "UIName": "Hatchetman HCT-5S 'Austin'",
@@ -196,7 +196,7 @@
     },
     {
       "MountedLocation": "RightArm",
-      "ComponentDefID": "Lootable_HandHeld_Melee_Hatchet_6tons",
+      "ComponentDefID": "Lootable_HandHeld_Melee_Hatchet_5tons",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"

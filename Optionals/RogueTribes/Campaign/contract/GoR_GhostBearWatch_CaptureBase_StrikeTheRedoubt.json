@@ -11,8 +11,8 @@
   "missionSuccessStatementOverride": null,
   "badFaithStatementOverride": null,
   "goodFaithStatementOverride": null,
-  "shortDescription": "Intelligence confirms that the Minnesota Tribe has converted an old Star League observation bunker into a hardened logistics redoubt in the deserts of <i>Merovi</i>. The site currently serves as a vital hub for local refueling, repairs, and coordination between dispersed strike cells.\n\nIt’s not fully fortified yet—but it soon will be.\n\nSeize control of the outpost before they complete their upgrades. Expect resistance once the site is breached. Ghost Bear analysts believe this location anchors their entire forward posture on <i>Merovi</i>; capturing it now will cripple their momentum in this region.",
-  "longDescription": "This is their keystone, Commander. We take it now, they can’t hold anything else out here. Hit fast, hold the ground, and lock it down.",
+  "shortDescription": "Intelligence confirms that the Minnesota Tribe has converted an old Star League observation bunker into a hardened logistics redoubt in the deserts of <i>Merovi</i>. The site currently serves as a vital hub for local refueling, repairs, and coordination between dispersed strike cells.\n\nIt's not fully fortified yet, but it soon will be.\n\nSeize control of the outpost before they complete their upgrades. Expect resistance once the site is breached. Ghost Bear analysts believe this location anchors their entire forward posture on <i>Merovi</i>. Capturing it now will cripple their momentum in this region.",
+  "longDescription": "This is their keystone, Commander. We take it now, they can't hold anything else out here. Hit fast, hold the ground, and lock it down.",
   "salvagePotential": 12,
   "requirementList": [
   ],
@@ -344,7 +344,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "We hit the site, claim the ground, and hold until it’s ours. Let’s make this clean.",
+          "words": "We hit the site, claim the ground, and hold until it's ours. Let's make this clean.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -369,7 +369,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "Base is secure. That’s going to force them to fall back across half the region.",
+          "words": "Base is secure. That's going to force them to fall back across half the region.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -394,7 +394,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "We couldn’t hold it. That redoubt’s going to be a nightmare once they reinforce it.",
+          "words": "We couldn't hold it. That redoubt's going to be a nightmare once they reinforce it.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -419,7 +419,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "Eyes up—multiple hostiles inbound! Looks like they were waiting for us to make a move.",
+          "words": "Eyes up! Multiple hostiles inbound! Looks like they were waiting for us to make a move.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -444,7 +444,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "Ground’s ours, but there’s still fighting to do. Clean up what’s left.",
+          "words": "Ground's ours, but there's still fighting to do. Clean up what's left.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -469,7 +469,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "Clear for now, but we still haven’t locked down all control points. Keep moving.",
+          "words": "Clear for now, but we still haven't locked down all control points. Keep moving.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -494,7 +494,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "Shuttle’s on approach—base is locked in. Let’s wrap this.",
+          "words": "Shuttle's on approach. Base is locked in. Let's wrap this.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -519,7 +519,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "Turrets just came to life! Commander, they weren’t active before—must’ve triggered a backup grid!",
+          "words": "Turrets just came to life! Commander, they weren't active before. Must've triggered a backup grid!",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -544,7 +544,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "Visual on the target zone. SLDF structure’s still intact under all that retrofitting. Moving in.",
+          "words": "Visual on the target zone. SLDF structure's still intact under all that retrofitting. Moving in.",
           "wordsColor": {
             "r": 1,
             "g": 1,

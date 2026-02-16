@@ -33,7 +33,8 @@
   "VariantName": "ASN-25",
   "ChassisTags": {
     "items": [
-      "ArmLimitLowerRight"
+      "ArmLimitLowerRight",
+      "OneHanded"
     ],
     "tagSetSourceFile": ""
   },

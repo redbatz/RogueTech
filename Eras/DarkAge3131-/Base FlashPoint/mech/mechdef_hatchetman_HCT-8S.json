@@ -38,7 +38,7 @@
   },
   "ChassisID": "chassisdef_hatchetman_HCT-8S",
   "Description": {
-    "Cost": 8141497,
+    "Cost": 8142947,
     "Rarity": 1,
     "Purchasable": true,
     "UIName": "Hatchetman HCT-8S",
@@ -202,7 +202,7 @@
     },
     {
       "MountedLocation": "RightArm",
-      "ComponentDefID": "Lootable_HandHeld_Melee_Hatchet_6tons",
+      "ComponentDefID": "Lootable_HandHeld_Melee_Hatchet_5tons",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"

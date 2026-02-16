@@ -25,7 +25,7 @@
     }
   ],
   "Description": {
-    "Cost": 1336330,
+    "Cost": 1256330,
     "Rarity": 5,
     "Purchasable": true,
     "Manufacturer": "",
@@ -33,7 +33,7 @@
     "UIName": "Thunder Hawk",
     "Id": "chassisdef_thunderhawk_TDK-PB",
     "Name": "Thunder Hawk",
-    "Details": "More of a 'What was on Hand' Refit of a SLDF Era Mech, this Steel Viper Unit was Made as a Last Hope Reinforcement that never Saw the Light of Day. Equipped with Clan Spec Gear and Pre Clan Equipment, its a Hodge Podge of Technology and would be a Nightmare to Keep Working. Even in the InnerSphere this thing would be a Rarity to Encounter.\n\n<b><color=#e62e00>Quirk: Command Mech</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.24</color></b>",
+    "Details": "More of a 'what was on hand' refit of a SLDF-era Mech, this Steel Viper unit was made as a last hope reinforcement that never saw the light of day. Equipped with Clan spec gear and pre-Clan weaponry, it is a hodge podge of technology that would be a nightmare to keep working. Even in the Inner Sphere, this thing would be a rarity to encounter.\n\n<b><color=#e62e00>Quirk: Command Mech</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.24</color></b>",
     "Icon": "uixTxrIcon_thunderhawk"
   },
   "VariantName": "TDK-PB",
@@ -44,7 +44,7 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Missile Boat",
-  "YangsThoughts": "More of a 'What was on Hand' Refit of a SLDF Era Mech, this Steel Viper Unit was Made as a Last Hope Reinforcement that never Saw the Light of Day. Equipped with Clan Spec Gear and Pre Clan Equipment, its a Hodge Podge of Technology and would be a Nightmare to Keep Working. Even in the InnerSphere this thing would be a Rarity to Encounter.",
+  "YangsThoughts": "More of a 'what was on hand' refit of a SLDF-era Mech, this Steel Viper unit was made as a last hope reinforcement that never saw the light of day. Equipped with Clan spec gear and pre-Clan weaponry, it is a hodge podge of technology that would be a nightmare to keep working. Even in the Inner Sphere, this thing would be a rarity to encounter.",
   "MovementCapDefID": "movedef_assaultmech",
   "PathingCapDefID": "pathingdef_assault",
   "HardpointDataDefID": "hardpointdatadef_thunderhawk",

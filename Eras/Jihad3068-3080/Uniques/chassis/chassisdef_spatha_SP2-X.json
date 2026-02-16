@@ -52,7 +52,7 @@
     }
   ],
   "Description": {
-    "Cost": 1438810,
+    "Cost": 1097540,
     "Rarity": 5,
     "Purchasable": true,
     "Manufacturer": "",
@@ -68,6 +68,7 @@
     "items": [
       "ArmLimitLowerLeft",
       "UniqueMech",
+      "OneHanded",
       "mr-resize-0.98-0.98-0.83"
     ],
     "tagSetSourceFile": ""

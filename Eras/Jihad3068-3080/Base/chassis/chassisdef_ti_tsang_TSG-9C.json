@@ -27,11 +27,22 @@
     "MultiDefaults": [
       {
         "Location": "RightArm",
-        "DefID": "Default_HandHeld_Melee_Hatchet_2tons",
+        "DefID": "Default_HandHeld_Melee_Hatchet_4tons",
         "ComponentType": "Upgrade",
         "Categories": [
           "SpecialMelee",
           "HandHeld"
+        ]
+      },
+      {
+        "Location": "RightArm",
+        "DefID": "Default_Actuator_OneBIGArm",
+        "ComponentType": "Upgrade",
+        "Categories": [
+          "ArmShoulder",
+          "ArmUpperActuator",
+          "ArmLowerActuator",
+          "ArmHandActuator"
         ]
       }
     ]
@@ -65,6 +76,7 @@
   "ChassisTags": {
     "items": [
       "ArmLimitLowerLeft",
+      "OneHanded",
       "mr-resize-0.71-0.79-0.6"
     ],
     "tagSetSourceFile": ""
@@ -113,7 +125,12 @@
   "Locations": [
     {
       "Location": "Head",
-      "Hardpoints": [],
+      "Hardpoints": [
+        {
+          "WeaponMountID": "Energy",
+          "Omni": false
+        }
+      ],  
       "Tonnage": 1,
       "InventorySlots": 6,
       "MaxArmor": 45,
@@ -123,14 +140,6 @@
     {
       "Location": "LeftArm",
       "Hardpoints": [
-        {
-          "WeaponMountID": "Energy",
-          "Omni": false
-        },
-        {
-          "WeaponMountID": "Energy",
-          "Omni": false
-        },
         {
           "WeaponMountID": "Energy",
           "Omni": false
@@ -180,7 +189,7 @@
       "Location": "CenterTorso",
       "Hardpoints": [
         {
-          "WeaponMountID": "AntiPersonnel",
+          "WeaponMountID": "Energy",
           "Omni": false
         }
       ],
@@ -199,6 +208,10 @@
         },
         {
           "WeaponMountID": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMountID": "AntiPersonnel",
           "Omni": false
         },
         {

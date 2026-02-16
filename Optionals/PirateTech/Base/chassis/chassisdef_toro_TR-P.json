@@ -36,7 +36,8 @@
   "VariantName": "TR-P",
   "ChassisTags": {
     "items": [
-      "ArmLimitLowerLeft"
+      "ArmLimitLowerLeft",
+      "OneHanded"
     ],
     "tagSetSourceFile": ""
   },

@@ -39,18 +39,18 @@
       "FroncReaches",
       "FroncReaches3150",
       "GalateanLeague",
-       "illyrian",
+      "illyrian",
       "illyrian3031",
       "Locals",
-        "magistracyofcanopus",
+      "magistracyofcanopus",
       "magistracyofcanopus3031",
       "MagistracyOfCanopus3150",
-        "marian",
+      "marian",
       "marian3031",
       "Marian3150",
-       "oberon",
-            "oberon3031",
-       "outworld",
+      "oberon",
+      "oberon3031",
+      "outworld",
       "outworld3031",
       "republic",
       "Rim",
@@ -59,7 +59,7 @@
       "taurianconcordat",
       "taurianconcordat3031",
       "TaurianConcordat3150",
-       "tortuga",
+      "tortuga",
       "tortuga3031",
       "valkyrate",
       "valkyrate3031",
@@ -79,7 +79,7 @@
   },
   "ChassisID": "chassisdef_volkh_VKH-SIR",
   "Description": {
-    "Cost": 15659348,
+    "Cost": 15161816,
     "Rarity": 3,
     "Purchasable": false,
     "UIName": "Volkh 'Lance-A-Lot'",
@@ -88,7 +88,7 @@
     "Details": "This former Volkh-7 was heavily customized after being smuggled off Solaris VII. The lances have been upgraded to ludicrous proportions and most of the weapons and targeting systems have been torn out to make room for these \"magshot lances.\" It'll definitely put a hole in someone's armor, assuming you can keep it standing up.\n\n<b><color=#e62e00>Quirk: Reinforced Legs</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.11</color></b>",
     "Icon": "uixTxrIcon_warhammer"
   },
-  "simGameMechPartCost": 60383,
+  "simGameMechPartCost": 66727,
   "Locations": [
     {
       "Location": "Head",
@@ -110,10 +110,10 @@
     },
     {
       "Location": "LeftTorso",
-      "CurrentArmor": 80,
+      "CurrentArmor": 85,
       "CurrentRearArmor": 30,
       "CurrentInternalStructure": 55,
-      "AssignedArmor": 80,
+      "AssignedArmor": 85,
       "AssignedRearArmor": 30,
       "DamageLevel": "Functional"
     },
@@ -128,10 +128,10 @@
     },
     {
       "Location": "RightTorso",
-      "CurrentArmor": 80,
+      "CurrentArmor": 85,
       "CurrentRearArmor": 30,
       "CurrentInternalStructure": 55,
-      "AssignedArmor": 80,
+      "AssignedArmor": 85,
       "AssignedRearArmor": 30,
       "DamageLevel": "Functional"
     },
@@ -164,13 +164,6 @@
     }
   ],
   "inventory": [
-    {
-      "MountedLocation": "LeftArm",
-      "ComponentDefID": "Gear_AdvancedMaterials1",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
     {
       "MountedLocation": "LeftTorso",
       "ComponentDefID": "Gear_AdvancedMaterials1",
@@ -302,13 +295,6 @@
       "DamageLevel": "Functional"
     },
     {
-      "MountedLocation": "LeftArm",
-      "ComponentDefID": "Gear_Actuator_GrippyHand",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
       "MountedLocation": "RightArm",
       "ComponentDefID": "Gear_Actuator_Arm_Upper_Spiked",
       "ComponentDefType": "Upgrade",
@@ -323,13 +309,6 @@
       "DamageLevel": "Functional"
     },
     {
-      "MountedLocation": "RightArm",
-      "ComponentDefID": "Gear_Actuator_GrippyHand",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
       "MountedLocation": "LeftLeg",
       "ComponentDefID": "Gear_JumpJet_Standard_LegUpper",
       "ComponentDefType": "JumpJet",
@@ -359,7 +338,7 @@
     },
     {
       "MountedLocation": "LeftArm",
-      "ComponentDefID": "HandHeld_Weapon_Lance_8tons",
+      "ComponentDefID": "HandHeld_Weapon_Lance_7tons",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
       "DamageLevel": "Functional"
@@ -380,7 +359,7 @@
     },
     {
       "MountedLocation": "RightArm",
-      "ComponentDefID": "HandHeld_Weapon_Lance_8tons",
+      "ComponentDefID": "HandHeld_Weapon_Lance_7tons",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
       "DamageLevel": "Functional"

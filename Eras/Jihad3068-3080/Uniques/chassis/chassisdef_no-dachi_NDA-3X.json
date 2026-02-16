@@ -30,7 +30,7 @@
     "MultiDefaults": [
       {
         "Location": "RightArm",
-        "DefID": "Default_HandHeld_Melee_VibroSword_3tons",
+        "DefID": "Default_HandHeld_Melee_VibroSword_7tons",
         "ComponentType": "Upgrade",
         "Categories": [
           "SpecialMelee",
@@ -52,7 +52,7 @@
     }
   ],
   "Description": {
-    "Cost": 1274590,
+    "Cost": 2039590,
     "Rarity": 1,
     "Purchasable": true,
     "Manufacturer": "",

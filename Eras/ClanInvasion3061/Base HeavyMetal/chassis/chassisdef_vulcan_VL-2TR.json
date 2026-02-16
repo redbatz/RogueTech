@@ -33,7 +33,8 @@
   "VariantName": "VL-2TR",
   "ChassisTags": {
     "items": [
-      "ArmLimitLowerLeft"
+      "ArmLimitLowerLeft",
+      "OneHanded"
     ],
     "tagSetSourceFile": ""
   },

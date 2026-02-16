@@ -27,7 +27,7 @@
     "MultiDefaults": [
       {
         "Location": "RightArm",
-        "DefID": "Default_HandHeld_Melee_VibroSword_4tons",
+        "DefID": "Default_HandHeld_Melee_VibroSword_2tons",
         "ComponentType": "Upgrade",
         "Categories": [
           "SpecialMelee",
@@ -64,6 +64,7 @@
   "ChassisTags": {
     "items": [
       "ArmLimitLowerLeft",
+      "OneHanded",
       "mr-resize-0.55-0.63-0.51"
     ],
     "tagSetSourceFile": ""

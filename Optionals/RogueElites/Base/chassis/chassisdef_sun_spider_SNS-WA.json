@@ -67,7 +67,7 @@
     }
   ],
   "Description": {
-    "Cost": 6155562,
+    "Cost": 6150028,
     "Rarity": 5,
     "Purchasable": true,
     "Manufacturer": "",
@@ -75,7 +75,7 @@
     "UIName": "Sun Spider",
     "Id": "chassisdef_sun_spider_SNS-WA",
     "Name": "Sun Spider",
-    "Details": "A Special Refit of the Sun Spider, Made Deadlier by using Streak Launchers and Battlecomputers. Everything in the Mech is Clan Spec, but the Launchers Look like they're a Weird Mix of Clan and Inner Sphere Tech. From the Markings it Looks Like Either a Showcase Mech for Research, or a Showpiece in a Museum. The Close Range Viability of this Sun Spider is Deadly, so Keep your Distance and you will come out Victorious.\n\n<b><color=#e62e00>Quirk: Narrow/Low Profile</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.15</color></b>\n\n<color=#FFEF00>Arm Actuator Limits: Omni</color>",
+    "Details": "A special refit of the Sun Spider, made deadlier by using Streak Launchers and Battlecomputers. Everything in the 'Mech is Clan spec, but the launchers look like they're a weird mix of Clan and Inner Sphere Tech. From the markings it looks like either a showcase Mech for research, or a museum showpiece. The close range viability of this Sun Spider is deadly, but it has few options at long distance.\n\n<b><color=#e62e00>Quirk: Narrow/Low Profile</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.15</color></b>\n\n<color=#FFEF00>Arm Actuator Limits: Omni</color>",
     "Icon": "uixTxrIcon_sunspider"
   },
   "VariantName": "SNS-WA",
@@ -90,7 +90,7 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Srm Boat",
-  "YangsThoughts": "A Special Refit of the Sun Spider, Made Deadlier by using Streak Launchers and Battlecomputers. Everything in the Mech is Clan Spec, but the Launchers Look like they're a Weird Mix of Clan and Inner Sphere Tech. From the Markings it Looks Like Either a Showcase Mech for Research, or a Showpiece in a Museum. The Close Range Viability of this Sun Spider is Deadly, so Keep your Distance and you will come out Victorious.",
+  "YangsThoughts": "A special refit of the Sun Spider, made deadlier by using Streak Launchers and Battlecomputers. Everything in the 'Mech is Clan spec, but the launchers look like they're a weird mix of Clan and Inner Sphere Tech. From the markings it looks like either a showcase Mech for research, or a museum showpiece. The close range viability of this Sun Spider is deadly, but it has few options at long distance.",
   "MovementCapDefID": "movedef_heavymech",
   "PathingCapDefID": "pathingdef_heavy",
   "HardpointDataDefID": "hardpointdatadef_sunspider",

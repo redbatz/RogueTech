@@ -11,8 +11,8 @@
   "missionSuccessStatementOverride": null,
   "badFaithStatementOverride": null,
   "goodFaithStatementOverride": null,
-  "shortDescription": "A hidden [[DM.Factions[faction_MajestyMetals],SLDF]],Majesty Metals & Manufacturing]] vault on <i>Dunianshire VI</i> has become the next target of the Minnesota Tribe’s deep strike campaign. Though officially dormant, the site remains under sealed protection—guarded, maintained, and curiously off the books. Whatever lies within, rumors suggest it’s tied to a classified research program with wide-ranging implications for heavy industry and weapons development.\n\nThe vault is located far from major settlements and sensor coverage. Local [[TGT_SYSTEM.OwnerDef,{TGT_SYSTEM.OwnerDef.Demonym}]] authorities are unlikely to even be aware of the attack until it’s over. There will be no reinforcements. No oversight.\n\nGhost Bear Watch has rerouted you to intercept the incoming strike team. Majesty’s on-site defense units are few and outmatched—this defense is on you. The Tribe moves with surgical precision: expect a quick, brutal assault designed to breach, extract, and vanish without a trace. Do not let them succeed.",
-  "longDescription": "Something big’s buried out here, and we’re the only wall between it and the Tribe. Majesty’s got a few guards on-site, but it’s not enough. Let’s finish what they started.",
+  "shortDescription": "A hidden [[DM.Factions[faction_MajestyMetals],SLDF]],Majesty Metals & Manufacturing]] vault on <i>Dunianshire VI</i> has become the next target of the Minnesota Tribe's deep strike campaign. Though officially dormant, the site remains under sealed protection. Guarded, maintained, and curiously off the books. Whatever lies within, rumors suggest it's tied to a classified research program with wide-ranging implications for heavy industry and weapons development.\n\nThe vault is located far from major settlements and sensor coverage. Local [[TGT_SYSTEM.OwnerDef,{TGT_SYSTEM.OwnerDef.Demonym}]] authorities are unlikely to even be aware of the attack until it's over. There will be no reinforcements. No oversight.\n\nGhost Bear Watch has rerouted you to intercept the incoming strike team. Majesty's on-site defense units are few and outmatched. This defense is on you. The Tribe moves with surgical precision: expect a quick, brutal assault designed to breach, extract, and vanish without a trace. Do not let them succeed.",
+  "longDescription": "Something big's buried out here, and we're the only wall between it and the Tribe. Majesty's got a few guards on-site, but it's not enough. Let's finish what they started.",
   "salvagePotential": 12,
   "requirementList": [],
   "OnContractSuccessResults": [],
@@ -421,7 +421,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "Finally—reinforcements! We’ll follow your lead. Just keep them away from our position!",
+          "words": "Finally, reinforcements! We'll follow your lead. Just keep them away from our position!",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -446,7 +446,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "We held the line. The government forces still don’t know this even happened. Good.",
+          "words": "We held the line. The government forces still don't know this even happened. Good.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -471,7 +471,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "They burned through everything. Whatever was here, it’s gone now.",
+          "words": "They burned through everything. Whatever was here, it's gone now.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -496,7 +496,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "“Turrets are live and tracking! Let’s make them regret coming.",
+          "words": "Turrets are live and tracking! Let's make them regret coming.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -521,7 +521,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "More drops inbound—Tribe’s not done yet.",
+          "words": "More drops inbound. Tribe's not done yet.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -546,7 +546,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "We’ve got damage to the outer array—Tribe’s not wasting time.",
+          "words": "We've got damage to the outer array. Tribe's not wasting time.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -571,7 +571,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "Vault’s still standing, but we lost some systems. Could’ve been worse, but protect the rest.",
+          "words": "Vault's still standing, but we lost some systems. Could've been worse, but protect the rest.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -596,7 +596,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "They’ve leveled nearly everything—hold that last structure, or this vault’s lost!",
+          "words": "They've leveled nearly everything! Hold that last structure, or this vault's lost!",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -662,7 +662,7 @@
           "revealRadius": -1
         },
         {
-          "words": "Their power relays are down—we need time to bring the turrets online. Engineers are on the way!",
+          "words": "Their power relays are down. We need time to bring the turrets online. Engineers are on the way!",
           "wordsColor": {
             "r": 1,
             "g": 1,
