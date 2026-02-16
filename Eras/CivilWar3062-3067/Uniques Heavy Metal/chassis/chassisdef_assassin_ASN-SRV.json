@@ -30,11 +30,22 @@
     "MultiDefaults": [
       {
         "Location": "LeftArm",
-        "DefID": "Default_HandHeld_Melee_VibroSword_2tons",
+        "DefID": "Default_HandHeld_Melee_VibroSword_3tons",
         "ComponentType": "Upgrade",
         "Categories": [
           "SpecialMelee",
           "HandHeld"
+        ]
+      },
+      {
+        "Location": "LeftArm",
+        "DefID": "Default_Actuator_OneBIGArm",
+        "ComponentType": "Upgrade",
+        "Categories": [
+          "ArmShoulder",
+          "ArmUpperActuator",
+          "ArmLowerActuator",
+          "ArmHandActuator"
         ]
       }
     ]

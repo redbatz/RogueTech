@@ -33,6 +33,17 @@
           "SpecialMelee",
           "HandHeld"
         ]
+      },
+      {
+        "Location": "LeftArm",
+        "DefID": "Default_Actuator_OneBIGArm",
+        "ComponentType": "Upgrade",
+        "Categories": [
+          "ArmShoulder",
+          "ArmUpperActuator",
+          "ArmLowerActuator",
+          "ArmHandActuator"
+        ]
       }
     ]
   },
