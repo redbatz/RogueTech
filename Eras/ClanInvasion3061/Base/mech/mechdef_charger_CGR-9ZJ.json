@@ -170,7 +170,7 @@
     },
     {
       "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Gear_EngineCooling_Heatsinks_6",
+      "ComponentDefID": "Gear_EngineCooling_Heatsinks_5",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
@@ -184,7 +184,14 @@
     },
     {
       "MountedLocation": "RightArm",
-      "ComponentDefID": "Lootable_HandHeld_Melee_Sword_6tons",
+      "ComponentDefID": "Gear_Actuator_OneBIGArm",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "RightArm",
+      "ComponentDefID": "Lootable_HandHeld_Melee_Sword_10tons",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
@@ -297,13 +304,6 @@
     {
       "MountedLocation": "RightTorso",
       "ComponentDefID": "Gear_Cooling_Pod_x2",
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "RightTorso",
-      "ComponentDefID": "Gear_HeatSink_Double",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"

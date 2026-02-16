@@ -89,10 +89,10 @@
     {
       "Location": "CenterTorso",
       "CurrentArmor": 200,
-      "CurrentRearArmor": 83,
+      "CurrentRearArmor": 85,
       "CurrentInternalStructure": 115,
       "AssignedArmor": 200,
-      "AssignedRearArmor": 83,
+      "AssignedRearArmor": 85,
       "DamageLevel": "Functional"
     },
     {
@@ -177,35 +177,21 @@
     },
     {
       "MountedLocation": "LeftArm",
-      "ComponentDefID": "Gear_Actuator_Arm_Upper_Recoil_Plus",
+      "ComponentDefID": "Gear_Actuator_WeaponMount_Accuracy",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
     },
     {
       "MountedLocation": "LeftArm",
-      "ComponentDefID": "Gear_Actuator_Arm_Lower_Melee_Weapon",
+      "ComponentDefID": "Gear_ActuatorEnhancementSystem_Arms",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
     },
     {
       "MountedLocation": "RightArm",
-      "ComponentDefID": "Gear_Actuator_Arm_Upper_Spiked",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "RightArm",
-      "ComponentDefID": "Gear_Actuator_Arm_Lower_Melee_Weapon",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "RightArm",
-      "ComponentDefID": "Gear_Actuator_BattleFist_Mk3",
+      "ComponentDefID": "Gear_ActuatorEnhancementSystem_Arms",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
@@ -234,13 +220,6 @@
     {
       "MountedLocation": "CenterTorso",
       "ComponentDefID": "Weapon_Rocket_10",
-      "ComponentDefType": "Weapon",
-      "HardpointSlot": 0,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "RightTorso",
-      "ComponentDefID": "Weapon_Rocket_Heavy_10",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
       "DamageLevel": "Functional"
@@ -295,8 +274,8 @@
       "DamageLevel": "Functional"
     },
     {
-      "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Gear_HeatSink_Double",
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Gear_EngineCooling_Heatsinks_1",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"

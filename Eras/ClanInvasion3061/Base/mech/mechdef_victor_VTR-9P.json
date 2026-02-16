@@ -212,20 +212,6 @@
       "DamageLevel": "Functional"
     },
     {
-      "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Ammo_AmmunitionBox_SRM",
-      "ComponentDefType": "AmmunitionBox",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "RightTorso",
-      "ComponentDefID": "Ammo_AmmunitionBox_AC_10",
-      "ComponentDefType": "AmmunitionBox",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
       "MountedLocation": "RightTorso",
       "ComponentDefID": "Ammo_AmmunitionBox_AC_10",
       "ComponentDefType": "AmmunitionBox",

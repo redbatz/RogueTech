@@ -169,15 +169,15 @@
     },
     {
       "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Gear_EngineCooling_Heatsinks_1",
+      "ComponentDefID": "Gear_HeatSinkKit_Double",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
     },
     {
-      "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Gear_HeatSinkKit_Double",
-      "ComponentDefType": "HeatSink",
+      "MountedLocation": "LeftArm",
+      "ComponentDefID": "Gear_Actuator_OneBIGArm",
+      "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
     },

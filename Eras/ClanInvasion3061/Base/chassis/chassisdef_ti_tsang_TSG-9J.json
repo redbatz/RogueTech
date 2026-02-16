@@ -27,11 +27,22 @@
     "MultiDefaults": [
       {
         "Location": "RightArm",
-        "DefID": "Default_HandHeld_Melee_Hatchet_2tons",
+        "DefID": "Default_HandHeld_Melee_Hatchet_4tons",
         "ComponentType": "Upgrade",
         "Categories": [
           "SpecialMelee",
           "HandHeld"
+        ]
+      },
+      {
+        "Location": "RightArm",
+        "DefID": "Default_Actuator_OneBIGArm",
+        "ComponentType": "Upgrade",
+        "Categories": [
+          "ArmShoulder",
+          "ArmUpperActuator",
+          "ArmLowerActuator",
+          "ArmHandActuator"
         ]
       }
     ]
@@ -186,7 +197,7 @@
       "Location": "CenterTorso",
       "Hardpoints": [
         {
-          "WeaponMountID": "AntiPersonnel",
+          "WeaponMountID": "Energy",
           "Omni": false
         }
       ],
@@ -209,6 +220,10 @@
         },
         {
           "WeaponMountID": "Special",
+          "Omni": false
+        },
+        {
+          "WeaponMountID": "AntiPersonnel",
           "Omni": false
         }
       ],

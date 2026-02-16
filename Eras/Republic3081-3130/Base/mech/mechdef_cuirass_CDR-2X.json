@@ -171,15 +171,15 @@
       "DamageLevel": "Functional"
     },
     {
-      "MountedLocation": "LeftArm",
-      "ComponentDefID": "Gear_Actuator_Arm_Lower_Melee",
+      "MountedLocation": "RightArm",
+      "ComponentDefID": "Gear_Actuator_OneBIGArm",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
     },
     {
       "MountedLocation": "RightArm",
-      "ComponentDefID": "Gear_Actuator_Arm_Lower_Melee_Weapon",
+      "ComponentDefID": "Lootable_HandHeld_Melee_VibroSword_5tons",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
