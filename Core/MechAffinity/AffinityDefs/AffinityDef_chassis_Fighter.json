@@ -19,7 +19,6 @@
       "buccaneer_55",
       "dola_30",
       "cudgel_80",
-      "HatamotoFighter",
       "CommandoFighter",
       "BlackknightFighter"
     ],
@@ -32,7 +31,8 @@
           "chassisdef_banshee_BNC-8S",
           "chassisdef_rabid_coyote_RB-P",
           "chassisdef_swordsman_SWD-P",
-          "chassisdef_urbanknight_UK-9000"
+          "chassisdef_urbanknight_UK-9000",
+          "HatamotoFighter"
         ],
         "idType": "ChassisId"
       }
