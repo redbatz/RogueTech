@@ -1,4 +1,4 @@
-RT_Periphery_3031_Tanks,,,
+RT_Marian_3031_Tanks,,,
 vehicledef_BALLISTA,Mech,1,3
 vehicledef_BRUTUS,Mech,1,3
 vehicledef_BULLDOG,Mech,1,9
@@ -22,6 +22,8 @@ vehicledef_CLOUDBUSTER_PERIPHERY_2,Mech,1,9
 vehicledef_COBRA_ARV_3020,Mech,1,8
 vehicledef_CONDOR,Mech,1,6
 vehicledef_CONDOR_PERIPHERY,Mech,1,8
+vehicledef_DECURION,Mech,1,8
+vehicledef_DECURION_APC,Mech,1,8
 vehicledef_DEFENDER,Mech,1,8
 vehicledef_DEFENDER_FC,Mech,1,6
 vehicledef_DEMOLISHER,Mech,1,4

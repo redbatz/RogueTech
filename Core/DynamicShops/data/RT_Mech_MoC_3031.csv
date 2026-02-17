@@ -1,4 +1,4 @@
-RT_Mech_Periphery_3031,,,
+RT_Mech_MoC_3031,,,
 mechdef_blackjack_BJ-1,Mech,1,7
 mechdef_blackjack_BJ-1B,Mech,1,7
 mechdef_bombardier_BMB-10D,Mech,1,5
@@ -16,6 +16,7 @@ mechdef_guillotine_GLT-4P,Mech,1,5
 mechdef_guillotine_GLT-4L,Mech,1,5
 mechdef_grasshopper_GHR-5H,Mech,1,5
 mechdef_grasshopper_GHR-5N,Mech,1,5
+mechdef_hermes_ii_HER-2S,Mech,1,8
 mechdef_hornet_HNT-151,Mech,1,7
 mechdef_hunchback_HBK-4SP,Mech,1,7
 mechdef_hunchback_HBK-4P,Mech,1,7

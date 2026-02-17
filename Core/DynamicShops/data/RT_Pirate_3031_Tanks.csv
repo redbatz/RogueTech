@@ -1,5 +1,7 @@
 RT_Periphery_3031_Tanks,,,
 vehicledef_BALLISTA,Mech,1,3
+vehicledef_BEHEMOTH,Mech,1,5
+vehicledef_BEHEMOTHF,Mech,1,5
 vehicledef_BRUTUS,Mech,1,3
 vehicledef_BULLDOG,Mech,1,9
 vehicledef_BULLDOG_AC,Mech,1,9
@@ -68,6 +70,7 @@ vehicledef_PARTISAN,Mech,1,4
 vehicledef_PEGASUS,Mech,1,8
 vehicledef_PEGASUS_CHEM,Mech,1,9
 vehicledef_PIKE,Mech,1,6
+vehicledef_ONTOS_MK1,Mech,1,5
 vehicledef_PIKE_PERIPHERY,Mech,1,6,
 vehicledef_PROWLER_SUCCESSION,Mech,1,6
 vehicledef_PROWLER_SUPPORT,Mech,1,6
