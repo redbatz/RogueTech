@@ -18,9 +18,7 @@
       "banzai_90",
       "buccaneer_55",
       "dola_30",
-      "cudgel_80",
-      "CommandoFighter",
-      "BlackknightFighter"
+      "cudgel_80"
     ],
     "idType": "AssemblyVariant",
     "altMaps": [
@@ -32,7 +30,9 @@
           "chassisdef_rabid_coyote_RB-P",
           "chassisdef_swordsman_SWD-P",
           "chassisdef_urbanknight_UK-9000",
-          "HatamotoFighter"
+          "HatamotoFighter",
+          "CommandoFighter",
+          "BlackknightFighter"
         ],
         "idType": "ChassisId"
       }
