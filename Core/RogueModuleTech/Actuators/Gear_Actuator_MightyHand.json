@@ -27,10 +27,10 @@
     "Rarity": 99,
     "Purchasable": true,
     "Manufacturer": "Coventry",
-    "Model": "Flex",
+    "Model": "GAIN",
     "UIName": "Mighty Hand",
     "Id": "Gear_Actuator_MightyHand",
-    "Name": "Coventry Flex Hand Mod",
+    "Name": "Coventry GAIN Hand Mod",
     "Details": "This special-purpsose Hand Actuator actually allows certain externally-mounted equipment to be anchored within, trading internal space for hand-held carrying capacity.",
     "Icon": "uixSvgIcon_equipment_ActuatorArm"
   },
