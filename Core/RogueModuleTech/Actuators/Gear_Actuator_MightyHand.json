@@ -1,0 +1,62 @@
+{
+  "Custom": {
+    "Category": [
+      {
+        "CategoryID": "ArmHandActuator"
+      }
+    ],
+    "BonusDescriptions": [
+      "CarryWeightArm: +5%",
+      "ChassisBasedWeight: 0.75%",
+      "HandActuator"
+    ],
+    "Flags": [
+      "not_broken"
+    ],
+    "Weights": {
+      "ComponentByChassisFactor": 0.0075
+    },
+    "IBLS": {
+      "StorageSize": 1
+    },
+    "CarryLeftOverCapacityChassisFactor": 0.005,
+    "CarryHandCapacityChassisFactor": 0.0525
+  },
+  "Description": {
+    "Cost": 66000,
+    "Rarity": 99,
+    "Purchasable": true,
+    "Manufacturer": "Coventry",
+    "Model": "Flex",
+    "UIName": "Mighty Hand",
+    "Id": "Gear_Actuator_MightyHand",
+    "Name": "Coventry Flex Hand Mod",
+    "Details": "This special-purpsose Hand Actuator actually allows certain externally-mounted equipment to be anchored within, trading internal space for hand-held carrying capacity.",
+    "Icon": "uixSvgIcon_equipment_ActuatorArm"
+  },
+  "BonusValueA": "",
+  "BonusValueB": "",
+  "ComponentType": "Upgrade",
+  "ComponentSubType": "NotSet",
+  "PrefabIdentifier": "",
+  "RelativeModifier": 0,
+  "AbsoluteModifier": 0,
+  "BattleValue": 0,
+  "InventorySize": 1,
+  "Tonnage": 0,
+  "AllowedLocations": "Arms",
+  "DisallowedLocations": "All",
+  "CriticalComponent": false,
+  "statusEffects": [
+  ],
+  "ComponentTags": {
+    "items": [
+      "component_type_variant",
+      "Hand.{location}",
+      "Hand",
+      "QuadIncompatible",
+      "SquadIncompatible"
+    ],
+    "tagSetSourceFile": ""
+  }
+}
