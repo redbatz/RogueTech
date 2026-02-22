@@ -68,7 +68,7 @@ vehicledef_PARTISAN,MechPart,1,4
 vehicledef_PEGASUS,MechPart,1,8
 vehicledef_PEGASUS_CHEM,MechPart,1,9
 vehicledef_PIKE,MechPart,1,6
-vehicledef_PIKE_PERIPHERY,MechPart,1,6,
+vehicledef_PIKE_PERIPHERY,MechPart,1,6
 vehicledef_PROWLER_SUCCESSION,MechPart,1,6
 vehicledef_PROWLER_SUPPORT,MechPart,1,6
 vehicledef_RHINO,MechPart,1,3
