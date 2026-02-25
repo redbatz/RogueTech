@@ -836,7 +836,8 @@
             "StealthEngine",
             "MimeticSystem",
             "Chameleon",
-            "StealthX"
+            "StealthX",
+            "VoidSignatureSystem"
           ]
         }
       },
@@ -890,6 +891,7 @@
             "StealthSystem",
             "MimeticSystem",
             "Chameleon",
+            "VoidSignatureSystem",
             "TargetingComputer",
             "BCEva",
             "BCCluster",
