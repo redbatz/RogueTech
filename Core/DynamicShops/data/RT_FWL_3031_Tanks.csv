@@ -25,6 +25,8 @@ vehicledef_Ferret,Mech,1,5
 vehicledef_Ferret_ML,Mech,1,5
 vehicledef_Ferret_Armor,Mech,1,5
 vehicledef_GALLEON,Mech,1,9
+vehicledef_GALLEON_202,Mech,1,9
+vehicledef_GALLEON_350,Mech,1,9
 vehicledef_GOBLIN,Mech,1,7
 vehicledef_HARASSER,Mech,1,9
 vehicledef_HARASSER_MP,Mech,1,9
