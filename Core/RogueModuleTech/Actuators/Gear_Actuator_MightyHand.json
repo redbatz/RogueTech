@@ -6,24 +6,24 @@
       }
     ],
     "BonusDescriptions": [
-      "CarryWeightArm: +5%",
-      "ChassisBasedWeight: 0.75%",
+      "CarryWeightArm: +10%",
+      "ChassisBasedWeight: 1.25%",
       "HandActuator"
     ],
     "Flags": [
       "not_broken"
     ],
     "Weights": {
-      "ComponentByChassisFactor": 0.0075
+      "ComponentByChassisFactor": 0.0125
     },
     "IBLS": {
       "StorageSize": 1
     },
-    "CarryLeftOverCapacityChassisFactor": 0.005,
-    "CarryHandCapacityChassisFactor": 0.0525
+    "CarryLeftOverCapacityChassisFactor": 0.01,
+    "CarryHandCapacityChassisFactor": 0.055
   },
   "Description": {
-    "Cost": 66000,
+    "Cost": 190000,
     "Rarity": 99,
     "Purchasable": true,
     "Manufacturer": "Coventry",
@@ -31,7 +31,7 @@
     "UIName": "Mighty Hand",
     "Id": "Gear_Actuator_MightyHand",
     "Name": "Coventry GAIN Hand Mod",
-    "Details": "This special-purpsose Hand Actuator actually allows certain externally-mounted equipment to be anchored within, trading internal space for hand-held carrying capacity.",
+    "Details": "This special-purpsose Hand Actuator allows certain externally-mounted equipment to be anchored within, trading internal tonnage for hand-held carrying capacity.",
     "Icon": "uixSvgIcon_equipment_ActuatorArm"
   },
   "BonusValueA": "",
