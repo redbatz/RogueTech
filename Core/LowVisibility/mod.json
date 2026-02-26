@@ -61,7 +61,6 @@
             "SensorsOfflineAtSpawn": false,
             "MaxECMDetailsPenalty": -11,
             "Hardcap": 3000
-            
         },
         "Vision": {
             "RangeBright": 1200.0,
