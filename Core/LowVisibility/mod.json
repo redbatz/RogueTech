@@ -83,8 +83,8 @@
             "Mu": -2
         },
         "Attack": {
-            "NoSensorsPenalty": 4,
-            "NoVisualsPenalty": 4,
+            "NoSensorsPenalty": 6,
+            "NoVisualsPenalty": 6,
             "FiringBlindPenalty": 15,
             "ShieldedMulti": 0.6,
             "JammedMulti": 0.8
