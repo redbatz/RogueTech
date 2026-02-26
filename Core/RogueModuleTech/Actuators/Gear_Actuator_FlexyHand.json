@@ -7,14 +7,14 @@
     ],
     "BonusDescriptions": [
       "HandHeldQuirk: +1",
-      "ChassisBasedWeight: 1.5%",
+      "ChassisBasedWeight: 1%",
       "HandActuator"
     ],
     "Flags": [
       "not_broken"
     ],
     "Weights": {
-      "ComponentByChassisFactor": 0.015
+      "ComponentByChassisFactor": 0.01
     },
     "IBLS": {
       "StorageSize": 1
