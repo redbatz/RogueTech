@@ -33,7 +33,7 @@
     "UIName": "Archer",
     "Id": "chassisdef_archer_ARC-JNT",
     "Name": "Archer",
-    "Details": "Clever text here.\n\n<b><color=#e62e00>Quirk: Command Mech</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.06</color></b>",
+    "Details": "Whoever this \"Jonathon\" was, he had access to some very high-tech equipment. A pair of Enhanced LRM-20 Artemis launchers are backed up by a handheld \"Avenger Rifle\", which is some kind of hand-held RAC/5 comparable to the best RISC technology. Maybe it would be more appropriate to call that thing the primary weapon, as it carries more than twice as much ammo as the meager three tons of missiles. This is all wrapped in a thick shell of top-of-the-line mimetic stealth armor.\n\n<b><color=#e62e00>Quirk: Command Mech</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.06</color></b>",
     "Icon": "archerorig"
   },
   "VariantName": "ARC-JNT",
@@ -44,7 +44,7 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Sneak Archery Meta",
-  "YangsThoughts": "......!!!!!!???!?!?!?!?!?!?......!!..........",
+  "YangsThoughts": "Whoever this \"Jonathon\" was, he had access to some very high-tech equipment. A pair of Enhanced LRM-20 Artemis launchers are backed up by a handheld \"Avenger Rifle\", which is some kind of hand-held RAC/5 comparable to the best RISC technology. Maybe it would be more appropriate to call that thing the primary weapon, as it carries more than twice as much ammo as the meager three tons of missiles. This is all wrapped in a thick shell of top-of-the-line mimetic stealth armor.",
   "MovementCapDefID": "movedef_heavymech",
   "PathingCapDefID": "pathingdef_heavy",
   "HardpointDataDefID": "hardpointdatadef_archer",
