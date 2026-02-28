@@ -671,6 +671,7 @@
           ],
           "Categories": [
             "Structure",
+            "StructureMod",
             "Patchwork"
           ]
         }
@@ -852,6 +853,7 @@
             "Armor",
             "ArmorMod",
             "Structure",
+            "StructureMod",
             "Gyro",
             "LifeSupportA",
             "LifeSupportB",

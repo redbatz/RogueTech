@@ -12,7 +12,7 @@
       "unit_tonnage_50",
       "unit_new_needs_tagging",
       "unit_rarity_chassis_unique",
-      "unit_rarity_equipment_level_0",
+      "unit_rarity_equipment_level_1",
       "auriganpirates",
       "chainelane",
       "circinus",
@@ -49,7 +49,7 @@
   },
   "ChassisID": "chassisdef_hunchback_HBK-TRI_locke",
   "Description": {
-    "Cost": 5419721,
+    "Cost": 5809721,
     "Rarity": 1,
     "Purchasable": true,
     "Manufacturer": "",
@@ -60,7 +60,7 @@
     "Details": "Lukas \"Locke\" Laramie's personal modification of an HBK-4G, built around a Clan-sourced Ultra AC/20 with a remarkable seven tons of ammunition. The sustained fire capability consistently surprises opponents who expect a standard Hunchback to run dry far sooner. Original Medium Lasers and a Small Laser remain as backup. Clan double heat sinks keep the main gun cycling reliably through extended engagements.\n\n<b><color=#e62e00>Quirk: Battle Fists</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.04</color></b>",
     "Icon": "uixTxrIcon_hunchbacklocke"
   },
-  "simGameMechPartCost": 276657,
+  "simGameMechPartCost": 242907,
   "Locations": [
     {
       "Location": "Head",
@@ -137,6 +137,27 @@
   ],
   "inventory": [
     {
+      "MountedLocation": "Head",
+      "ComponentDefID": "Gear_Cockpit_CommSuite_PlusPlus",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Head",
+      "ComponentDefID": "Gear_FCS_Ballistic_Improved",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Head",
+      "ComponentDefID": "Gear_Sensors_BallisticRange",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
       "MountedLocation": "CenterTorso",
       "ComponentDefID": "Gear_EngineCore_200",
       "ComponentDefType": "HeatSink",
@@ -147,6 +168,20 @@
       "MountedLocation": "CenterTorso",
       "ComponentDefID": "Gear_HeatSinkKit_Double_Clan",
       "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Special_AddOn_ThermalVision_Mk2",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Special_AddOn_AdvancedOptics_Mk2",
+      "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
     },
