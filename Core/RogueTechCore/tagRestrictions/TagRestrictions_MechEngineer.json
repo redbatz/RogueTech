@@ -1166,6 +1166,13 @@
       "RequiredTags": [
         "OneHanded"
       ]
+    },
+    {
+      "Tag": "IndustrialEquipment",
+      "RequiredAnyTags": [
+        "IndustrialMech",
+        "IndustrialSquadMech"
+      ]
     }
   ]
 }

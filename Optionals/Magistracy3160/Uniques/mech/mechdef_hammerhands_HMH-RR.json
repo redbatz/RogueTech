@@ -13,7 +13,7 @@
       "unit_tonnage_75",
       "unit_new_needs_tagging",
       "unit_rarity_chassis_unique",
-      "unit_rarity_equipment_level_0",
+      "unit_rarity_equipment_level_1",
       "magistracyofcanopus",
       "MagistracyOfCanopus3031",
       "magistracyofcanopus3150",
@@ -33,7 +33,7 @@
   },
   "ChassisID": "chassisdef_hammerhands_HMH-RR",
   "Description": {
-    "Cost": 5596714,
+    "Cost": 5846089,
     "Rarity": 1,
     "Purchasable": true,
     "Manufacturer": "",
@@ -44,7 +44,7 @@
     "Details": "The HMH-RR is a one-of-a-kind personal upgrade built by Riley Centrella of Riley's Rangers, a Magistracy-affiliated mercenary outfit, for her own exclusive use. Twin Ultra AC/10s replace the original Class-10s for doubled fire rate, backed by a Streak SRM 6 and twin ER Medium Lasers. Three jump jets give the 75-ton frame surprising repositioning ability. Every weapon system on the original frame was replaced with a more capable version.\n\n<b><color=#e62e00>Quirk: Barrel Fist</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.11</color></b>\n\n<color=#FFEF00>Arm Actuator Limits: Left Lower, Right Lower</color>",
     "Icon": "NEEDS_ICON"
   },
-  "simGameMechPartCost": 331668,
+  "simGameMechPartCost": 292293,
   "Locations": [
     {
       "Location": "Head",
@@ -128,6 +128,27 @@
       "DamageLevel": "Functional"
     },
     {
+      "MountedLocation": "Head",
+      "ComponentDefID": "Gear_Cockpit_CommSuite_Plus",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Head",
+      "ComponentDefID": "Gear_FCS_Autocannon",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Head",
+      "ComponentDefID": "Gear_Sensors_Sniper",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
       "MountedLocation": "CenterTorso",
       "ComponentDefID": "Gear_EngineCore_225",
       "ComponentDefType": "HeatSink",
@@ -138,6 +159,20 @@
       "MountedLocation": "CenterTorso",
       "ComponentDefID": "Gear_HeatSinkKit_Double",
       "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Special_AddOn_NightVision",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Special_AddOn_AdvZoom_Mk1",
+      "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
     },
