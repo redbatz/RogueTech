@@ -16,7 +16,7 @@
       "unit_lance_assassin",
       "unit_lance_tank",
       "unit_rarity_chassis_unique",
-      "unit_rarity_equipment_level_0",
+      "unit_rarity_equipment_level_1",
       "auriganpirates",
       "newoberonconfederation",
       "roguepirates",
@@ -36,7 +36,7 @@
   },
   "ChassisID": "chassisdef_hunchback_HBK-TRI_shocke",
   "Description": {
-    "Cost": 5541390,
+    "Cost": 6025140,
     "Rarity": 1,
     "Purchasable": true,
     "Manufacturer": "",
@@ -47,7 +47,7 @@
     "Details": "The most heat-intensive of the three Laramie brother builds, this variant strips out the autocannon entirely in favor of four ER Medium Lasers and four Medium Pulse Lasers concentrated in the right torso. A Light PPC extends the reach slightly. Sixteen double heat sinks manage the enormous thermal output, making this the closest of the three to a sustained energy fire platform rather than a traditional Hunchback.\n\n<b><color=#e62e00>Quirk: Battle Fists</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.04</color></b>",
     "Icon": "uixTxrIcon_hunchbackshocke"
   },
-  "simGameMechPartCost": 276691,
+  "simGameMechPartCost": 242941,
   "Locations": [
     {
       "Location": "Head",
@@ -124,6 +124,27 @@
   ],
   "inventory": [
     {
+      "MountedLocation": "Head",
+      "ComponentDefID": "Gear_Cockpit_CommSuite_PlusPlus",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Head",
+      "ComponentDefID": "Gear_FCS_Energy_Accuracy",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Head",
+      "ComponentDefID": "Gear_Sensors_EnergyRange",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
       "MountedLocation": "CenterTorso",
       "ComponentDefID": "Gear_EngineCore_200",
       "ComponentDefType": "HeatSink",
@@ -134,6 +155,20 @@
       "MountedLocation": "CenterTorso",
       "ComponentDefID": "Gear_HeatSinkKit_Double_Clan",
       "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Special_AddOn_NightVision",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Special_AddOn_AdvancedOptics_Mk3",
+      "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
     },

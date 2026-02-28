@@ -20,7 +20,7 @@
       "unit_lance_tank",
       "unit_noshuffle_artillery_cannon",
       "unit_rarity_chassis_unique",
-      "unit_rarity_equipment_level_2",
+      "unit_rarity_equipment_level_3",
       "auriganpirates",
       "roguepirates",
       "ai_heat_normal",
@@ -39,7 +39,7 @@
   },
   "ChassisID": "chassisdef_dengier_DG1-O_peralta",
   "Description": {
-    "Cost": 9725334,
+    "Cost": 11383684,
     "Rarity": 1,
     "Purchasable": true,
     "Manufacturer": "",
@@ -50,7 +50,7 @@
     "Details": "Amy Peralta's personal loadout of a captured Dengier, this one-of-a-kind machine reflects the fighting style of a pirate who survived by being unpredictable. An ER PPC and Thumper Cannon cover range while an Artemis IV-guided MML 5 adds flexible missile output. A Retractable Blade replaces the original Hatchet for a more concealable melee threat. No two engagements with this machine played out the same way.\n\n<b><color=#e62e00>Quirk: Protected Actuators</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.05</color></b>",
     "Icon": "NEEDS_ICON"
   },
-  "simGameMechPartCost": 894297,
+  "simGameMechPartCost": 856047,
   "Locations": [
     {
       "Location": "Head",
@@ -134,6 +134,27 @@
       "DamageLevel": "Functional"
     },
     {
+      "MountedLocation": "Head",
+      "ComponentDefID": "Gear_Cockpit_Rangefinder_Plus",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Head",
+      "ComponentDefID": "Gear_FCS_Flak",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Head",
+      "ComponentDefID": "Gear_Sensors_AR12",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
       "MountedLocation": "CenterTorso",
       "ComponentDefID": "Gear_EngineCooling_Heatsinks_3",
       "ComponentDefType": "HeatSink",
@@ -157,6 +178,20 @@
     {
       "MountedLocation": "LeftArm",
       "ComponentDefID": "Gear_Actuator_Omni_Hand",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Special_AddOn_HeatBank",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Special_AddOn_AdvancedOptics_Mk1",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
