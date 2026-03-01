@@ -3,6 +3,11 @@
     "items": [
       "unit_mech",
       "unit_light",
+      "unit_advanced",
+      "unit_bracket_med",
+      "unit_role_sniper",
+      "unit_lance_assassin",
+      "unit_lance_support",
       "unit_dlc",
       "unit_optional_magistracy3160",
       "unit_proxy_model",
@@ -10,11 +15,6 @@
       "unit_release",
       "unit_chassis_pebble_crab",
       "unit_tonnage_35",
-      "unit_advanced",
-      "unit_bracket_med",
-      "unit_role_sniper",
-      "unit_lance_support",
-      "unit_lance_assassin",
       "unit_rarity_equipment_level_0",
       "auriganmercenaries",
       "auriganpirates",
@@ -71,7 +71,7 @@
   },
   "ChassisID": "chassisdef_pebble_crab_PCRB-27",
   "Description": {
-    "Cost": 5181296,
+    "Cost": 5181321,
     "Rarity": 1,
     "Purchasable": true,
     "Manufacturer": "",
@@ -82,7 +82,7 @@
     "Details": "The Pebble Crab PCRB-27 is a 35-ton Cosara Weaponries light BattleMech introduced in 3065 as a spiritual successor to the original Crab CRB-27, replicating its firepower in a significantly lighter frame. Two arm-mounted ER Large Lasers provide the primary long-range punch, supported by a center-torso ER Medium Laser for mid-range engagements and a head-mounted Small Pulse Laser at close range. Fourteen Double Heat Sinks allow the full weapons suite to be fired together with reasonable regularity despite the all-energy loadout.\n\n<b><color=#e62e00>Quirk: Improved Targeting - Long</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 0.98</color></b>",
     "Icon": "uixTxrIcon_pebblecrab"
   },
-  "simGameMechPartCost": 189629,
+  "simGameMechPartCost": 189634,
   "Locations": [
     {
       "Location": "Head",

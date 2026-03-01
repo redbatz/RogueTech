@@ -1,7 +1,7 @@
 {
   "Custom": {
     "DropCostFactor": {
-      "DropModifier": 0.96
+      "DropModifier": 0.98
     },
     "AssemblyVariant": {
       "PrefabID": "quark",
@@ -69,7 +69,7 @@
     "UIName": "Quark",
     "Id": "chassisdef_quark_QRK-Prime",
     "Name": "Quark",
-    "Details": "The Prime configuration of the Quark mounts an LRM 15 enhanced by an Artemis IV Fire Control System in the right torso, providing accurate indirect fire support at range. An ER Medium Laser in the right arm offers a secondary punch at medium range, while a head-mounted ER Small Laser covers close-range threats. Ammunition supply is limited at eight salvos.\n\n<b><color=#e62e00>Quirk: Improved Communications</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 0.96</color></b>",
+    "Details": "The Prime configuration of the Quark mounts an LRM 15 enhanced by an Artemis IV Fire Control System in the right torso, providing accurate indirect fire support at range. An ER Medium Laser in the right arm offers a secondary punch at medium range, while a head-mounted ER Small Laser covers close-range threats. Ammunition supply is limited at eight salvos.\n\n<b><color=#e62e00>Quirk: Improved Communications</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 0.98</color></b>",
     "Icon": "uixTxrIcon_quark"
   },
   "VariantName": "QRK-Prime",

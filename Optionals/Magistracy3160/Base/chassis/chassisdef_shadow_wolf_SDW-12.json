@@ -1,7 +1,7 @@
 {
   "Custom": {
     "DropCostFactor": {
-      "DropModifier": 0.95
+      "DropModifier": 0.97
     },
     "AssemblyVariant": {
       "PrefabID": "shadow_wolf",
@@ -27,7 +27,7 @@
     "UIName": "Shadow Wolf",
     "Id": "chassisdef_shadow_wolf_SDW-12",
     "Name": "Shadow Wolf",
-    "Details": "The Shadow Wolf SDW-12 is a 20-ton stealth recon BattleMech produced by Maltex Corporation beginning in 3068, built around Stealth Armor powered by a left-torso Guardian ECM Suite to mask its approach. Three Small Lasers and two Streak SRM 2s spread across the head, center torso, and right torso provide a close-range punch disproportionate to its weight class. A head-mounted TAG laser designates targets for allied artillery support, extending the mech's battlefield impact well beyond its own weapons.\n\n<b><color=#e62e00>Quirk: Improved Sensors</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 0.95</color></b>",
+    "Details": "The Shadow Wolf SDW-12 is a 20-ton stealth recon BattleMech produced by Maltex Corporation beginning in 3068, built around Stealth Armor powered by a left-torso Guardian ECM Suite to mask its approach. Three Small Lasers and two Streak SRM 2s spread across the head, center torso, and right torso provide a close-range punch disproportionate to its weight class. A head-mounted TAG laser designates targets for allied artillery support, extending the mech's battlefield impact well beyond its own weapons.\n\n<b><color=#e62e00>Quirk: Improved Sensors</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 0.97</color></b>",
     "Icon": "uixTxrIcon_shadowwolf"
   },
   "VariantName": "SDW-12",

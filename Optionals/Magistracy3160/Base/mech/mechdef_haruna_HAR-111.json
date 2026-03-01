@@ -3,19 +3,19 @@
     "items": [
       "unit_mech",
       "unit_light",
+      "unit_advanced",
+      "unit_bracket_med",
+      "unit_role_brawler",
+      "unit_lance_tank",
+      "unit_lance_vanguard",
       "unit_stealth",
+      "unit_melee",
       "unit_optional_magistracy3160",
       "unit_proxy_model",
       "unit_ready",
       "unit_release",
       "unit_chassis_haruna",
       "unit_tonnage_35",
-      "unit_melee",
-      "unit_bracket_med",
-      "unit_advanced",
-      "unit_role_brawler",
-      "unit_lance_vanguard",
-      "unit_lance_tank",
       "unit_rarity_equipment_level_1",
       "FroncReaches",
       "FroncReaches3150",
@@ -39,7 +39,7 @@
   },
   "ChassisID": "chassisdef_haruna_HAR-111",
   "Description": {
-    "Cost": 7218754,
+    "Cost": 7218778,
     "Rarity": 1,
     "Purchasable": true,
     "Manufacturer": "",
@@ -50,7 +50,7 @@
     "Details": "The HAR-111 is the export variant of the Haruna, stripping out all Clan technology while retaining the core design philosophy. Guardian ECM powers the Stealth armor, MASC still pushes the 35-ton frame past 170 kph and the Vibroblade remains as the primary close-range threat. A Medium X-Pulse Laser replaces the Heavy Medium Laser and twin Streak SRM 2s handle ranged harassment. This model reached the Magistracy of Canopus and Fronc Reaches markets.\n\n<b><color=#e62e00>Quirk: Nimble</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 0.98</color></b>",
     "Icon": "uixTxrIcon_haruna"
   },
-  "simGameMechPartCost": 198466,
+  "simGameMechPartCost": 198471,
   "Locations": [
     {
       "Location": "Head",

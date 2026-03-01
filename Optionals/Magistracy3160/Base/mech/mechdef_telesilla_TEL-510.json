@@ -3,17 +3,17 @@
     "items": [
       "unit_mech",
       "unit_medium",
+      "unit_generic",
+      "unit_bracket_med",
+      "unit_role_brawler",
+      "unit_lance_assassin",
+      "unit_lance_tank",
       "unit_optional_magistracy3160",
       "unit_proxy_model",
       "unit_ready",
       "unit_release",
       "unit_chassis_telesilla",
       "unit_tonnage_55",
-      "unit_generic",
-      "unit_bracket_med",
-      "unit_role_brawler",
-      "unit_lance_assassin",
-      "unit_lance_tank",
       "unit_rarity_equipment_level_0",
       "magistracyofcanopus",
       "MagistracyOfCanopus3031",
@@ -33,7 +33,7 @@
   },
   "ChassisID": "chassisdef_telesilla_TEL-510",
   "Description": {
-    "Cost": 2417498,
+    "Cost": 2417538,
     "Rarity": 1,
     "Purchasable": true,
     "Manufacturer": "",
@@ -44,7 +44,7 @@
     "Details": "The TEL-510 is the original Telesilla configuration, introduced in 3025 by Majesty Metals and Manufacturing as an experimental Magistracy Armed Forces medium BattleMech. A right-arm Binary Laser Cannon serves as the primary weapon, delivering heavy damage at the cost of severe heat generation that fifteen standard heat sinks struggle to manage under sustained fire. A left-torso LRM 5 and left-arm SRM 4 provide supplementary fire when heat forces the pilot to hold the main weapon. Ammunition for both missile systems is carried unprotected.\n\n<b><color=#e62e00>Quirk: Combat Computer</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.03</color></b>",
     "Icon": "uixTxrIcon_telesilla"
   },
-  "simGameMechPartCost": 282516,
+  "simGameMechPartCost": 282524,
   "Locations": [
     {
       "Location": "Head",

@@ -1,7 +1,7 @@
 {
   "Custom": {
     "DropCostFactor": {
-      "DropModifier": 0.96
+      "DropModifier": 0.98
     },
     "AssemblyVariant": {
       "PrefabID": "quark",
@@ -69,7 +69,7 @@
     "UIName": "Quark",
     "Id": "chassisdef_quark_QRK-D",
     "Name": "Quark",
-    "Details": "The D configuration is built around battlefield support and electronic warfare rather than direct firepower. A Narc Missile Beacon in the right torso tags enemy units for allied missile fire, while an ECM Suite in the left torso denies targeting data to opponents. An LRM 5 in the right arm and twin ER Small Lasers in the left arm provide minimal self-defense. Speed is the primary defensive tool.\n\n<b><color=#e62e00>Quirk: Improved Communications</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 0.96</color></b>",
+    "Details": "The D configuration is built around battlefield support and electronic warfare rather than direct firepower. A Narc Missile Beacon in the right torso tags enemy units for allied missile fire, while an ECM Suite in the left torso denies targeting data to opponents. An LRM 5 in the right arm and twin ER Small Lasers in the left arm provide minimal self-defense. Speed is the primary defensive tool.\n\n<b><color=#e62e00>Quirk: Improved Communications</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 0.98</color></b>",
     "Icon": "uixTxrIcon_quark"
   },
   "VariantName": "QRK-D",

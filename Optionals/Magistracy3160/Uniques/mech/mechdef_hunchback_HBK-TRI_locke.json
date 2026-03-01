@@ -3,18 +3,18 @@
     "items": [
       "unit_mech",
       "unit_medium",
+      "unit_generic",
+      "unit_bracket_high",
       "unit_legendary",
       "unit_unique",
+      "unit_role_brawler",
+      "unit_lance_assassin",
+      "unit_lance_tank",
       "unit_optional_magistracy3160",
       "unit_ready",
       "unit_release",
       "unit_chassis_hunchback",
       "unit_tonnage_50",
-      "unit_generic",
-      "unit_bracket_high",
-      "unit_role_brawler",
-      "unit_lance_assassin",
-      "unit_lance_tank",
       "unit_rarity_chassis_unique",
       "unit_rarity_equipment_level_1",
       "auriganpirates",
@@ -36,7 +36,7 @@
   },
   "ChassisID": "chassisdef_hunchback_HBK-TRI_locke",
   "Description": {
-    "Cost": 5809721,
+    "Cost": 5809774,
     "Rarity": 1,
     "Purchasable": true,
     "Manufacturer": "",
@@ -47,7 +47,7 @@
     "Details": "Lukas \"Locke\" Laramie's personal modification of an HBK-4G, built around a Clan-sourced Ultra AC/20 with a remarkable seven tons of ammunition. The sustained fire capability consistently surprises opponents who expect a standard Hunchback to run dry far sooner. Original Medium Lasers and a Small Laser remain as backup. Clan double heat sinks keep the main gun cycling reliably through extended engagements.\n\n<b><color=#e62e00>Quirk: Battle Fists</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.04</color></b>",
     "Icon": "uixTxrIcon_hunchbacklocke"
   },
-  "simGameMechPartCost": 242907,
+  "simGameMechPartCost": 242917,
   "Locations": [
     {
       "Location": "Head",

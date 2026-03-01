@@ -22,7 +22,7 @@
     }
   ],
   "Description": {
-    "Cost": 1283657,
+    "Cost": 1283744,
     "Rarity": 1,
     "Purchasable": true,
     "Manufacturer": "",
@@ -97,6 +97,10 @@
           "Omni": false
         },
         {
+          "WeaponMountID": "Missile",
+          "Omni": false
+        },
+        {
           "WeaponMountID": "SpecialHandHeld",
           "Omni": false
         }
@@ -110,10 +114,6 @@
     {
       "Location": "LeftTorso",
       "Hardpoints": [
-        {
-          "WeaponMountID": "AntiPersonnel",
-          "Omni": false
-        },
         {
           "WeaponMountID": "Special",
           "Omni": false
@@ -174,6 +174,10 @@
         },
         {
           "WeaponMountID": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMountID": "AntiPersonnel",
           "Omni": false
         },
         {
