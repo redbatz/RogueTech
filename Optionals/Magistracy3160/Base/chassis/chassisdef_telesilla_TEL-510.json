@@ -19,7 +19,7 @@
     }
   ],
   "Description": {
-    "Cost": 1412582,
+    "Cost": 1412622,
     "Rarity": 1,
     "Purchasable": true,
     "Manufacturer": "",
@@ -79,6 +79,10 @@
     {
       "Location": "LeftArm",
       "Hardpoints": [
+        {
+          "WeaponMountID": "Missile",
+          "Omni": false
+        },
         {
           "WeaponMountID": "Missile",
           "Omni": false

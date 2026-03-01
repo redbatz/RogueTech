@@ -1,7 +1,7 @@
 {
   "Custom": {
     "DropCostFactor": {
-      "DropModifier": 1.01
+      "DropModifier": 1.03
     },
     "AssemblyVariant": {
       "PrefabID": "scribe",
@@ -19,7 +19,7 @@
     }
   ],
   "Description": {
-    "Cost": 1330049,
+    "Cost": 1330122,
     "Rarity": 1,
     "Purchasable": true,
     "Manufacturer": "",
@@ -27,7 +27,7 @@
     "UIName": "Scribe",
     "Id": "chassisdef_scribe_SCR-800",
     "Name": "Scribe",
-    "Details": "The Scribe SCR-800 is a 45-ton Draconis Combine medium BattleMech produced by Blankenburg Technologies in 3066 as a fast, well-armored generalist design. A left-arm ER PPC provides long-range hitting power, while a right-torso MML 3 fed by separate LRM and SRM ammunition bins extends the engagement envelope in both directions. A right-arm Sword serves as a capable melee weapon for close-quarters combat. Five jump jets and Ferro-Fibrous armor round out a highly mobile and resilient package.\n\n<b><color=#e62e00>Quirk: Accurate Weapon - PPC</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.01</color></b>",
+    "Details": "The Scribe SCR-800 is a 45-ton Draconis Combine medium BattleMech produced by Blankenburg Technologies in 3066 as a fast, well-armored generalist design. A left-arm ER PPC provides long-range hitting power, while a right-torso MML 3 fed by separate LRM and SRM ammunition bins extends the engagement envelope in both directions. A right-arm Sword serves as a capable melee weapon for close-quarters combat. Five jump jets and Ferro-Fibrous armor round out a highly mobile and resilient package.\n\n<b><color=#e62e00>Quirk: Accurate Weapon - PPC</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.03</color></b>",
     "Icon": "uixTxrIcon_scribe"
   },
   "VariantName": "SCR-800",
@@ -69,7 +69,12 @@
   "Locations": [
     {
       "Location": "Head",
-      "Hardpoints": [],
+      "Hardpoints": [
+        {
+          "WeaponMountID": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
       "Tonnage": 0,
       "InventorySlots": 6,
       "MaxArmor": 45,
@@ -106,6 +111,10 @@
           "Omni": false
         },
         {
+          "WeaponMountID": "Energy",
+          "Omni": false
+        },
+        {
           "WeaponMountID": "Special",
           "Omni": false
         }
@@ -118,12 +127,7 @@
     },
     {
       "Location": "CenterTorso",
-      "Hardpoints": [
-        {
-          "WeaponMountID": "AntiPersonnel",
-          "Omni": false
-        }
-      ],
+      "Hardpoints": [],
       "Tonnage": 0,
       "InventorySlots": 13,
       "MaxArmor": 140,
@@ -151,6 +155,10 @@
     {
       "Location": "RightArm",
       "Hardpoints": [
+        {
+          "WeaponMountID": "Energy",
+          "Omni": false
+        },
         {
           "WeaponMountID": "SpecialHandHeld",
           "Omni": false

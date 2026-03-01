@@ -1,7 +1,7 @@
 {
   "Custom": {
     "DropCostFactor": {
-      "DropModifier": 0.96
+      "DropModifier": 0.98
     },
     "AssemblyVariant": {
       "PrefabID": "quark",
@@ -69,7 +69,7 @@
     "UIName": "Quark",
     "Id": "chassisdef_quark_QRK-E",
     "Name": "Quark",
-    "Details": "The E configuration, introduced in 3063 by Clan Star Adder, centers on an ATM 6 launcher in the right arm fed by one ton each of Extended-Range and High-Explosive ammunition, giving the pilot engagement flexibility across multiple range bands. A Heavy Medium Laser in the left arm provides substantial close-range damage, backed by a head-mounted Heavy Small Laser. Heat management demands careful attention during sustained close-range combat.\n\n<b><color=#e62e00>Quirk: Improved Communications</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 0.96</color></b>",
+    "Details": "The E configuration, introduced in 3063 by Clan Star Adder, centers on an ATM 6 launcher in the right arm fed by one ton each of Extended-Range and High-Explosive ammunition, giving the pilot engagement flexibility across multiple range bands. A Heavy Medium Laser in the left arm provides substantial close-range damage, backed by a head-mounted Heavy Small Laser. Heat management demands careful attention during sustained close-range combat.\n\n<b><color=#e62e00>Quirk: Improved Communications</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 0.98</color></b>",
     "Icon": "uixTxrIcon_quark"
   },
   "VariantName": "QRK-E",

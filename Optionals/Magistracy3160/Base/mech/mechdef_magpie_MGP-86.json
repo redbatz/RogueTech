@@ -3,6 +3,11 @@
     "items": [
       "unit_mech",
       "unit_light",
+      "unit_advanced",
+      "unit_bracket_med",
+      "unit_role_brawler",
+      "unit_lance_tank",
+      "unit_lance_vanguard",
       "unit_stealth",
       "unit_jumpOK",
       "unit_optional_magistracy3160",
@@ -11,16 +16,11 @@
       "unit_release",
       "unit_chassis_magpie",
       "unit_tonnage_35",
-      "unit_advanced",
-      "unit_bracket_med",
-      "unit_role_brawler",
-      "unit_lance_vanguard",
-      "unit_lance_tank",
       "unit_rarity_equipment_level_1",
+      "GalateanLeague",
       "liao",
       "liao3150",
       "locals",
-      "GalateanLeague",
       "magistracyofcanopus",
       "magistracyofcanopus3150",
       "ai_heat_normal",
@@ -39,7 +39,7 @@
   },
   "ChassisID": "chassisdef_magpie_MGP-86",
   "Description": {
-    "Cost": 5266204,
+    "Cost": 5266253,
     "Rarity": 1,
     "Purchasable": true,
     "Manufacturer": "",
@@ -50,7 +50,7 @@
     "Details": "The MGP-86 is an unconventional Capellan scout built from a patchwork of sourced and stolen technology. Stealth armor powered by a Guardian ECM keeps it invisible to sensors while a Partial Wing stolen from Clan Jade Falcon extends jump distance well beyond standard capability. Twin ER Medium Lasers provide combat punch and an MML 3 with both ammunition types covers additional range brackets when the situation demands it.\n\n<b><color=#e62e00>Quirk: Stubble Wings</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 0.98</color></b>\n\n<color=#FFEF00>Arm Actuator Limits: Left Upper, Right Upper</color>",
     "Icon": "uixTxrIcon_magpie"
   },
-  "simGameMechPartCost": 105991,
+  "simGameMechPartCost": 106001,
   "Locations": [
     {
       "Location": "Head",

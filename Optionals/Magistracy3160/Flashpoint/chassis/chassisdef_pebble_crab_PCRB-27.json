@@ -19,7 +19,7 @@
     }
   ],
   "Description": {
-    "Cost": 948146,
+    "Cost": 948172,
     "Rarity": 1,
     "Purchasable": true,
     "Manufacturer": "",
@@ -102,6 +102,10 @@
     {
       "Location": "LeftTorso",
       "Hardpoints": [
+        {
+          "WeaponMountID": "Missile",
+          "Omni": false
+        },
         {
           "WeaponMountID": "AntiPersonnel",
           "Omni": false

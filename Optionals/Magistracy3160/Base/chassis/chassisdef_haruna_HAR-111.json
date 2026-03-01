@@ -19,7 +19,7 @@
     }
   ],
   "Description": {
-    "Cost": 992330,
+    "Cost": 992353,
     "Rarity": 1,
     "Purchasable": true,
     "Manufacturer": "",
@@ -145,6 +145,10 @@
       "Hardpoints": [
         {
           "WeaponMountID": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMountID": "Missile",
           "Omni": false
         },
         {

@@ -56,7 +56,7 @@
     }
   ],
   "Description": {
-    "Cost": 875624,
+    "Cost": 875681,
     "Rarity": 1,
     "Purchasable": true,
     "Manufacturer": "",
@@ -135,11 +135,19 @@
       "Location": "LeftTorso",
       "Hardpoints": [
         {
+          "WeaponMountID": "Ballistic",
+          "Omni": false
+        },
+        {
           "WeaponMountID": "Energy",
           "Omni": false
         },
         {
           "WeaponMountID": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMountID": "Missile",
           "Omni": false
         },
         {

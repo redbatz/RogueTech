@@ -1,7 +1,7 @@
 {
   "Custom": {
     "DropCostFactor": {
-      "DropModifier": 1.03
+      "DropModifier": 1.05
     },
     "AssemblyVariant": {
       "PrefabID": "telesilla",
@@ -19,7 +19,7 @@
     }
   ],
   "Description": {
-    "Cost": 1470117,
+    "Cost": 1470201,
     "Rarity": 1,
     "Purchasable": true,
     "Manufacturer": "",
@@ -27,7 +27,7 @@
     "UIName": "Telesilla",
     "Id": "chassisdef_telesilla_TEL-511",
     "Name": "Telesilla",
-    "Details": "The TEL-511, introduced in 3058 following the Trinity Alliance, substantially upgrades the original design while retaining the identical weapons loadout. Endo Steel structure and Ferro-Fibrous armor improve protection to 10.5 tons, while twelve Double Heat Sinks replace the original fifteen standard models and manage the Binary Laser Cannon's heat load far more effectively. Both ammunition bins are consolidated in the left torso and protected by CASE. Five jump jets provide mobility capability entirely absent from the base variant.\n\n<b><color=#e62e00>Quirk: Combat Computer</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.03</color></b>",
+    "Details": "The TEL-511, introduced in 3058 following the Trinity Alliance, substantially upgrades the original design while retaining the identical weapons loadout. Endo Steel structure and Ferro-Fibrous armor improve protection to 10.5 tons, while twelve Double Heat Sinks replace the original fifteen standard models and manage the Binary Laser Cannon's heat load far more effectively. Both ammunition bins are consolidated in the left torso and protected by CASE. Five jump jets provide mobility capability entirely absent from the base variant.\n\n<b><color=#e62e00>Quirk: Combat Computer</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.05</color></b>",
     "Icon": "uixTxrIcon_telesilla"
   },
   "VariantName": "TEL-511",
@@ -69,7 +69,12 @@
   "Locations": [
     {
       "Location": "Head",
-      "Hardpoints": [],
+      "Hardpoints": [
+        {
+          "WeaponMountID": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
       "Tonnage": 0,
       "InventorySlots": 6,
       "MaxArmor": 45,
@@ -102,6 +107,14 @@
       "Location": "LeftTorso",
       "Hardpoints": [
         {
+          "WeaponMountID": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMountID": "Energy",
+          "Omni": false
+        },
+        {
           "WeaponMountID": "Missile",
           "Omni": false
         },
@@ -118,12 +131,7 @@
     },
     {
       "Location": "CenterTorso",
-      "Hardpoints": [
-        {
-          "WeaponMountID": "AntiPersonnel",
-          "Omni": false
-        }
-      ],
+      "Hardpoints": [],
       "Tonnage": 0,
       "InventorySlots": 13,
       "MaxArmor": 180,

@@ -1,7 +1,7 @@
 {
   "Custom": {
     "DropCostFactor": {
-      "DropModifier": 0.96
+      "DropModifier": 0.98
     },
     "AssemblyVariant": {
       "PrefabID": "quark",
@@ -69,7 +69,7 @@
     "UIName": "Quark",
     "Id": "chassisdef_quark_QRK-A",
     "Name": "Quark",
-    "Details": "The A configuration strips the Quark's missile loadout entirely in favor of close-range laser firepower. Three Medium Pulse Lasers are distributed across the left arm and right arm, offering high accuracy at short range. Two ER Small Lasers, one head-mounted and one in the right arm, provide backup at extended ranges. Heat management remains comfortable across the full loadout.\n\n<b><color=#e62e00>Quirk: Improved Communications</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 0.96</color></b>",
+    "Details": "The A configuration strips the Quark's missile loadout entirely in favor of close-range laser firepower. Three Medium Pulse Lasers are distributed across the left arm and right arm, offering high accuracy at short range. Two ER Small Lasers, one head-mounted and one in the right arm, provide backup at extended ranges. Heat management remains comfortable across the full loadout.\n\n<b><color=#e62e00>Quirk: Improved Communications</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 0.98</color></b>",
     "Icon": "uixTxrIcon_quark"
   },
   "VariantName": "QRK-A",
