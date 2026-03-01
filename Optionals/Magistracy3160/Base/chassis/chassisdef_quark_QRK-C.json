@@ -1,7 +1,7 @@
 {
   "Custom": {
     "DropCostFactor": {
-      "DropModifier": 0.96
+      "DropModifier": 0.98
     },
     "AssemblyVariant": {
       "PrefabID": "quark",
@@ -69,7 +69,7 @@
     "UIName": "Quark",
     "Id": "chassisdef_quark_QRK-C",
     "Name": "Quark",
-    "Details": "The C configuration emphasizes close-range firepower through a dual SRM 6 arrangement mounted in each arm, fed by two tons of ammunition split between the torsos. Two ER Medium Lasers, one in the right torso and one head-mounted, provide a credible threat at medium range. The combined alpha strike output is disproportionate for a 20-ton frame, though armor protection remains thin.\n\n<b><color=#e62e00>Quirk: Improved Communications</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 0.96</color></b>",
+    "Details": "The C configuration emphasizes close-range firepower through a dual SRM 6 arrangement mounted in each arm, fed by two tons of ammunition split between the torsos. Two ER Medium Lasers, one in the right torso and one head-mounted, provide a credible threat at medium range. The combined alpha strike output is disproportionate for a 20-ton frame, though armor protection remains thin.\n\n<b><color=#e62e00>Quirk: Improved Communications</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 0.98</color></b>",
     "Icon": "uixTxrIcon_quark"
   },
   "VariantName": "QRK-C",

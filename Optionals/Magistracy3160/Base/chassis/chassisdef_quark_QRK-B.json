@@ -1,7 +1,7 @@
 {
   "Custom": {
     "DropCostFactor": {
-      "DropModifier": 0.96
+      "DropModifier": 0.98
     },
     "AssemblyVariant": {
       "PrefabID": "quark",
@@ -69,7 +69,7 @@
     "UIName": "Quark",
     "Id": "chassisdef_quark_QRK-B",
     "Name": "Quark",
-    "Details": "The B configuration pairs an ER Large Laser in the right arm with a Targeting Computer in the left torso, producing precise long-range fire from a highly mobile platform. Twin Machine Guns in the left arm and a half ton of ammunition provide close-range anti-infantry capability. A head-mounted Small Pulse Laser serves as a short-range backup. The Targeting Computer benefits all weapons in the loadout.\n\n<b><color=#e62e00>Quirk: Improved Communications</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 0.96</color></b>",
+    "Details": "The B configuration pairs an ER Large Laser in the right arm with a Targeting Computer in the left torso, producing precise long-range fire from a highly mobile platform. Twin Machine Guns in the left arm and a half ton of ammunition provide close-range anti-infantry capability. A head-mounted Small Pulse Laser serves as a short-range backup. The Targeting Computer benefits all weapons in the loadout.\n\n<b><color=#e62e00>Quirk: Improved Communications</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 0.98</color></b>",
     "Icon": "uixTxrIcon_quark"
   },
   "VariantName": "QRK-B",

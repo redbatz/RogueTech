@@ -3,6 +3,11 @@
     "items": [
       "unit_mech",
       "unit_light",
+      "unit_advanced",
+      "unit_bracket_low",
+      "unit_role_sniper",
+      "unit_lance_assassin",
+      "unit_lance_vanguard",
       "unit_quad",
       "unit_optional_magistracy3160",
       "unit_proxy_model",
@@ -10,11 +15,6 @@
       "unit_release",
       "unit_chassis_taipan_3160",
       "unit_tonnage_25",
-      "unit_advanced",
-      "unit_bracket_low",
-      "unit_role_sniper",
-      "unit_lance_assassin",
-      "unit_lance_vanguard",
       "unit_rarity_chassis_uncommon",
       "unit_rarity_equipment_level_1",
       "wordofblake",
@@ -34,7 +34,7 @@
   },
   "ChassisID": "chassisdef_taipan_TPN-89",
   "Description": {
-    "Cost": 5862050,
+    "Cost": 5862092,
     "Rarity": 1,
     "Purchasable": true,
     "Manufacturer": "",
@@ -42,10 +42,10 @@
     "UIName": "Taipan TPN-89",
     "Id": "mechdef_taipan_TPN-89",
     "Name": "Taipan TPN-89",
-    "Details": "The TPN-89 is the base Taipan configuration, built around a MASC system in the right torso that enables burst speeds exceeding 150 kilometers per hour on a quadrupedal 25-ton frame. Two torso-mounted Light PPCs provide accurate fire at extended ranges with no heat concerns under normal operation. A center-torso Streak SRM 2 fed by a ton of left-torso ammunition offers reliable close-range backup that only fires on confirmed lock. Light Ferro-Fibrous armor keeps the frame protected within its weight class.\n\n<b><color=#e62e00>Quirk: Improved Jammer</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 0.96</color></b>\n\n<color=#FFEF00>Arm Actuator Limits: Left Upper, Right Upper</color>",
-    "Icon": "uixTxrIcon_taipan_alt"
+    "Details": "The TPN-89 is the base Taipan configuration, built around a MASC system in the right torso that enables burst speeds exceeding 150 kilometers per hour on a quadrupedal 25-ton frame. Two torso-mounted Light PPCs provide accurate fire at extended ranges with no heat concerns under normal operation. A center-torso Streak SRM 2 fed by a ton of left-torso ammunition offers reliable close-range backup that only fires on confirmed lock. Light Ferro-Fibrous armor keeps the frame protected within its weight class.\n\n<b><color=#e62e00>Quirk: Improved Jammer</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 0.98</color></b>\n\n<color=#FFEF00>Arm Actuator Limits: Left Upper, Right Upper</color>",
+    "Icon": "uixTxrIcon_taipan_3160"
   },
-  "simGameMechPartCost": 202681,
+  "simGameMechPartCost": 202689,
   "Locations": [
     {
       "Location": "Head",
