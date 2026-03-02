@@ -1,7 +1,7 @@
 {
   "Custom": {
     "DropCostFactor": {
-      "DropModifier": 0.96
+      "DropModifier": 0.98
     },
     "AssemblyVariant": {
       "PrefabID": "taipan_3160",
@@ -53,7 +53,7 @@
     }
   ],
   "Description": {
-    "Cost": 1013404,
+    "Cost": 1013447,
     "Rarity": 1,
     "Purchasable": true,
     "Manufacturer": "",
@@ -61,8 +61,8 @@
     "UIName": "Taipan",
     "Id": "chassisdef_taipan_TPN-90",
     "Name": "Taipan",
-    "Details": "The TPN-90 is a contemporaneous variant of the base Taipan developed for integration into Word of Blake C3 network formations. The Streak SRM 2 launcher and its ammunition are removed and replaced with a rear-right-leg-mounted Improved C3 Computer, contributing networked targeting data to allied units while the twin Light PPCs and MASC system remain unchanged from the TPN-89. The trade of independent close-range firepower for formation coordination reflects the Word of Blake's doctrine of combined-arms C3 warfare.\n\n<b><color=#e62e00>Quirk: Improved Jammer</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 0.96</color></b>\n\n<color=#FFEF00>Arm Actuator Limits: Left Upper, Right Upper</color>",
-    "Icon": "uixTxrIcon_taipan_alt"
+    "Details": "The TPN-90 is a contemporaneous variant of the base Taipan developed for integration into Word of Blake C3 network formations. The Streak SRM 2 launcher and its ammunition are removed and replaced with a rear-right-leg-mounted Improved C3 Computer, contributing networked targeting data to allied units while the twin Light PPCs and MASC system remain unchanged from the TPN-89. The trade of independent close-range firepower for formation coordination reflects the Word of Blake's doctrine of combined-arms C3 warfare.\n\n<b><color=#e62e00>Quirk: Improved Jammer</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 0.98</color></b>\n\n<color=#FFEF00>Arm Actuator Limits: Left Upper, Right Upper</color>",
+    "Icon": "uixTxrIcon_taipan_3160"
   },
   "VariantName": "TPN-90",
   "ChassisTags": {
@@ -106,12 +106,7 @@
   "Locations": [
     {
       "Location": "Head",
-      "Hardpoints": [
-        {
-          "WeaponMountID": "AntiPersonnel",
-          "Omni": false
-        }
-      ],
+      "Hardpoints": [],
       "Tonnage": 0,
       "InventorySlots": 6,
       "MaxArmor": 45,
@@ -131,6 +126,10 @@
       "Location": "LeftTorso",
       "Hardpoints": [
         {
+          "WeaponMountID": "Ballistic",
+          "Omni": false
+        },
+        {
           "WeaponMountID": "Energy",
           "Omni": false
         },
@@ -147,7 +146,12 @@
     },
     {
       "Location": "CenterTorso",
-      "Hardpoints": [],
+      "Hardpoints": [
+        {
+          "WeaponMountID": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
       "Tonnage": 0,
       "InventorySlots": 15,
       "MaxArmor": 80,
@@ -157,6 +161,10 @@
     {
       "Location": "RightTorso",
       "Hardpoints": [
+        {
+          "WeaponMountID": "Ballistic",
+          "Omni": false
+        },
         {
           "WeaponMountID": "Energy",
           "Omni": false

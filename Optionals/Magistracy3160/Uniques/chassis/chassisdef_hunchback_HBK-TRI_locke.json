@@ -22,7 +22,7 @@
     }
   ],
   "Description": {
-    "Cost": 1214534,
+    "Cost": 1214587,
     "Rarity": 1,
     "Purchasable": true,
     "Manufacturer": "",
@@ -111,6 +111,10 @@
       "Hardpoints": [
         {
           "WeaponMountID": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMountID": "AntiPersonnel",
           "Omni": false
         },
         {

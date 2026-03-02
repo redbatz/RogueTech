@@ -1,7 +1,7 @@
 {
   "Custom": {
     "DropCostFactor": {
-      "DropModifier": 1.01
+      "DropModifier": 1.03
     },
     "AssemblyVariant": {
       "PrefabID": "kouchou",
@@ -19,7 +19,7 @@
     }
   ],
   "Description": {
-    "Cost": 664959,
+    "Cost": 664994,
     "Rarity": 1,
     "Purchasable": true,
     "Manufacturer": "",
@@ -27,7 +27,7 @@
     "UIName": "Kouchou",
     "Id": "chassisdef_kouchou_KCH-DY1",
     "Name": "Kouchou",
-    "Details": "The Kouchou is a spiritual successor to the Cicada built for extreme speed and electronic warfare. MASC pushes the 45-ton frame to nearly 173 kph in bursts while a Guardian ECM suite and Beagle Active Probe give it strong situational awareness in both directions. An ER PPC provides long-range harassment capability and a Medium Pulse Laser covers close defense. Word of Blake destroyed the original production line but Wakazashi Enterprises kept it alive.\n\n<b><color=#e62e00>Quirk: Nimble</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.01</color></b>",
+    "Details": "The Kouchou is a spiritual successor to the Cicada built for extreme speed and electronic warfare. MASC pushes the 45-ton frame to nearly 173 kph in bursts while a Guardian ECM suite and Beagle Active Probe give it strong situational awareness in both directions. An ER PPC provides long-range harassment capability and a Medium Pulse Laser covers close defense. Word of Blake destroyed the original production line but Wakazashi Enterprises kept it alive.\n\n<b><color=#e62e00>Quirk: Nimble</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.03</color></b>",
     "Icon": "uixTxrIcon_kouchou"
   },
   "VariantName": "KCH-DY1",
@@ -69,12 +69,7 @@
   "Locations": [
     {
       "Location": "Head",
-      "Hardpoints": [
-        {
-          "WeaponMountID": "AntiPersonnel",
-          "Omni": false
-        }
-      ],
+      "Hardpoints": [],
       "Tonnage": 0,
       "InventorySlots": 6,
       "MaxArmor": 45,
@@ -115,7 +110,12 @@
     },
     {
       "Location": "CenterTorso",
-      "Hardpoints": [],
+      "Hardpoints": [
+        {
+          "WeaponMountID": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
       "Tonnage": 0,
       "InventorySlots": 13,
       "MaxArmor": 140,
@@ -151,6 +151,10 @@
     {
       "Location": "RightArm",
       "Hardpoints": [
+        {
+          "WeaponMountID": "Missile",
+          "Omni": false
+        },
         {
           "WeaponMountID": "SpecialHandHeld",
           "Omni": false

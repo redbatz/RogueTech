@@ -1,7 +1,7 @@
 {
   "Custom": {
     "DropCostFactor": {
-      "DropModifier": 1.02
+      "DropModifier": 1.04
     },
     "AssemblyVariant": {
       "PrefabID": "seishin",
@@ -19,7 +19,7 @@
     }
   ],
   "Description": {
-    "Cost": 1079972,
+    "Cost": 1080012,
     "Rarity": 1,
     "Purchasable": true,
     "Manufacturer": "",
@@ -27,7 +27,7 @@
     "UIName": "Seishin",
     "Id": "chassisdef_seishin_SN-X4",
     "Name": "Seishin",
-    "Details": "The Seishin SN-X4 is a 50-ton pirate-built BattleMech assembled from post-Jihad Word of Blake salvage and black market components in the Tortuga Dominions. A right-torso BattleMech Taser fed by two CASE-protected tons of ammunition serves as the primary weapon, designed to immobilize targets for capture rather than destruction. A right-torso ER Large Laser provides ranged reach, while a left-arm Shield, right-arm Retractable Blade, and left-torso laser array complete a close-range package built around recovering intact salvage.\n\n<b><color=#e62e00>Quirk: Protected Actuators</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.02</color></b>",
+    "Details": "The Seishin SN-X4 is a 50-ton pirate-built BattleMech assembled from post-Jihad Word of Blake salvage and black market components in the Tortuga Dominions. A right-torso BattleMech Taser fed by two CASE-protected tons of ammunition serves as the primary weapon, designed to immobilize targets for capture rather than destruction. A right-torso ER Large Laser provides ranged reach, while a left-arm Shield, right-arm Retractable Blade, and left-torso laser array complete a close-range package built around recovering intact salvage.\n\n<b><color=#e62e00>Quirk: Protected Actuators</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.04</color></b>",
     "Icon": "uixTxrIcon_seishin"
   },
   "VariantName": "SN-X4",
@@ -139,6 +139,10 @@
         },
         {
           "WeaponMountID": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMountID": "Missile",
           "Omni": false
         },
         {

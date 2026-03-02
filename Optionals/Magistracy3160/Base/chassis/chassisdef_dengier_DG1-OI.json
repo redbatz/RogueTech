@@ -1,7 +1,7 @@
 {
   "Custom": {
     "DropCostFactor": {
-      "DropModifier": 1.03
+      "DropModifier": 1.05
     },
     "AssemblyVariant": {
       "PrefabID": "dengier",
@@ -69,7 +69,7 @@
     "UIName": "Dengier",
     "Id": "chassisdef_dengier_DG1-OI",
     "Name": "Dengier",
-    "Details": "The DG1-OI is the most technologically advanced Dengier configuration, built around twin Improved ATM 12 launchers carrying standard, extended range and high explosive munitions for unmatched range bracket flexibility. An Angel ECM suite and Bloodhound Active Probe provide deep electronic warfare capability in both directions. A Laser AMS adds defensive coverage while ER Medium Pulse Lasers handle close-range threats.\n\n<b><color=#e62e00>Quirk: Protected Actuators</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.03</color></b>",
+    "Details": "The DG1-OI is the most technologically advanced Dengier configuration, built around twin Improved ATM 12 launchers carrying standard, extended range and high explosive munitions for unmatched range bracket flexibility. An Angel ECM suite and Bloodhound Active Probe provide deep electronic warfare capability in both directions. A Laser AMS adds defensive coverage while ER Medium Pulse Lasers handle close-range threats.\n\n<b><color=#e62e00>Quirk: Protected Actuators</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.05</color></b>",
     "Icon": "NEEDS_ICON"
   },
   "VariantName": "DG1-OI",

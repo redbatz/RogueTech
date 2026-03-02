@@ -1,7 +1,7 @@
 {
   "Custom": {
     "DropCostFactor": {
-      "DropModifier": 1.03
+      "DropModifier": 1.05
     },
     "AssemblyVariant": {
       "PrefabID": "dengier",
@@ -69,7 +69,7 @@
     "UIName": "Dengier",
     "Id": "chassisdef_dengier_DG1-OF",
     "Name": "Dengier",
-    "Details": "The DG1-OF configuration replaces conventional direct fire weapons with twin Plasma Rifles, using superheated plasma to both damage and overheat targets. ER Flamers and Heavy Machine Guns round out an anti-infantry and heat-denial suite that makes this variant particularly brutal against lightly armored or heat-sensitive opposition. Seventeen double heat sinks manage the considerable self-generated heat from sustained plasma fire.\n\n<b><color=#e62e00>Quirk: Protected Actuators</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.03</color></b>",
+    "Details": "The DG1-OF configuration replaces conventional direct fire weapons with twin Plasma Rifles, using superheated plasma to both damage and overheat targets. ER Flamers and Heavy Machine Guns round out an anti-infantry and heat-denial suite that makes this variant particularly brutal against lightly armored or heat-sensitive opposition. Seventeen double heat sinks manage the considerable self-generated heat from sustained plasma fire.\n\n<b><color=#e62e00>Quirk: Protected Actuators</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.05</color></b>",
     "Icon": "NEEDS_ICON"
   },
   "VariantName": "DG1-OF",

@@ -3,19 +3,19 @@
     "items": [
       "unit_mech",
       "unit_light",
+      "unit_advanced",
+      "unit_bracket_low",
       "unit_legendary",
       "unit_unique",
+      "unit_role_sniper",
+      "unit_lance_assassin",
+      "unit_lance_vanguard",
       "unit_quad",
       "unit_optional_magistracy3160",
       "unit_ready",
       "unit_release",
-      "unit_bracket_low",
       "unit_chassis_taipan_3160",
       "unit_tonnage_25",
-      "unit_advanced",
-      "unit_role_sniper",
-      "unit_lance_assassin",
-      "unit_lance_vanguard",
       "unit_rarity_chassis_unique",
       "unit_rarity_equipment_level_1",
       "unit_rarity_support",
@@ -36,7 +36,7 @@
   },
   "ChassisID": "chassisdef_taipan_TPN-89_reynolds",
   "Description": {
-    "Cost": 5103801,
+    "Cost": 5103858,
     "Rarity": 1,
     "Purchasable": true,
     "Manufacturer": "",
@@ -47,7 +47,7 @@
     "Details": "The Reynolds variant is a one-of-a-kind battlefield refit of a captured TPN-89, modified in 3074 by Captain Jann Reynolds of Reynold's Raiders after stripping the original MASC system and all factory weapons. A right-torso PPC serves as the primary weapon, delivering substantially heavier damage than the original Light PPCs at the cost of significant heat. Two left-torso Flamers provide close-range harassment capability alongside a center-torso Small Laser. The machine was destroyed along with its pilot in 3079 during a Word of Blake counterstrike.\n\n<b><color=#e62e00>Quirk: Improved Jammer</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 0.98</color></b>\n\n<color=#FFEF00>Arm Actuator Limits: Left Upper, Right Upper</color>",
     "Icon": "uixTxrIcon_taipan_alt"
   },
-  "simGameMechPartCost": 175125,
+  "simGameMechPartCost": 175136,
   "Locations": [
     {
       "Location": "Head",

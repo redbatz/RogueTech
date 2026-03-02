@@ -1,7 +1,7 @@
 {
   "Custom": {
     "DropCostFactor": {
-      "DropModifier": 1.02
+      "DropModifier": 1.04
     },
     "AssemblyVariant": {
       "PrefabID": "flea_iic",
@@ -27,7 +27,7 @@
     "UIName": "Flea IIC",
     "Id": "chassisdef_flea_iic_FLE-IIC",
     "Name": "Flea IIC",
-    "Details": "The Flea IIC is one of the most expensive light mechs ever built, stuffing a 350 XXL engine, MASC and Supercharger into a 25-ton frame to achieve a ludicrous burst speed approaching 400 kph. Armor is minimal and weapons are purely secondary to its core purpose. Twin ER Medium Lasers and ER Small Lasers provide functional firepower at range, but most opponents simply never get the chance to engage it at all.\n\n<b><color=#e62e00>Quirk: Nimble</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.02</color></b>\n\n<color=#FFEF00>Arm Actuator Limits: Left Upper, Right Upper</color>",
+    "Details": "The Flea IIC is one of the most expensive light mechs ever built, stuffing a 350 XXL engine, MASC and Supercharger into a 25-ton frame to achieve a ludicrous burst speed approaching 400 kph. Armor is minimal and weapons are purely secondary to its core purpose. Twin ER Medium Lasers and ER Small Lasers provide functional firepower at range, but most opponents simply never get the chance to engage it at all.\n\n<b><color=#e62e00>Quirk: Nimble</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.04</color></b>\n\n<color=#FFEF00>Arm Actuator Limits: Left Upper, Right Upper</color>",
     "Icon": "uixTxrIcon_fleaiic"
   },
   "VariantName": "FLE-IIC",

@@ -1,7 +1,7 @@
 {
   "Custom": {
     "DropCostFactor": {
-      "DropModifier": 1.03
+      "DropModifier": 1.05
     },
     "AssemblyVariant": {
       "PrefabID": "dominatrix",
@@ -19,7 +19,7 @@
     }
   ],
   "Description": {
-    "Cost": 1126800,
+    "Cost": 1126885,
     "Rarity": 1,
     "Purchasable": true,
     "Manufacturer": "",
@@ -27,7 +27,7 @@
     "UIName": "Dominatrix",
     "Id": "chassisdef_dominatrix_DTX-96",
     "Name": "Dominatrix",
-    "Details": "The DTX-96 is a unique Solaris VII gladiatorial machine commissioned by Canopian noblewoman Anya Sokolov. MASC pushes the 55-ton frame to 129 kph in short bursts, closing distance before opponents can react. A Chain Whip and Vibroblade handle melee while Spikes punish anything that strikes back. Twin Medium VSP Lasers and a Small VSP Laser reward the close range the design constantly demands, and a hidden Flamer in the center torso adds one final unpleasant surprise.\n\n<b><color=#e62e00>Quirk: Melee Actuators</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.03</color></b>",
+    "Details": "The DTX-96 is a unique Solaris VII gladiatorial machine commissioned by Canopian noblewoman Anya Sokolov. MASC pushes the 55-ton frame to 129 kph in short bursts, closing distance before opponents can react. A Chain Whip and Vibroblade handle melee while Spikes punish anything that strikes back. Twin Medium VSP Lasers and a Small VSP Laser reward the close range the design constantly demands, and a hidden Flamer in the center torso adds one final unpleasant surprise.\n\n<b><color=#e62e00>Quirk: Melee Actuators</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.05</color></b>",
     "Icon": "uixTxrIcon_dominatrix"
   },
   "VariantName": "DTX-96",
@@ -83,7 +83,7 @@
       "Location": "LeftArm",
       "Hardpoints": [
         {
-          "WeaponMountID": "AntiPersonnel",
+          "WeaponMountID": "Missile",
           "Omni": false
         },
         {
@@ -102,6 +102,10 @@
       "Hardpoints": [
         {
           "WeaponMountID": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMountID": "AntiPersonnel",
           "Omni": false
         },
         {
@@ -150,6 +154,10 @@
     {
       "Location": "RightArm",
       "Hardpoints": [
+        {
+          "WeaponMountID": "Energy",
+          "Omni": false
+        },
         {
           "WeaponMountID": "SpecialHandHeld",
           "Omni": false
