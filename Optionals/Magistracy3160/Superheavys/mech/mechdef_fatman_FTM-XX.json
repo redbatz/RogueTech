@@ -2,6 +2,9 @@
   "MechTags": {
     "items": [
       "unit_superheavy_mech",
+      "unit_advanced",
+      "unit_bracket_high",
+      "unit_role_sniper",
       "unit_quad",
       "unit_optional_magistracy3160",
       "unit_proxy_model",
@@ -10,9 +13,6 @@
       "unit_tonnage_200",
       "unit_superheavy_support",
       "unit_superheavy_tier5",
-      "unit_advanced",
-      "unit_bracket_high",
-      "unit_role_sniper",
       "unit_rarity_chassis_uncommon",
       "unit_rarity_equipment_level_0",
       "SLDF",
