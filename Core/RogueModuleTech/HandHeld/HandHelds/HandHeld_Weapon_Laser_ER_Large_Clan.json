@@ -27,7 +27,15 @@
     "IBLS": {
       "StorageSize": 1
     },
-    "CarryHandUsage": 8
+    "CarryHandUsage": 8,
+    "CriticalEffects": {
+      "PenalizedEffectIDs": [
+        [
+          "ComponentEffects-{uid}-FlatJamChancePenalty2",
+          "ComponentEffects-{uid}-AccuracyPenalty2"
+        ]
+      ]
+    }
   },
   "weaponCategoryID": "SpecialHandHeld",
   "Type": "Laser",
