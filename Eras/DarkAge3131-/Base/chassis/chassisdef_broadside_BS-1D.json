@@ -32,7 +32,7 @@
     "Id": "chassisdef_broadside_BS-1D",
     "Name": "Broadside",
     "Details": "Developed by Iroquois Machinery in the mid 3140s, the Broadside is an unusual offering from a company better known for being a major manufacturer of industrial mechs. A 100 ton mech powered by a 300 rated fusion engine, the Broadside is a rapidly proliferating sigh in the increasingly strained ranks of the AFFS. Heavily armed with a myriad of weapons, the Broadsword BS-1D is armed with an LB10-X AC, a UAC/10 and a RAC/5. For secondary armament, it carries a pair of ER Medium Lasers, a Flamer and a pair of Re-engineered Medium Lasers.\n\n<b><color=#e62e00>Quirk: Extended Torso Twist</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.18</color></b>",
-    "Icon": "uixTxrIcon_atlas"
+    "Icon": "uixTxrIcon_broadside"
   },
   "VariantName": "BS-1D",
   "ChassisTags": {
