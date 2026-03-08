@@ -1,7 +1,7 @@
 {
   "Custom": {
     "DropCostFactor": {
-      "DropModifier": 1.18
+      "DropModifier": 1.16
     },
     "AssemblyVariant": {
       "PrefabID": "ironclad",
@@ -34,7 +34,7 @@
     }
   ],
   "Description": {
-    "Cost": 1789534,
+    "Cost": 1956206,
     "Rarity": 5,
     "Purchasable": true,
     "Manufacturer": "",
@@ -42,7 +42,7 @@
     "UIName": "Ironclad",
     "Id": "chassisdef_ironclad_IC-100",
     "Name": "Ironclad",
-    "Details": "Created to provide armor and firepower on the cheap, the Ironclad is marketed to militias and planetary defence forces unable to afford the maintenance costs of operating a fusion powered battlemech. Manufactured by Heavy Duty Galatea in 3041, the Ironclad IC-100 has since become a staple of the Galatean Defence Force and has made inroads into Lyran space. Powered by a 200 rated Fuel Cell Engine, the Ironclad is a slow and ponderous mountain of armor and guns. A pair of Gauss Rifles provide heavy ranged fire while a battery of Medium and Small Lasers paired with a trio of Small Pulse Lasers shred enemies that attempt to close in.\n\n<b><color=#e62e00>Quirk: Rugged</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.18</color></b>",
+    "Details": "Created to provide armor and firepower on the cheap, the Ironclad is marketed to militias and planetary defence forces unable to afford the maintenance costs of operating a fusion powered battlemech. Manufactured by Heavy Duty Galatea in 3041, the Ironclad IC-100 has since become a staple of the Galatean Defence Force and has made inroads into Lyran space. Powered by a 200 rated Fuel Cell Engine, the Ironclad is a slow and ponderous mountain of armor and guns. A pair of Gauss Rifles provide heavy ranged fire while a battery of Medium and Small Lasers paired with a trio of Small Pulse Lasers shred enemies that attempt to close in.\n\n<b><color=#e62e00>Quirk: Rugged</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.16</color></b>",
     "Icon": "uixTxrIcon_ironclad"
   },
   "VariantName": "IC-100",
@@ -137,10 +137,6 @@
         {
           "WeaponMountID": "Special",
           "Omni": false
-        },
-        {
-          "WeaponMountID": "AntiPersonnel",
-          "Omni": false
         }
       ],
       "Tonnage": 0,
@@ -183,11 +179,11 @@
           "Omni": false
         },
         {
-          "WeaponMountID": "Special",
+          "WeaponMountID": "AntiPersonnel",
           "Omni": false
         },
         {
-          "WeaponMountID": "AntiPersonnel",
+          "WeaponMountID": "Special",
           "Omni": false
         }
       ],
