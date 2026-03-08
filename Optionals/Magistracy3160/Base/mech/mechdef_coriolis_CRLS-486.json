@@ -3,6 +3,11 @@
     "items": [
       "unit_mech",
       "unit_assault",
+      "unit_advanced",
+      "unit_bracket_med",
+      "unit_role_brawler",
+      "unit_lance_assassin",
+      "unit_lance_vanguard",
       "unit_jumpOK",
       "unit_optional_magistracy3160",
       "unit_proxy_model",
@@ -10,11 +15,6 @@
       "unit_release",
       "unit_chassis_coriolis",
       "unit_tonnage_90",
-      "unit_advanced",
-      "unit_bracket_med",
-      "unit_lance_assassin",
-      "unit_lance_vanguard",
-      "unit_role_brawler",
       "unit_rarity_equipment_level_4",
       "davion",
       "davion3150",
@@ -46,7 +46,7 @@
   },
   "ChassisID": "chassisdef_coriolis_CRLS-486",
   "Description": {
-    "Cost": 7297408,
+    "Cost": 7297646,
     "Rarity": 1,
     "Purchasable": true,
     "Manufacturer": "",
@@ -54,10 +54,10 @@
     "UIName": "Coriolis CRLS-486",
     "Id": "mechdef_coriolis_CRLS-486",
     "Name": "Coriolis CRLS-486",
-    "Details": "The CRLS-486 is the FedCom Civil War era Coriolis, built around an LB-20X autocannon as its devastating centerpiece. A Targeting Computer sharpens every weapon on the frame, with a Light Gauss Rifle providing reach and a Medium Pulse Laser and ER Medium Laser adding close-range support. An Anti-Missile System offers defensive coverage. Three jump jets retain the chassis signature rear-arc ambush capability, now delivering considerably more accurate punishment on arrival.\n\n<b><color=#e62e00>Quirk: Accurate Weapon - AC</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.14</color></b>\n\n<color=#FFEF00>Arm Actuator Limit: Right Lower</color>",
+    "Details": "The CRLS-486 is the FedCom Civil War era Coriolis, built around an LB-20X autocannon as its devastating centerpiece. A Targeting Computer sharpens every weapon on the frame, with a Light Gauss Rifle providing reach and a Medium Pulse Laser and ER Medium Laser adding close-range support. An Anti-Missile System offers defensive coverage. Three jump jets retain the chassis signature rear-arc ambush capability, now delivering considerably more accurate punishment on arrival.\n\n<b><color=#e62e00>Quirk: Accurate Weapon - AC</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.16</color></b>\n\n<color=#FFEF00>Arm Actuator Limit: Right Lower</color>",
     "Icon": "NEEDS_ICON"
   },
-  "simGameMechPartCost": 368692,
+  "simGameMechPartCost": 368739,
   "Locations": [
     {
       "Location": "Head",

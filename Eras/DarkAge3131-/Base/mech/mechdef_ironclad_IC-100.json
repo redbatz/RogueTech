@@ -10,6 +10,7 @@
       "unit_lance_tank",
       "unit_optional_era",
       "unit_era_dark_ages",
+      "unit_proxy_icon",
       "unit_ready",
       "unit_release",
       "unit_chassis_ironclad",
@@ -35,7 +36,7 @@
   },
   "ChassisID": "chassisdef_ironclad_IC-100",
   "Description": {
-    "Cost": 4073641,
+    "Cost": 5347372,
     "Rarity": 5,
     "Purchasable": true,
     "UIName": "Ironclad IC-100",
@@ -44,7 +45,7 @@
     "Details": "Created to provide armor and firepower on the cheap, the Ironclad is marketed to militias and planetary defence forces unable to afford the maintenance costs of operating a fusion powered battlemech. Manufactured by Heavy Duty Galatea in 3041, the Ironclad IC-100 has since become a staple of the Galatean Defence Force and has made inroads into Lyran space. Powered by a 200 rated Fuel Cell Engine, the Ironclad is a slow and ponderous mountain of armor and guns. A pair of Gauss Rifles provide heavy ranged fire while a battery of Medium and Small Lasers paired with a trio of Small Pulse Lasers shred enemies that attempt to close in.\n\n<b><color=#e62e00>Quirk: Rugged</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.16</color></b>",
     "Icon": "uixTxrIcon_ironclad"
   },
-  "simGameMechPartCost": 422128,
+  "simGameMechPartCost": 391241,
   "Locations": [
     {
       "Location": "Head",
@@ -79,7 +80,7 @@
       "CurrentRearArmor": 60,
       "CurrentInternalStructure": 155,
       "AssignedArmor": 245,
-      "AssignedRearArmor": 56,
+      "AssignedRearArmor": 60,
       "DamageLevel": "Functional"
     },
     {
@@ -124,6 +125,13 @@
       "MountedLocation": "CenterTorso",
       "ComponentDefID": "Gear_EngineCore_200",
       "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Gear_TSM_Standard",
+      "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
     },
@@ -292,13 +300,6 @@
       "MountedLocation": "RightLeg",
       "ComponentDefID": "Gear_HeatSink_Single",
       "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Gear_TSM_Standard",
-      "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
     }

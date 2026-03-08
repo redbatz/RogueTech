@@ -19,7 +19,7 @@
     }
   ],
   "Description": {
-    "Cost": 1928364,
+    "Cost": 1928477,
     "Rarity": 1,
     "Purchasable": true,
     "Manufacturer": "",
@@ -87,6 +87,10 @@
       "Location": "LeftArm",
       "Hardpoints": [
         {
+          "WeaponMountID": "AntiPersonnel",
+          "Omni": false
+        },
+        {
           "WeaponMountID": "SpecialHandHeld",
           "Omni": false
         }
@@ -133,7 +137,7 @@
       "Location": "RightTorso",
       "Hardpoints": [
         {
-          "WeaponMountID": "Energy",
+          "WeaponMountID": "Ballistic",
           "Omni": false
         },
         {
@@ -141,7 +145,7 @@
           "Omni": false
         },
         {
-          "WeaponMountID": "AntiPersonnel",
+          "WeaponMountID": "Energy",
           "Omni": false
         },
         {

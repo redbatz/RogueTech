@@ -23,7 +23,7 @@
     }
   ],
   "Description": {
-    "Cost": 1710641,
+    "Cost": 1550783,
     "Rarity": 5,
     "Purchasable": true,
     "Manufacturer": "",
@@ -31,14 +31,14 @@
     "UIName": "Broadside",
     "Id": "chassisdef_broadside_BS-2D",
     "Name": "Broadside",
-    "Details": "Developed by Iroquois Machinery in the mid 3140s, the Broadside is an unusual offering from a company better known for being a major manufacturer of industrial mechs. A 100 ton mech powered by a 300 rated fusion engine, the Broadside is a rapidly proliferating sigh in the increasingly strained ranks of the AFFS. Heavily armed with a myriad of weapons, the Broadsword BS-2D is armed with a pair of AC/10s and an AC/5. For secondary armament, it carries a pair of ER Medium Lasers, a Flamer and a pair of Re-engineered Medium Lasers.\n\n<b><color=#e62e00>Quirk: Extended Torso Twist</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.18</color></b>",
+    "Details": "Developed by Iroquois Machinery in the mid 3140s, the Broadside is an unusual offering from a company better known for being a major manufacturer of industrial mechs. A 100 ton mech powered by a 300 rated fusion engine, the Broadside is a rapidly proliferating sigh in the increasingly strained ranks of the AFFS. Heavily armed with a myriad of weapons, the Broadsword BS-2D is armed with a pair of AC/10s and an AC/5. For secondary armament, it carries a pair of ER Medium Lasers, a Flamer and a pair of Re-engineered Medium Lasers.\n\n<b><color=#e62e00>Quirk: Extended Torso Twist</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.18</color></b>\n\n<color=#FFEF00>Arm Actuator Limits: Left Lower, Right Lower</color>",
     "Icon": "uixTxrIcon_broadside"
   },
   "VariantName": "BS-2D",
   "ChassisTags": {
     "items": [
-      "ArmLimitLowerRight",
-      "ArmLimitLowerLeft"
+      "ArmLimitLowerLeft",
+      "ArmLimitLowerRight"
     ],
     "tagSetSourceFile": ""
   },
@@ -102,10 +102,6 @@
           "Omni": false
         },
         {
-          "WeaponMountID": "AntiPersonnel",
-          "Omni": false
-        },
-        {
           "WeaponMountID": "SpecialHandHeld",
           "Omni": false
         }
@@ -121,6 +117,10 @@
       "Hardpoints": [
         {
           "WeaponMountID": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMountID": "AntiPersonnel",
           "Omni": false
         },
         {
@@ -156,11 +156,11 @@
       "Location": "RightTorso",
       "Hardpoints": [
         {
-          "WeaponMountID": "Energy",
+          "WeaponMountID": "Ballistic",
           "Omni": false
         },
         {
-          "WeaponMountID": "Ballistic",
+          "WeaponMountID": "Energy",
           "Omni": false
         },
         {
@@ -179,10 +179,6 @@
       "Hardpoints": [
         {
           "WeaponMountID": "Energy",
-          "Omni": false
-        },
-        {
-          "WeaponMountID": "AntiPersonnel",
           "Omni": false
         },
         {
