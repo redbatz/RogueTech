@@ -14,15 +14,15 @@
       "unit_release",
       "unit_chassis_ferdelance",
       "unit_tonnage_30",
-      "unit_rarity_equipment_level_0",
+      "unit_rarity_equipment_level_1",
+      "CalderonProtectorate",
+      "CalderonProtectorate3150",
       "liao",
-      "magistracyofcanopus",
       "Liao3150",
+      "magistracyofcanopus",
       "MagistracyOfCanopus3150",
       "taurianconcordat3031",
       "TaurianConcordat3150",
-      "CalderonProtectorate",
-      "CalderonProtectorate3150",
       "ai_heat_normal",
       "ai_dfa_low",
       "ai_melee_low",
@@ -39,16 +39,16 @@
   },
   "ChassisID": "chassisdef_ferdelance_FDL-3",
   "Description": {
-    "Cost": 1748598,
+    "Cost": 4904747,
     "Rarity": 1,
     "Purchasable": true,
     "UIName": "Fer-de-Lance FDL-3",
     "Id": "mechdef_ferdelance_FDL-3",
     "Name": "Fer-de-Lance FDL-3",
-    "Details": "Created during the heyday of the Star League era, the Fer-de-Lance is a 30 ton Cannopian BattleMech built by Majesty Metals and Manufacturing at their Canopus IV facilities. Surviving the succession wars mostly intact, the Fer-de-Lance is still produced in small quantities by MMM every year and features in most MAF light mech lances. The FDL-3 is built around a 240 rated XL engine and an endosteel skeleton. Outfitted to hunt enemy battle armor, the FDL-3 boasts a pair of Streak SRM-2s, a pair of Small Pulse Lasers and a pair of Medium Pulse Lasers. A head mounted machine gun and dhs round out the design.\n\n<b><color=#e62e00>Quirk: Nimble</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 0.97</color></b>",
+    "Details": "Created during the heyday of the Star League era, the Fer-de-Lance is a 30 ton Cannopian BattleMech built by Majesty Metals and Manufacturing at their Canopus IV facilities. Surviving the succession wars mostly intact, the Fer-de-Lance is still produced in small quantities by MMM every year and features in most MAF light mech lances. The FDL-3 is built around a 240 rated XL engine and an endosteel skeleton. Outfitted to hunt enemy battle armor, the FDL-3 boasts a pair of Streak SRM-2s, a pair of Small Pulse Lasers and a pair of Medium Pulse Lasers. A head mounted machine gun and dhs round out the design.\n\n<b><color=#e62e00>Quirk: Nimble</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 0.99</color></b>",
     "Icon": "uixTxrIcon_spider"
   },
-  "simGameMechPartCost": 223620,
+  "simGameMechPartCost": 172609,
   "Locations": [
     {
       "Location": "Head",
@@ -140,13 +140,6 @@
     },
     {
       "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Gear_HeatSinkKit_Double",
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "CenterTorso",
       "ComponentDefID": "Gear_Engine_XL",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
@@ -163,6 +156,20 @@
       "MountedLocation": "RightTorso",
       "ComponentDefID": "Linked_Engine_Size_3",
       "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Gear_HeatSinkKit_Double",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Gear_CASE",
+      "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
     },
@@ -216,13 +223,6 @@
       "DamageLevel": "Functional"
     },
     {
-      "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Gear_HeatSink_Double",
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
       "MountedLocation": "RightTorso",
       "ComponentDefID": "Ammo_AmmunitionBox_MachineGun",
       "ComponentDefType": "AmmunitionBox",
@@ -237,9 +237,9 @@
       "DamageLevel": "Functional"
     },
     {
-      "MountedLocation": "RightTorso",
-      "ComponentDefID": "Gear_CASE",
-      "ComponentDefType": "Upgrade",
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Gear_HeatSink_Double",
+      "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
     }
