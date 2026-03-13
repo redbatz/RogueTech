@@ -62,9 +62,9 @@
     },
     {
       "Bonus": "ClusterWeapon",
-      "Short": "Cluster",
-      "Long": "Cluster Hitter",
-      "Full": "This weapon fires a cluster of submunitions; they roll to hit, and for damage, as a group."
+      "Short": "OneRoll",
+      "Long": "Hits As One",
+      "Full": "This weapon makes a single to-hit roll for the whole salvo."
     },
     {
       "Bonus": "ClusterWeaponCrit",
@@ -610,32 +610,31 @@
       "Bonus": "MMLP",
       "Short": "MML",
       "Long": "Multi Missile Launcher",
-      "Full": "Jury Rigged Multi-Missile Launchers can fire both LRM and SRM ammo. They roll to hit individually for each missile, and do not group."
+      "Full": "Jury Rigged Multi-Missile Launchers can fire both LRM and SRM ammo. They roll to hit individually for each missile. They also do not Group."
     },
     {
       "Bonus": "PirateATM",
       "Short": "JR ATM",
       "Long": "Jury Rigged ATM",
-      "Full": "Jury-Rigged ATMs can fire MRM, LRM or SRM ammo. They roll to hit individually for each missile, and do not group."
+      "Full": "Jury-Rigged ATMs can fire MRM, LRM or SRM ammo. They roll to hit individually for each missile. They also do not Group."
     },
     {
       "Bonus": "PirateLRM",
       "Short": "JR LRM",
       "Long": "Jury Rigged LRM",
-      "Full": "Jury-Rigged LRMs roll to hit individually for each missile, and do not group."
+      "Full": "Jury-Rigged LRMs roll to hit individually for each missile. They also do not Group."
     },
     {
       "Bonus": "PirateMRM",
       "Short": "JR MRM",
       "Long": "Jury Rigged MRM",
-      "Full": "Jury-Rigged MRMs roll to hit individually for each missile, and do not group."
+      "Full": "Jury-Rigged MRMs roll to hit individually for each missile. They also do not Group."
     },
-    
     {
       "Bonus": "PirateSRM",
       "Short": "JR SRM",
       "Long": "Jury Rigged SRM",
-      "Full": "Jury-Rigged SRMs roll to hit individually for each missile, and do not group."
+      "Full": "Jury-Rigged SRMs roll to hit individually for each missile. They also do not Group."
     },
     {
       "Bonus": "BFG",
