@@ -61,9 +61,9 @@
       "Full": "Most accuracy and evasion ignore modifiers from other equipment, affinities and skills do not apply to this weapon. "
     },
     {
-      "Bonus": "ClusterWeapon",
-      "Short": "OneRoll",
-      "Long": "Hits As One",
+      "Bonus": "SingleHitRollWeapon",
+      "Short": "OneHitRoll",
+      "Long": "One To-Hit Roll",
       "Full": "This weapon makes a single to-hit roll for the whole salvo."
     },
     {

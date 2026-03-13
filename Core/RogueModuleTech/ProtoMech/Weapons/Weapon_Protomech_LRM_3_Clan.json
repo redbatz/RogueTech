@@ -10,7 +10,7 @@
     ],
     "BonusDescriptions": [
       "IsProtoWeapon",
-      "ClusterWeapon",
+      "SingleHitRollWeapon",
       "VariableDmg: 1.7",
       "AmmoSameLocation",
       "Indirect",

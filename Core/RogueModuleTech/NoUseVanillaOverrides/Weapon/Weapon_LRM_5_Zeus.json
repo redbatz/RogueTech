@@ -8,7 +8,7 @@
     "BonusDescriptions": [
       "DEPRECATED",
       "ZeusLRM",
-      "ClusterWeapon",
+      "SingleHitRollWeapon",
       "VariableDmg: 2",
       "CanJam",
       "JamChanceMode1: 15%, STD",

@@ -8,7 +8,7 @@
     "BonusDescriptions": [
       "DEPRECATED",
       "LongFireLRM",
-      "ClusterWeapon",
+      "SingleHitRollWeapon",
       "VariableDmg: 2",
       "Indirect",
       "WeaponGrouping: +1",

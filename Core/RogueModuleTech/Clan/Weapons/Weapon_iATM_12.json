@@ -11,7 +11,7 @@
     "BonusDescriptions": [
       "iATM",
       "DFAccuracy: +1",
-      "ClusterWeapon",
+      "SingleHitRollWeapon",
       "VariableDmg: 3.4",
       "WeaponGrouping: +2",
       "AAFactor: 20",

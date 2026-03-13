@@ -10,7 +10,7 @@
     ],
     "BonusDescriptions": [
       "Indirect",
-      "ClusterWeapon",
+      "SingleHitRollWeapon",
       "VariableDmg: 1.7",
       "WeaponGrouping: +1",
       "ModesCanMisfire",

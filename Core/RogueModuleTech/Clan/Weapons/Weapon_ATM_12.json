@@ -10,7 +10,7 @@
     ],
     "BonusDescriptions": [
       "DFAccuracy: +1",
-      "ClusterWeapon",
+      "SingleHitRollWeapon",
       "VariableDmg: 3",
       "WeaponGrouping: +2",
       "ATM",

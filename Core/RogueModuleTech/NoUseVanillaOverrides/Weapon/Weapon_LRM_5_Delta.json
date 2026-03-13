@@ -8,7 +8,7 @@
     "BonusDescriptions": [
       "DEPRECATED",
       "DeltaLRM",
-      "ClusterWeapon",
+      "SingleHitRollWeapon",
       "VariableDmg: 2",
       "MissileHP: +1",
       "WpnRecoil: 1",

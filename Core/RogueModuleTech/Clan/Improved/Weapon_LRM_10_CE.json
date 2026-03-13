@@ -6,7 +6,7 @@
       }
     ],
     "BonusDescriptions": [
-      "ClusterWeapon",
+      "SingleHitRollWeapon",
       "VariableDmg: 1.4",
       "Indirect",
       "WeaponGrouping: +1",
