@@ -10,7 +10,7 @@
     ],
     "BonusDescriptions": [
       "Pulse",
-      "DoesCluster",
+      "DoesGroup",
       "WeaponClustering: +1",
       "AAFactor: 20",
       "VariableDmg: 5",

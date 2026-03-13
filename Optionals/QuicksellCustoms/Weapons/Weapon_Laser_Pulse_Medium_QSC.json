@@ -10,7 +10,7 @@
     ],
     "BonusDescriptions": [
       "Pulse",
-      "DoesCluster",
+      "DoesGroup",
       "WeaponClustering: +1",
       "VariableDmg: 4",
       "WeaponShardsModRange: 0.5, 2"

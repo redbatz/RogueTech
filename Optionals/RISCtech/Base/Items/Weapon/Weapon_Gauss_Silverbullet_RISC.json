@@ -17,7 +17,7 @@
       "PipsIgnored: 1",
       "WpnAccuracy: +1",
       "WpnRecoil: 5",
-      "DoesCluster",
+      "DoesGroup",
       "CanJamMisfire",
       "ExplodiumFlat: 15%",
       "AmmoRestriction: Heavy Gauss AP",

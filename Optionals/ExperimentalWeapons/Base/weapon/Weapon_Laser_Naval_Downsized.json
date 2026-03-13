@@ -12,7 +12,7 @@
       }
     ],
     "BonusDescriptions": [
-      "DoesCluster",
+      "DoesGroup",
       "WeaponClustering: +2",
       "AAFactor: 8",
       "WeaponAttachmentCompatible: Laser Insulator",
