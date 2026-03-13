@@ -12,7 +12,7 @@
       "ClusterWeapon",
       "VariableDmg: 1.4",
       "Indirect",
-      "WeaponClustering: +1",
+      "WeaponGrouping: +1",
       "WeaponAttachmentCompatible: Artemis IV or V",
       "AAFactor: 16",
       "WeaponShardsModRange: 0.06, 0.24"

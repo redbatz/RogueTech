@@ -15,7 +15,7 @@
       "WeaponJAMFlat: 20%",
       "WpnCrits: x2",
       "DoesGroup",
-      "WeaponClustering: +2",
+      "WeaponGrouping: +2",
       "AAFactor: 15",
       "WeaponExplosionNoAmmo: 33.8, 13.5, 13.5"
     ],

@@ -8,7 +8,7 @@
     "BonusDescriptions": [
       "ATM_OneShot",
       "WpnAccuracy: +1",
-      "WeaponClustering: 3",
+      "WeaponGrouping: 3",
       "Streak",
       "DoesGroup",
       "AmmoCost: 124",

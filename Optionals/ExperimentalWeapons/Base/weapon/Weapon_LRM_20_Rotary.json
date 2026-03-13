@@ -11,7 +11,7 @@
     "BonusDescriptions": [
       "VariableDmg: 1.7",
       "ClusterWeapon",
-      "WeaponClustering: +1",
+      "WeaponGrouping: +1",
       "Indirect",
       "RLRM1: x1, 20, 18, 5%",
       "RLRM2: x2, 40, 36, -2, 15%",
