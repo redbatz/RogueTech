@@ -106,16 +106,16 @@
     },
     {
       "Location": "Rear",
-      "CurrentArmor": 5,
+      "CurrentArmor": 10,
       "CurrentInternalStructure": 5,
-      "AssignedArmor": 5,
+      "AssignedArmor": 10,
       "DamageLevel": "Functional"
     },
     {
       "Location": "Turret",
-      "CurrentArmor": 5,
+      "CurrentArmor": 10,
       "CurrentInternalStructure": 5,
-      "AssignedArmor": 5,
+      "AssignedArmor": 10,
       "DamageLevel": "Functional"
     }
   ],
@@ -136,7 +136,7 @@
     },
     {
       "MountedLocation": "Front",
-      "ComponentDefID": "Ammo_AmmunitionBox_MachineGun_Light_Half",
+      "ComponentDefID": "Ammo_AmmunitionBox_MachineGun_Light",
       "ComponentDefType": "AmmunitionBox",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"

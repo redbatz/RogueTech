@@ -151,13 +151,6 @@
     },
     {
       "MountedLocation": "Rear",
-      "ComponentDefID": "Gear_Vehicle_Compartment_Infantry",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "Rear",
       "ComponentDefID": "Default_Armor_Standard",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
