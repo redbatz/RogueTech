@@ -5,12 +5,7 @@
       "Exclude": false,
       "Include": true
     },
-    "CustomWeights": [
-      {
-        "ComponentDefID": "Gear_Vehicle_Compartment_Infantry",
-        "Tonnage": 3.5
-      }
-    ]
+    "CustomWeights": []
   },
   "CustomParts": {
     "AOEHeight": 45,

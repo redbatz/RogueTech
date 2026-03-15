@@ -2,148 +2,114 @@
   "VehicleTags": {
     "items": [
       "unit_vehicle",
-      "unit_light",
-      "unit_generic",
-      "unit_bracket_low",
-      "unit_lance_vanguard",
-      "unit_wheels",
+      "unit_medium",
+      "unit_advanced",
+      "unit_bracket_med",
+      "unit_lance_support",
+      "unit_vtol",
       "unit_noconvoy",
       "unit_release",
+      "unit_rt_custom",
+      "unit_rarity_chassis_uncommon",
       "unit_rarity_equipment_level_0",
-      "mr-resize-0.9",
-      "ArcRoyalLibertyCoalition",
-      "auriganpirates",
-      "CalderonProtectorate",
-      "CalderonProtectorate3150",
-      "circinus",
-      "comstar",
-      "davion",
-      "Davion3150",
-      "duchyofandurien",
-      "DuchyOfAndurien3150",
-      "FerrisCollective",
-      "FiltveltCoalition",
-      "FiltveltCoalition3150",
-      "FroncReaches",
-      "FroncReaches3150",
+      "NoBiome_lunarVacuum",
+      "apply_bomb_drag_tag",
+      "mr-resize-0.85",
       "GalateanLeague",
-      "havens",
-      "illyrian",
-      "kitteryprefecture",
-      "kurita",
-      "Kurita3150",
-      "liao",
-      "Liao3150",
       "locals",
-      "lothian",
-      "Lothian3150",
-      "magistracyofcanopus",
-      "MagistracyOfCanopus3150",
-      "marian",
-      "Marian3150",
+      "duchyofandurien",
+      "duchyofandurien3150",
       "marik",
-      "Marik3150",
-      "MarikStewart",
-      "NewOberonConfederation",
-      "OrienteProtectorate",
-      "outworld",
-      "RagnarokUnion",
-      "rasalhague",
-      "RasalhagueDominion",
-      "RavenAlliance3150",
-      "RegulanFiefs",
-      "republic",
-      "RepublicOfTheBarrens",
-      "Rim",
-      "RimCommonality",
-      "RimTerritories",
-      "RoguePirates",
-      "steiner",
-      "Steiner3150",
-      "TamarindAbbey",
-      "TamarPact",
-      "taurianconcordat",
-      "TaurianConcordat3150",
-      "TimbuktuCollective",
-      "tortuga",
-      "VesperMarches"
+      "marik3150",
+      "marikstewart",
+      "orienteprotectorate",
+      "regulanfiefs",
+      "rimcommonality",
+      "tamarindabbey"
     ],
     "tagSetSourceFile": ""
   },
-  "ChassisID": "vehiclechassisdef_Nematocyst",
+  "ChassisID": "vehiclechassisdef_Harpy",
   "Description": {
-    "Cost": 591325,
-    "Rarity": 3,
+    "Cost": 1766333,
+    "Rarity": 0,
     "Purchasable": false,
-    "UIName": "Nematocyst Technical",
-    "Id": "vehicledef_Nematocyst",
-    "Name": "Nematocyst Technical",
-    "Details": "Born out of the desperation of the Jihad, the Nematocyst is a 5 ton rapid response vehicle designed for anti-infantry work. Covered in a half ton of armor and armed with a pair of light machine guns; the Nematocysts speed is it is only protection with the 045 rated fusion engine capable of reaching speeds of over 200 kph.\n\n<b><color=#ffcc00>Biome Restrictions: None.</color></b>\n\n<b><color=#ffcc00>Movement: 14/21 hexes / 420/630 meters.</color></b>\n\n<color=#ffcc00><b>Armor:</b> Armor\n<b>Structure:</b> Structure\n<b>Values       A        S  </b>\n<b>Front</b>        10      5\n<b>Left</b>          10      5\n<b>Right</b>        10      5\n<b>Rear</b>          5      5\n<b>Turret</b>        5      5\n\n<b>Total</b>       40     25</color>\n\n<color=#ff0000>Quirk: Slippery Customer</color>",
-    "Icon": "uixTxrIcon_nematocysttechnical"
+    "UIName": "Harpy",
+    "Id": "vehicledef_Harpy",
+    "Name": "Harpy",
+    "Details": "Designed as a long range sniper VTOL by Brigadier Corporation, the Harpy debuted in 3065. Poor sales and an odd weapons array resulted in the design ceasing production after the Jihad and numbers would dwindle to near extinction during the Dark Age. A 30 ton VTOL, the Harpy is powered by a 40 rated fusion engine and armed with an ER large Laser, a UAC/2 and a Small Laser.\n\n<b><color=#ffcc00>Biome Restrictions: This unit can not deploy in Lunar biomes.</color></b>\n\n<b><color=#ffcc00>Movement: 6/9 hexes / 180/270 meters.</color></b>\n\n<color=#ffcc00><b>Armor:</b> Ferro-Fibrous\n<b>Structure:</b> Structure\n<b>Values       A        S  </b>\n<b>Front</b>        95     15\n<b>Left</b>          75     15\n<b>Right</b>        75     15\n<b>Rear</b>         60     15\n\n<b>Total</b>      320     75</color>\n\n<color=#ff0000>Quirk: Breaching Shot</color>",
+    "Icon": "uixTxrIcon_harpyattackhelicopter"
   },
-  "simGameMechPartCost": 116265,
+  "simGameMechPartCost": 230667,
   "Locations": [
     {
       "Location": "Front",
-      "CurrentArmor": 10,
-      "CurrentInternalStructure": 5,
-      "AssignedArmor": 10,
+      "CurrentArmor": 125,
+      "CurrentInternalStructure": 15,
+      "AssignedArmor": 125,
       "DamageLevel": "Functional"
     },
     {
       "Location": "Left",
-      "CurrentArmor": 10,
-      "CurrentInternalStructure": 5,
-      "AssignedArmor": 10,
+      "CurrentArmor": 95,
+      "CurrentInternalStructure": 15,
+      "AssignedArmor": 95,
       "DamageLevel": "Functional"
     },
     {
       "Location": "Right",
-      "CurrentArmor": 10,
-      "CurrentInternalStructure": 5,
-      "AssignedArmor": 10,
+      "CurrentArmor": 95,
+      "CurrentInternalStructure": 15,
+      "AssignedArmor": 95,
       "DamageLevel": "Functional"
     },
     {
       "Location": "Rear",
-      "CurrentArmor": 10,
-      "CurrentInternalStructure": 5,
-      "AssignedArmor": 10,
+      "CurrentArmor": 75,
+      "CurrentInternalStructure": 15,
+      "AssignedArmor": 75,
       "DamageLevel": "Functional"
     },
     {
       "Location": "Turret",
-      "CurrentArmor": 10,
-      "CurrentInternalStructure": 5,
-      "AssignedArmor": 10,
+      "CurrentArmor": 15,
+      "CurrentInternalStructure": 15,
+      "AssignedArmor": 15,
       "DamageLevel": "Functional"
     }
   ],
   "inventory": [
     {
-      "MountedLocation": "Turret",
-      "ComponentDefID": "Weapon_MachineGun_Light",
-      "ComponentDefType": "Weapon",
-      "HardpointSlot": 0,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "Turret",
-      "ComponentDefID": "Weapon_MachineGun_Light",
-      "ComponentDefType": "Weapon",
-      "HardpointSlot": 0,
-      "DamageLevel": "Functional"
-    },
-    {
       "MountedLocation": "Front",
-      "ComponentDefID": "Ammo_AmmunitionBox_MachineGun_Light",
+      "ComponentDefID": "Weapon_Laser_Small",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Left",
+      "ComponentDefID": "Weapon_Laser_ER_Large",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Right",
+      "ComponentDefID": "Weapon_Autocannon_UAC_2",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Rear",
+      "ComponentDefID": "Ammo_AmmunitionBox_UAC_2",
       "ComponentDefType": "AmmunitionBox",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
     },
     {
       "MountedLocation": "Front",
-      "ComponentDefID": "Default_Vehicle_Crew_Compartment",
+      "ComponentDefID": "Default_Vehicle_Crew_VTOL_Cockpit",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
@@ -163,27 +129,6 @@
       "DamageLevel": "Functional"
     },
     {
-      "MountedLocation": "Left",
-      "ComponentDefID": "Default_Vehicle_Motive_Wheeled_Left",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "Right",
-      "ComponentDefID": "Default_Vehicle_Motive_Wheeled_Right",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "Rear",
-      "ComponentDefID": "Default_Armor_Standard",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
       "MountedLocation": "Rear",
       "ComponentDefID": "Default_Structure_Standard",
       "ComponentDefType": "Upgrade",
@@ -192,27 +137,40 @@
     },
     {
       "MountedLocation": "Rear",
-      "ComponentDefID": "Default_Vehicle_Motive_Wheeled_Defaultbox",
+      "ComponentDefID": "Gear_Armor_FerroFibrous",
       "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
+      "HardpointSlot": -1
     },
     {
       "MountedLocation": "Rear",
-      "ComponentDefID": "Quirk_Vehicle_SlipperyCustomer",
+      "ComponentDefID": "Quirk_ImprovedTargeting_Long",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
     },
     {
       "MountedLocation": "Turret",
-      "ComponentDefID": "Default_Vehicle_Turret",
+      "ComponentDefID": "Default_Vehicle_Motive_VTOL",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
     },
     {
-      "MountedLocation": "Left",
+      "MountedLocation": "Front",
+      "ComponentDefID": "Gear_HeatSink_Single",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Front",
+      "ComponentDefID": "Gear_HeatSink_Single",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Front",
       "ComponentDefID": "Gear_HeatSink_Single",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
@@ -234,13 +192,6 @@
     },
     {
       "MountedLocation": "Left",
-      "ComponentDefID": "Gear_HeatSink_Single",
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "Right",
       "ComponentDefID": "Gear_HeatSink_Single",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
@@ -276,7 +227,21 @@
     },
     {
       "MountedLocation": "Rear",
-      "ComponentDefID": "Gear_EngineCore_045",
+      "ComponentDefID": "Gear_HeatSink_Single",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Rear",
+      "ComponentDefID": "Gear_HeatSink_Single",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Rear",
+      "ComponentDefID": "Gear_EngineCore_040",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
