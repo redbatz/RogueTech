@@ -3,17 +3,17 @@
     "items": [
       "unit_mech",
       "unit_assault",
+      "unit_advanced",
+      "unit_bracket_med",
+      "unit_role_sniper",
+      "unit_lance_assassin",
+      "unit_lance_support",
       "unit_optional_magistracy3160",
       "unit_proxy_model",
       "unit_ready",
       "unit_release",
       "unit_chassis_valedictus",
       "unit_tonnage_95",
-      "unit_advanced",
-      "unit_bracket_med",
-      "unit_role_sniper",
-      "unit_lance_assassin",
-      "unit_lance_support",
       "unit_rarity_equipment_level_2",
       "galateanleague",
       "locals",
@@ -34,7 +34,7 @@
   },
   "ChassisID": "chassisdef_valedictus_VAL-9S",
   "Description": {
-    "Cost": 7163687,
+    "Cost": 7163820,
     "Rarity": 1,
     "Purchasable": true,
     "Manufacturer": "",
@@ -42,10 +42,10 @@
     "UIName": "Valedictus VAL-9S",
     "Id": "mechdef_valedictus_VAL-9S",
     "Name": "Valedictus VAL-9S",
-    "Details": "The Valedictus VAL-9S is a 95-ton Detroit Consolidated assault BattleMech introduced in 3151 for the Magistracy Armed Forces. Two Bombast Lasers, one in each arm, serve as primary weapons, delivering variable-output energy damage demanding skilled heat management from the pilot. Three Artemis IV-enhanced MML 7 launchers carry a diverse ammunition loadout including standard LRM and SRM rounds alongside Inferno and Swarm-I munitions, all protected by dual CASE II installations. A center-torso Laser AMS and head-mounted ER Small Laser complete the package.\n\n<b><color=#e62e00>Quirk: Accurate Weapon - Missiles</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.15</color></b>\n\n<color=#FFEF00>Arm Actuator Limits: Left Upper, Right Upper</color>",
-    "Icon": "NEEDS_ICON"
+    "Details": "The Valedictus VAL-9S is a 95-ton Detroit Consolidated assault BattleMech introduced in 3151 for the Magistracy Armed Forces. Two Bombast Lasers, one in each arm, serve as primary weapons, delivering variable-output energy damage demanding skilled heat management from the pilot. Three Artemis IV-enhanced MML 7 launchers carry a diverse ammunition loadout including standard LRM and SRM rounds alongside Inferno and Swarm-I munitions, all protected by dual CASE II installations. A center-torso Laser AMS and head-mounted ER Small Laser complete the package.\n\n<b><color=#e62e00>Quirk: Accurate Weapon - Missiles</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.17</color></b>\n\n<color=#FFEF00>Arm Actuator Limits: Left Upper, Right Upper</color>",
+    "Icon": "uixTxrIcon_valedictus"
   },
-  "simGameMechPartCost": 392559,
+  "simGameMechPartCost": 392585,
   "Locations": [
     {
       "Location": "Head",

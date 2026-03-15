@@ -3,6 +3,11 @@
     "items": [
       "unit_mech",
       "unit_assault",
+      "unit_advanced",
+      "unit_bracket_med",
+      "unit_role_sniper",
+      "unit_lance_assassin",
+      "unit_lance_tank",
       "unit_omni",
       "unit_clan",
       "unit_jumpOK",
@@ -12,11 +17,6 @@
       "unit_release",
       "unit_chassis_megalodon",
       "unit_tonnage_100",
-      "unit_advanced",
-      "unit_bracket_med",
-      "unit_role_sniper",
-      "unit_lance_assassin",
-      "unit_lance_tank",
       "unit_rarity_equipment_level_1",
       "clandiamondshark",
       "clanhellshorses",
@@ -56,8 +56,8 @@
     "UIName": "Megalodon Prime",
     "Id": "mechdef_megalodon_MLDN-Prime",
     "Name": "Megalodon Prime",
-    "Details": "The baseline configuration pairs a Gauss Rifle and ER PPC for long-range precision fire while an ATM 12 with ER, standard and HE munitions handles variable range engagement. Three hard-wired Medium Pulse Lasers are fixed in the left torso regardless of pod configuration. Three jump jets provide unexpected positional flexibility for a 100-ton frame. CASE II protects both ammunition bays.\n\n<b><color=#e62e00>Quirk: Combat Computer</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.17</color></b>",
-    "Icon": "NEEDS_ICON"
+    "Details": "The baseline configuration pairs a Gauss Rifle and ER PPC for long-range precision fire while an ATM 12 with ER, standard and HE munitions handles variable range engagement. Three hard-wired Medium Pulse Lasers are fixed in the left torso regardless of pod configuration. Three jump jets provide unexpected positional flexibility for a 100-ton frame. CASE II protects both ammunition bays.\n\n<b><color=#e62e00>Quirk: Combat Computer</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.19</color></b>",
+    "Icon": "uixTxrIcon_megalodon"
   },
   "simGameMechPartCost": 766427,
   "Locations": [
