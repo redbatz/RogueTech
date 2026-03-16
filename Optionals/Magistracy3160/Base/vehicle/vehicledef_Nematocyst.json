@@ -72,16 +72,16 @@
   },
   "ChassisID": "vehiclechassisdef_Nematocyst",
   "Description": {
-    "Cost": 591325,
+    "Cost": 592606,
     "Rarity": 3,
     "Purchasable": false,
     "UIName": "Nematocyst Technical",
     "Id": "vehicledef_Nematocyst",
     "Name": "Nematocyst Technical",
-    "Details": "Born out of the desperation of the Jihad, the Nematocyst is a 5 ton rapid response vehicle designed for anti-infantry work. Covered in a half ton of armor and armed with a pair of light machine guns; the Nematocysts speed is it is only protection with the 045 rated fusion engine capable of reaching speeds of over 200 kph.\n\n<b><color=#ffcc00>Biome Restrictions: None.</color></b>\n\n<b><color=#ffcc00>Movement: 14/21 hexes / 420/630 meters.</color></b>\n\n<color=#ffcc00><b>Armor:</b> Armor\n<b>Structure:</b> Structure\n<b>Values       A        S  </b>\n<b>Front</b>        10      5\n<b>Left</b>          10      5\n<b>Right</b>        10      5\n<b>Rear</b>          5      5\n<b>Turret</b>        5      5\n\n<b>Total</b>       40     25</color>\n\n<color=#ff0000>Quirk: Slippery Customer</color>",
+    "Details": "Born out of the desperation of the Jihad, the Nematocyst is a 5 ton rapid response vehicle designed for anti-infantry work. Covered in a half ton of armor and armed with a pair of light machine guns; the Nematocysts speed is it is only protection with the 045 rated fusion engine capable of reaching speeds of over 200 kph.\n\n<b><color=#ffcc00>Biome Restrictions: None.</color></b>\n\n<b><color=#ffcc00>Movement: 14/21 hexes / 420/630 meters.</color></b>\n\n<color=#ffcc00><b>Armor:</b> Armor\n<b>Structure:</b> Structure\n<b>Values       A        S  </b>\n<b>Front</b>        10      5\n<b>Left</b>          10      5\n<b>Right</b>        10      5\n<b>Rear</b>         10      5\n<b>Turret</b>       10      5\n\n<b>Total</b>       50     25</color>\n\n<color=#ff0000>Quirk: Slippery Customer</color>",
     "Icon": "uixTxrIcon_nematocysttechnical"
   },
-  "simGameMechPartCost": 116265,
+  "simGameMechPartCost": 116521,
   "Locations": [
     {
       "Location": "Front",

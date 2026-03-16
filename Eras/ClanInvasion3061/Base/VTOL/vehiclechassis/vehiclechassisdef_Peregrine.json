@@ -4,8 +4,7 @@
       "PrefabID": "Peregrine",
       "Exclude": false,
       "Include": true
-    },
-    "CustomWeights": []
+    }
   },
   "CustomParts": {
     "AOEHeight": 45,
@@ -24,7 +23,7 @@
     "TieToGroundOnDeath": "true"
   },
   "Description": {
-    "Cost": 1477334,
+    "Cost": 1477333,
     "Rarity": 0,
     "Purchasable": false,
     "UIName": "Peregrine",

@@ -8,8 +8,8 @@
       "unit_lance_vanguard",
       "unit_hover",
       "unit_release",
-      "mr-resize-0.9",
       "unit_rarity_equipment_level_0",
+      "mr-resize-0.9",
       "AlyinaMercantileLeague",
       "clanbloodspirit",
       "clanburrock",
@@ -63,16 +63,16 @@
   },
   "ChassisID": "vehiclechassisdef_Saoirse",
   "Description": {
-    "Cost": 1804376,
+    "Cost": 1549733,
     "Rarity": 0,
     "Purchasable": false,
     "UIName": "Saoirse HCV",
     "Id": "vehicledef_Saoirse",
     "Name": "Saoirse HCV",
-    "Details": "Designed late in the Star League era, the Saoirse hovercraft did not survive the succession wars. What units weren’t taken by the departing SLDF were stripped for spare parts and the Saoirse would be come extinct by the 3rd succession war. A well armed and reasonably fast hover vehicle, the 35 ton Saoirse is capable of reaching speeds in excess of 120kph, courtesy of its 105 rated fusion engine. A Large Pulse Laser backed by a SRM-6 and an SSRM-2 provide for a dangerous short to medium range punch.\n\n<b><color=#ffcc00>Biome Restrictions: None.</color></b>\n\n<b><color=#ffcc00>Movement: 11/17 hexes / 330/510 meters.</color></b>\n\n<color=#ffcc00><b>Armor:</b> Ferro-Fibrous\n<b>Structure:</b> Structure\n<b>Values       A        S  </b>\n<b>Front</b>       120     20\n<b>Left</b>          80     20\n<b>Right</b>        80     20\n<b>Rear</b>         55     20\n\n<b>Total</b>      335     80</color>\n\n<color=#ff0000>Quirk: Narrow/Low Profile</color>",
+    "Details": "Designed late in the Star League era, the Saoirse hovercraft did not survive the succession wars. What units weren’t taken by the departing SLDF were stripped for spare parts and the Saoirse would be come extinct by the 3rd succession war. A well armed and reasonably fast hover vehicle, the 35 ton Saoirse is capable of reaching speeds in excess of 120kph, courtesy of its 105 rated fusion engine. A Large Pulse Laser backed by a SRM-6 and an SSRM-2 provide for a dangerous short to medium range punch.\n\n<b><color=#ffcc00>Biome Restrictions: None.</color></b>\n\n<b><color=#ffcc00>Movement: 8/12 hexes / 240/360 meters.</color></b>\n\n<color=#ffcc00><b>Armor:</b> Ferro-Fibrous\n<b>Structure:</b> Structure\n<b>Values       A        S  </b>\n<b>Front</b>        90     20\n<b>Left</b>          70     20\n<b>Right</b>        70     20\n<b>Rear</b>         55     20\n<b>Turret</b>       70     20\n\n<b>Total</b>      355    100</color>\n\n<color=#ff0000>Quirk: Improved Targeting - Medium</color>",
     "Icon": "uixTxrIcon_saoirsehovertank"
   },
-  "simGameMechPartCost": 320875,
+  "simGameMechPartCost": 255947,
   "Locations": [
     {
       "Location": "Front",
