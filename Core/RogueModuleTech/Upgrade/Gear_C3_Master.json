@@ -6,7 +6,8 @@
       }
     ],
     "BonusDescriptions": [
-      "C3Master"
+      "C3Master",
+      "ExplainC3"
     ],
     "Flags": [
       "not_broken"

@@ -13,7 +13,8 @@
       "C3BoostedSlave",
       "BoostedC3i",
       "C3Bonus: C3 Master/C3i, +10%, +5%, +2",
-      "C3BoostedBonus: C3 Boosted Master, +1"
+      "C3BoostedBonus: C3 Boosted Master, +1",
+      "ExplainC3"
     ],
     "Flags": [
       "not_broken",

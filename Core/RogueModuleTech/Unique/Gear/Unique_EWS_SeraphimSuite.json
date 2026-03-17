@@ -20,7 +20,8 @@
       "EWSSelf: 4, 4",
       "EWSProbe: 15%, 2, 3, 250",
       "SeraphimNetwork",
-      "C3BonusNoStack: Seraphim, +1 Evasion pips ignored & +1 Accuracy"
+      "C3BonusNoStack: Seraphim, +1 Evasion pips ignored & +1 Accuracy",
+      "ExplainC3"
     ],
     "Flags": [
       "not_broken",

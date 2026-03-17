@@ -19,7 +19,8 @@
       "NightVision",
       "DetectMine: 210",
       "C3BoostedSlave",
-      "BoostedC3i"
+      "BoostedC3i",
+      "ExplainC3"
     ],
     "Flags": [
       "no_salvage",

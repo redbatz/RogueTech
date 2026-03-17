@@ -23,7 +23,8 @@
       "EWSProbe: 15%, 1, 1, 300",
       "C3Slave",
       "C3i",
-      "C3BonusNoStack: C3i, +10% Called Shot location modifier"
+      "C3BonusNoStack: C3i, +10% Called Shot location modifier",
+      "ExplainC3"
     ],
     "Flags": [
       "default",

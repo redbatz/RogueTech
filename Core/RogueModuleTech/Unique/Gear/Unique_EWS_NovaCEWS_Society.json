@@ -20,7 +20,8 @@
       "EWSSelf: 1, 1",
       "EWSProbe: 18%, 1, 3, 210",
       "C3Nova",
-      "C3iBonus: Nova CEWS, +5%, +3%"
+      "C3iBonus: Nova CEWS, +5%, +3%",
+      "ExplainC3"
     ],
     "Flags": [
       "not_broken",

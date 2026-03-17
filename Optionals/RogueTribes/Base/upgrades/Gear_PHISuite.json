@@ -14,7 +14,8 @@
     "BonusDescriptions": [
       "PHI",
       "PHIBonus: +50% AA Factor, 3",
-      "PHIBonusNoStack: +1 Evasion Ignore"
+      "PHIBonusNoStack: +1 Evasion Ignore",
+      "ExplainC3"
     ],
     "Flags": [
       "not_broken"

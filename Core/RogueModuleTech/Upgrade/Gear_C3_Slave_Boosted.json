@@ -7,7 +7,8 @@
     ],
     "BonusDescriptions": [
       "C3BoostedSlave",
-      "C3BoostedBonus: C3 Boosted Master, +1"
+      "C3BoostedBonus: C3 Boosted Master, +1",
+      "ExplainC3"
     ],
     "Flags": [
       "not_broken"
