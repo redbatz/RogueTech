@@ -3,9 +3,9 @@
     "items": [
       "unit_vehicle",
       "unit_medium",
-      "unit_generic",
-      "unit_bracket_low",
-      "unit_lance_support",
+      "unit_advanced",
+      "unit_bracket_high",
+      "unit_lance_assassin",
       "unit_vtol",
       "unit_noconvoy",
       "unit_release",
@@ -15,99 +15,95 @@
       "unit_rarity_equipment_level_0",
       "NoBiome_lunarVacuum",
       "apply_bomb_drag_tag",
-      "mr-resize-1.50",
-      "taurianconcordat"
+      "mr-resize-1.30",
+      "magistracyofcanopus",
+      "MagistracyOfCanopus3150",
+      "GalateanLeague",
+      "locals"
     ],
     "tagSetSourceFile": ""
   },
-  "ChassisID": "vehiclechassisdef_Orestes",
+  "ChassisID": "vehiclechassisdef_Trask",
   "Description": {
-    "Cost": 1068467,
+    "Cost": 1766333,
     "Rarity": 0,
     "Purchasable": false,
-    "UIName": "Orestes",
-    "Id": "vehicledef_Orestes",
-    "Name": "Orestes",
-    "Details": "Designed in 3032, the Orestes is a cheap to produce support VTOL, developed to diversify the Taurian Defense Forces VTOL roster with a home grown design. A 20 ton VTOL, the Orestes is powered by a 105 rated fusion engine and armed with paired Machine Guns and LRM-5s.\n\n<b><color=#ffcc00>Biome Restrictions: This unit can not deploy in Lunar biomes.</color></b>\n\n<b><color=#ffcc00>Movement: 10/15 hexes / 300/450 meters.</color></b>\n\n<color=#ffcc00><b>Armor:</b> Armor\n<b>Structure:</b> Structure\n<b>Values       A        S  </b>\n<b>Front</b>        75     10\n<b>Left</b>          60     10\n<b>Right</b>        60     10\n<b>Rear</b>         50     10\n\n<b>Total</b>      255     50</color>\n\n<color=#ff0000>Quirk: Missile Jammer</color>",
-    "Icon": "uixTxrIcon_orestesattackhelicopter"
+    "UIName": "Trask TSK-01",
+    "Id": "vehicledef_Trask",
+    "Name": "Trask TSK-01",
+    "Details": "Developed by Rileys Rangers as an in house attack helicopter, the Trask proved successful enough that large quantities were sold to the Cannopian armed forces and other mercenary groups. A 30 ton VTOL, the Trask can reach speeds of 160kph, thanks to its 160 rated XL engine; while 5 tons of heavy ferro-fibrous armor provide heavy protection. The Trask TSK-01 is armed with a Medium X-Pulse Laser and a pair of Streak SRM-6's.\n\n<b><color=#ffcc00>Biome Restrictions: This unit can not deploy in Lunar biomes.</color></b>\n\n<b><color=#ffcc00>Movement: 6/9 hexes / 180/270 meters.</color></b>\n\n<color=#ffcc00><b>Armor:</b> Reactive Plating\n<b>Structure:</b> Structure\n<b>Values       A        S  </b>\n<b>Front</b>        95     15\n<b>Left</b>          75     15\n<b>Right</b>        75     15\n<b>Rear</b>         60     15\n\n<b>Total</b>      320     75</color>\n\n<color=#ff0000>Quirk: Improved Targeting - Medium</color>",
+    "Icon": "uixTxrIcon_traskattackhelicopter"
   },
-  "simGameMechPartCost": 199693,
+  "simGameMechPartCost": 230667,
   "Locations": [
     {
       "Location": "Front",
-      "CurrentArmor": 75,
-      "CurrentInternalStructure": 10,
-      "AssignedArmor": 75,
+      "CurrentArmor": 150,
+      "CurrentInternalStructure": 15,
+      "AssignedArmor": 150,
       "DamageLevel": "Functional"
     },
     {
       "Location": "Left",
-      "CurrentArmor": 60,
-      "CurrentInternalStructure": 10,
-      "AssignedArmor": 60,
+      "CurrentArmor": 120,
+      "CurrentInternalStructure": 15,
+      "AssignedArmor": 120,
       "DamageLevel": "Functional"
     },
     {
       "Location": "Right",
-      "CurrentArmor": 60,
-      "CurrentInternalStructure": 10,
-      "AssignedArmor": 60,
+      "CurrentArmor": 120,
+      "CurrentInternalStructure": 15,
+      "AssignedArmor": 120,
       "DamageLevel": "Functional"
     },
     {
       "Location": "Rear",
-      "CurrentArmor": 50,
-      "CurrentInternalStructure": 10,
-      "AssignedArmor": 50,
+      "CurrentArmor": 95,
+      "CurrentInternalStructure": 15,
+      "AssignedArmor": 95,
       "DamageLevel": "Functional"
     },
     {
       "Location": "Turret",
-      "CurrentArmor": 10,
-      "CurrentInternalStructure": 10,
-      "AssignedArmor": 10,
+      "CurrentArmor": 15,
+      "CurrentInternalStructure": 15,
+      "AssignedArmor": 15,
       "DamageLevel": "Functional"
     }
   ],
   "inventory": [
     {
       "MountedLocation": "Front",
-      "ComponentDefID": "Weapon_MachineGun",
-      "ComponentDefType": "Weapon",
-      "HardpointSlot": 0,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "Front",
-      "ComponentDefID": "Weapon_MachineGun",
+      "ComponentDefID": "Weapon_Laser_XPulse_Medium",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
       "DamageLevel": "Functional"
     },
     {
       "MountedLocation": "Left",
-      "ComponentDefID": "Weapon_LRM_5",
+      "ComponentDefID": "Weapon_SRM_6_Streak",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
       "DamageLevel": "Functional"
     },
     {
       "MountedLocation": "Right",
-      "ComponentDefID": "Weapon_LRM_5",
+      "ComponentDefID": "Weapon_SRM_6_Streak",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
       "DamageLevel": "Functional"
     },
     {
       "MountedLocation": "Rear",
-      "ComponentDefID": "Ammo_AmmunitionBox_MachineGun_Half",
+      "ComponentDefID": "Ammo_AmmunitionBox_SRM_Streak",
       "ComponentDefType": "AmmunitionBox",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
     },
     {
       "MountedLocation": "Rear",
-      "ComponentDefID": "Ammo_AmmunitionBox_LRM",
+      "ComponentDefID": "Ammo_AmmunitionBox_SRM_Streak",
       "ComponentDefType": "AmmunitionBox",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
@@ -135,13 +131,6 @@
     },
     {
       "MountedLocation": "Rear",
-      "ComponentDefID": "Default_Armor_Standard",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "Rear",
       "ComponentDefID": "Default_Structure_Standard",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
@@ -149,7 +138,13 @@
     },
     {
       "MountedLocation": "Rear",
-      "ComponentDefID": "Quirk_MissileJammer",
+      "ComponentDefID": "Gear_Armor_HeavyFerroFibrous",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1
+    },
+    {
+      "MountedLocation": "Rear",
+      "ComponentDefID": "Quirk_ImprovedTargeting_Medium",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
@@ -162,50 +157,50 @@
       "DamageLevel": "Functional"
     },
     {
+      "MountedLocation": "Left",
+      "ComponentDefID": "Gear_HeatSink_Single",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Left",
+      "ComponentDefID": "Gear_HeatSink_Single",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Right",
+      "ComponentDefID": "Gear_HeatSink_Single",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Right",
+      "ComponentDefID": "Gear_HeatSink_Single",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
       "MountedLocation": "Rear",
-      "ComponentDefID": "Gear_EngineCore_105",
+      "ComponentDefID": "Gear_EngineCore_160",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
     },
     {
       "MountedLocation": "Left",
-      "ComponentDefID": "Gear_HeatSink_Single",
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "Left",
-      "ComponentDefID": "Gear_HeatSink_Single",
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "Left",
-      "ComponentDefID": "Gear_HeatSink_Single",
+      "ComponentDefID": "Linked_Engine_Size_3",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
     },
     {
       "MountedLocation": "Right",
-      "ComponentDefID": "Gear_HeatSink_Single",
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "Right",
-      "ComponentDefID": "Gear_HeatSink_Single",
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "Right",
-      "ComponentDefID": "Gear_HeatSink_Single",
+      "ComponentDefID": "Linked_Engine_Size_3",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
@@ -219,7 +214,7 @@
     },
     {
       "MountedLocation": "Rear",
-      "ComponentDefID": "Gear_Engine_Standard",
+      "ComponentDefID": "Gear_Engine_XL",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"

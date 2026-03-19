@@ -2,9 +2,9 @@
   "VehicleTags": {
     "items": [
       "unit_vehicle",
-      "unit_medium",
-      "unit_generic",
-      "unit_bracket_low",
+      "unit_assault",
+      "unit_advanced",
+      "unit_bracket_med",
       "unit_lance_support",
       "unit_vtol",
       "unit_noconvoy",
@@ -15,99 +15,135 @@
       "unit_rarity_equipment_level_0",
       "NoBiome_lunarVacuum",
       "apply_bomb_drag_tag",
-      "mr-resize-1.50",
-      "taurianconcordat"
+      "mr-resize-1.08",
+      "magistracyofcanopus",
+      "MagistracyOfCanopus3150"
     ],
     "tagSetSourceFile": ""
   },
-  "ChassisID": "vehiclechassisdef_Orestes",
+  "ChassisID": "vehiclechassisdef_kossandra",
   "Description": {
-    "Cost": 1068467,
+    "Cost": 3866473,
     "Rarity": 0,
     "Purchasable": false,
-    "UIName": "Orestes",
-    "Id": "vehicledef_Orestes",
-    "Name": "Orestes",
-    "Details": "Designed in 3032, the Orestes is a cheap to produce support VTOL, developed to diversify the Taurian Defense Forces VTOL roster with a home grown design. A 20 ton VTOL, the Orestes is powered by a 105 rated fusion engine and armed with paired Machine Guns and LRM-5s.\n\n<b><color=#ffcc00>Biome Restrictions: This unit can not deploy in Lunar biomes.</color></b>\n\n<b><color=#ffcc00>Movement: 10/15 hexes / 300/450 meters.</color></b>\n\n<color=#ffcc00><b>Armor:</b> Armor\n<b>Structure:</b> Structure\n<b>Values       A        S  </b>\n<b>Front</b>        75     10\n<b>Left</b>          60     10\n<b>Right</b>        60     10\n<b>Rear</b>         50     10\n\n<b>Total</b>      255     50</color>\n\n<color=#ff0000>Quirk: Missile Jammer</color>",
-    "Icon": "uixTxrIcon_orestesattackhelicopter"
+    "UIName": "Kossandra Gunship",
+    "Id": "vehicledef_kossandra",
+    "Name": "Kossandra Gunship",
+    "Details": "A Dark Age VTOL, the Kossandra is named in honor of the founder of the Magistracy. Classified as a superheavy VTOL, the Kossandra weights 60 tons, with a top speed of just shy of 100kph. A pair of UAC/5s and 6 RL-10s give the Kossandra plenty of firepower.\n\n<b><color=#ffcc00>Biome Restrictions: This unit can not deploy in Lunar biomes.</color></b>\n\n<b><color=#ffcc00>Movement: 6/9 hexes / 180/270 meters.</color></b>\n\n<color=#ffcc00><b>Armor:</b> Armor\n<b>Structure:</b> Structure\n<b>Values       A        S  </b>\n<b>Front</b>       130     36\n<b>Left</b>         115     36\n<b>Right</b>       115     36\n<b>Rear</b>         90     36\n<b>Turret</b>       25     36\n\n<b>Total</b>      475    180</color>\n\n<color=#ff0000>Quirk: Rugged</color>",
+    "Icon": "uixTxrIcon_kossandragunship"
   },
-  "simGameMechPartCost": 199693,
+  "simGameMechPartCost": 606695,
   "Locations": [
     {
       "Location": "Front",
-      "CurrentArmor": 75,
-      "CurrentInternalStructure": 10,
-      "AssignedArmor": 75,
+      "CurrentArmor": 215,
+      "CurrentInternalStructure": 36,
+      "AssignedArmor": 215,
       "DamageLevel": "Functional"
     },
     {
       "Location": "Left",
-      "CurrentArmor": 60,
-      "CurrentInternalStructure": 10,
-      "AssignedArmor": 60,
+      "CurrentArmor": 175,
+      "CurrentInternalStructure": 36,
+      "AssignedArmor": 175,
       "DamageLevel": "Functional"
     },
     {
       "Location": "Right",
-      "CurrentArmor": 60,
-      "CurrentInternalStructure": 10,
-      "AssignedArmor": 60,
+      "CurrentArmor": 175,
+      "CurrentInternalStructure": 36,
+      "AssignedArmor": 175,
       "DamageLevel": "Functional"
     },
     {
       "Location": "Rear",
-      "CurrentArmor": 50,
-      "CurrentInternalStructure": 10,
-      "AssignedArmor": 50,
+      "CurrentArmor": 140,
+      "CurrentInternalStructure": 36,
+      "AssignedArmor": 140,
       "DamageLevel": "Functional"
     },
     {
       "Location": "Turret",
-      "CurrentArmor": 10,
-      "CurrentInternalStructure": 10,
-      "AssignedArmor": 10,
+      "CurrentArmor": 25,
+      "CurrentInternalStructure": 36,
+      "AssignedArmor": 25,
       "DamageLevel": "Functional"
     }
   ],
   "inventory": [
     {
-      "MountedLocation": "Front",
-      "ComponentDefID": "Weapon_MachineGun",
-      "ComponentDefType": "Weapon",
-      "HardpointSlot": 0,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "Front",
-      "ComponentDefID": "Weapon_MachineGun",
+      "MountedLocation": "Left",
+      "ComponentDefID": "Weapon_Autocannon_UAC_5",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
       "DamageLevel": "Functional"
     },
     {
       "MountedLocation": "Left",
-      "ComponentDefID": "Weapon_LRM_5",
+      "ComponentDefID": "Weapon_Rocket_10",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Left",
+      "ComponentDefID": "Weapon_Rocket_10",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Left",
+      "ComponentDefID": "Weapon_Rocket_10",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
       "DamageLevel": "Functional"
     },
     {
       "MountedLocation": "Right",
-      "ComponentDefID": "Weapon_LRM_5",
+      "ComponentDefID": "Weapon_Autocannon_UAC_5",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Right",
+      "ComponentDefID": "Weapon_Rocket_10",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Right",
+      "ComponentDefID": "Weapon_Rocket_10",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Right",
+      "ComponentDefID": "Weapon_Rocket_10",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
       "DamageLevel": "Functional"
     },
     {
       "MountedLocation": "Rear",
-      "ComponentDefID": "Ammo_AmmunitionBox_MachineGun_Half",
+      "ComponentDefID": "Ammo_AmmunitionBox_UAC_5",
       "ComponentDefType": "AmmunitionBox",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
     },
     {
       "MountedLocation": "Rear",
-      "ComponentDefID": "Ammo_AmmunitionBox_LRM",
+      "ComponentDefID": "Ammo_AmmunitionBox_UAC_5",
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Rear",
+      "ComponentDefID": "Ammo_AmmunitionBox_UAC_5",
       "ComponentDefType": "AmmunitionBox",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
@@ -134,8 +170,22 @@
       "DamageLevel": "Functional"
     },
     {
+      "MountedLocation": "Front",
+      "ComponentDefID": "Gear_Searchlight",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Front",
+      "ComponentDefID": "Gear_Vehicle_Turret_VTOLChin",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
       "MountedLocation": "Rear",
-      "ComponentDefID": "Default_Armor_Standard",
+      "ComponentDefID": "Gear_Armor_FerroFibrous",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
@@ -149,7 +199,7 @@
     },
     {
       "MountedLocation": "Rear",
-      "ComponentDefID": "Quirk_MissileJammer",
+      "ComponentDefID": "Quirk_Rugged",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
@@ -162,13 +212,6 @@
       "DamageLevel": "Functional"
     },
     {
-      "MountedLocation": "Rear",
-      "ComponentDefID": "Gear_EngineCore_105",
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
       "MountedLocation": "Left",
       "ComponentDefID": "Gear_HeatSink_Single",
       "ComponentDefType": "HeatSink",
@@ -177,20 +220,6 @@
     },
     {
       "MountedLocation": "Left",
-      "ComponentDefID": "Gear_HeatSink_Single",
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "Left",
-      "ComponentDefID": "Gear_HeatSink_Single",
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "Right",
       "ComponentDefID": "Gear_HeatSink_Single",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
@@ -212,7 +241,14 @@
     },
     {
       "MountedLocation": "Rear",
-      "ComponentDefID": "Gear_Vehicle_EngineCooling_CoolantSystem",
+      "ComponentDefID": "Gear_HeatSink_Single",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Rear",
+      "ComponentDefID": "Gear_EngineCore_130",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
@@ -220,6 +256,13 @@
     {
       "MountedLocation": "Rear",
       "ComponentDefID": "Gear_Engine_Standard",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Rear",
+      "ComponentDefID": "Gear_Vehicle_EngineCooling_CoolantSystem",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
