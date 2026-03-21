@@ -178,13 +178,6 @@
       "DamageLevel": "Functional"
     },
     {
-      "MountedLocation": "Front",
-      "ComponentDefID": "Gear_Vehicle_Turret_VTOLChin",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
       "MountedLocation": "Rear",
       "ComponentDefID": "Gear_Armor_FerroFibrous",
       "ComponentDefType": "Upgrade",
