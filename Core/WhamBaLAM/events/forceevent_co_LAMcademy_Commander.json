@@ -1,6 +1,6 @@
 {
   "Description": {
-    "Id": "event_co_LAMcademy_Commander",
+    "Id": "forceevent_co_LAMcademy_Commander",
     "Name": "Highway to the Danger Zone!",
     "Details": "A knock sounds on your office door and you call out, \"Come in...\"\r\n\r\nThe door opens and Darius strides and hands you a datapad, \"Commander, your aptitude test to attend <i>Wham-Ba-LAM</i>'s LAMcademy [[DM.BaseDescriptionDefs[LoreLAM],LAM]] piloting school has come back.  Everything appears in order, you just need to fill out and sign that indemnity form on the screen, hit the submit button and you should get information on when you need to be at the LAMcademy.\"",
     "Icon": "uixTxrSpot_LAMDangerZone.png"
