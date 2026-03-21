@@ -1,12 +1,12 @@
 {
   "Description": {
-    "Id": "forceevent_co_LAM_Death",
+    "Id": "event_co_LAM_Death",
     "Name": "Crash n Burn",
     "Details": "A knock sounds on your office door and you call out, \"Come in...\"\r\n\r\nThe door opens and Darius strides in with a somber look on his face, \"Commander, we were just unloading the cargo from one of our supply runs, and I noticed the coffin containing the body of [[SCN_MW,{SCN_MW.Callsign}]] was on the manifest.\"\r\n\r\nYou slump back in your chair, \"What?!?  No way... what happened?\"\r\n\r\nDarius sighs, \"According to the attached holovid recording, [[SCN_MW,{SCN_MW.Callsign}]] attempted a radical maneuver to try and take out their assigned drone target.  Unfortunately, it ended up with their LAM slamming into a radio tower.  They died instantly.  How do you want to proceed?\"",
     "Icon": "uixTxrSpot_LAMCrashBurn.png"
   },
   "Scope": "Company",
-  "Weight": 10,
+  "Weight": 10000,
   "Requirements": {
     "Scope": "Company",
     "RequirementTags": {
@@ -14,9 +14,25 @@
       "tagSetSourceFile": ""
     },
     "ExclusionTags": {
-      "items": [],
+      "items": [
+        "LAM_School_Delay"
+      ],
       "tagSetSourceFile": ""
-    }
+    },
+    "RequirementComparisons": [
+      {
+        "obj": "LAMPilotEnrolled",
+        "op": "Equal",
+        "val": 1,
+        "valueConstant": "1"
+      },
+      {
+        "obj": "PilotLAM",
+        "op": "Equal",
+        "val": 3,
+        "valueConstant": "3"
+      }
+    ]
   },
   "AdditionalRequirements": [],
   "AdditionalObjects": [
@@ -26,7 +42,9 @@
         "Scope": "SecondaryMechWarrior",
         "RequirementTags": {
           "items": [
-            "pilot_LAM_School"
+            "pilot_LAM_School",
+            "pilot_pilotTraining",
+            "pilot_unavailable"
           ],
           "tagSetSourceFile": ""
         },
@@ -38,10 +56,10 @@
         },
         "RequirementComparisons": [
           {
-            "obj": "PilotLAM",
+            "obj": "Injuries",
             "op": "Equal",
-            "val": 1,
-            "valueConstant": "1"
+            "val": 0,
+            "valueConstant": "0"
           }
         ]
       }
@@ -59,7 +77,9 @@
           "Scope": "SecondaryMechWarrior",
           "RequirementTags": {
             "items": [
-              "pilot_LAM_School"
+              "pilot_LAM_School",
+              "pilot_pilotTraining",
+              "pilot_unavailable"
             ],
             "tagSetSourceFile": ""
           },
@@ -86,7 +106,9 @@
               },
               "RemovedTags": {
                 "items": [
-                  "pilot_LAM_School"
+                  "pilot_LAM_School",
+                  "pilot_pilotTraining",
+                  "pilot_unavailable"
                 ],
                 "tagSetSourceFile": ""
               },
@@ -125,8 +147,16 @@
                   "name": "LAMPilotEnrolled",
                   "value": "0",
                   "set": true
+                },
+                {
+                  "typeString": "System.Int32",
+                  "name": "PilotLAM",
+                  "value": "0",
+                  "set": true
                 }
               ],
+              "Actions": [],
+              "ForceEvents": [],
               "TemporaryResult": false,
               "ResultDuration": 0
             }
@@ -157,6 +187,8 @@
           "RequirementTags": {
             "items": [
               "pilot_LAM_School",
+              "pilot_pilotTraining",
+              "pilot_unavailable",
               "pilot_spacer"
             ],
             "tagSetSourceFile": ""
@@ -184,7 +216,9 @@
               },
               "RemovedTags": {
                 "items": [
-                  "pilot_LAM_School"
+                  "pilot_LAM_School",
+                  "pilot_pilotTraining",
+                  "pilot_unavailable"
                 ],
                 "tagSetSourceFile": ""
               },
@@ -198,6 +232,7 @@
                   ]
                 }
               ],
+              "ForceEvents": [],
               "TemporaryResult": false,
               "ResultDuration": 0
             },
@@ -223,8 +258,16 @@
                   "name": "LAMPilotEnrolled",
                   "value": "0",
                   "set": true
+                },
+                {
+                  "typeString": "System.Int32",
+                  "name": "PilotLAM",
+                  "value": "0",
+                  "set": true
                 }
               ],
+              "Actions": [],
+              "ForceEvents": [],
               "TemporaryResult": false,
               "ResultDuration": 0
             }
@@ -267,7 +310,9 @@
               },
               "RemovedTags": {
                 "items": [
-                  "pilot_LAM_School"
+                  "pilot_LAM_School",
+                  "pilot_pilotTraining",
+                  "pilot_unavailable"
                 ],
                 "tagSetSourceFile": ""
               },
@@ -306,6 +351,12 @@
                   "name": "LAMPilotEnrolled",
                   "value": "0",
                   "set": true
+                },
+                {
+                  "typeString": "System.Int32",
+                  "name": "PilotLAM",
+                  "value": "0",
+                  "set": true
                 }
               ],
               "TemporaryResult": false,
@@ -329,7 +380,7 @@
   ],
   "PublishState": "PUBLISHED",
   "ValidationState": "UNTESTED",
-  "EventType": "UNSELECTABLE",
+  "EventType": "NORMAL",
   "OneTimeEvent": false,
   "Tags": {
     "items": [],

@@ -1,17 +1,19 @@
 {
   "Description": {
-    "Id": "forceevent_co_VTOL_Passed_Commander",
+    "Id": "event_co_VTOL_Passed_Commander",
     "Name": "That's What I'm Talkin' 'Bout!",
     "Details": "As the shuttle docks with the <i>Argo</i>, you wait impatiently for the techs to lower the disembarkation ramp.  The moment it is safe, you leap from your seat and head onto the deck of the <i>Argo</i>.  You see Darius waiting for you off to the side and head over towards him with a big smile on your face.\r\n. \r\nAs you approach, Darius pipes up, \"I take it you passed, Commander?\"\r\n\r\nYou grin widely, \"No, I'm just happy to see your ugly face,\"  You slap Darius on the shoulder as you continue, \"You bet your ass i did, Darius!  Wow! What a blast that was!  I never knew how exhilarating flying could be.\"\r\n\r\nDarius smiles and hands you a datapad, \"Well, it appears that <i>Air Today, Gone Tomorrow</i> has offered to sell you one of the [[DM.BaseDescriptionDefs[LoreRipperVTOL],Ripper VTOLs]] that you flew your training in.  The details are all there in this datafile they sent over.  And good to have you back, Commander.\"",
     "Icon": "uixTxrSpot_VTOLGrad.png"
   },
   "Scope": "Commander",
-  "Weight": 10,
+  "Weight": 10000,
   "Requirements": {
     "Scope": "Commander",
     "RequirementTags": {
       "items": [
-        "pilot_VTOL_School"
+        "pilot_VTOL_School",
+        "pilot_pilotTraining",
+        "pilot_unavailable"
       ],
       "tagSetSourceFile": ""
     },
@@ -27,16 +29,38 @@
         "op": "Equal",
         "val": 0,
         "valueConstant": "0"
-      },
-      {
-        "obj": "CommanderVTOL",
-        "op": "LessThanOrEqual",
-        "val": 0,
-        "valueConstant": "0"
       }
     ]
   },
-  "AdditionalRequirements": [],
+  "AdditionalRequirements": [
+    {
+      "Scope": "Company",
+      "RequirementTags": {
+        "items": [],
+        "tagSetSourceFile": ""
+      },
+      "ExclusionTags": {
+        "items": [
+          "VTOL_School_Delay"
+        ],
+        "tagSetSourceFile": "Tags/CompanyTags"
+      },
+      "RequirementComparisons": [
+        {
+          "obj": "PilotEnrolled",
+          "op": "Equal",
+          "val": 1,
+          "valueConstant": "1"
+        },
+        {
+          "obj": "CommanderVTOL",
+          "op": "Equal",
+          "val": 1,
+          "valueConstant": "1"
+        }
+      ]
+    }
+  ],
   "AdditionalObjects": [],
   "Options": [
     {
@@ -77,18 +101,13 @@
               },
               "RemovedTags": {
                 "items": [
-                  "pilot_VTOL_School"
+                  "pilot_VTOL_School",
+                  "pilot_pilotTraining",
+                  "pilot_unavailable"
                 ],
                 "tagSetSourceFile": ""
               },
-              "Stats": [
-                {
-                  "typeString": "System.Int32",
-                  "name": "CommanderVTOL",
-                  "value": "1",
-                  "set": true
-                }
-              ],
+              "Stats": [],
               "TemporaryResult": false,
               "ResultDuration": 0
             },
@@ -107,6 +126,12 @@
                   "typeString": "System.Int32",
                   "name": "PilotEnrolled",
                   "value": "0",
+                  "set": true
+                },
+                {
+                  "typeString": "System.Int32",
+                  "name": "CommanderVTOL",
+                  "value": "4",
                   "set": true
                 }
               ],
@@ -139,7 +164,9 @@
           "Scope": "Commander",
           "RequirementTags": {
             "items": [
-              "pilot_VTOL_School"
+              "pilot_VTOL_School",
+              "pilot_pilotTraining",
+              "pilot_unavailable"
             ],
             "tagSetSourceFile": ""
           },
@@ -147,14 +174,7 @@
             "items": [],
             "tagSetSourceFile": ""
           },
-          "RequirementComparisons": [
-            {
-              "obj": "CommanderVTOL",
-              "op": "LessThanOrEqual",
-              "val": 0,
-              "valueConstant": "0"
-            }
-          ]
+          "RequirementComparisons": []
         },
         {
           "Scope": "Company",
@@ -172,6 +192,12 @@
               "op": "GreaterThanOrEqual",
               "val": 750000,
               "valueConstant": "750000"
+            },
+            {
+              "obj": "CommanderVTOL",
+              "op": "Equal",
+              "val": 4,
+              "valueConstant": "4"
             }
           ]
         }
@@ -196,18 +222,13 @@
               },
               "RemovedTags": {
                 "items": [
-                  "pilot_VTOL_School"
+                  "pilot_VTOL_School",
+                  "pilot_pilotTraining",
+                  "pilot_unavailable"
                 ],
                 "tagSetSourceFile": ""
               },
-              "Stats": [
-                {
-                  "typeString": "System.Int32",
-                  "name": "CommanderVTOL",
-                  "value": "1",
-                  "set": true
-                }
-              ],
+              "Stats": [],
               "TemporaryResult": false,
               "ResultDuration": 0
             },
@@ -232,6 +253,12 @@
                   "typeString": "System.Int32",
                   "name": "PilotEnrolled",
                   "value": "0",
+                  "set": true
+                },
+                {
+                  "typeString": "System.Int32",
+                  "name": "CommanderVTOL",
+                  "value": "4",
                   "set": true
                 }
               ],
@@ -264,7 +291,7 @@
   ],
   "PublishState": "PUBLISHED",
   "ValidationState": "UNTESTED",
-  "EventType": "UNSELECTABLE",
+  "EventType": "NORMAL",
   "OneTimeEvent": false,
   "Tags": {
     "items": [],

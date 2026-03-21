@@ -1,58 +1,67 @@
 {
   "Description": {
-    "Id": "forceevent_co_VTOL_Injured",
+    "Id": "event_co_LAM_Injured_Commander",
     "Name": "You Should See the Other Pilot!",
-    "Details": "A knock sounds on your office door and you call out, \"Come in...\"\r\n\r\nThe door opens and Darius strides in, \"Commander, I have good news, and bad news.  The good news is [[SCN_MW,{SCN_MW.Callsign}]] passed their training and are now fully qualified to fly pretty much any VTOL out there.\"\r\n\r\nYou smile, \"That's great, now what's the bad news?\"\r\n\r\nDarius grimaces, \"During the course of the flight tests, they suffered some injuries and will be out of action for some time.  We can speed up their recovery time if we allocate a medical team specificly to look after them.\"",
-    "Icon": "uixTxrSpot_VTOLGrad.png"
+    "Details": "Darius watches as the shuttle docks with the <i>Argo</i>.  It's been a long haul with the Commander away at LAM training, so hopefully with their arrival back on board things can get back to normal.\r\n\r\nA MedTech disembarks the shuttle and heads over to Darius, \"Are you Darius, XO of the <i>Argo</i>?\"\r\n\r\nDarius nods, \"Affirmative.  How can I help you?\"\r\n\r\nThe MedTech shoves a datapad at Darius, \"Sign here, please.  He's all yours now.\"\r\n\r\nDarius looks down at the datapad and sees a release form for a wounded passenger being transported to the <i>Argo</i>: Commander {COMMANDER.FirstName} {COMMANDER.LastName}, wounded during LAM Flight Training; Current Status: Stable, \"What the hell happened?\"\r\n\r\nThe MedTech shrugs, \"Can't really say, sir.  Scuttlebutt has it that your commander tried to outmanuever one of the other cadets in an attempt at top marks or something, and there was a mid-air collision.  Pretty lucky to be alive if you ask me.  In any event, I was instructed to get them safely here, and I have done that.  Now it's up to you to nurse them back to full health.\"\r\n\r\nDarius signs the release form as a hover-gurney floats over with the Commander strapped in, obviously drugged to the max,  Darius pulls a paper free that was clutched in their hand.  Reading it, it would appear the Commander at least passed their training, just not in one piece.\r\n\r\nAn <i>Argo</i> MedTech handling the hover-gurney speaks up, \"Uh, sir... where shall I take the Commander?\"",
+    "Icon": "uixTxrSpot_LAMGrad.png"
   },
-  "Scope": "Company",
-  "Weight": 10,
+  "Scope": "Commander",
+  "Weight": 10000,
   "Requirements": {
-    "Scope": "Company",
+    "Scope": "Commander",
     "RequirementTags": {
-      "items": [],
+      "items": [
+        "pilot_LAM_School",
+        "pilot_pilotTraining",
+        "pilot_unavailable"
+      ],
       "tagSetSourceFile": ""
     },
     "ExclusionTags": {
-      "items": [],
+      "items": [
+        "can_pilot_landairmech"
+      ],
       "tagSetSourceFile": ""
-    }
-  },
-  "AdditionalRequirements": [],
-  "AdditionalObjects": [
-    {
-      "Scope": "SecondaryMechWarrior",
-      "Requirements": {
-        "Scope": "SecondaryMechWarrior",
-        "RequirementTags": {
-          "items": [
-            "pilot_VTOL_School"
-          ],
-          "tagSetSourceFile": ""
-        },
-        "ExclusionTags": {
-          "items": [
-            "can_pilot_vtol"
-          ],
-          "tagSetSourceFile": "Tags/PilotTags"
-        },
-        "RequirementComparisons": [
-          {
-            "obj": "Injuries",
-            "op": "Equal",
-            "val": 0,
-            "valueConstant": "0"
-          },
-          {
-            "obj": "PilotVTOL",
-            "op": "Equal",
-            "val": 1,
-            "valueConstant": "1"
-          }
-        ]
+    },
+    "RequirementComparisons": [
+      {
+        "obj": "Injuries",
+        "op": "Equal",
+        "val": 0,
+        "valueConstant": "0"
       }
+    ]
+  },
+  "AdditionalRequirements": [
+    {
+      "Scope": "Company",
+      "RequirementTags": {
+        "items": [],
+        "tagSetSourceFile": "Tags/CompanyTags"
+      },
+      "ExclusionTags": {
+        "items": [
+          "LAM_School_Delay"
+        ],
+        "tagSetSourceFile": ""
+      },
+      "RequirementComparisons": [
+        {
+          "obj": "CommanderVTOL",
+          "op": "Equal",
+          "val": 2,
+          "valueConstant": "2"
+        },
+        {
+          "obj": "LAMPilotEnrolled",
+          "op": "Equal",
+          "val": 1,
+          "valueConstant": "1"
+        }
+      ]
     }
   ],
+  "AdditionalObjects": [],
   "Options": [
     {
       "Description": {
@@ -62,7 +71,7 @@
       },
       "RequirementList": [
         {
-          "Scope": "SecondaryMechWarrior",
+          "Scope": "Commander",
           "RequirementTags": {
             "items": [],
             "tagSetSourceFile": ""
@@ -78,32 +87,27 @@
           "Description": {
             "Id": "outcome_0_0",
             "Name": "Heal Naturally",
-            "Details": "You look at Darius calmly, \"Whilst I would love to spend the resources to try and expedite [[SCN_MW,{SCN_MW.Callsign}]]'s recovery time, we just cannot afford to do so at this time.  They'll just have to accept the standard treatment the rest of the crew gets.\"\r\n\r\nDarius nods, \"Understood Commander.  I'll have them allocated a standard medical bed for recovery.\""
+            "Details": "Darius looks at the MedTech calmly, \"Whilst I would love to spend the Company's resources to try and expedite the Commander's recovery time, we just cannot afford to do so at this time.  They'll just have to accept the standard treatment the rest of the crew gets.\"\r\n\r\nThe MedTech nods, \"Understood.  I'll will allocate the Commander a standard medical bed for recovery.\""
           },
           "Weight": 25,
           "Results": [
             {
-              "Scope": "SecondaryMechWarrior",
+              "Scope": "Commander",
               "AddedTags": {
                 "items": [
-                  "can_pilot_vtol"
+                  "can_pilot_landairmech"
                 ],
                 "tagSetSourceFile": ""
               },
               "RemovedTags": {
                 "items": [
-                  "pilot_VTOL_School"
+                  "pilot_LAM_School",
+                  "pilot_pilotTraining",
+                  "pilot_unavailable"
                 ],
                 "tagSetSourceFile": ""
               },
-              "Stats": [
-                {
-                  "typeString": "System.Int32",
-                  "name": "PilotVTOL",
-                  "value": "2",
-                  "set": true
-                }
-              ],
+              "Stats": [],
               "Actions": [
                 {
                   "Type": "MechWarrior_SetTimeout",
@@ -128,8 +132,14 @@
               "Stats": [
                 {
                   "typeString": "System.Int32",
-                  "name": "PilotEnrolled",
+                  "name": "LAMPilotEnrolled",
                   "value": "0",
+                  "set": true
+                },
+                {
+                  "typeString": "System.Int32",
+                  "name": "CommanderLAM",
+                  "value": "4",
                   "set": true
                 }
               ],
@@ -142,32 +152,27 @@
           "Description": {
             "Id": "outcome_0_1",
             "Name": "Heal Naturally",
-            "Details": "You look at Darius calmly, \"Whilst I would love to spend the resources to try and expedite [[SCN_MW,{SCN_MW.Callsign}]]'s recovery time, we just cannot afford to do so at this time.  They'll just have to accept the standard treatment the rest of the crew gets.\"\r\n\r\nDarius nods, \"Understood Commander.  I'll have them allocated a standard medical bed for recovery.\""
+            "Details": "Darius looks at the MedTech calmly, \"Whilst I would love to spend the Company's resources to try and expedite the Commander's recovery time, we just cannot afford to do so at this time.  They'll just have to accept the standard treatment the rest of the crew gets.\"\r\n\r\nThe MedTech nods, \"Understood.  I'll will allocate the Commander a standard medical bed for recovery.\""
           },
           "Weight": 25,
           "Results": [
             {
-              "Scope": "SecondaryMechWarrior",
+              "Scope": "Commander",
               "AddedTags": {
                 "items": [
-                  "can_pilot_vtol"
+                  "can_pilot_landairmech"
                 ],
                 "tagSetSourceFile": ""
               },
               "RemovedTags": {
                 "items": [
-                  "pilot_VTOL_School"
+                  "pilot_LAM_School",
+                  "pilot_pilotTraining",
+                  "pilot_unavailable"
                 ],
                 "tagSetSourceFile": ""
               },
-              "Stats": [
-                {
-                  "typeString": "System.Int32",
-                  "name": "PilotVTOL",
-                  "value": "2",
-                  "set": true
-                }
-              ],
+              "Stats": [],
               "Actions": [
                 {
                   "Type": "MechWarrior_SetTimeout",
@@ -192,8 +197,14 @@
               "Stats": [
                 {
                   "typeString": "System.Int32",
-                  "name": "PilotEnrolled",
+                  "name": "LAMPilotEnrolled",
                   "value": "0",
+                  "set": true
+                },
+                {
+                  "typeString": "System.Int32",
+                  "name": "CommanderLAM",
+                  "value": "4",
                   "set": true
                 }
               ],
@@ -206,32 +217,27 @@
           "Description": {
             "Id": "outcome_0_2",
             "Name": "Heal Naturally",
-            "Details": "You look at Darius calmly, \"Whilst I would love to spend the resources to try and expedite [[SCN_MW,{SCN_MW.Callsign}]]'s recovery time, we just cannot afford to do so at this time.  They'll just have to accept the standard treatment the rest of the crew gets.\"\r\n\r\nDarius nods, \"Understood Commander.  I'll have them allocated a standard medical bed for recovery.\""
+            "Details": "Darius looks at the MedTech calmly, \"Whilst I would love to spend the Company's resources to try and expedite the Commander's recovery time, we just cannot afford to do so at this time.  They'll just have to accept the standard treatment the rest of the crew gets.\"\r\n\r\nThe MedTech nods, \"Understood.  I'll will allocate the Commander a standard medical bed for recovery.\""
           },
           "Weight": 25,
           "Results": [
             {
-              "Scope": "SecondaryMechWarrior",
+              "Scope": "Commander",
               "AddedTags": {
                 "items": [
-                  "can_pilot_vtol"
+                  "can_pilot_landairmech"
                 ],
                 "tagSetSourceFile": ""
               },
               "RemovedTags": {
                 "items": [
-                  "pilot_VTOL_School"
+                  "pilot_LAM_School",
+                  "pilot_pilotTraining",
+                  "pilot_unavailable"
                 ],
                 "tagSetSourceFile": ""
               },
-              "Stats": [
-                {
-                  "typeString": "System.Int32",
-                  "name": "PilotVTOL",
-                  "value": "2",
-                  "set": true
-                }
-              ],
+              "Stats": [],
               "Actions": [
                 {
                   "Type": "MechWarrior_SetTimeout",
@@ -256,8 +262,14 @@
               "Stats": [
                 {
                   "typeString": "System.Int32",
-                  "name": "PilotEnrolled",
+                  "name": "LAMPilotEnrolled",
                   "value": "0",
+                  "set": true
+                },
+                {
+                  "typeString": "System.Int32",
+                  "name": "CommanderLAM",
+                  "value": "4",
                   "set": true
                 }
               ],
@@ -270,32 +282,27 @@
           "Description": {
             "Id": "outcome_0_3",
             "Name": "Heal Naturally",
-            "Details": "You look at Darius calmly, \"Whilst I would love to spend the resources to try and expedite [[SCN_MW,{SCN_MW.Callsign}]]'s recovery time, we just cannot afford to do so at this time.  They'll just have to accept the standard treatment the rest of the crew gets.\"\r\n\r\nDarius nods, \"Understood Commander.  I'll have them allocated a standard medical bed for recovery.\""
+            "Details": "Darius looks at the MedTech calmly, \"Whilst I would love to spend the Company's resources to try and expedite the Commander's recovery time, we just cannot afford to do so at this time.  They'll just have to accept the standard treatment the rest of the crew gets.\"\r\n\r\nThe MedTech nods, \"Understood.  I'll will allocate the Commander a standard medical bed for recovery.\""
           },
           "Weight": 25,
           "Results": [
             {
-              "Scope": "SecondaryMechWarrior",
+              "Scope": "Commander",
               "AddedTags": {
                 "items": [
-                  "can_pilot_vtol"
+                  "can_pilot_landairmech"
                 ],
                 "tagSetSourceFile": ""
               },
               "RemovedTags": {
                 "items": [
-                  "pilot_VTOL_School"
+                  "pilot_LAM_School",
+                  "pilot_pilotTraining",
+                  "pilot_unavailable"
                 ],
                 "tagSetSourceFile": ""
               },
-              "Stats": [
-                {
-                  "typeString": "System.Int32",
-                  "name": "PilotVTOL",
-                  "value": "2",
-                  "set": true
-                }
-              ],
+              "Stats": [],
               "Actions": [
                 {
                   "Type": "MechWarrior_SetTimeout",
@@ -320,8 +327,14 @@
               "Stats": [
                 {
                   "typeString": "System.Int32",
-                  "name": "PilotEnrolled",
+                  "name": "LAMPilotEnrolled",
                   "value": "0",
+                  "set": true
+                },
+                {
+                  "typeString": "System.Int32",
+                  "name": "CommanderLAM",
+                  "value": "4",
                   "set": true
                 }
               ],
@@ -351,10 +364,10 @@
       },
       "RequirementList": [
         {
-          "Scope": "SecondaryMechWarrior",
+          "Scope": "Commander",
           "RequirementTags": {
             "items": [
-              "pilot_VTOL_School"
+              "pilot_LAM_School"
             ],
             "tagSetSourceFile": "Tags/PilotTags"
           },
@@ -370,10 +383,10 @@
               "valueConstant": "0"
             },
             {
-              "obj": "PilotVTOL",
-              "op": "GreaterThanOrEqual",
-              "val": 1,
-              "valueConstant": "1"
+              "obj": "CommanderLAM",
+              "op": "LessThanOrEqual",
+              "val": 0,
+              "valueConstant": "0"
             }
           ]
         },
@@ -396,32 +409,27 @@
           "Description": {
             "Id": "outcome_1_0",
             "Name": "MedBay2",
-            "Details": "You look at Darius, \"What good is having an upgraded MedBay if we don't use the resources to try and expedite [[SCN_MW,{SCN_MW.Callsign}]]'s recovery time?  Get them a dedicated MedTech to assist with their recovery.\"\r\n\r\nDarius nods, \"Understood Commander.  I'll have them allocated a MedTech in MedBay 2 for recovery.\""
+            "Details": "Darius looks from the Commander to the MedTech and sighs, \"What good is having an upgraded MedBay if we don't use the resources to try and expedite the Commander's recovery time?  Get them a dedicated MedTech to assist with their recovery.\"\r\n\r\nThe MedTech nods, \"Understood sir.  I'll have the Commander allocated a MedTech in MedBay 2 for recovery.\""
           },
           "Weight": 25,
           "Results": [
             {
-              "Scope": "SecondaryMechWarrior",
+              "Scope": "Commander",
               "AddedTags": {
                 "items": [
-                  "can_pilot_vtol"
+                  "can_pilot_landairmech"
                 ],
                 "tagSetSourceFile": ""
               },
               "RemovedTags": {
                 "items": [
-                  "pilot_VTOL_School"
+                  "pilot_LAM_School",
+                  "pilot_pilotTraining",
+                  "pilot_unavailable"
                 ],
                 "tagSetSourceFile": ""
               },
-              "Stats": [
-                {
-                  "typeString": "System.Int32",
-                  "name": "PilotVTOL",
-                  "value": "2",
-                  "set": true
-                }
-              ],
+              "Stats": [],
               "Actions": [
                 {
                   "Type": "MechWarrior_SetTimeout",
@@ -452,8 +460,14 @@
                 },
                 {
                   "typeString": "System.Int32",
-                  "name": "PilotEnrolled",
+                  "name": "LAMPilotEnrolled",
                   "value": "0",
+                  "set": true
+                },
+                {
+                  "typeString": "System.Int32",
+                  "name": "CommanderLAM",
+                  "value": "4",
                   "set": true
                 }
               ],
@@ -487,32 +501,27 @@
           "Description": {
             "Id": "outcome_1_1",
             "Name": "MedBay2",
-            "Details": "You look at Darius, \"What good is having an upgraded MedBay if we don't use the resources to try and expedite [[SCN_MW,{SCN_MW.Callsign}]]'s recovery time?  Get them a dedicated MedTech to assist with their recovery.\"\r\n\r\nDarius nods, \"Understood Commander.  I'll have them allocated a MedTech in MedBay 2 for recovery.\""
+            "Details": "Darius looks from the Commander to the MedTech and sighs, \"What good is having an upgraded MedBay if we don't use the resources to try and expedite the Commander's recovery time?  Get them a dedicated MedTech to assist with their recovery.\"\r\n\r\nThe MedTech nods, \"Understood sir.  I'll have the Commander allocated a MedTech in MedBay 2 for recovery.\""
           },
           "Weight": 25,
           "Results": [
             {
-              "Scope": "SecondaryMechWarrior",
+              "Scope": "Commander",
               "AddedTags": {
                 "items": [
-                  "can_pilot_vtol"
+                  "can_pilot_landairmech"
                 ],
                 "tagSetSourceFile": ""
               },
               "RemovedTags": {
                 "items": [
-                  "pilot_VTOL_School"
+                  "pilot_LAM_School",
+                  "pilot_pilotTraining",
+                  "pilot_unavailable"
                 ],
                 "tagSetSourceFile": ""
               },
-              "Stats": [
-                {
-                  "typeString": "System.Int32",
-                  "name": "PilotVTOL",
-                  "value": "2",
-                  "set": true
-                }
-              ],
+              "Stats": [],
               "Actions": [
                 {
                   "Type": "MechWarrior_SetTimeout",
@@ -543,8 +552,14 @@
                 },
                 {
                   "typeString": "System.Int32",
-                  "name": "PilotEnrolled",
+                  "name": "LAMPilotEnrolled",
                   "value": "0",
+                  "set": true
+                },
+                {
+                  "typeString": "System.Int32",
+                  "name": "CommanderLAM",
+                  "value": "4",
                   "set": true
                 }
               ],
@@ -578,32 +593,27 @@
           "Description": {
             "Id": "outcome_1_2",
             "Name": "MedBay2",
-            "Details": "You look at Darius, \"What good is having an upgraded MedBay if we don't use the resources to try and expedite [[SCN_MW,{SCN_MW.Callsign}]]'s recovery time?  Get them a dedicated MedTech to assist with their recovery.\"\r\n\r\nDarius nods, \"Understood Commander.  I'll have them allocated a MedTech in MedBay 2 for recovery.\""
+            "Details": "Darius looks from the Commander to the MedTech and sighs, \"What good is having an upgraded MedBay if we don't use the resources to try and expedite the Commander's recovery time?  Get them a dedicated MedTech to assist with their recovery.\"\r\n\r\nThe MedTech nods, \"Understood sir.  I'll have the Commander allocated a MedTech in MedBay 2 for recovery.\""
           },
           "Weight": 25,
           "Results": [
             {
-              "Scope": "SecondaryMechWarrior",
+              "Scope": "Commander",
               "AddedTags": {
                 "items": [
-                  "can_pilot_vtol"
+                  "can_pilot_landairmech"
                 ],
                 "tagSetSourceFile": ""
               },
               "RemovedTags": {
                 "items": [
-                  "pilot_VTOL_School"
+                  "pilot_LAM_School",
+                  "pilot_pilotTraining",
+                  "pilot_unavailable"
                 ],
                 "tagSetSourceFile": ""
               },
-              "Stats": [
-                {
-                  "typeString": "System.Int32",
-                  "name": "PilotVTOL",
-                  "value": "2",
-                  "set": true
-                }
-              ],
+              "Stats": [],
               "Actions": [
                 {
                   "Type": "MechWarrior_SetTimeout",
@@ -634,8 +644,14 @@
                 },
                 {
                   "typeString": "System.Int32",
-                  "name": "PilotEnrolled",
+                  "name": "LAMPilotEnrolled",
                   "value": "0",
+                  "set": true
+                },
+                {
+                  "typeString": "System.Int32",
+                  "name": "CommanderLAM",
+                  "value": "4",
                   "set": true
                 }
               ],
@@ -669,32 +685,27 @@
           "Description": {
             "Id": "outcome_1_3",
             "Name": "MedBay2",
-            "Details": "You look at Darius, \"What good is having an upgraded MedBay if we don't use the resources to try and expedite [[SCN_MW,{SCN_MW.Callsign}]]'s recovery time?  Get them a dedicated MedTech to assist with their recovery.\"\r\n\r\nDarius nods, \"Understood Commander.  I'll have them allocated a MedTech in MedBay 2 for recovery.\""
+            "Details": "Darius looks from the Commander to the MedTech and sighs, \"What good is having an upgraded MedBay if we don't use the resources to try and expedite the Commander's recovery time?  Get them a dedicated MedTech to assist with their recovery.\"\r\n\r\nThe MedTech nods, \"Understood sir.  I'll have the Commander allocated a MedTech in MedBay 2 for recovery.\""
           },
           "Weight": 25,
           "Results": [
             {
-              "Scope": "SecondaryMechWarrior",
+              "Scope": "Commander",
               "AddedTags": {
                 "items": [
-                  "can_pilot_vtol"
+                  "can_pilot_landairmech"
                 ],
                 "tagSetSourceFile": ""
               },
               "RemovedTags": {
                 "items": [
-                  "pilot_VTOL_School"
+                  "pilot_LAM_School",
+                  "pilot_pilotTraining",
+                  "pilot_unavailable"
                 ],
                 "tagSetSourceFile": ""
               },
-              "Stats": [
-                {
-                  "typeString": "System.Int32",
-                  "name": "PilotVTOL",
-                  "value": "2",
-                  "set": true
-                }
-              ],
+              "Stats": [],
               "Actions": [
                 {
                   "Type": "MechWarrior_SetTimeout",
@@ -725,8 +736,14 @@
                 },
                 {
                   "typeString": "System.Int32",
-                  "name": "PilotEnrolled",
+                  "name": "LAMPilotEnrolled",
                   "value": "0",
+                  "set": true
+                },
+                {
+                  "typeString": "System.Int32",
+                  "name": "CommanderLAM",
+                  "value": "4",
                   "set": true
                 }
               ],
@@ -777,10 +794,10 @@
       },
       "RequirementList": [
         {
-          "Scope": "SecondaryMechWarrior",
+          "Scope": "Commander",
           "RequirementTags": {
             "items": [
-              "pilot_VTOL_School"
+              "pilot_LAM_School"
             ],
             "tagSetSourceFile": ""
           },
@@ -796,10 +813,10 @@
               "valueConstant": "0"
             },
             {
-              "obj": "PilotVTOL",
-              "op": "GreaterThanOrEqual",
-              "val": 1,
-              "valueConstant": "1"
+              "obj": "CommanderLAM",
+              "op": "LessThanOrEqual",
+              "val": 0,
+              "valueConstant": "0"
             }
           ]
         },
@@ -822,32 +839,27 @@
           "Description": {
             "Id": "outcome_2_0",
             "Name": "MedBay3",
-            "Details": "You look at Darius, \"What good is having a Field Hospital if we don't use the resources to try and expedite [[SCN_MW,{SCN_MW.Callsign}]]'s recovery time?  Get them a dedicated MedTech team to assist with their recovery.\"\r\n\r\nDarius nods, \"Understood Commander.  I'll have them allocated a MedTech Team in MedBay 3 for recovery.\""
+            "Details": "Darius looks from the Commander to the MedTech, \"What good is having a Field Hospital if we don't use the resources to try and expedite the Commander's recovery time?  Get them a dedicated MedTech team to assist with their recovery.\"\r\n\r\nThe MedTech nods, \"Understood Sir.  I'll have the Commander allocated a MedTech Team in MedBay 3 for recovery.\""
           },
           "Weight": 25,
           "Results": [
             {
-              "Scope": "SecondaryMechWarrior",
+              "Scope": "Commander",
               "AddedTags": {
                 "items": [
-                  "can_pilot_vtol"
+                  "can_pilot_landairmech"
                 ],
                 "tagSetSourceFile": ""
               },
               "RemovedTags": {
                 "items": [
-                  "pilot_VTOL_School"
+                  "pilot_LAM_School",
+                  "pilot_pilotTraining",
+                  "pilot_unavailable"
                 ],
                 "tagSetSourceFile": ""
               },
-              "Stats": [
-                {
-                  "typeString": "System.Int32",
-                  "name": "PilotVTOL",
-                  "value": "2",
-                  "set": true
-                }
-              ],
+              "Stats": [],
               "Actions": [
                 {
                   "Type": "MechWarrior_SetTimeout",
@@ -878,8 +890,14 @@
                 },
                 {
                   "typeString": "System.Int32",
-                  "name": "PilotEnrolled",
+                  "name": "LAMPilotEnrolled",
                   "value": "0",
+                  "set": true
+                },
+                {
+                  "typeString": "System.Int32",
+                  "name": "CommanderLAM",
+                  "value": "4",
                   "set": true
                 }
               ],
@@ -913,32 +931,27 @@
           "Description": {
             "Id": "outcome_2_1",
             "Name": "MedBay3",
-            "Details": "You look at Darius, \"What good is having a Field Hospital if we don't use the resources to try and expedite [[SCN_MW,{SCN_MW.Callsign}]]'s recovery time?  Get them a dedicated MedTech team to assist with their recovery.\"\r\n\r\nDarius nods, \"Understood Commander.  I'll have them allocated a MedTech Team in MedBay 3 for recovery.\""
+            "Details": "Darius looks from the Commander to the MedTech, \"What good is having a Field Hospital if we don't use the resources to try and expedite the Commander's recovery time?  Get them a dedicated MedTech team to assist with their recovery.\"\r\n\r\nThe MedTech nods, \"Understood Sir.  I'll have the Commander allocated a MedTech Team in MedBay 3 for recovery.\""
           },
           "Weight": 25,
           "Results": [
             {
-              "Scope": "SecondaryMechWarrior",
+              "Scope": "Commander",
               "AddedTags": {
                 "items": [
-                  "can_pilot_vtol"
+                  "can_pilot_landairmech"
                 ],
                 "tagSetSourceFile": ""
               },
               "RemovedTags": {
                 "items": [
-                  "pilot_VTOL_School"
+                  "pilot_LAM_School",
+                  "pilot_pilotTraining",
+                  "pilot_unavailable"
                 ],
                 "tagSetSourceFile": ""
               },
-              "Stats": [
-                {
-                  "typeString": "System.Int32",
-                  "name": "PilotVTOL",
-                  "value": "2",
-                  "set": true
-                }
-              ],
+              "Stats": [],
               "Actions": [
                 {
                   "Type": "MechWarrior_SetTimeout",
@@ -969,8 +982,14 @@
                 },
                 {
                   "typeString": "System.Int32",
-                  "name": "PilotEnrolled",
+                  "name": "LAMPilotEnrolled",
                   "value": "0",
+                  "set": true
+                },
+                {
+                  "typeString": "System.Int32",
+                  "name": "CommanderLAM",
+                  "value": "4",
                   "set": true
                 }
               ],
@@ -1004,32 +1023,27 @@
           "Description": {
             "Id": "outcome_2_2",
             "Name": "MedBay3",
-            "Details": "You look at Darius, \"What good is having a Field Hospital if we don't use the resources to try and expedite [[SCN_MW,{SCN_MW.Callsign}]]'s recovery time?  Get them a dedicated MedTech team to assist with their recovery.\"\r\n\r\nDarius nods, \"Understood Commander.  I'll have them allocated a MedTech Team in MedBay 3 for recovery.\""
+            "Details": "Darius looks from the Commander to the MedTech, \"What good is having a Field Hospital if we don't use the resources to try and expedite the Commander's recovery time?  Get them a dedicated MedTech team to assist with their recovery.\"\r\n\r\nThe MedTech nods, \"Understood Sir.  I'll have the Commander allocated a MedTech Team in MedBay 3 for recovery.\""
           },
           "Weight": 25,
           "Results": [
             {
-              "Scope": "SecondaryMechWarrior",
+              "Scope": "Commander",
               "AddedTags": {
                 "items": [
-                  "can_pilot_vtol"
+                  "can_pilot_landairmech"
                 ],
                 "tagSetSourceFile": ""
               },
               "RemovedTags": {
                 "items": [
-                  "pilot_VTOL_School"
+                  "pilot_LAM_School",
+                  "pilot_pilotTraining",
+                  "pilot_unavailable"
                 ],
                 "tagSetSourceFile": ""
               },
-              "Stats": [
-                {
-                  "typeString": "System.Int32",
-                  "name": "PilotVTOL",
-                  "value": "2",
-                  "set": true
-                }
-              ],
+              "Stats": [],
               "Actions": [
                 {
                   "Type": "MechWarrior_SetTimeout",
@@ -1060,8 +1074,14 @@
                 },
                 {
                   "typeString": "System.Int32",
-                  "name": "PilotEnrolled",
+                  "name": "LAMPilotEnrolled",
                   "value": "0",
+                  "set": true
+                },
+                {
+                  "typeString": "System.Int32",
+                  "name": "CommanderLAM",
+                  "value": "4",
                   "set": true
                 }
               ],
@@ -1095,32 +1115,27 @@
           "Description": {
             "Id": "outcome_2_3",
             "Name": "MedBay3",
-            "Details": "You look at Darius, \"What good is having a Field Hospital if we don't use the resources to try and expedite [[SCN_MW,{SCN_MW.Callsign}]]'s recovery time?  Get them a dedicated MedTech team to assist with their recovery.\"\r\n\r\nDarius nods, \"Understood Commander.  I'll have them allocated a MedTech Team in MedBay 3 for recovery.\""
+            "Details": "Darius looks from the Commander to the MedTech, \"What good is having a Field Hospital if we don't use the resources to try and expedite the Commander's recovery time?  Get them a dedicated MedTech team to assist with their recovery.\"\r\n\r\nThe MedTech nods, \"Understood Sir.  I'll have the Commander allocated a MedTech Team in MedBay 3 for recovery.\""
           },
           "Weight": 25,
           "Results": [
             {
-              "Scope": "SecondaryMechWarrior",
+              "Scope": "Commander",
               "AddedTags": {
                 "items": [
-                  "can_pilot_vtol"
+                  "can_pilot_landairmech"
                 ],
                 "tagSetSourceFile": ""
               },
               "RemovedTags": {
                 "items": [
-                  "pilot_VTOL_School"
+                  "pilot_LAM_School",
+                  "pilot_pilotTraining",
+                  "pilot_unavailable"
                 ],
                 "tagSetSourceFile": ""
               },
-              "Stats": [
-                {
-                  "typeString": "System.Int32",
-                  "name": "PilotVTOL",
-                  "value": "2",
-                  "set": true
-                }
-              ],
+              "Stats": [],
               "Actions": [
                 {
                   "Type": "MechWarrior_SetTimeout",
@@ -1151,8 +1166,14 @@
                 },
                 {
                   "typeString": "System.Int32",
-                  "name": "PilotEnrolled",
+                  "name": "LAMPilotEnrolled",
                   "value": "0",
+                  "set": true
+                },
+                {
+                  "typeString": "System.Int32",
+                  "name": "CommanderLAM",
+                  "value": "4",
                   "set": true
                 }
               ],
@@ -1203,10 +1224,10 @@
       },
       "RequirementList": [
         {
-          "Scope": "SecondaryMechWarrior",
+          "Scope": "Commander",
           "RequirementTags": {
             "items": [
-              "pilot_VTOL_School"
+              "pilot_LAM_School"
             ],
             "tagSetSourceFile": ""
           },
@@ -1222,10 +1243,10 @@
               "valueConstant": "0"
             },
             {
-              "obj": "PilotVTOL",
-              "op": "GreaterThanOrEqual",
-              "val": 1,
-              "valueConstant": "1"
+              "obj": "CommanderLAM",
+              "op": "LessThanOrEqual",
+              "val": 0,
+              "valueConstant": "0"
             }
           ]
         },
@@ -1248,32 +1269,27 @@
           "Description": {
             "Id": "outcome_3_0",
             "Name": "MedBay Hospital",
-            "Details": "You look at Darius, \"What good is having a fully functional Hospital if we don't use the resources to try and expedite [[SCN_MW,{SCN_MW.Callsign}]]'s recovery time?  Get them into a private suite to assist with their recovery.\"\r\n\r\nDarius nods, \"Understood Commander.  I'll have them allocated a private suite in the Hospital for recovery.\""
+            "Details": "Darius looks from the Commander to the MedTech, \"What good is having a fully functional Hospital if we don't use the resources to try and expedite the Commander's recovery time?  Get them into a private suite to assist with their recovery.\"\r\n\r\nThe MedTech nods, \"Understood sir.  I'll have the Commander allocated a private suite in the Hospital for recovery.\""
           },
           "Weight": 25,
           "Results": [
             {
-              "Scope": "SecondaryMechWarrior",
+              "Scope": "Commander",
               "AddedTags": {
                 "items": [
-                  "can_pilot_vtol"
+                  "can_pilot_landairmech"
                 ],
                 "tagSetSourceFile": ""
               },
               "RemovedTags": {
                 "items": [
-                  "pilot_VTOL_School"
+                  "pilot_LAM_School",
+                  "pilot_pilotTraining",
+                  "pilot_unavailable"
                 ],
                 "tagSetSourceFile": ""
               },
-              "Stats": [
-                {
-                  "typeString": "System.Int32",
-                  "name": "PilotVTOL",
-                  "value": "2",
-                  "set": true
-                }
-              ],
+              "Stats": [],
               "Actions": [
                 {
                   "Type": "MechWarrior_SetTimeout",
@@ -1304,8 +1320,14 @@
                 },
                 {
                   "typeString": "System.Int32",
-                  "name": "PilotEnrolled",
+                  "name": "LAMPilotEnrolled",
                   "value": "0",
+                  "set": true
+                },
+                {
+                  "typeString": "System.Int32",
+                  "name": "CommanderLAM",
+                  "value": "4",
                   "set": true
                 }
               ],
@@ -1339,32 +1361,27 @@
           "Description": {
             "Id": "outcome_3_1",
             "Name": "MedBay Hospital",
-            "Details": "You look at Darius, \"What good is having a fully functional Hospital if we don't use the resources to try and expedite [[SCN_MW,{SCN_MW.Callsign}]]'s recovery time?  Get them into a private suite to assist with their recovery.\"\r\n\r\nDarius nods, \"Understood Commander.  I'll have them allocated a private suite in the Hospital for recovery.\""
+            "Details": "Darius looks from the Commander to the MedTech, \"What good is having a fully functional Hospital if we don't use the resources to try and expedite the Commander's recovery time?  Get them into a private suite to assist with their recovery.\"\r\n\r\nThe MedTech nods, \"Understood sir.  I'll have the Commander allocated a private suite in the Hospital for recovery.\""
           },
           "Weight": 25,
           "Results": [
             {
-              "Scope": "SecondaryMechWarrior",
+              "Scope": "Commander",
               "AddedTags": {
                 "items": [
-                  "can_pilot_vtol"
+                  "can_pilot_landairmech"
                 ],
                 "tagSetSourceFile": ""
               },
               "RemovedTags": {
                 "items": [
-                  "pilot_VTOL_School"
+                  "pilot_LAM_School",
+                  "pilot_pilotTraining",
+                  "pilot_unavailable"
                 ],
                 "tagSetSourceFile": ""
               },
-              "Stats": [
-                {
-                  "typeString": "System.Int32",
-                  "name": "PilotVTOL",
-                  "value": "2",
-                  "set": true
-                }
-              ],
+              "Stats": [],
               "Actions": [
                 {
                   "Type": "MechWarrior_SetTimeout",
@@ -1395,8 +1412,14 @@
                 },
                 {
                   "typeString": "System.Int32",
-                  "name": "PilotEnrolled",
+                  "name": "LAMPilotEnrolled",
                   "value": "0",
+                  "set": true
+                },
+                {
+                  "typeString": "System.Int32",
+                  "name": "CommanderLAM",
+                  "value": "4",
                   "set": true
                 }
               ],
@@ -1430,32 +1453,27 @@
           "Description": {
             "Id": "outcome_3_2",
             "Name": "MedBay Hospital",
-            "Details": "You look at Darius, \"What good is having a fully functional Hospital if we don't use the resources to try and expedite [[SCN_MW,{SCN_MW.Callsign}]]'s recovery time?  Get them into a private suite to assist with their recovery.\"\r\n\r\nDarius nods, \"Understood Commander.  I'll have them allocated a private suite in the Hospital for recovery.\""
+            "Details": "Darius looks from the Commander to the MedTech, \"What good is having a fully functional Hospital if we don't use the resources to try and expedite the Commander's recovery time?  Get them into a private suite to assist with their recovery.\"\r\n\r\nThe MedTech nods, \"Understood sir.  I'll have the Commander allocated a private suite in the Hospital for recovery.\""
           },
           "Weight": 25,
           "Results": [
             {
-              "Scope": "SecondaryMechWarrior",
+              "Scope": "Commander",
               "AddedTags": {
                 "items": [
-                  "can_pilot_vtol"
+                  "can_pilot_landairmech"
                 ],
                 "tagSetSourceFile": ""
               },
               "RemovedTags": {
                 "items": [
-                  "pilot_VTOL_School"
+                  "pilot_LAM_School",
+                  "pilot_pilotTraining",
+                  "pilot_unavailable"
                 ],
                 "tagSetSourceFile": ""
               },
-              "Stats": [
-                {
-                  "typeString": "System.Int32",
-                  "name": "PilotVTOL",
-                  "value": "2",
-                  "set": true
-                }
-              ],
+              "Stats": [],
               "Actions": [
                 {
                   "Type": "MechWarrior_SetTimeout",
@@ -1486,8 +1504,14 @@
                 },
                 {
                   "typeString": "System.Int32",
-                  "name": "PilotEnrolled",
+                  "name": "LAMPilotEnrolled",
                   "value": "0",
+                  "set": true
+                },
+                {
+                  "typeString": "System.Int32",
+                  "name": "CommanderLAM",
+                  "value": "4",
                   "set": true
                 }
               ],
@@ -1521,32 +1545,27 @@
           "Description": {
             "Id": "outcome_3_3",
             "Name": "MedBay Hospital",
-            "Details": "You look at Darius, \"What good is having a fully functional Hospital if we don't use the resources to try and expedite [[SCN_MW,{SCN_MW.Callsign}]]'s recovery time?  Get them into a private suite to assist with their recovery.\"\r\n\r\nDarius nods, \"Understood Commander.  I'll have them allocated a private suite in the Hospital for recovery.\""
+            "Details": "Darius looks from the Commander to the MedTech, \"What good is having a fully functional Hospital if we don't use the resources to try and expedite the Commander's recovery time?  Get them into a private suite to assist with their recovery.\"\r\n\r\nThe MedTech nods, \"Understood sir.  I'll have the Commander allocated a private suite in the Hospital for recovery.\""
           },
           "Weight": 25,
           "Results": [
             {
-              "Scope": "SecondaryMechWarrior",
+              "Scope": "Commander",
               "AddedTags": {
                 "items": [
-                  "can_pilot_vtol"
+                  "can_pilot_landairmech"
                 ],
                 "tagSetSourceFile": ""
               },
               "RemovedTags": {
                 "items": [
-                  "pilot_VTOL_School"
+                  "pilot_LAM_School",
+                  "pilot_pilotTraining",
+                  "pilot_unavailable"
                 ],
                 "tagSetSourceFile": ""
               },
-              "Stats": [
-                {
-                  "typeString": "System.Int32",
-                  "name": "PilotVTOL",
-                  "value": "2",
-                  "set": true
-                }
-              ],
+              "Stats": [],
               "Actions": [
                 {
                   "Type": "MechWarrior_SetTimeout",
@@ -1577,8 +1596,14 @@
                 },
                 {
                   "typeString": "System.Int32",
-                  "name": "PilotEnrolled",
+                  "name": "LAMPilotEnrolled",
                   "value": "0",
+                  "set": true
+                },
+                {
+                  "typeString": "System.Int32",
+                  "name": "CommanderLAM",
+                  "value": "4",
                   "set": true
                 }
               ],
@@ -1624,7 +1649,7 @@
   ],
   "PublishState": "PUBLISHED",
   "ValidationState": "UNTESTED",
-  "EventType": "UNSELECTABLE",
+  "EventType": "NORMAL",
   "OneTimeEvent": false,
   "Tags": {
     "items": [],
