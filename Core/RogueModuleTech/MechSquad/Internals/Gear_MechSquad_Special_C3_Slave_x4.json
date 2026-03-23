@@ -12,7 +12,8 @@
       }
     ],
     "BonusDescriptions": [
-      "C3Slave"
+      "C3Slave",
+      "ExplainC3"
     ],
     "Flags": [
       "no_salvage",

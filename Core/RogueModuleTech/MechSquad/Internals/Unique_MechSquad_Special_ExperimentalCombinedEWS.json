@@ -27,7 +27,8 @@
       "IsProbe: 3",
       "AdvancedSensors: 2",
       "DetectMine: 210",
-      "C3Slave"
+      "C3Slave",
+      "ExplainC3"
     ],
     "Flags": [
       "no_salvage",
