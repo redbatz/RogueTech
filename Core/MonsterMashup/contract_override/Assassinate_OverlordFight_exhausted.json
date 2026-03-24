@@ -1,6 +1,6 @@
 {
-  "ID": "Assassinate_OverlordFight",
-  "contractName": "Strategic Objective: The King's Horses",
+  "ID": "Assassinate_OverlordFight_exhausted",
+  "contractName": "Strategic Objective: The King's Cattle",
   "contractDisplayStyle": "BaseCampaignNormal",
   "difficulty": 8,
   "difficultyUIModifier": 8,
@@ -65,13 +65,14 @@
     {
       "Scope": "Company",
       "RequirementTags": {
-        "items": [],
+        "items": [
+          "assassinate_overlordfight_loot_exhausted"
+        ],
         "tagSetSourceFile": ""
       },
       "ExclusionTags": {
         "items": [
-          "assassinate_overlordfight_cooldown",
-          "assassinate_overlordfight_loot_exhausted"
+          "assassinate_overlordfight_cooldown"
         ],
         "tagSetSourceFile": ""
       }
@@ -92,7 +93,7 @@
       "Actions": [
         {
           "Type": "System_ShowRewards",
-          "value": "itemCollection_MonsterMash",
+          "value": "itemCollection_MonsterMash_exhausted",
           "valueConstant": null,
           "additionalValues": null
         }
@@ -113,22 +114,6 @@
       },
       "TemporaryResult": true,
       "ResultDuration": 120
-    },
-    {
-      "Scope": "Company",
-      "Requirements": { },
-      "AddedTags": {
-        "items": [
-          "assassinate_overlordfight_loot_exhausted"
-        ],
-        "tagSetSourceFile": ""
-      },
-      "RemovedTags": {
-        "items": [],
-        "tagSetSourceFile": ""
-      },
-      "TemporaryResult": true,
-      "ResultDuration": 600
     }
   ],
   "OnContractFailureResults": [],
