@@ -12,7 +12,7 @@
       "unit_optional_aries_initiative",
       "unit_proxy_model",
       "unit_release",
-      "unit_rarity_equipment_level_5",
+      "unit_rarity_equipment_level_4",
       "mr-resize-1.75",
       "clancloudcobra",
       "clancoyote",
@@ -23,7 +23,7 @@
   },
   "ChassisID": "vehiclechassisdef_DUGITE_C",
   "Description": {
-    "Cost": 21012800,
+    "Cost": 20778300,
     "Rarity": 0,
     "Purchasable": false,
     "UIName": "Dugite MBT (C)",
@@ -33,7 +33,7 @@
     "Icon": "uixTxrIcon_dugite",
     "Commentary": "Aries Initiative"
   },
-  "simGameMechPartCost": 3592560,
+  "simGameMechPartCost": 3611660,
   "Locations": [
     {
       "Location": "Front",
