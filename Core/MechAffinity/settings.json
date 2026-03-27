@@ -748,6 +748,7 @@
     "statOnHireTag": "stat_on_hire",
     "statOnFireTag": "stat_on_fire",
     "statOnKilledTag": "stat_on_killed",
+    "StatOnBenchedTag": "stat_on_benched",
     "ExcludeRePoolingTags" :[
       "pilot_rtcrew",
       "pilot_rtolegend",
