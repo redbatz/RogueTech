@@ -186,7 +186,13 @@
       "GoR_MinnesotaTribe_AmbushConvoy_BrokenChains",
       "GoR_MinnesotaTribe_DefendBase_TraitorsMark",
       "GoR_MinnesotaTribe_SimpleBattle_TheBreakingPoint",
-      "GoR_MinnesotaTribe_DestroyBase_ArmageddonsFall"
+      "GoR_MinnesotaTribe_DestroyBase_ArmageddonsFall",
+      "BattleRoyalev2_GameworldBattleRoyalUltralight",
+      "BattleRoyalev2_GameworldBattleRoyalLight",
+      "BattleRoyalev2_GameworldBattleRoyalMedium",
+      "BattleRoyalev2_GameworldBattleRoyalHeavy",
+      "BattleRoyalev2_GameworldBattleRoyalAssault",
+      "BattleRoyalev2_GameworldBattleRoyalSuperHeavy"
     ],
     "ExcludeContractsWithName": [
       "Clever Girl",
