@@ -247,7 +247,15 @@
         {
             "Type": "AudioFileSettings",
             "Path": "audio_settings"
-        }
+        },
+		{
+			"Type": "ConversationContent",
+			"Path": "conversations"
+		},
+		{
+			"Type": "DialogBucketDef",
+			"Path": "conversationBuckets"
+		}
     ],
     "DependsOn": [
         "Abilifier",
