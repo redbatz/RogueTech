@@ -43,7 +43,8 @@
     "ExternalBAAffectsSlotDropTonnage": true,
     "forbidCarrierContractTypes": [
       "SoloDuel",
-      "DuoDuel"
+      "DuoDuel",
+			"BattleRoyale"
     ],
     "strafeTargetsFriendliesChance": 0.2,
     "strafeNeutralBuildingsChance": 0.0,

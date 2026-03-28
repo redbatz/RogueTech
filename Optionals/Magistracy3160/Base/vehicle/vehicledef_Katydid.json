@@ -8,8 +8,8 @@
       "unit_lance_assassin",
       "unit_lance_support",
       "unit_wheels",
-      "unit_release",
       "unit_solaris",
+      "unit_release",
       "unit_rarity_equipment_level_0",
       "mr-resize-2.2",
       "ArcRoyalLibertyCoalition",
@@ -81,16 +81,16 @@
   },
   "ChassisID": "vehiclechassisdef_Katydid",
   "Description": {
-    "Cost": 2978883,
+    "Cost": 2561204,
     "Rarity": 0,
     "Purchasable": false,
     "UIName": "Katydid WCV",
     "Id": "vehicledef_Katydid",
     "Name": "Katydid WCV",
-    "Details": "Created as a support vehicle for battlemech lances, the Katydid Wheeled Combat Vehicle is an 80 ton fire support vehicle. Powered by a 300 rated fusion engine, the Katydid is capable of reaching a speed of 60kph while carrying 11 tons of ferro-fibrous armor. Mounted in the turret is an Artemis IV enhanced LRM-15 and a RAC/5, with a pair of Medium Pulse Lasers providing backup at closer ranges.\n\n<b><color=#ffcc00>Biome Restrictions: None.</color></b>\n\n<b><color=#ffcc00>Movement: 3/5 hexes / 90/150 meters.</color></b>\n\n<color=#ffcc00><b>Armor:</b> Armor\n<b>Structure:</b> Structure\n<b>Values       A        S  </b>\n<b>Front</b>       390     40\n<b>Left</b>         275     40\n<b>Right</b>       275     40\n<b>Rear</b>        200     40\n<b>Turret</b>      350     40\n\n<b>Total</b>      1490    200</color>\n\n<color=#ff0000>Quirk: Improved Targeting - Long</color>",
+    "Details": "Created as a support vehicle for battlemech lances, the Katydid Wheeled Combat Vehicle is an 80 ton fire support vehicle. Powered by a 300 rated fusion engine, the Katydid is capable of reaching a speed of 60kph while carrying 11 tons of ferro-fibrous armor. Mounted in the turret is an Artemis IV enhanced LRM-15 and a RAC/5, with a pair of Medium Pulse Lasers providing backup at closer ranges.\n\n<b><color=#ffcc00>Biome Restrictions: None.</color></b>\n\n<b><color=#ffcc00>Movement: 4/6 hexes / 120/180 meters.</color></b>\n\n<color=#ffcc00><b>Armor:</b> Ferro-Fibrous\n<b>Structure:</b> Structure\n<b>Values       A        S  </b>\n<b>Front</b>       245     40\n<b>Left</b>         195     40\n<b>Right</b>       195     40\n<b>Rear</b>        155     40\n<b>Turret</b>      195     40\n\n<b>Total</b>      985    200</color>\n\n<color=#ff0000>Quirk: Improved Targeting - Long</color>",
     "Icon": "uixTxrIcon_katydidwheeledcv"
   },
-  "simGameMechPartCost": 355777,
+  "simGameMechPartCost": 398241,
   "Locations": [
     {
       "Location": "Front",
@@ -180,7 +180,7 @@
       "DamageLevel": "Functional"
     },
     {
-      "MountedLocation": "v",
+      "MountedLocation": "Rear",
       "ComponentDefID": "Ammo_AmmunitionBox_RAC_5",
       "ComponentDefType": "AmmunitionBox",
       "HardpointSlot": -1,
