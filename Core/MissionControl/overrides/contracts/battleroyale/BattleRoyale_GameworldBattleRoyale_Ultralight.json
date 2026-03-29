@@ -2,7 +2,7 @@
 	"ID": "BattleRoyale_GameworldBattleRoyale_Ultralight",
 	"contractName": "Gameworld Battle Royale: Ultralight Mech Class",
 	"contractDisplayStyle": "BaseCampaignNormal",
-	"difficulty": 8,
+	"difficulty": 4,
 	"difficultyUIModifier": 0,
 	"weight": 1,
 	"scope": "STANDARD",

@@ -2,7 +2,7 @@
 	"ID": "BattleRoyale_GameworldBattleRoyale_Medium",
 	"contractName": "Gameworld Battle Royale: Medium Mech Class",
 	"contractDisplayStyle": "BaseCampaignNormal",
-	"difficulty": 8,
+	"difficulty": 2,
 	"difficultyUIModifier": 0,
 	"weight": 1,
 	"scope": "STANDARD",

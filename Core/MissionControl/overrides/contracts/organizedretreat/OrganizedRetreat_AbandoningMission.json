@@ -31,6 +31,12 @@
           "op": "Equal",
           "val": 0,
           "valueConstant": null
+        },
+        {
+          "obj": "Employer.Solaris7",
+          "op": "Equal",
+          "val": 0,
+          "valueConstant": null
         }
       ]
     }
@@ -38,7 +44,7 @@
   "OnContractSuccessResults": [],
   "OnContractFailureResults": [],
   "encounterPlayStyle": "SinglePlayer",
-  "maxNumberOfPlayerUnits": 12,
+  "maxNumberOfPlayerUnits": 16,
   "lanceMinTonnage": -1,
   "lanceMaxTonnage": -1,
   "mechMinTonnages": [
