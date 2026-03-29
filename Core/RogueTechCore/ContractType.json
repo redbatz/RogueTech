@@ -240,7 +240,7 @@
     },
 		{
 			"ID": 17001,
-			"Name": "BattleRoyaleV2",
+			"Name": "BattleRoyale",
 			"FriendlyName": "Battle Royale",
 			"Version": 0,
 			"IsSinglePlayerProcedural": true,
@@ -274,7 +274,7 @@
 		},
 		{
 			"ID": 17003,
-			"Name": "WarzoneV2",
+			"Name": "Warzone",
 			"FriendlyName": "Warzone",
 			"Version": 0,
 			"IsSinglePlayerProcedural": true,
