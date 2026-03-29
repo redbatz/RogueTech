@@ -44,7 +44,7 @@
 			"SoloDuel",
 			"DuoDuel",
       "AttackDefend",
-			"BattleRoyale"
+      "BattleRoyale"
     ],
     "IsPrimaryObjectiveIn": [
       "SimpleBattle",

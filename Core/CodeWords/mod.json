@@ -187,13 +187,7 @@
       "GoR_MinnesotaTribe_AmbushConvoy_BrokenChains",
       "GoR_MinnesotaTribe_DefendBase_TraitorsMark",
       "GoR_MinnesotaTribe_SimpleBattle_TheBreakingPoint",
-      "GoR_MinnesotaTribe_DestroyBase_ArmageddonsFall",
-      "BattleRoyale_GameworldBattleRoyale_Ultralight",
-      "BattleRoyale_GameworldBattleRoyale_Light",
-      "BattleRoyale_GameworldBattleRoyale_Medium",
-      "BattleRoyale_GameworldBattleRoyale_Heavy",
-      "BattleRoyale_GameworldBattleRoyale_Assault",
-      "BattleRoyale_GameworldBattleRoyale_SuperHeavy"
+      "GoR_MinnesotaTribe_DestroyBase_ArmageddonsFall"
     ],
     "ExcludeContractsWithName": [
       "Clever Girl",
@@ -201,7 +195,13 @@
       "Last Rites",
       "LIVE FIRE EXERCISE - Last Rites",
       "Positional Bearing",
-      "Midnight Harvest"
+      "Midnight Harvest",
+      "Gameworld Battle Royale: Ultralight Mech Class",
+      "Gameworld Battle Royale: Light Mech Class",
+      "Gameworld Battle Royale: Medium Mech Class",
+      "Gameworld Battle Royale: Heavy Mech Class",
+      "Gameworld Battle Royale: Assault Mech Class",
+      "Gameworld Battle Royale: Superheavy Mech Class"
     ]
   }
 }

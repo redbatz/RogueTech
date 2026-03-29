@@ -2,7 +2,7 @@
 	"ID": "BattleRoyale_GameworldBattleRoyale_SuperHeavy",
 	"contractName": "Gameworld Battle Royale: Superheavy Mech Class",
 	"contractDisplayStyle": "BaseCampaignNormal",
-	"difficulty": 8,
+	"difficulty": 10,
 	"difficultyUIModifier": 0,
 	"weight": 1,
 	"scope": "STANDARD",
