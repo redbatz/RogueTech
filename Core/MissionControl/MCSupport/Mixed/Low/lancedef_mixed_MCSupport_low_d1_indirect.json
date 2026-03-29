@@ -42,6 +42,7 @@
           "unit_longtom",
           "unit_nuke",
           "unit_legendary",
+          "unit_squad",
           "unit_killteam"
         ],
         "tagSetSourceFile": "Tags/UnitTags"
