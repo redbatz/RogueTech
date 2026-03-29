@@ -114,7 +114,7 @@
 					{
 						"obj": "BattleRoyale_Counter_Light",
 						"op": "GreaterThanOrEqual",
-						"val": 6,
+						"val": 7,
 						"valueConstant": null
 					}
 				]
