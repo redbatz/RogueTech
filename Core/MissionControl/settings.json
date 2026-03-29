@@ -28,7 +28,7 @@
     "ExcludeContractTypes": [
 			"SoloDuel",
 			"DuoDuel",
-			"BattleRoyaleV2"
+			"BattleRoyale"
     ],
     "GuardOnHotDrop": false,
     "EvasionPipsOnHotDrop": 6,
@@ -44,7 +44,7 @@
 			"SoloDuel",
 			"DuoDuel",
       "AttackDefend",
-			"BattleRoyaleV2"
+			"BattleRoyale"
     ],
     "IsPrimaryObjectiveIn": [
       "SimpleBattle",
@@ -97,7 +97,7 @@
     "ExcludeContractTypes": [
       "SoloDuel",
       "DuoDuel",
-      "BattleRoyaleV2"
+      "BattleRoyale"
     ],
     "SkipWhenTaggedWithAny": [
       "lance_type_solo"
@@ -290,7 +290,7 @@
       "SoloDuel",
       "DuoDuel",
       "DefendBase",
-			"BattleRoyaleV2"
+			"BattleRoyale"
     ],
     "IncreaseBoundarySizeByPercentage": 0.1,
     "Overrides": [
@@ -357,7 +357,7 @@
     "ExcludeContractTypes": [
       "SoloDuel",
       "DuoDuel",
-			"BattleRoyaleV2"
+			"BattleRoyale"
     ],
     "MinDistanceForZone": 50,
     "MaxDistanceForZone": 288,

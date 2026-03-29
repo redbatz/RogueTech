@@ -9,7 +9,7 @@
                 "b" : 1,
                 "a" : 1
             },
-            "selectedCastDefId" : "castDef_bd_SolarisAnnouncer",
+            "selectedCastDefId" : "castDef_HaretonDefault",
             "emote" : "Default",
             "dialogueOrigin" : "pilot",
             "audioEventEntryIndex" : 0,
