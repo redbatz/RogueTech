@@ -89,7 +89,7 @@
 			"Actions": [
 				{
 					"Type": "System_ShowRewards",
-					"value": "RT_Solaris",
+					"value": "BattleRoyaleGenericReward",
 					"valueConstant": null,
 					"additionalValues": null
 				}
@@ -139,7 +139,7 @@
 			"Actions": [
 				{
 					"Type": "System_ShowRewards",
-					"value": "BTA_List_HeroReward_Superheavy",
+					"value": "BattleRoyaleSuperheavyReward",
 					"valueConstant": null,
 					"additionalValues": null
 				}
