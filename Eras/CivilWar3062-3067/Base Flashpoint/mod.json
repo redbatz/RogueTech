@@ -32,18 +32,27 @@
       "RequiredContentPack": "flashpoint"
     },
     {
-			"Type": "ItemCollectionDef",
+      "Type": "ItemCollectionDef",
 			"Path": "Shops",
+      "RequiredContentPack": "flashpoint",
 			"ShouldAppendText": true
 		},
 		{
-			"Type": "ItemCollectionDef",
+      "Type": "ItemCollectionDef",
 			"Path": "Starter",
+      "RequiredContentPack": "flashpoint",
 			"ShouldAppendText": true
 		},
 		{
-			"Type": "ItemCollectionDef",
+      "Type": "ItemCollectionDef",
 			"Path": "BackGroundItemCollections",
+      "RequiredContentPack": "flashpoint",
+			"ShouldAppendText": true
+		},
+		{
+      "Type": "ItemCollectionDef",
+			"Path": "Solaris7",
+      "RequiredContentPack": "flashpoint",
 			"ShouldAppendText": true
 		}
   ]

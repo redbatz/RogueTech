@@ -139,7 +139,7 @@
 			"Actions": [
 				{
 					"Type": "System_ShowRewards",
-					"value": "BTA_List_HeroReward_Heavy",
+					"value": "BattleRoyaleHeavyReward",
 					"valueConstant": null,
 					"additionalValues": null
 				}

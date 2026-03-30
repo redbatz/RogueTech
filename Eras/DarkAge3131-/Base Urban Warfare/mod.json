@@ -5,7 +5,7 @@
   "IgnoreLoadFailure": true,
   "DependsOn": [
     "Dark Age",
-    "Rogue Urban Warfare Module",
+    "Rogue Urban Warfare Module"
   ],
   "ConflictsWith": [],
   "Manifest": [

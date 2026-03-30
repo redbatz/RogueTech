@@ -76,6 +76,12 @@
       "Path": "BackGroundItemCollections",
       "ShouldAppendText": true,
       "RequiredContentPack": "flashpoint"
-    }
+    },
+		{
+      "Type": "ItemCollectionDef",
+			"Path": "Solaris7",
+      "RequiredContentPack": "flashpoint",
+			"ShouldAppendText": true
+		}
   ]
 }

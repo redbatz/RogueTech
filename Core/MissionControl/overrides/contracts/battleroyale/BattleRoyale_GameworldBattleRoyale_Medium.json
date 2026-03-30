@@ -139,7 +139,7 @@
 			"Actions": [
 				{
 					"Type": "System_ShowRewards",
-					"value": "BTA_List_HeroReward_Medium",
+					"value": "BattleRoyaleMediumReward",
 					"valueConstant": null,
 					"additionalValues": null
 				}

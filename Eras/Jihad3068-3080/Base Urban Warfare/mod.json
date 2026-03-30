@@ -27,6 +27,7 @@
     {
       "Type": "ItemCollectionDef",
       "Path": "Starter",
+      "RequiredContentPack": "urbanwarfare",
       "ShouldAppendText": true
     },
     {

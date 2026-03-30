@@ -22,7 +22,14 @@
     {
       "Type": "ItemCollectionDef",
       "Path": "Starter",
+      "RequiredContentPack": "heavymetal",
       "ShouldAppendText": true
-    }
+    },
+		{
+      "Type": "ItemCollectionDef",
+			"Path": "Solaris7",
+      "RequiredContentPack": "heavymetal",
+			"ShouldAppendText": true
+		}
   ]
 }

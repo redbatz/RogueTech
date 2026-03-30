@@ -32,6 +32,7 @@
     {
       "Type": "ItemCollectionDef",
       "Path": "Starter",
+      "RequiredContentPack": "flashpoint",
       "ShouldAppendText": true
     }
   ]

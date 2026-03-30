@@ -30,6 +30,12 @@
       "Path": "Shop",
       "ShouldAppendText": true,
       "RequiredContentPack": "heavymetal"
-    }
+    },
+		{
+      "Type": "ItemCollectionDef",
+			"Path": "Solaris7",
+      "RequiredContentPack": "heavymetal",
+			"ShouldAppendText": true
+		}
   ]
 }

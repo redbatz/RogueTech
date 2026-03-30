@@ -140,7 +140,7 @@
 			"Actions": [
 				{
 					"Type": "System_ShowRewards",
-					"value": "BTA_List_HeroReward_Assault",
+					"value": "BattleRoyaleAssaultReward",
 					"valueConstant": null,
 					"additionalValues": null
 				}

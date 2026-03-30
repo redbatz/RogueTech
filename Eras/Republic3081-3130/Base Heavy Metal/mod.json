@@ -17,6 +17,7 @@
     {
       "Type": "ItemCollectionDef",
       "Path": "Starter",
+      "RequiredContentPack": "heavymetal",
       "ShouldAppendText": true
     },
     {
