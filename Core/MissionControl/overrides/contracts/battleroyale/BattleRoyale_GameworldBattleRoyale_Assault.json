@@ -90,7 +90,7 @@
 			"Actions": [
 				{
 					"Type": "System_ShowRewards",
-					"value": "RT_Solaris",
+					"value": "BattleRoyaleGenericReward",
 					"valueConstant": null,
 					"additionalValues": null
 				}
@@ -140,7 +140,7 @@
 			"Actions": [
 				{
 					"Type": "System_ShowRewards",
-					"value": "BTA_List_HeroReward_Assault",
+					"value": "BattleRoyaleAssaultReward",
 					"valueConstant": null,
 					"additionalValues": null
 				}

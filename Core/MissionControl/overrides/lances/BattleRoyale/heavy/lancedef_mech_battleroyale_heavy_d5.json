@@ -35,8 +35,8 @@
         "items": [
           "unit_noncombatant",
           "unit_nuke",
-          "unit_killteam",
-          "unit_squad"
+          "unit_squad",
+          "unit_killteam"
         ],
         "tagSetSourceFile": "Tags/UnitTags"
       },
