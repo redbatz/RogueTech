@@ -10,12 +10,11 @@
       "unit_lance_tank",
       "unit_optional_era",
       "unit_era_dark_ages",
-      "unit_proxy_icon",
       "unit_ready",
       "unit_release",
       "unit_chassis_broadside",
       "unit_tonnage_100",
-      "unit_rarity_equipment_level_0",
+      "unit_rarity_equipment_level_1",
       "davion",
       "davion3150",
       "ai_heat_high",
@@ -34,16 +33,16 @@
   },
   "ChassisID": "chassisdef_broadside_BS-1D",
   "Description": {
-    "Cost": 4073641,
+    "Cost": 9468283,
     "Rarity": 5,
     "Purchasable": true,
     "UIName": "Broadside BS-1D",
     "Id": "mechdef_broadside_BS-1D",
     "Name": "Broadside BS-1D",
-    "Details": "Developed by Iroquois Machinery in the mid 3140s, the Broadside is an unusual offering from a company better known for being a major manufacturer of industrial mechs. A 100 ton mech powered by a 300 rated fusion engine, the Broadside is a rapidly proliferating sigh in the increasingly strained ranks of the AFFS. Heavily armed with a myriad of weapons, the Broadsword BS-1D is armed with an LB10-X AC, a UAC/10 and a RAC/5. For secondary armament, it carries a pair of ER Medium Lasers, a Flamer and a pair of Re-engineered Medium Lasers.\n\n<b><color=#e62e00>Quirk: Extended Torso Twist</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.16</color></b>",
-    "Icon": "uixTxrIcon_atlas"
+    "Details": "Developed by Iroquois Machinery in the mid 3140s, the Broadside is an unusual offering from a company better known for being a major manufacturer of industrial mechs. A 100 ton mech powered by a 300 rated fusion engine, the Broadside is a rapidly proliferating sigh in the increasingly strained ranks of the AFFS. Heavily armed with a myriad of weapons, the Broadsword BS-1D is armed with an LB10-X AC, a UAC/10 and a RAC/5. For secondary armament, it carries a pair of ER Medium Lasers, a Flamer and a pair of Re-engineered Medium Lasers.\n\n<b><color=#e62e00>Quirk: Extended Torso Twist</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.18</color></b>\n\n<color=#FFEF00>Arm Actuator Limits: Left Lower, Right Lower</color>",
+    "Icon": "uixTxrIcon_broadside"
   },
-  "simGameMechPartCost": 422128,
+  "simGameMechPartCost": 310157,
   "Locations": [
     {
       "Location": "Head",
@@ -142,15 +141,36 @@
     },
     {
       "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Gear_HeatSinkKit_Double",
+      "ComponentDefID": "Gear_EngineCooling_Heatsinks_2",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
     },
     {
       "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Gear_EngineCooling_Heatsinks_2",
+      "ComponentDefID": "Gear_HeatSinkKit_Double",
       "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Gear_TSM_Standard",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Gear_CASE2",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Gear_CASE2",
+      "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
     },
@@ -212,7 +232,7 @@
     },
     {
       "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Ammo_AmmunitionBox_UAC_10_Double",
+      "ComponentDefID": "Ammo_AmmunitionBox_LBX_10_Slug",
       "ComponentDefType": "AmmunitionBox",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
@@ -225,15 +245,8 @@
       "DamageLevel": "Functional"
     },
     {
-      "MountedLocation": "RightTorso",
-      "ComponentDefID": "Ammo_AmmunitionBox_RAC_2",
-      "ComponentDefType": "AmmunitionBox",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
       "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Ammo_AmmunitionBox_LBX_10_Slug",
+      "ComponentDefID": "Ammo_AmmunitionBox_UAC_10_Double",
       "ComponentDefType": "AmmunitionBox",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
@@ -247,29 +260,15 @@
     },
     {
       "MountedLocation": "RightTorso",
-      "ComponentDefID": "Ammo_AmmunitionBox_RAC_2_Double",
+      "ComponentDefID": "Ammo_AmmunitionBox_RAC_2",
       "ComponentDefType": "AmmunitionBox",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
     },
     {
-      "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Gear_CASE2",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
       "MountedLocation": "RightTorso",
-      "ComponentDefID": "Gear_CASE2",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Gear_TSM_Standard",
-      "ComponentDefType": "Upgrade",
+      "ComponentDefID": "Ammo_AmmunitionBox_RAC_2_Double",
+      "ComponentDefType": "AmmunitionBox",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
     }
