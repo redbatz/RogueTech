@@ -76,28 +76,28 @@
     {
       "Location": "LeftTorso",
       "CurrentArmor": 120,
-      "CurrentRearArmor": 55,
+      "CurrentRearArmor": 50,
       "CurrentInternalStructure": 75,
       "AssignedArmor": 120,
-      "AssignedRearArmor": 55,
+      "AssignedRearArmor": 50,
       "DamageLevel": "Functional"
     },
     {
       "Location": "CenterTorso",
-      "CurrentArmor": 142,
-      "CurrentRearArmor": 75,
+      "CurrentArmor": 140,
+      "CurrentRearArmor": 60,
       "CurrentInternalStructure": 105,
-      "AssignedArmor": 142,
-      "AssignedRearArmor": 75,
+      "AssignedArmor": 140,
+      "AssignedRearArmor": 60,
       "DamageLevel": "Functional"
     },
     {
       "Location": "RightTorso",
       "CurrentArmor": 120,
-      "CurrentRearArmor": 55,
+      "CurrentRearArmor": 50,
       "CurrentInternalStructure": 75,
       "AssignedArmor": 120,
-      "AssignedRearArmor": 55,
+      "AssignedRearArmor": 50,
       "DamageLevel": "Functional"
     },
     {
@@ -180,14 +180,14 @@
     },
     {
       "MountedLocation": "LeftArm",
-      "ComponentDefID": "Gear_Actuator_Arm_Upper_Recoil",
+      "ComponentDefID": "Gear_Actuator_MightyHand",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
     },
     {
       "MountedLocation": "RightArm",
-      "ComponentDefID": "Gear_Actuator_Arm_Upper_Recoil",
+      "ComponentDefID": "Gear_Actuator_MightyHand",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
