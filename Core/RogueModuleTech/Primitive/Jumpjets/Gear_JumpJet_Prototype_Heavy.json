@@ -11,8 +11,8 @@
     "BonusDescriptions": [
       "JumpCapacity: 1",
       "JumpHeat: 3",
-      "MinWeightJJ: 60",
-      "MaxWeightJJ: 85",
+      "MinWeight: 60",
+      "MaxWeight: 85",
       "MaxCountJJDefault",
       "StabThreshhold: -10%"
     ],

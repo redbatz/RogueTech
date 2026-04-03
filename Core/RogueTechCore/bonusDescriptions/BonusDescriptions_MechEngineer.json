@@ -332,21 +332,15 @@
     },
     {
       "Bonus": "MinWeight",
-      "Short": "MW {0}",
-      "Long": "Min.W. {0}",
-      "Full": "{0} minimum weight required - currently not working. Work in progress."
-    },
-    {
-      "Bonus": "MinWeightJJ",
       "Short": "MinW {0}",
       "Long": "Min.W. {0}",
-      "Full": "{0} tons: minimum chassis weight for this Jump Jet."
+      "Full": "{0} tons minimum chassis weight."
     },
     {
-      "Bonus": "MaxWeightJJ",
+      "Bonus": "MaxWeight",
       "Short": "MaxW {0}",
       "Long": "Max.W. {0}",
-      "Full": "{0} tons: maximum chassis weight for this Jump Jet."
+      "Full": "{0} tons maximum chassis weight."
     },
     {
       "Bonus": "MaxCountJJDefault",

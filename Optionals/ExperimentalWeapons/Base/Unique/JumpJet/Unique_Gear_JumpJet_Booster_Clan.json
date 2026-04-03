@@ -9,8 +9,8 @@
       "WalkSpeed: +20%",
       "JumpCapacity: 3",
       "JumpHeat: 10",
-      "MinWeightJJ: 101",
-      "MaxWeightJJ: 200",
+      "MinWeight: 101",
+      "MaxWeight: 200",
       "MaxCountJJDefault"
     ],
     "Flags": [

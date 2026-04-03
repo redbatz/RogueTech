@@ -10,8 +10,8 @@
       "JumpCapacity: 2",
       "JumpHeat: 12",
       "JumpDistance: +100%",
-      "MinWeightJJ: 35",
-      "MaxWeightJJ: 85"
+      "MinWeight: 35",
+      "MaxWeight: 85"
     ],
     "Flags": [
       "not_broken"
