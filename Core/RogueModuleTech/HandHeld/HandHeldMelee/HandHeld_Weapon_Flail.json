@@ -15,11 +15,12 @@
       "HandHeldMeleeWeapon: 2.5",
       "WpnAccuracy: -1",
       "PhysicalWeapon: 0, 0",
+      "CBTBEPhysicalWeaponHits: +1",
       "PhysicalWeaponPunch",
       "PhysicalWeaponDestabilize",
-      "CBTBEPhysicalAttackAccuracy: -1",
+      "CBTBEPhysicalAttackAccuracy: -2",
       "CBTBEPhysicalAttackDamage: 30",
-      "CBTBEPhysicalAttackStability: 40",
+      "CBTBEPhysicalAttackStability: 30",
       "NoAA",
       "WeaponShardsModRange: 1, 4"
     ],
@@ -89,6 +90,32 @@
   "DisallowedLocations": "All",
   "CriticalComponent": false,
   "statusEffects": [
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": false,
+        "showInStatusPanel": false
+      },
+      "effectType": "StatisticEffect",
+      "nature": "Buff",
+      "Description": {
+        "Id": "MeleeAttacks_Weapon",
+        "Name": "Hand Held Flail: Increased Physical Weapon Extra Hits",
+        "Details": "MeleeWeapon Extra Hits",
+        "Icon": "uixSvgIcon_run_n_gun"
+      },
+      "statisticData": {
+        "statName": "CBTBE_Physical_Weapon_Extra_Hits_Count",
+        "operation": "Float_Add",
+        "modValue": "1",
+        "modType": "System.Single"
+      }
+    },
     {
       "durationData": {
         "duration": -1,
@@ -189,7 +216,7 @@
       "statisticData": {
         "statName": "CBTBE_Physical_Weapon_Target_Instability_Mod",
         "operation": "Int_Add",
-        "modValue": "40",
+        "modValue": "30",
         "modType": "System.Int32"
       }
     },
@@ -215,7 +242,7 @@
       "statisticData": {
         "statName": "CBTBE_Physical_Weapon_Attack_Mod",
         "operation": "Int_Add",
-        "modValue": "1",
+        "modValue": "2",
         "modType": "System.Int32"
       }
     },
