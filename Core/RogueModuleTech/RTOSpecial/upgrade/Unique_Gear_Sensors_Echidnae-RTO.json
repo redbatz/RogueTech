@@ -15,7 +15,8 @@
       "C3BonusNoStack: C3i, +1 Initiative",
       "ResolvePlus: +5",
       "AdvancedSensors: 1",
-      "Sharer"
+      "Sharer",
+      "ExplainC3"
     ],
     "Flags": [
       "not_broken"

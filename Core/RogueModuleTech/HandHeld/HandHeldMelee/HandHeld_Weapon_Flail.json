@@ -13,7 +13,7 @@
     ],
     "BonusDescriptions": [
       "HandHeldMeleeWeapon: 2.5",
-      "WpnAccuracy: -1",
+      "WpnAccuracy: -2",
       "PhysicalWeapon: 0, 0",
       "CBTBEPhysicalWeaponHits: +1",
       "PhysicalWeaponPunch",
@@ -49,7 +49,7 @@
   "HeatDamage": 0,
   "Instability": 1,
   "DamageVariance": 0,
-  "AccuracyModifier": 1,
+  "AccuracyModifier": 2,
   "EvasivePipsIgnored": 0,
   "RefireModifier": 0,
   "OverheatedDamageMultiplier": 0,
