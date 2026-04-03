@@ -340,25 +340,31 @@
       "Bonus": "MinWeightJJ",
       "Short": "MinW {0}",
       "Long": "Min.W. {0}",
-      "Full": "{0} minimum weight required for Jump Jet."
+      "Full": "{0} tons: minimum chassis weight for this Jump Jet."
     },
     {
       "Bonus": "MaxWeightJJ",
       "Short": "MaxW {0}",
       "Long": "Max.W. {0}",
-      "Full": "{0} maximum weight required for Jump Jet."
+      "Full": "{0} tons: maximum chassis weight for this Jump Jet."
+    },
+    {
+      "Bonus": "MaxCountJJDefault",
+      "Short": "MaxJJ",
+      "Long": "1 Jet/Walk",
+      "Full": "1 Jump Jet allowed per Walk MP."
     },
     {
       "Bonus": "MaxCountJJ",
       "Short": "MaxJJ {0}",
-      "Long": "MaxJJ {0}",
-      "Full": "{0} maximum amount of JJ Allowed by Walk MP."
+      "Long": "{0} Max JJ",
+      "Full": "{0} Jump Jets allowed per Walk MP."
     },
     {
       "Bonus": "MaxCountJJExtra",
       "Short": "MaxJJ",
-      "Long": "MaxJJ",
-      "Full": "Maximum Jump Jets defined by Jet System"
+      "Long": "Max JJ by System",
+      "Full": "Maximum Jump Jets defined by the particular Jet System in use. Default 1 per Walk MP."
     },
     {
       "Bonus": "MechanicalJJ",

@@ -16,7 +16,7 @@
       "JumpHeat: 2",
       "MinWeightJJ: 90",
       "MaxWeightJJ: 100",
-      "MaxCountJJ: 1"
+      "MaxCountJJDefault"
     ],
     "AllowedLocations": "JumpJet",
     "IBLS": {

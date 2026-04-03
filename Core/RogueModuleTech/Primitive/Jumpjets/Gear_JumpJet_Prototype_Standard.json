@@ -13,7 +13,7 @@
       "JumpHeat: 3",
       "MinWeightJJ: 10",
       "MaxWeightJJ: 55",
-      "MaxCountJJ: 1",
+      "MaxCountJJDefault",
       "StabThreshhold: -10%"
     ],
     "AllowedLocations": "JumpJet",

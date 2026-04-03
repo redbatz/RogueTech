@@ -7,9 +7,11 @@
     ],
     "BonusDescriptions": [
       "HeatPerTurn: -18",
-      "JumpCapacity: 1",
+      "JumpCapacity: 2",
+      "JumpHeat: 12",
       "JumpDistance: +100%",
-      "JumpHeat: 6"
+      "MinWeightJJ: 35",
+      "MaxWeightJJ: 85"
     ],
     "Flags": [
       "not_broken"
@@ -136,7 +138,6 @@
   ],
   "ComponentTags": {
     "items": [
-      "BLACKLISTED",
       "component_type_stock",
       "LootMagnetBlacklist",
       "SquadIncompatible"
