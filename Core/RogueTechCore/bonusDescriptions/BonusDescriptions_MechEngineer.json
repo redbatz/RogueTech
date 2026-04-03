@@ -1273,6 +1273,12 @@
       "Full": "{0} resistance to energy attacks"
     },
     {
+      "Bonus": "HHProtection",
+      "Short": "{0} HHRes",
+      "Long": "{0} HandHeld Resistance",
+      "Full": "{0} resistance to non-melee handheld weapon attacks"
+    },
+    {
       "Bonus": "ArmorFactor",
       "Short": "{0} Weight",
       "Long": "{0} Arm.Weight",

@@ -8,6 +8,7 @@
     "BonusDescriptions": [
       "KineticProtection: 45%",
       "MissileProtection: 45%",
+      "HHProtection: 20%",
       "TACChance: -30%",
       "Reserved: 4",
       "ArmorFactor: +40%",
@@ -95,7 +96,7 @@
       "statisticData": {
         "statName": "DamageReductionMultiplierBallistic",
         "operation": "Float_Multiply",
-        "modValue": "0.45",
+        "modValue": "0.55",
         "modType": "System.Single",
         "effectsPersistAfterDestruction": true
       }
@@ -122,7 +123,34 @@
       "statisticData": {
         "statName": "DamageReductionMultiplierMissile",
         "operation": "Float_Multiply",
-        "modValue": "0.45",
+        "modValue": "0.55",
+        "modType": "System.Single",
+        "effectsPersistAfterDestruction": true
+      }
+    },
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": false,
+        "showInStatusPanel": false
+      },
+      "effectType": "StatisticEffect",
+      "nature": "Buff",
+      "Description": {
+        "Id": "StatusEffect-ReactiveBonus3",
+        "Name": "Experimental Ballistic Reinforced: Decreased Handheld Damage Taken",
+        "Details": "Takes less Handheld Damage.",
+        "Icon": "uixSvgIcon_mwFury"
+      },
+      "statisticData": {
+        "statName": "DamageReductionMultiplierAntipersonnel",
+        "operation": "Float_Multiply",
+        "modValue": "0.8",
         "modType": "System.Single",
         "effectsPersistAfterDestruction": true
       }
