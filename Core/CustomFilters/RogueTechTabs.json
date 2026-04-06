@@ -560,6 +560,7 @@
   },
   {
     "Caption": "Internals",
+    "Spacing": 4,
     "Filter": {
       "ComponentTypes": [
         "HeatSink",
@@ -654,7 +655,19 @@
             "Upgrade"
           ],
           "Categories": [
-            "Armor",
+            "Armor"
+          ]
+        }
+      },
+      {
+        "Icon": "shieldcomb",
+        "Tag": "",
+        "Tooltip": "Show Armor Mods",
+        "Filter": {
+          "ComponentTypes": [
+            "Upgrade"
+          ],
+          "Categories": [
             "ArmorMod",
             "CASE",
             "CASE2"
@@ -831,11 +844,11 @@
             "C3Master",
             "C3Slave",
             "C3i",
-            "StealthSystemAdd",
-            "MimeticSystemAdd",
-            "StealthSystem",
+            "SensorStealthMod",
+            "MimeticStealthMod",
+            "SensorStealthSystem",
             "StealthEngine",
-            "MimeticSystem",
+            "MimeticStealthSystem",
             "Chameleon",
             "StealthX",
             "VoidSignatureSystem"
@@ -890,8 +903,8 @@
             "C3i",
             "StealthSystemAdd",
             "MimeticSystemAdd",
-            "StealthSystem",
-            "MimeticSystem",
+            "SensorStealthSystem",
+            "MimeticStealthSystem",
             "Chameleon",
             "VoidSignatureSystem",
             "TargetingComputer",
