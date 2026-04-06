@@ -8,10 +8,10 @@
       "unit_lance_assassin",
       "unit_lance_tank",
       "unit_tracks",
-      "unit_release",
-      "unit_proxy_model",
       "unit_optional_magistracy3160",
-      "unit_rarity_equipment_level_0",
+      "unit_proxy_model",
+      "unit_release",
+      "unit_rarity_equipment_level_1",
       "mr-resize-1.68",
       "kurita",
       "kurita3150"
@@ -20,16 +20,16 @@
   },
   "ChassisID": "vehiclechassisdef_Ojasan",
   "Description": {
-    "Cost": 3465040,
+    "Cost": 5435786,
     "Rarity": 0,
     "Purchasable": false,
     "UIName": "Ojasan Assault Tank",
     "Id": "vehicledef_Ojasan",
     "Name": "Ojasan Assault Tank",
-    "Details": "Developed during the Clan Invasion by Wakazashi Aerospace for the DCMS, the Ojasan is a slow and heavily armored tank designed to slug it out with Clan battlemechs and win. 14.5 tons of ferro-fibrous armor and a weapons loadout consiting of a Gauss Rifle and AC/20 combination; supported by a pair of Artemis IV enhanced LRM-15s enables it to crush anything in its way. A pair of ER Medium Lasers and a pair of Small Pulse Lasers round out the design.\n\n<b><color=#ffcc00>Biome Restrictions: None.</color></b>\n\n<b><color=#ffcc00>Movement: 3/5 hexes / 90/150 meters.</color></b>\n\n<color=#ffcc00><b>Armor:</b> Ferro-Fibrous\n<b>Structure:</b> Structure\n<b>Values       A        S  </b>\n<b>Front</b>       320     50\n<b>Left</b>         250     50\n<b>Right</b>       250     50\n<b>Rear</b>        200     50\n<b>Turret</b>      295     50\n\n<b>Total</b>      1315    250</color>\n\n<color=#ff0000>Quirk: Main Battle Tank</color>",
+    "Details": "Developed during the Clan Invasion by Wakazashi Aerospace for the DCMS, the Ojasan is a slow and heavily armored tank designed to slug it out with Clan battlemechs and win. 14.5 tons of ferro-fibrous armor and a weapons loadout consiting of a Gauss Rifle and AC/20 combination; supported by a pair of Artemis IV enhanced LRM-15s enables it to crush anything in its way. A pair of ER Medium Lasers and a pair of Small Pulse Lasers round out the design.\n\n<b><color=#ffcc00>Biome Restrictions: None.</color></b>\n\n<b><color=#ffcc00>Movement: 2/3 hexes / 60/90 meters.</color></b>\n\n<color=#ffcc00><b>Armor:</b> Ferro-Fibrous\n<b>Structure:</b> Structure\n<b>Values       A        S  </b>\n<b>Front</b>       325     50\n<b>Left</b>         255     50\n<b>Right</b>       255     50\n<b>Rear</b>        205     50\n<b>Turret</b>      255     50\n\n<b>Total</b>      1295    250</color>\n\n<color=#ff0000>Quirk: Main Battle Tank</color>",
     "Icon": "uixTxrIcon_ojasanassaulttank"
   },
-  "simGameMechPartCost": 473008,
+  "simGameMechPartCost": 858757,
   "Locations": [
     {
       "Location": "Front",
@@ -118,7 +118,7 @@
       "LocalGUID": "WeaponAttachment0"
     },
     {
-      "MountedLocation": "Right",
+      "MountedLocation": "Turret",
       "ComponentDefID": "Gear_Attachment_ArtemisIV",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
@@ -133,7 +133,7 @@
       "LocalGUID": "WeaponAttachment1"
     },
     {
-      "MountedLocation": "Right",
+      "MountedLocation": "Turret",
       "ComponentDefID": "Gear_Attachment_ArtemisIV",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,

@@ -8,33 +8,33 @@
       "unit_lance_assassin",
       "unit_vtol",
       "unit_noconvoy",
-      "unit_release",
-      "unit_proxy_model",
       "unit_optional_magistracy3160",
+      "unit_proxy_model",
+      "unit_release",
       "unit_rarity_chassis_uncommon",
-      "unit_rarity_equipment_level_0",
+      "unit_rarity_equipment_level_1",
       "NoBiome_lunarVacuum",
       "apply_bomb_drag_tag",
       "mr-resize-1.30",
-      "magistracyofcanopus",
-      "MagistracyOfCanopus3150",
       "GalateanLeague",
-      "locals"
+      "locals",
+      "magistracyofcanopus",
+      "MagistracyOfCanopus3150"
     ],
     "tagSetSourceFile": ""
   },
   "ChassisID": "vehiclechassisdef_Trask",
   "Description": {
-    "Cost": 1766333,
+    "Cost": 3971333,
     "Rarity": 0,
     "Purchasable": false,
     "UIName": "Trask TSK-01",
     "Id": "vehicledef_Trask",
     "Name": "Trask TSK-01",
-    "Details": "Developed by Rileys Rangers as an in house attack helicopter, the Trask proved successful enough that large quantities were sold to the Cannopian armed forces and other mercenary groups. A 30 ton VTOL, the Trask can reach speeds of 160kph, thanks to its 160 rated XL engine; while 5 tons of heavy ferro-fibrous armor provide heavy protection. The Trask TSK-01 is armed with a Medium X-Pulse Laser and a pair of Streak SRM-6's.\n\n<b><color=#ffcc00>Biome Restrictions: This unit can not deploy in Lunar biomes.</color></b>\n\n<b><color=#ffcc00>Movement: 6/9 hexes / 180/270 meters.</color></b>\n\n<color=#ffcc00><b>Armor:</b> Reactive Plating\n<b>Structure:</b> Structure\n<b>Values       A        S  </b>\n<b>Front</b>        95     15\n<b>Left</b>          75     15\n<b>Right</b>        75     15\n<b>Rear</b>         60     15\n\n<b>Total</b>      320     75</color>\n\n<color=#ff0000>Quirk: Improved Targeting - Medium</color>",
+    "Details": "Developed by Rileys Rangers as an in house attack helicopter, the Trask proved successful enough that large quantities were sold to the Cannopian armed forces and other mercenary groups. A 30 ton VTOL, the Trask can reach speeds of 160kph, thanks to its 160 rated XL engine; while 5 tons of heavy ferro-fibrous armor provide heavy protection. The Trask TSK-01 is armed with a Medium X-Pulse Laser and a pair of Streak SRM-6's.\n\n<b><color=#ffcc00>Biome Restrictions: This unit can not deploy in Lunar biomes.</color></b>\n\n<b><color=#ffcc00>Movement: 10/15 hexes / 300/450 meters.</color></b>\n\n<color=#ffcc00><b>Armor:</b> Heavy Ferro-Fibrous\n<b>Structure:</b> Structure\n<b>Values       A        S  </b>\n<b>Front</b>       150     15\n<b>Left</b>         120     15\n<b>Right</b>       120     15\n<b>Rear</b>         95     15\n\n<b>Total</b>      500     75</color>\n\n<color=#ff0000>Quirk: Improved Targeting - Medium</color>",
     "Icon": "uixTxrIcon_traskattackhelicopter"
   },
-  "simGameMechPartCost": 230667,
+  "simGameMechPartCost": 724267,
   "Locations": [
     {
       "Location": "Front",
