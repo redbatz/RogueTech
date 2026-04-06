@@ -5,17 +5,17 @@
         "CategoryID": "Armor"
       },
       {
-        "CategoryID": "StealthSystem"
+        "CategoryID": "SensorStealthSystem"
       }
     ],
     "BonusDescriptions": [
       "CASE",
       "CASEVENT: 100, 200",
-      "Stealth",
-      "StealthSensors: -35%, 2, 1, 1, 2",
+      "SensorStealthActivatable",
+      "SensorStealthBonus: -35%, 2, 1, 1, 2",
       "StealthReserved: 1",
-      "ActiveHeatGenerated: +8%",
-      "ActiveHeatPerTurn: +6",
+      "ActiveHeatGenerated: +12%",
+      "ActiveHeatPerTurn: +8",
       "ReqECM",
       "ArmorFactor: +20%",
       "ArmorTPCost: x1.8",
@@ -91,7 +91,7 @@
           }
         },
         {
-          "durationData": {
+          "durationData": { 
             "duration": -1,
             "stackLimit": -1
           },

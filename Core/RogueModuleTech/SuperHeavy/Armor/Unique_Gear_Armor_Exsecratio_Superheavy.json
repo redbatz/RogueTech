@@ -5,12 +5,12 @@
         "CategoryID": "Armor"
       },
       {
-        "CategoryID": "StealthSystem"
+        "CategoryID": "SensorStealthSystem"
       }
     ],
     "BonusDescriptions": [
-      "Stealth",
-      "StealthSensors: 50%, 3, 1, 2, 3",
+      "SensorStealthActivatable",
+      "SensorStealthBonus: -50%, 3, 1, 2, 3",
       "ActiveVisibility: -15%",
       "ActiveHeatGenerated: +10%",
       "ActiveHeatPerTurn: +9",

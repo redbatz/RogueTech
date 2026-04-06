@@ -4,7 +4,6 @@
       "unit_mech",
       "unit_legendary",
       "unit_unique",
-      "unit_stealth",
       "unit_killteam",
       "unit_core",
       "unit_dlc",
@@ -32,7 +31,7 @@
   },
   "ChassisID": "chassisdef_archer_ARC-JNT",
   "Description": {
-    "Cost": 21095823,
+    "Cost": 19658473,
     "Rarity": 4,
     "Purchasable": false,
     "UIName": "Archer 'Jonathon'",
@@ -41,7 +40,7 @@
     "Details": "Clever text here.\n\n<b><color=#e62e00>Quirk: Command Mech</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.06</color></b>",
     "Icon": "archerorig"
   },
-  "simGameMechPartCost": 311828,
+  "simGameMechPartCost": 148458,
   "Locations": [
     {
       "Location": "Head",
@@ -64,10 +63,10 @@
     {
       "Location": "LeftTorso",
       "CurrentArmor": 150,
-      "CurrentRearArmor": 65,
+      "CurrentRearArmor": 69,
       "CurrentInternalStructure": 75,
       "AssignedArmor": 150,
-      "AssignedRearArmor": 65,
+      "AssignedRearArmor": 69,
       "DamageLevel": "Functional"
     },
     {
@@ -82,10 +81,10 @@
     {
       "Location": "RightTorso",
       "CurrentArmor": 150,
-      "CurrentRearArmor": 65,
+      "CurrentRearArmor": 69,
       "CurrentInternalStructure": 75,
       "AssignedArmor": 150,
-      "AssignedRearArmor": 65,
+      "AssignedRearArmor": 69,
       "DamageLevel": "Functional"
     },
     {
@@ -125,63 +124,8 @@
       "DamageLevel": "Functional"
     },
     {
-      "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Gear_Armor_VoidSignatureSystem",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "LeftArm",
-      "ComponentDefID": "Linked_Armor_VoidSignatureSystem",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "IsFixed": true,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Linked_Armor_VoidSignatureSystem",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "IsFixed": true,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "RightTorso",
-      "ComponentDefID": "Linked_Armor_VoidSignatureSystem",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "IsFixed": true,
-      "DamageLevel": "Functional"
-    },
-    {
       "MountedLocation": "RightArm",
-      "ComponentDefID": "Linked_Armor_VoidSignatureSystem",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "IsFixed": true,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "LeftLeg",
-      "ComponentDefID": "Linked_Armor_VoidSignatureSystem",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "IsFixed": true,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "RightLeg",
-      "ComponentDefID": "Linked_Armor_VoidSignatureSystem",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "IsFixed": true,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "RightArm",
-      "ComponentDefID": "Gear_AdvancedMaterials3",
+      "ComponentDefID": "Gear_AdvancedMaterials1",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
@@ -229,7 +173,7 @@
       "DamageLevel": "Functional"
     },
     {
-      "MountedLocation": "LeftTorso",
+      "MountedLocation": "RightTorso",
       "ComponentDefID": "Gear_TargetingTrackingSystem_Crit",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
@@ -336,7 +280,55 @@
       "DamageLevel": "Functional"
     },
     {
-      "MountedLocation": "CenterTorso",
+      "MountedLocation": "LeftArm",
+      "ComponentDefID": "Linked_ArmorMod_ChameleonLightPolarizationShield_Improved",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Linked_ArmorMod_ChameleonLightPolarizationShield_Improved",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Linked_ArmorMod_ChameleonLightPolarizationShield_Improved",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "RightArm",
+      "ComponentDefID": "Linked_ArmorMod_ChameleonLightPolarizationShield_Improved",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "LeftLeg",
+      "ComponentDefID": "Linked_ArmorMod_ChameleonLightPolarizationShield_Improved",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "RightLeg",
+      "ComponentDefID": "Linked_ArmorMod_ChameleonLightPolarizationShield_Improved",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "LeftTorso",
       "ComponentDefID": "Gear_Supercharger",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
@@ -352,6 +344,13 @@
     {
       "MountedLocation": "LeftTorso",
       "ComponentDefID": "Gear_Turret",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Gear_ArmorMod_ChameleonLightPolarizationShield_Improved",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
@@ -393,7 +392,7 @@
     },
     {
       "MountedLocation": "RightLeg",
-      "ComponentDefID": "Ammo_AmmunitionBox_LRM_FTL",
+      "ComponentDefID": "Ammo_AmmunitionBox_LRM_FTL_Half",
       "ComponentDefType": "AmmunitionBox",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
