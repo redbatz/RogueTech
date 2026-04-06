@@ -76,13 +76,13 @@
       "Tag": "Quirk_OmniStealth",
       "RequiredTags": [],
       "IncompatibleTags": [
-        "StealthSystem",
-        "MimeticSystem",
-        "MimeticSystemAdd",
-        "StealthSystemAdd",
+        "SensorStealthSystem",
+        "MimeticStealthSystem",
+        "MimeticStealthMod",
+        "SensorStealthMod",
         "Chameleon",
         "StealthX",
-        "SocietyChameleon",
+        "SocietyVoidSignatureSystem",
         "NCFF",
         "Gear_Engine_Stealth"
       ]
@@ -328,7 +328,8 @@
       "IncompatibleTags": [
         "HarJel2",
         "HarJel3",
-        "StealthArmor",
+        "SensorStealthSystem",
+        "MimeticStealthSystem",
         "Gear_Armor_QueenCarapace",
         "Unique_Gear_Armor_ReactivePlating_ZeusX",
         "Gear_Armor_ReactivePlating",
@@ -341,9 +342,7 @@
         "Gear_Armor_FerroFibrous_Hardened_RISC_Superheavy",
         "Gear_Structure_InternalRepairSystem",
         "Quirk_OmniStealth",
-        "SocietyChameleon",
-        "Chameleon",
-        "NCFF",
+        "SocietyVoidSignatureSystem",
         "Unique_Gear_Armor_SpallLiner_RISC",
         "Gear_ArmorMod_SpallLiner"
       ]
@@ -353,7 +352,8 @@
       "IncompatibleTags": [
         "HarJel1",
         "HarJel3",
-        "StealthArmor",
+        "SensorStealthSystem",
+        "MimeticStealthSystem",
         "Gear_Armor_QueenCarapace",
         "Gear_Armor_ReactivePlating",
         "Unique_Gear_Armor_ReactivePlating_ZeusX",
@@ -366,9 +366,7 @@
         "Gear_Armor_FerroFibrous_Hardened_RISC_Superheavy",
         "Gear_Structure_InternalRepairSystem",
         "Quirk_OmniStealth",
-        "SocietyChameleon",
-        "Chameleon",
-        "NCFF",
+        "SocietyVoidSignatureSystem",
         "Unique_Gear_Armor_SpallLiner_RISC",
         "Gear_ArmorMod_SpallLiner"
       ]
@@ -378,7 +376,8 @@
       "IncompatibleTags": [
         "HarJel1",
         "HarJel2",
-        "StealthArmor",
+        "SensorStealthSystem",
+        "MimeticStealthSystem",
         "Gear_Armor_QueenCarapace",
         "Gear_Armor_ReactivePlating",
         "Unique_Gear_Armor_ReactivePlating_ZeusX",
@@ -391,9 +390,7 @@
         "Gear_Armor_FerroFibrous_Hardened_RISC_Superheavy",
         "Gear_Structure_InternalRepairSystem",
         "Quirk_OmniStealth",
-        "SocietyChameleon",
-        "Chameleon",
-        "NCFF",
+        "SocietyVoidSignatureSystem",
         "Unique_Gear_Armor_SpallLiner_RISC",
         "Gear_ArmorMod_SpallLiner"
       ]
@@ -404,7 +401,8 @@
         "HarJel1",
         "HarJel2",
         "HarJel3",
-        "StealthArmor",
+        "SensorStealthSystem",
+        "MimeticStealthSystem",
         "Gear_Armor_QueenCarapace",
         "Gear_Armor_ReactivePlating",
         "Unique_Gear_Armor_ReactivePlating_ZeusX",
@@ -417,7 +415,7 @@
         "Gear_Armor_FerroFibrous_Hardened_RISC_Superheavy",
         "Gear_Structure_InternalRepairSystem",
         "Quirk_OmniStealth",
-        "SocietyChameleon",
+        "SocietyVoidSignatureSystem",
         "Chameleon",
         "NCFF",
         "Unique_Gear_Armor_SpallLiner_RISC",
@@ -427,19 +425,21 @@
     {
       "Tag": "Gear_Spikes_Solaris",
       "IncompatibleTags": [
-        "Gear_Armor_Spiked"
+        "Gear_ArmorMod_HardenedSpikeCladding"
       ]
     },
     {
-      "Tag": "Gear_Armor_Spiked",
+      "Tag": "Gear_ArmorMod_HardenedSpikeCladding",
       "IncompatibleTags": [
-        "Gear_Spikes_Solaris"
+        "Gear_Spikes_Solaris",
+        "HardenedArmor",
+        "Unique_Armor_Industrial_Spiked"
       ]
     },
     {
-      "Tag": "Unique_Gear_Armor_SpallLiner_RISC",
+      "Tag": "PhysicalArmorMod",
       "IncompatibleTags": [
-        "Gear_ArmorMod_SpallLiner"
+        "Unique_Gear_Armor_SpallLiner_RISC"
       ]
     },
     {
@@ -490,10 +490,8 @@
         "ElectronicCounterMeasures"
       ],
       "IncompatibleTags": [
-        "StealthSystem",
-        "SocietyChameleon",
-        "Chameleon",
-        "NCFF",
+        "SensorStealthSystem",
+        "SocietyVoidSignatureSystem",
         "ModularArmor",
         "ModularRearArmor",
         "Gear_HeatSinkKit_Laser",
@@ -501,55 +499,40 @@
         "Quirk_OmniStealth",
         "Gear_Structure_InternalRepairSystem",
         "StealthSystemAdd",
-        "MimeticSystem",
+        "MimeticStealthSystem",
         "StealthArmor",
         "Gear_Engine_Stealth"
       ]
     },
     {
-      "Tag": "MimeticSystemAdd",
-      "RequiredTags": [
-        "StealthSystem",
-        "StealthArmor"
-      ],
+      "Tag": "MimeticStealthMod",
       "IncompatibleTags": [
-        "MimeticSystem",
-        "SocietyChameleon",
-        "Chameleon",
-        "NCFF",
+        "MimeticStealthSystem",
+        "SocietyVoidSignatureSystem",
+        "ModularArmor",
+        "ModularRearArmor",
+        "Gear_HeatSinkKit_Laser",
+        "Gear_HeatSink_Laser",
+        "Gear_Structure_InternalRepairSystem"
+      ]
+    },
+    {
+      "Tag": "SensorStealthMod",
+      "IncompatibleTags": [
+        "SensorStealthSystem",
         "ModularArmor",
         "ModularRearArmor",
         "Gear_HeatSinkKit_Laser",
         "Gear_HeatSink_Laser",
         "Quirk_OmniStealth",
         "Gear_Structure_InternalRepairSystem",
+        "SocietyVoidSignatureSystem",
         "StealthX",
         "Gear_Engine_Stealth"
       ]
     },
     {
-      "Tag": "StealthSystemAdd",
-      "RequiredTags": [
-        "MimeticSystem",
-        "StealthArmor"
-      ],
-      "IncompatibleTags": [
-        "StealthSystem",
-        "Chameleon",
-        "SocietyChameleon",
-        "NCFF",
-        "ModularArmor",
-        "ModularRearArmor",
-        "Gear_HeatSinkKit_Laser",
-        "Gear_HeatSink_Laser",
-        "Quirk_OmniStealth",
-        "Gear_Structure_InternalRepairSystem",
-        "StealthX",
-        "Gear_Engine_Stealth"
-      ]
-    },
-    {
-      "Tag": "MimeticSystem",
+      "Tag": "MimeticStealthSystem",
       "RequiredTags": [
         "ElectronicCounterMeasures",
         "StealthArmor"
@@ -563,13 +546,13 @@
         "Gear_Structure_InternalRepairSystem",
         "StealthX",
         "Chameleon",
-        "SocietyChameleon",
+        "SocietyVoidSignatureSystem",
         "NCFF",
         "Gear_Engine_Stealth"
       ]
     },
     {
-      "Tag": "StealthSystem",
+      "Tag": "SensorStealthSystem",
       "RequiredTags": [
         "ElectronicCounterMeasures",
         "StealthArmor"
@@ -584,7 +567,7 @@
         "Gear_Structure_InternalRepairSystem",
         "Chameleon",
         "NCFF",
-        "SocietyChameleon",
+        "SocietyVoidSignatureSystem",
         "Gear_Engine_Stealth"
       ]
     },
@@ -602,7 +585,7 @@
         "Quirk_OmniStealth",
         "Gear_Structure_InternalRepairSystem",
         "Chameleon",
-        "SocietyChameleon",
+        "SocietyVoidSignatureSystem",
         "NCFF",
         "Gear_Engine_Stealth"
       ]
@@ -613,6 +596,10 @@
         "ElectronicCounterMeasures"
       ],
       "IncompatibleTags": [
+        "SensorStealthSystem",
+        "MimeticStealthSystem",
+        "SensorStealthMod",
+        "MimeticStealthMod",
         "StealthX",
         "ModularArmor",
         "ModularRearArmor",
@@ -621,7 +608,7 @@
         "Quirk_OmniStealth",
         "Gear_Structure_InternalRepairSystem",
         "Chameleon",
-        "SocietyChameleon",
+        "SocietyVoidSignatureSystem",
         "NCFF",
         "Gear_Engine_Stealth",
         "C3Equipment"
@@ -634,7 +621,7 @@
       ]
     },
     {
-      "Tag": "SocietyChameleon",
+      "Tag": "SocietyVoidSignatureSystem",
       "RequiredTags": [
         "SocietyNOVA"
       ],
@@ -661,7 +648,7 @@
         "ModularRearArmor",
         "OmniMech",
         "StealthArmor",
-        "MimeticSystem",
+        "MimeticStealthSystem",
         "Chameleon"
       ]
     },
@@ -689,7 +676,7 @@
       ]
     },
     {
-      "Tag": "Unique_Gear_Armor_ChameleonLightPolarizationShield",
+      "Tag": "Unique_Gear_Armor_VoidIntegratedArmor",
       "RequiredTags": [
         "Unique_Sensors_AR14"
       ]
@@ -765,7 +752,7 @@
     {
       "Tag": "SocietyNOVA",
       "RequiredTags": [
-        "SocietyChameleon"
+        "SocietyVoidSignatureSystem"
       ]
     },
     {
@@ -776,8 +763,8 @@
     },
     {
       "Tag": "Unique_Sensors_AR14",
-      "RequiredTags": [
-        "Unique_Gear_Armor_ChameleonLightPolarizationShield"
+      "RequiredAnyTags": [
+        "Unique_Gear_Armor_VoidIntegratedArmor"
       ]
     },
     {
@@ -1172,6 +1159,13 @@
       "RequiredAnyTags": [
         "IndustrialMech",
         "IndustrialSquadMech"
+      ]
+    },
+    {
+      "Tag": "VehicleEquipment",
+      "IncompatibleTags": [
+        "unit_mech",
+        "unit_superheavy_mech"
       ]
     }
   ]
