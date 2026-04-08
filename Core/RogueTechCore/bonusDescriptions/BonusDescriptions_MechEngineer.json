@@ -1345,6 +1345,12 @@
       "Full": "{0} resistance to critical hits in the mounted location"
     },
     {
+      "Bonus": "CritVulnerable",
+      "Short": "{0} Crit.Vul",
+      "Long": "{0} Crit Vulnerable",
+      "Full": "{0} more vulnerable to critical hits"
+    },
+    {
       "Bonus": "StabThreshhold",
       "Short": "{0} Stab",
       "Long": "{0} Stability Threshold",
@@ -2491,22 +2497,22 @@
       "Full": "Enables Apollo firing mode in all compatible MRM launchers."
     },
     {
-      "Bonus": "IsArmorMod",
-      "Short": "Armor Mod",
-      "Long": "Armor Modification",
-      "Full": "Armor Modification: 1 Per Unit. Must be installed in Center Torso."
-    },
-    {
       "Bonus": "IsStructureMod",
       "Short": "Structure Mod",
       "Long": "Structure Modification",
-      "Full": "Structure Modification: 1 Per Unit. Must be installed in Center Torso."
+      "Full": "Structure Modification: Must be installed in Center Torso. Max 1 Per Unit."
+    },
+    {
+      "Bonus": "IsArmorMod",
+      "Short": "Armor Mod",
+      "Long": "Armor Modification",
+      "Full": "Armor Modification: Max 2 Per Unit total."
     },
     {
       "Bonus": "IsArmorModLocation",
       "Short": "Armor Mod",
       "Long": "Armor Modification",
-      "Full": "Armor Modification: 1 Per Unit. Must be installed in {0}."
+      "Full": "Armor Modification: Must be installed in {0}. Max 2 Per Unit total."
     },
     {
       "Bonus": "IsArmored",
