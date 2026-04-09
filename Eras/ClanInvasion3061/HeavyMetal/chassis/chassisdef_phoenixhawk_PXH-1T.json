@@ -1,10 +1,10 @@
 {
   "Custom": {
     "DropCostFactor": {
-      "DropModifier": 1.18
+      "DropModifier": 1.01
     },
     "AssemblyVariant": {
-      "PrefabID": "atlas",
+      "PrefabID": "phoenixhawk",
       "Exclude": false,
       "Include": true
     }
@@ -15,45 +15,45 @@
   "FixedEquipment": [
     {
       "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Quirk_BattleFists",
+      "ComponentDefID": "Quirk_ImprovedComms",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
     }
   ],
   "Description": {
-    "Cost": 1710641,
-    "Rarity": 5,
+    "Cost": 1310600,
+    "Rarity": 2,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
-    "UIName": "Atlas",
-    "Id": "chassisdef_atlas_AS7-C",
-    "Name": "Atlas",
-    "Details": "A Combine modification of the K model introduced in 3050, the C model carried a C3 Slave unit into combat. This was achieved by removing one of the Medium Pulse Lasers from the K model. The extra free ton was used to add another heat sink to the design.\n\n<b><color=#e62e00>Quirk: Battle Fists</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.18</color></b>",
-    "Icon": "uixTxrIcon_atlas"
+    "UIName": "Phoenix Hawk",
+    "Id": "chassisdef_phoenixhawk_PXH-1T",
+    "Name": "Phoenix Hawk",
+    "Details": "The Phoenix Hawk PXH-1T was often called the 'Sword Hawk' due its sword carried in the right hand. Besides the melee weapon the variant had a very basic setup, four Medium Lasers and a SRM-6 launcher. \n\n<b><color=#e62e00>Quirk: Improved Communications</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.01</color></b>",
+    "Icon": "uixTxrIcon_phoenixhawk"
   },
-  "VariantName": "AS7-C",
+  "VariantName": "PXH-1T",
   "ChassisTags": {
     "items": [],
     "tagSetSourceFile": ""
   },
-  "StockRole": "Juggernaut & Mid/Long Range Assault",
-  "YangsThoughts": "Another 'Mech design that the Combine inherited when they took Independence Weaponries on Quentin in the War of 3039, the Atlas C was one of the first designs thought of when Combine Engineers began incorporating C3 units into BattleMechs. Since the Atlas has such a large arsenal of weapons, the removal of one medium pulse lasers was of small consequence. Added in its place was a C3 slave and another heat sink to help the design dissipate the huge amounts of heat it already produces.",
-  "MovementCapDefID": "movedef_assaultmech",
-  "PathingCapDefID": "pathingdef_assault",
-  "HardpointDataDefID": "hardpointdatadef_atlas",
-  "PrefabIdentifier": "chrPrfMech_atlasBase-001",
-  "PrefabBase": "atlas",
-  "Tonnage": 100.0,
-  "InitialTonnage": 10.0,
-  "weightClass": "ASSAULT",
-  "BattleValue": 10581000,
+  "StockRole": "Scout & Skirmisher",
+  "YangsThoughts": "A classic for a reason. Very mobile with good punch for it's tonnage. New pilots need to be careful not to overheat though.",
+  "MovementCapDefID": "movedef_mediummech",
+  "PathingCapDefID": "pathingdef_medium",
+  "HardpointDataDefID": "hardpointdatadef_phoenixhawk",
+  "PrefabIdentifier": "chrPrfMech_phoenixhawkBase-001",
+  "PrefabBase": "phoenixhawk",
+  "Tonnage": 45.0,
+  "InitialTonnage": 4.5,
+  "weightClass": "MEDIUM",
+  "BattleValue": 4200000,
   "Heatsinks": 0,
-  "TopSpeed": 60,
+  "TopSpeed": 120,
   "TurnRadius": 90,
   "MaxJumpjets": 20,
-  "Stability": 100,
+  "Stability": 130,
   "StabilityDefenses": [
     0,
     0,
@@ -66,15 +66,15 @@
   "VisibilityMultiplier": 1,
   "SensorRangeMultiplier": 1,
   "Signature": 1,
-  "Radius": 8,
-  "PunchesWithLeftArm": false,
-  "MeleeDamage": 50,
-  "MeleeInstability": 25,
+  "Radius": 5,
+  "PunchesWithLeftArm": true,
+  "MeleeDamage": 23,
+  "MeleeInstability": 12,
   "MeleeToHitModifier": 0,
-  "DFADamage": 100,
+  "DFADamage": 45,
   "DFAToHitModifier": 0,
-  "DFASelfDamage": 100,
-  "DFAInstability": 50,
+  "DFASelfDamage": 45,
+  "DFAInstability": 23,
   "Locations": [
     {
       "Location": "Head",
@@ -98,7 +98,7 @@
           "Omni": false
         },
         {
-          "WeaponMountID": "AntiPersonnel",
+          "WeaponMountID": "Energy",
           "Omni": false
         },
         {
@@ -108,53 +108,41 @@
       ],
       "Tonnage": 0,
       "InventorySlots": 13,
-      "MaxArmor": 170,
+      "MaxArmor": 70,
       "MaxRearArmor": -1,
-      "InternalStructure": 85
+      "InternalStructure": 35
     },
     {
       "Location": "LeftTorso",
       "Hardpoints": [
         {
-          "WeaponMountID": "Missile",
-          "Omni": false
-        },
-        {
           "WeaponMountID": "Special",
           "Omni": false
         }
       ],
       "Tonnage": 0,
       "InventorySlots": 13,
-      "MaxArmor": 210,
-      "MaxRearArmor": 105,
-      "InternalStructure": 105
+      "MaxArmor": 110,
+      "MaxRearArmor": 55,
+      "InternalStructure": 55
     },
     {
       "Location": "CenterTorso",
       "Hardpoints": [
         {
-          "WeaponMountID": "Energy",
+          "WeaponMountID": "Missile",
           "Omni": false
         }
       ],
       "Tonnage": 0,
       "InventorySlots": 13,
-      "MaxArmor": 310,
-      "MaxRearArmor": 155,
-      "InternalStructure": 155
+      "MaxArmor": 140,
+      "MaxRearArmor": 70,
+      "InternalStructure": 70
     },
     {
       "Location": "RightTorso",
       "Hardpoints": [
-        {
-          "WeaponMountID": "Ballistic",
-          "Omni": false
-        },
-        {
-          "WeaponMountID": "Missile",
-          "Omni": false
-        },
         {
           "WeaponMountID": "Special",
           "Omni": false
@@ -162,9 +150,9 @@
       ],
       "Tonnage": 0,
       "InventorySlots": 13,
-      "MaxArmor": 210,
-      "MaxRearArmor": 105,
-      "InternalStructure": 105
+      "MaxArmor": 110,
+      "MaxRearArmor": 55,
+      "InternalStructure": 55
     },
     {
       "Location": "RightArm",
@@ -174,77 +162,81 @@
           "Omni": false
         },
         {
+          "WeaponMountID": "Energy",
+          "Omni": false
+        },
+        {
           "WeaponMountID": "SpecialHandHeld",
           "Omni": false
         }
       ],
       "Tonnage": 0,
       "InventorySlots": 13,
-      "MaxArmor": 170,
+      "MaxArmor": 70,
       "MaxRearArmor": -1,
-      "InternalStructure": 85
+      "InternalStructure": 35
     },
     {
       "Location": "LeftLeg",
       "Hardpoints": [],
       "Tonnage": 0,
       "InventorySlots": 6,
-      "MaxArmor": 210,
+      "MaxArmor": 110,
       "MaxRearArmor": -1,
-      "InternalStructure": 105
+      "InternalStructure": 55
     },
     {
       "Location": "RightLeg",
       "Hardpoints": [],
       "Tonnage": 0,
       "InventorySlots": 6,
-      "MaxArmor": 210,
+      "MaxArmor": 110,
       "MaxRearArmor": -1,
-      "InternalStructure": 105
+      "InternalStructure": 55
     }
   ],
   "LOSSourcePositions": [
     {
       "x": 0,
-      "y": 17,
+      "y": 14,
       "z": 0
     },
     {
-      "x": 5,
-      "y": 16,
-      "z": -1
+      "x": 3.5,
+      "y": 13,
+      "z": 0
     },
     {
-      "x": -5,
-      "y": 16,
-      "z": -1
+      "x": -3.5,
+      "y": 13,
+      "z": 0
     }
   ],
   "LOSTargetPositions": [
     {
       "x": 0,
-      "y": 17,
+      "y": 14,
       "z": 0
     },
     {
-      "x": 5,
-      "y": 16,
-      "z": -1
-    },
-    {
-      "x": -5,
-      "y": 16,
-      "z": -1
-    },
-    {
       "x": 3.5,
-      "y": 5.5,
-      "z": 1
+      "y": 13,
+      "z": 0
     },
     {
       "x": -3.5,
-      "y": 5.5,
-      "z": 1
+      "y": 13,
+      "z": 0
+    },
+    {
+      "x": 3,
+      "y": 5,
+      "z": 0
+    },
+    {
+      "x": -3,
+      "y": 5,
+      "z": 0
     }
   ]
 }

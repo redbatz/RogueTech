@@ -1,10 +1,10 @@
 {
   "Custom": {
     "DropCostFactor": {
-      "DropModifier": 1.18
+      "DropModifier": 1.09
     },
     "AssemblyVariant": {
-      "PrefabID": "atlas",
+      "PrefabID": "marauder",
       "Exclude": false,
       "Include": true
     }
@@ -15,42 +15,45 @@
   "FixedEquipment": [
     {
       "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Quirk_BattleFists",
+      "ComponentDefID": "Quirk_NarrowLowProfile",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
     }
   ],
   "Description": {
-    "Cost": 1713283,
-    "Rarity": 5,
+    "Cost": 1479562,
+    "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
-    "UIName": "Atlas",
-    "Id": "chassisdef_atlas_AS7-CM",
-    "Name": "Atlas",
-    "Details": "Another modification of the K model of the Atlas introduced in 3050, the CM Atlas was designed to carry a C3 Master Computer into battle. In order to do this one of the ER Large Lasers was removed and in its place a C3 Master computer was installed, allowing it to coordinate a C3 lance.\n\n<b><color=#e62e00>Quirk: Battle Fists</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.18</color></b>",
-    "Icon": "uixTxrIcon_atlas"
+    "UIName": "Marauder",
+    "Id": "chassisdef_marauder_MAD-3H",
+    "Name": "Marauder",
+    "Details": "The MAD-3H Marauder, dubbed the 'Fiddler Crab', abandons elegance for terror. Bristling with blazers and wielding a crushing mace, it advances relentlessly into close quarters. Its asymmetric, heavily armored frame embodies a nightmarish evolution of a once-proud command BattleMech, built to intimidate and destroy.\n\n<b><color=#e62e00>Quirk: Narrow/Low Profile</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.09</color></b>\n\n<color=#FFEF00>Arm Actuator Limit: Right Lower</color>",
+    "Icon": "uixTxrIcon_marauder"
   },
-  "VariantName": "AS7-CM",
+  "VariantName": "MAD-3H",
   "ChassisTags": {
-    "items": [],
+    "items": [
+      "ArmLimitLowerRight",
+      "OneHanded"
+    ],
     "tagSetSourceFile": ""
   },
-  "StockRole": "Command & Mid/Long Range Assault",
-  "YangsThoughts": "Another modification of the K model of the Atlas introduced in 3050, the CM Atlas was designed to carry a C3 Master Computer into battle. In order to do this one of the ER Large Lasers was removed and in its place a C3 Master computer was installed, allowing it to coordinate a C3 lance.",
-  "MovementCapDefID": "movedef_assaultmech",
-  "PathingCapDefID": "pathingdef_assault",
-  "HardpointDataDefID": "hardpointdatadef_atlas",
-  "PrefabIdentifier": "chrPrfMech_atlasBase-001",
-  "PrefabBase": "atlas",
-  "Tonnage": 100.0,
-  "InitialTonnage": 10.0,
-  "weightClass": "ASSAULT",
-  "BattleValue": 10581000,
+  "StockRole": "Sniper & Ranged Assault",
+  "YangsThoughts": "Mad... MAD I tell you!",
+  "MovementCapDefID": "movedef_heavymech",
+  "PathingCapDefID": "pathingdef_heavy",
+  "HardpointDataDefID": "hardpointdatadef_marauder",
+  "PrefabIdentifier": "chrPrfMech_marauderBase-001",
+  "PrefabBase": "marauder",
+  "Tonnage": 75.0,
+  "InitialTonnage": 7.5,
+  "weightClass": "HEAVY",
+  "BattleValue": 7124000,
   "Heatsinks": 0,
-  "TopSpeed": 60,
+  "TopSpeed": 64,
   "TurnRadius": 90,
   "MaxJumpjets": 20,
   "Stability": 100,
@@ -68,25 +71,17 @@
   "Signature": 1,
   "Radius": 8,
   "PunchesWithLeftArm": false,
-  "MeleeDamage": 50,
-  "MeleeInstability": 25,
+  "MeleeDamage": 38,
+  "MeleeInstability": 19,
   "MeleeToHitModifier": 0,
-  "DFADamage": 100,
+  "DFADamage": 75,
   "DFAToHitModifier": 0,
-  "DFASelfDamage": 100,
-  "DFAInstability": 50,
-  "MechPartMax": 0,
-  "MechPartCount": 0,
-  "EngageRangeModifier": 0,
+  "DFASelfDamage": 75,
+  "DFAInstability": 38,
   "Locations": [
     {
       "Location": "Head",
-      "Hardpoints": [
-        {
-          "WeaponMountID": "Energy",
-          "Omni": false
-        }
-      ],
+      "Hardpoints": [],
       "Tonnage": 0,
       "InventorySlots": 6,
       "MaxArmor": 45,
@@ -97,29 +92,25 @@
       "Location": "LeftArm",
       "Hardpoints": [
         {
-          "WeaponMountID": "AntiPersonnel",
-          "Omni": false
-        },
-        {
-          "WeaponMountID": "AntiPersonnel",
-          "Omni": false
-        },
-        {
           "WeaponMountID": "SpecialHandHeld",
           "Omni": false
         }
       ],
       "Tonnage": 0,
       "InventorySlots": 13,
-      "MaxArmor": 170,
+      "MaxArmor": 120,
       "MaxRearArmor": -1,
-      "InternalStructure": 85
+      "InternalStructure": 60
     },
     {
       "Location": "LeftTorso",
       "Hardpoints": [
         {
-          "WeaponMountID": "Missile",
+          "WeaponMountID": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMountID": "Energy",
           "Omni": false
         },
         {
@@ -129,37 +120,33 @@
       ],
       "Tonnage": 0,
       "InventorySlots": 13,
-      "MaxArmor": 210,
-      "MaxRearArmor": 105,
-      "InternalStructure": 105
+      "MaxArmor": 160,
+      "MaxRearArmor": 80,
+      "InternalStructure": 80
     },
     {
       "Location": "CenterTorso",
       "Hardpoints": [
         {
-          "WeaponMountID": "Energy",
-          "Omni": false
-        },
-        {
-          "WeaponMountID": "Energy",
+          "WeaponMountID": "AntiPersonnel",
           "Omni": false
         }
       ],
       "Tonnage": 0,
       "InventorySlots": 13,
-      "MaxArmor": 310,
-      "MaxRearArmor": 155,
-      "InternalStructure": 155
+      "MaxArmor": 230,
+      "MaxRearArmor": 115,
+      "InternalStructure": 115
     },
     {
       "Location": "RightTorso",
       "Hardpoints": [
         {
-          "WeaponMountID": "Ballistic",
+          "WeaponMountID": "Energy",
           "Omni": false
         },
         {
-          "WeaponMountID": "Missile",
+          "WeaponMountID": "Energy",
           "Omni": false
         },
         {
@@ -169,9 +156,9 @@
       ],
       "Tonnage": 0,
       "InventorySlots": 13,
-      "MaxArmor": 210,
-      "MaxRearArmor": 105,
-      "InternalStructure": 105
+      "MaxArmor": 160,
+      "MaxRearArmor": 80,
+      "InternalStructure": 80
     },
     {
       "Location": "RightArm",
@@ -187,71 +174,71 @@
       ],
       "Tonnage": 0,
       "InventorySlots": 13,
-      "MaxArmor": 170,
+      "MaxArmor": 120,
       "MaxRearArmor": -1,
-      "InternalStructure": 85
+      "InternalStructure": 60
     },
     {
       "Location": "LeftLeg",
       "Hardpoints": [],
       "Tonnage": 0,
       "InventorySlots": 6,
-      "MaxArmor": 210,
+      "MaxArmor": 160,
       "MaxRearArmor": -1,
-      "InternalStructure": 105
+      "InternalStructure": 80
     },
     {
       "Location": "RightLeg",
       "Hardpoints": [],
       "Tonnage": 0,
       "InventorySlots": 6,
-      "MaxArmor": 210,
+      "MaxArmor": 160,
       "MaxRearArmor": -1,
-      "InternalStructure": 105
+      "InternalStructure": 80
     }
   ],
   "LOSSourcePositions": [
     {
       "x": 0,
-      "y": 17,
+      "y": 18,
+      "z": 1
+    },
+    {
+      "x": 4,
+      "y": 16,
       "z": 0
     },
     {
-      "x": 5,
+      "x": -4,
       "y": 16,
-      "z": -1
-    },
-    {
-      "x": -5,
-      "y": 16,
-      "z": -1
+      "z": 0
     }
   ],
   "LOSTargetPositions": [
     {
       "x": 0,
-      "y": 17,
+      "y": 18,
+      "z": 1
+    },
+    {
+      "x": 4,
+      "y": 16,
       "z": 0
     },
     {
-      "x": 5,
+      "x": -4,
       "y": 16,
-      "z": -1
+      "z": 0
     },
     {
-      "x": -5,
-      "y": 16,
-      "z": -1
+      "x": 3,
+      "y": 6,
+      "z": 0
     },
     {
-      "x": 3.5,
-      "y": 5.5,
-      "z": 1
-    },
-    {
-      "x": -3.5,
-      "y": 5.5,
-      "z": 1
+      "x": -3,
+      "y": 6,
+      "z": 0
     }
   ]
 }

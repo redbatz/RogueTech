@@ -4,7 +4,7 @@
       "DropModifier": 1.18
     },
     "AssemblyVariant": {
-      "PrefabID": "atlas",
+      "PrefabID": "kingcrab",
       "Exclude": false,
       "Include": true
     }
@@ -15,42 +15,45 @@
   "FixedEquipment": [
     {
       "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Quirk_BattleFists",
+      "ComponentDefID": "Quirk_CommandMech",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
     }
   ],
   "Description": {
-    "Cost": 1713283,
+    "Cost": 2250641,
     "Rarity": 5,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
-    "UIName": "Atlas",
-    "Id": "chassisdef_atlas_AS7-CM",
-    "Name": "Atlas",
-    "Details": "Another modification of the K model of the Atlas introduced in 3050, the CM Atlas was designed to carry a C3 Master Computer into battle. In order to do this one of the ER Large Lasers was removed and in its place a C3 Master computer was installed, allowing it to coordinate a C3 lance.\n\n<b><color=#e62e00>Quirk: Battle Fists</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.18</color></b>",
-    "Icon": "uixTxrIcon_atlas"
+    "UIName": "King Crab",
+    "Id": "chassisdef_kingcrab_KGC-0KP",
+    "Name": "King Crab",
+    "Details": "The unusual KGC-0KP variant of the King Crab carries a PPC and a Light Blazer in each arm, while a large AC/20 resides in its right torso.\n\n<b><color=#e62e00>Quirk: Command Mech</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.18</color></b>\n\n<color=#FFEF00>Arm Actuator Limits: Left Upper, Right Upper</color>",
+    "Icon": "uixTxrIcon_kingcrab"
   },
-  "VariantName": "AS7-CM",
+  "VariantName": "KGC-0KP",
   "ChassisTags": {
-    "items": [],
+    "items": [
+      "ArmLimitUpperLeft",
+      "ArmLimitUpperRight"
+    ],
     "tagSetSourceFile": ""
   },
-  "StockRole": "Command & Mid/Long Range Assault",
-  "YangsThoughts": "Another modification of the K model of the Atlas introduced in 3050, the CM Atlas was designed to carry a C3 Master Computer into battle. In order to do this one of the ER Large Lasers was removed and in its place a C3 Master computer was installed, allowing it to coordinate a C3 lance.",
+  "StockRole": "Juggernaut & Close Assault",
+  "YangsThoughts": "One of the most heavily armed and armored 'Mechs ever constructed, many MechWarriors still feel their legs get all wobbly when one of these brutal beasts join the fray.",
   "MovementCapDefID": "movedef_assaultmech",
   "PathingCapDefID": "pathingdef_assault",
-  "HardpointDataDefID": "hardpointdatadef_atlas",
-  "PrefabIdentifier": "chrPrfMech_atlasBase-001",
-  "PrefabBase": "atlas",
+  "HardpointDataDefID": "hardpointdatadef_kingcrab",
+  "PrefabIdentifier": "chrPrfMech_kingcrabBase-001",
+  "PrefabBase": "kingcrab",
   "Tonnage": 100.0,
   "InitialTonnage": 10.0,
   "weightClass": "ASSAULT",
-  "BattleValue": 10581000,
+  "BattleValue": 20206000,
   "Heatsinks": 0,
-  "TopSpeed": 60,
+  "TopSpeed": 105,
   "TurnRadius": 90,
   "MaxJumpjets": 20,
   "Stability": 100,
@@ -75,18 +78,10 @@
   "DFAToHitModifier": 0,
   "DFASelfDamage": 100,
   "DFAInstability": 50,
-  "MechPartMax": 0,
-  "MechPartCount": 0,
-  "EngageRangeModifier": 0,
   "Locations": [
     {
       "Location": "Head",
-      "Hardpoints": [
-        {
-          "WeaponMountID": "Energy",
-          "Omni": false
-        }
-      ],
+      "Hardpoints": [],
       "Tonnage": 0,
       "InventorySlots": 6,
       "MaxArmor": 45,
@@ -97,11 +92,11 @@
       "Location": "LeftArm",
       "Hardpoints": [
         {
-          "WeaponMountID": "AntiPersonnel",
+          "WeaponMountID": "Energy",
           "Omni": false
         },
         {
-          "WeaponMountID": "AntiPersonnel",
+          "WeaponMountID": "Energy",
           "Omni": false
         },
         {
@@ -119,10 +114,6 @@
       "Location": "LeftTorso",
       "Hardpoints": [
         {
-          "WeaponMountID": "Missile",
-          "Omni": false
-        },
-        {
           "WeaponMountID": "Special",
           "Omni": false
         }
@@ -137,11 +128,7 @@
       "Location": "CenterTorso",
       "Hardpoints": [
         {
-          "WeaponMountID": "Energy",
-          "Omni": false
-        },
-        {
-          "WeaponMountID": "Energy",
+          "WeaponMountID": "AntiPersonnel",
           "Omni": false
         }
       ],
@@ -159,7 +146,7 @@
           "Omni": false
         },
         {
-          "WeaponMountID": "Missile",
+          "WeaponMountID": "Ballistic",
           "Omni": false
         },
         {
@@ -178,6 +165,14 @@
       "Hardpoints": [
         {
           "WeaponMountID": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMountID": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMountID": "Missile",
           "Omni": false
         },
         {
@@ -213,45 +208,45 @@
   "LOSSourcePositions": [
     {
       "x": 0,
-      "y": 17,
+      "y": 14.5,
       "z": 0
     },
     {
-      "x": 5,
-      "y": 16,
+      "x": 4,
+      "y": 15,
       "z": -1
     },
     {
-      "x": -5,
-      "y": 16,
+      "x": -4,
+      "y": 15,
       "z": -1
     }
   ],
   "LOSTargetPositions": [
     {
       "x": 0,
-      "y": 17,
+      "y": 14.5,
       "z": 0
     },
     {
-      "x": 5,
-      "y": 16,
+      "x": 4,
+      "y": 15,
       "z": -1
     },
     {
-      "x": -5,
-      "y": 16,
+      "x": -4,
+      "y": 15,
       "z": -1
     },
     {
       "x": 3.5,
       "y": 5.5,
-      "z": 1
+      "z": -1
     },
     {
       "x": -3.5,
       "y": 5.5,
-      "z": 1
+      "z": -1
     }
   ]
 }

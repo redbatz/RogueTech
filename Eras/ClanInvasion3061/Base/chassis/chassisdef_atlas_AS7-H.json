@@ -22,24 +22,24 @@
     }
   ],
   "Description": {
-    "Cost": 1713283,
+    "Cost": 2030783,
     "Rarity": 5,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
     "UIName": "Atlas",
-    "Id": "chassisdef_atlas_AS7-CM",
+    "Id": "chassisdef_atlas_AS7-H",
     "Name": "Atlas",
-    "Details": "Another modification of the K model of the Atlas introduced in 3050, the CM Atlas was designed to carry a C3 Master Computer into battle. In order to do this one of the ER Large Lasers was removed and in its place a C3 Master computer was installed, allowing it to coordinate a C3 lance.\n\n<b><color=#e62e00>Quirk: Battle Fists</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.18</color></b>",
+    "Details": "A classic variant of the AS7-D used by the Lyran Commonwealth, the AS7-H trades the autocannon and LRM 20 for a smaller LRM 10, a trio of Large Lasers and a huge hatchet.\n\n<b><color=#e62e00>Quirk: Battle Fists</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.18</color></b>",
     "Icon": "uixTxrIcon_atlas"
   },
-  "VariantName": "AS7-CM",
+  "VariantName": "AS7-H",
   "ChassisTags": {
     "items": [],
     "tagSetSourceFile": ""
   },
-  "StockRole": "Command & Mid/Long Range Assault",
-  "YangsThoughts": "Another modification of the K model of the Atlas introduced in 3050, the CM Atlas was designed to carry a C3 Master Computer into battle. In order to do this one of the ER Large Lasers was removed and in its place a C3 Master computer was installed, allowing it to coordinate a C3 lance.",
+  "StockRole": "Juggernaut",
+  "YangsThoughts": "The Atlas is the king of the battlefield, capable of bringing a dizzying array of weapons to bear on targets at any range. It is also noteworthy for normally mounting the maximum amount of armor possible. Few opponents can survive even brief contact with this monster.",
   "MovementCapDefID": "movedef_assaultmech",
   "PathingCapDefID": "pathingdef_assault",
   "HardpointDataDefID": "hardpointdatadef_atlas",
@@ -75,15 +75,12 @@
   "DFAToHitModifier": 0,
   "DFASelfDamage": 100,
   "DFAInstability": 50,
-  "MechPartMax": 0,
-  "MechPartCount": 0,
-  "EngageRangeModifier": 0,
   "Locations": [
     {
       "Location": "Head",
       "Hardpoints": [
         {
-          "WeaponMountID": "Energy",
+          "WeaponMountID": "AntiPersonnel",
           "Omni": false
         }
       ],
@@ -97,11 +94,7 @@
       "Location": "LeftArm",
       "Hardpoints": [
         {
-          "WeaponMountID": "AntiPersonnel",
-          "Omni": false
-        },
-        {
-          "WeaponMountID": "AntiPersonnel",
+          "WeaponMountID": "Energy",
           "Omni": false
         },
         {
@@ -119,6 +112,14 @@
       "Location": "LeftTorso",
       "Hardpoints": [
         {
+          "WeaponMountID": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMountID": "Missile",
+          "Omni": false
+        },
+        {
           "WeaponMountID": "Missile",
           "Omni": false
         },
@@ -135,16 +136,7 @@
     },
     {
       "Location": "CenterTorso",
-      "Hardpoints": [
-        {
-          "WeaponMountID": "Energy",
-          "Omni": false
-        },
-        {
-          "WeaponMountID": "Energy",
-          "Omni": false
-        }
-      ],
+      "Hardpoints": [],
       "Tonnage": 0,
       "InventorySlots": 13,
       "MaxArmor": 310,
@@ -155,7 +147,11 @@
       "Location": "RightTorso",
       "Hardpoints": [
         {
-          "WeaponMountID": "Ballistic",
+          "WeaponMountID": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMountID": "Energy",
           "Omni": false
         },
         {
