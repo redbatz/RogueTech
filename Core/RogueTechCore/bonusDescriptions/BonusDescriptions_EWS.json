@@ -539,7 +539,7 @@
       "Bonus": "C3ECMPenalty",
       "Short": "{0}ECM",
       "Long": "{0} ECM/{1} Sig",
-      "Full": "C3 Systems interfere with electronic countermeasures. {0} to ECM shield and {1} to sensor signature."
+      "Full": "C3 Systems interfere with electronic countermeasures. Unit suffers {0} to ECM shield and {1} to sensor signature."
     },
     {
       "Bonus": "XenoLink",
