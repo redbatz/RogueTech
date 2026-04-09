@@ -13,12 +13,12 @@
     ],
     "BonusDescriptions": [
       "HandHeldMeleeWeapon: 2.5",
-      "WpnAccuracy: -2",
+      "WpnAccuracy: -3",
       "PhysicalWeapon: 0, 0",
-      "CBTBEPhysicalWeaponHits: +1",
+      "CBTBEPhysicalWeaponHits: +2",
       "PhysicalWeaponPunch",
       "PhysicalWeaponDestabilize",
-      "CBTBEPhysicalAttackAccuracy: -2",
+      "CBTBEPhysicalAttackAccuracy: -3",
       "CBTBEPhysicalAttackDamage: 30",
       "CBTBEPhysicalAttackStability: 30",
       "NoAA",
@@ -49,7 +49,7 @@
   "HeatDamage": 0,
   "Instability": 1,
   "DamageVariance": 0,
-  "AccuracyModifier": 2,
+  "AccuracyModifier": 3,
   "EvasivePipsIgnored": 0,
   "RefireModifier": 0,
   "OverheatedDamageMultiplier": 0,
@@ -112,7 +112,7 @@
       "statisticData": {
         "statName": "CBTBE_Physical_Weapon_Extra_Hits_Count",
         "operation": "Float_Add",
-        "modValue": "1",
+        "modValue": "2",
         "modType": "System.Single"
       }
     },
@@ -242,7 +242,7 @@
       "statisticData": {
         "statName": "CBTBE_Physical_Weapon_Attack_Mod",
         "operation": "Int_Add",
-        "modValue": "2",
+        "modValue": "3",
         "modType": "System.Int32"
       }
     },
