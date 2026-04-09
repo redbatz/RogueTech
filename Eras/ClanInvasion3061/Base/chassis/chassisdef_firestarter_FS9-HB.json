@@ -1,10 +1,10 @@
 {
   "Custom": {
     "DropCostFactor": {
-      "DropModifier": 1.18
+      "DropModifier": 0.98
     },
     "AssemblyVariant": {
-      "PrefabID": "atlas",
+      "PrefabID": "firestarter",
       "Exclude": false,
       "Include": true
     }
@@ -15,42 +15,45 @@
   "FixedEquipment": [
     {
       "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Quirk_BattleFists",
+      "ComponentDefID": "Quirk_Ubiquitous",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
     }
   ],
   "Description": {
-    "Cost": 1713283,
-    "Rarity": 5,
+    "Cost": 982281,
+    "Rarity": 2,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
-    "UIName": "Atlas",
-    "Id": "chassisdef_atlas_AS7-CM",
-    "Name": "Atlas",
-    "Details": "Another modification of the K model of the Atlas introduced in 3050, the CM Atlas was designed to carry a C3 Master Computer into battle. In order to do this one of the ER Large Lasers was removed and in its place a C3 Master computer was installed, allowing it to coordinate a C3 lance.\n\n<b><color=#e62e00>Quirk: Battle Fists</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.18</color></b>",
-    "Icon": "uixTxrIcon_atlas"
+    "UIName": "Firestarter",
+    "Id": "chassisdef_firestarter_FS9-HB",
+    "Name": "Firestarter",
+    "Details": "The FS9-HB combines two Light Binary Lasers with four Flamers in an attempt to incorporate the rare blazer technology to improve the Firestarter's anti-Mech strength while still keeping its short range strengths.\n\n<b><color=#e62e00>Quirk: Ubiquitous</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 0.98</color></b>\n\n<color=#FFEF00>Arm Actuator Limits: Left Lower, Right Lower</color>",
+    "Icon": "uixTxrIcon_firestarter"
   },
-  "VariantName": "AS7-CM",
+  "VariantName": "FS9-HB",
   "ChassisTags": {
-    "items": [],
+    "items": [
+      "ArmLimitLowerLeft",
+      "ArmLimitLowerRight"
+    ],
     "tagSetSourceFile": ""
   },
-  "StockRole": "Command & Mid/Long Range Assault",
-  "YangsThoughts": "Another modification of the K model of the Atlas introduced in 3050, the CM Atlas was designed to carry a C3 Master Computer into battle. In order to do this one of the ER Large Lasers was removed and in its place a C3 Master computer was installed, allowing it to coordinate a C3 lance.",
-  "MovementCapDefID": "movedef_assaultmech",
-  "PathingCapDefID": "pathingdef_assault",
-  "HardpointDataDefID": "hardpointdatadef_atlas",
-  "PrefabIdentifier": "chrPrfMech_atlasBase-001",
-  "PrefabBase": "atlas",
-  "Tonnage": 100.0,
-  "InitialTonnage": 10.0,
-  "weightClass": "ASSAULT",
-  "BattleValue": 10581000,
+  "StockRole": "Scout & Disabler",
+  "YangsThoughts": "The Firestarter is a dangerous 'Mech for its tonnage. Carefully timed attacks with its Flamers can shut down any 'Mech and leave it open to punishment from your other forces. The FS9-H also makes a decent light 'Mech hunter-killer.",
+  "MovementCapDefID": "movedef_lightmech",
+  "PathingCapDefID": "pathingdef_light",
+  "HardpointDataDefID": "hardpointdatadef_firestarter",
+  "PrefabIdentifier": "chrPrfMech_firestarterBase-001",
+  "PrefabBase": "firestarter",
+  "Tonnage": 35.0,
+  "InitialTonnage": 3.5,
+  "weightClass": "LIGHT",
+  "BattleValue": 3749000,
   "Heatsinks": 0,
-  "TopSpeed": 60,
+  "TopSpeed": 85,
   "TurnRadius": 90,
   "MaxJumpjets": 20,
   "Stability": 100,
@@ -66,27 +69,19 @@
   "VisibilityMultiplier": 1,
   "SensorRangeMultiplier": 1,
   "Signature": 1,
-  "Radius": 8,
-  "PunchesWithLeftArm": false,
-  "MeleeDamage": 50,
-  "MeleeInstability": 25,
+  "Radius": 4,
+  "PunchesWithLeftArm": true,
+  "MeleeDamage": 18,
+  "MeleeInstability": 9,
   "MeleeToHitModifier": 0,
-  "DFADamage": 100,
+  "DFADamage": 35,
   "DFAToHitModifier": 0,
-  "DFASelfDamage": 100,
-  "DFAInstability": 50,
-  "MechPartMax": 0,
-  "MechPartCount": 0,
-  "EngageRangeModifier": 0,
+  "DFASelfDamage": 35,
+  "DFAInstability": 18,
   "Locations": [
     {
       "Location": "Head",
-      "Hardpoints": [
-        {
-          "WeaponMountID": "Energy",
-          "Omni": false
-        }
-      ],
+      "Hardpoints": [],
       "Tonnage": 0,
       "InventorySlots": 6,
       "MaxArmor": 45,
@@ -97,11 +92,11 @@
       "Location": "LeftArm",
       "Hardpoints": [
         {
-          "WeaponMountID": "AntiPersonnel",
+          "WeaponMountID": "Energy",
           "Omni": false
         },
         {
-          "WeaponMountID": "AntiPersonnel",
+          "WeaponMountID": "Energy",
           "Omni": false
         },
         {
@@ -111,15 +106,15 @@
       ],
       "Tonnage": 0,
       "InventorySlots": 13,
-      "MaxArmor": 170,
+      "MaxArmor": 60,
       "MaxRearArmor": -1,
-      "InternalStructure": 85
+      "InternalStructure": 30
     },
     {
       "Location": "LeftTorso",
       "Hardpoints": [
         {
-          "WeaponMountID": "Missile",
+          "WeaponMountID": "AntiPersonnel",
           "Omni": false
         },
         {
@@ -129,9 +124,9 @@
       ],
       "Tonnage": 0,
       "InventorySlots": 13,
-      "MaxArmor": 210,
-      "MaxRearArmor": 105,
-      "InternalStructure": 105
+      "MaxArmor": 80,
+      "MaxRearArmor": 40,
+      "InternalStructure": 40
     },
     {
       "Location": "CenterTorso",
@@ -147,21 +142,13 @@
       ],
       "Tonnage": 0,
       "InventorySlots": 13,
-      "MaxArmor": 310,
-      "MaxRearArmor": 155,
-      "InternalStructure": 155
+      "MaxArmor": 110,
+      "MaxRearArmor": 55,
+      "InternalStructure": 55
     },
     {
       "Location": "RightTorso",
       "Hardpoints": [
-        {
-          "WeaponMountID": "Ballistic",
-          "Omni": false
-        },
-        {
-          "WeaponMountID": "Missile",
-          "Omni": false
-        },
         {
           "WeaponMountID": "Special",
           "Omni": false
@@ -169,13 +156,17 @@
       ],
       "Tonnage": 0,
       "InventorySlots": 13,
-      "MaxArmor": 210,
-      "MaxRearArmor": 105,
-      "InternalStructure": 105
+      "MaxArmor": 80,
+      "MaxRearArmor": 40,
+      "InternalStructure": 40
     },
     {
       "Location": "RightArm",
       "Hardpoints": [
+        {
+          "WeaponMountID": "Energy",
+          "Omni": false
+        },
         {
           "WeaponMountID": "Energy",
           "Omni": false
@@ -187,71 +178,71 @@
       ],
       "Tonnage": 0,
       "InventorySlots": 13,
-      "MaxArmor": 170,
+      "MaxArmor": 60,
       "MaxRearArmor": -1,
-      "InternalStructure": 85
+      "InternalStructure": 30
     },
     {
       "Location": "LeftLeg",
       "Hardpoints": [],
       "Tonnage": 0,
       "InventorySlots": 6,
-      "MaxArmor": 210,
+      "MaxArmor": 80,
       "MaxRearArmor": -1,
-      "InternalStructure": 105
+      "InternalStructure": 40
     },
     {
       "Location": "RightLeg",
       "Hardpoints": [],
       "Tonnage": 0,
       "InventorySlots": 6,
-      "MaxArmor": 210,
+      "MaxArmor": 80,
       "MaxRearArmor": -1,
-      "InternalStructure": 105
+      "InternalStructure": 40
     }
   ],
   "LOSSourcePositions": [
     {
       "x": 0,
-      "y": 17,
-      "z": 0
+      "y": 12.5,
+      "z": 0.5
     },
     {
-      "x": 5,
-      "y": 16,
-      "z": -1
+      "x": -2.5,
+      "y": 11.5,
+      "z": -0.5
     },
     {
-      "x": -5,
-      "y": 16,
-      "z": -1
+      "x": 2.5,
+      "y": 11.5,
+      "z": -0.5
     }
   ],
   "LOSTargetPositions": [
     {
       "x": 0,
-      "y": 17,
-      "z": 0
+      "y": 12.5,
+      "z": 0.5
     },
     {
-      "x": 5,
-      "y": 16,
-      "z": -1
+      "x": -2.5,
+      "y": 11.5,
+      "z": -0.5
     },
     {
-      "x": -5,
-      "y": 16,
-      "z": -1
+      "x": 2.5,
+      "y": 11.5,
+      "z": -0.5
     },
     {
-      "x": 3.5,
-      "y": 5.5,
-      "z": 1
+      "x": -2,
+      "y": 3,
+      "z": 0.5
     },
     {
-      "x": -3.5,
-      "y": 5.5,
-      "z": 1
+      "x": 2,
+      "y": 3,
+      "z": 0.5
     }
   ]
 }
