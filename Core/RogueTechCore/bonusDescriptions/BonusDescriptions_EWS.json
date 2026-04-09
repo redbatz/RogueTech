@@ -464,6 +464,12 @@
       "Full": "Goat-Fi: {0} Initiative for Company units in range."
     },
     {
+      "Bonus": "ExplainC3",
+      "Short": "C3",
+      "Long": "C3 Network",
+      "Full": "C3 Networked Units calculate attack range penalties from the position of the Networked Unit closest to the target."
+    },
+    {
       "Bonus": "C3Master",
       "Short": "C3 Master",
       "Long": "C3 Master",
@@ -528,6 +534,12 @@
       "Short": "C3 Bonus",
       "Long": "C3 Bonus",
       "Full": "All Company units with {0} gear receive non-stacking bonus of {1}."
+    },
+    {
+      "Bonus": "C3ECMPenalty",
+      "Short": "{0}ECM",
+      "Long": "{0} ECM/{1} Sig",
+      "Full": "C3 Systems interfere with electronic countermeasures. Unit suffers {0} to ECM shield and {1} to sensor signature."
     },
     {
       "Bonus": "XenoLink",

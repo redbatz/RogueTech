@@ -9,7 +9,7 @@
       }
     ],
     "BonusDescriptions": [
-      "ClusterWeapon",
+      "SingleHitRollWeapon",
       "VariableDmg: 4",
       "IsSRM",
       "1shot",
