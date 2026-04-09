@@ -309,7 +309,7 @@ Movement Tip #2: Terrain types can influence a unit's walking or sprinting speed
 Movement Tip #3: Jump Jets offer a whole new degree of maneuverability and can allow quick repositioning for defense or offense!
 Movement Tip #4: Jump Jets distance is unaffected by terrain type, but can be reduced by weather.
 Movement Tip #5: Tracked, Wheeled and Hover vehicles all handle terrain differently. For example, hover vehicles can cross deep water, and wheeled vehicles gain bonus movement on roads.
-Movement Tip #6: Hover vehicle can move quickly over water, but move much more slowly up and down slopes.
+Movement Tip #6: Hover vehicles can move quickly over water, but move much more slowly up and down slopes.
 Movement Tip #7: Tracked vehicles can handle much steeper slopes than most other unit types.
 Movement Tip #8: Wheeled vehicles move much faster over roads than other unit types. Keep an eye on them in Urban maps!
 Movement Tip #9: The danger zones in a DropShip landing area are no joke, no matter what your fellow MechWarriors told you.
