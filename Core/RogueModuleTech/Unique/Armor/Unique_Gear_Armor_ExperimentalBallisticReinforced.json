@@ -5,6 +5,12 @@
         "CategoryID": "Armor"
       }
     ],
+    "WorkOrderCosts": {
+      "Install": {
+        "TechCost": "0.1 * [[Chassis.Tonnage]]",
+        "CBillCost": "35 * [[Chassis.Tonnage]] * [[Chassis.Tonnage]]"
+      }
+    },
     "BonusDescriptions": [
       "KineticProtection: 45%",
       "MissileProtection: 45%",
@@ -15,12 +21,11 @@
       "ArmorTPCost: x2",
       "ArmorCBCost: x2.5"
     ],
-    "Flags": [
-      "default",
-      "not_broken",
-      "no_salvage",
-      "autorepair"
-    ],
+    "ArmorRepair": {
+      "ArmorTPCost": 2.0,
+      "ArmorCBCost": 2.5
+    },
+    "Color": "Gold",
     "DynamicSlots": {
       "ReservedSlots": 4,
       "BackgroundColor": "GoldHalf",
@@ -29,24 +34,19 @@
       "BonusAText": "Dynamic Slot",
       "BonusBText": " "
     },
-    "Weights": {
-      "ArmorFactor": 1.4
-    },
-    "ArmorRepair": {
-      "ArmorTPCost": 2.0,
-      "ArmorCBCost": 2.5
-    },
-    "WorkOrderCosts": {
-      "Install": {
-        "TechCost": "0.1 * [[Chassis.Tonnage]]",
-        "CBillCost": "35 * [[Chassis.Tonnage]] * [[Chassis.Tonnage]]"
-      }
-    },
+    "Flags": [
+      "default",
+      "not_broken",
+      "no_salvage",
+      "autorepair"
+    ],
     "IBLS": {
       "StorageSize": 5
     },
-    "Color": "Gold",
-    "Lootable": "Gear_Armor_BallisticReinforced"
+    "Lootable": "Gear_Armor_BallisticReinforced",
+    "Weights": {
+      "ArmorFactor": 1.4
+    }
   },
   "Description": {
     "Cost": 1500000,
@@ -143,7 +143,7 @@
       "nature": "Buff",
       "Description": {
         "Id": "StatusEffect-ReactiveBonus3",
-        "Name": "Experimental Ballistic Reinforced: Decreased Handheld Damage Taken",
+        "Name": "Experimental Ballistic Reinforced: Decreased Support Weapon Damage Taken",
         "Details": "Takes less Handheld Damage.",
         "Icon": "uixSvgIcon_mwFury"
       },

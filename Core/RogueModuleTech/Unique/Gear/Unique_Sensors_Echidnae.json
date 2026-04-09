@@ -8,6 +8,12 @@
         "CategoryID": "C3Equipment"
       }
     ],
+    "WorkOrderCosts": {
+      "Install": {
+        "TechCost": "0.1 * [[Chassis.Tonnage]]",
+        "CBillCost": "1.15 * [[Chassis.Tonnage]]"
+      }
+    },
     "BonusDescriptions": [
       "C3Master",
       "C3i",
@@ -19,21 +25,6 @@
       "Sharer",
       "ExplainC3"
     ],
-    "Flags": [
-      "default",
-      "not_broken",
-      "no_salvage",
-      "autorepair"
-    ],
-    "WorkOrderCosts": {
-      "Install": {
-        "TechCost": "0.1 * [[Chassis.Tonnage]]",
-        "CBillCost": "1.15 * [[Chassis.Tonnage]]"
-      }
-    },
-    "IBLS": {
-      "StorageSize": 1
-    },
     "DecoratorComponent": [
       {
         "Text": "IM",
@@ -41,7 +32,16 @@
         "Icon": "ComponentGearIcons_HEXAGON",
         "Importance": 50
       }
-    ]
+    ],
+    "Flags": [
+      "default",
+      "not_broken",
+      "no_salvage",
+      "autorepair"
+    ],
+    "IBLS": {
+      "StorageSize": 1
+    }
   },
   "Description": {
     "Cost": 650000,
@@ -98,7 +98,7 @@
           "nature": "Buff",
           "Description": {
             "Id": "C3_network_master_grant",
-            "Name": "Prototype C3 / Aura C3 network: C3 Master Network",
+            "Name": "Prototype C3 Aura: C3 Master Network",
             "Details": "C3 network",
             "Icon": "uixSvgIcon_status_ECM-missileDef"
           },
@@ -186,7 +186,7 @@
           "nature": "Buff",
           "Description": {
             "Id": "C3i_network_bonus_accuracy",
-            "Name": "Prototype C3i Aura: Improved Allies Accuracy",
+            "Name": "Prototype C3 Aura: Improved Allies Accuracy",
             "Details": "C3i network",
             "Icon": "uixSvgIcon_status_ECM-missileDef"
           },
@@ -214,7 +214,7 @@
           "nature": "Buff",
           "Description": {
             "Id": "C3i_network_bonus_initiative",
-            "Name": "Prototype C3i Aura: Improved Allies Initiative",
+            "Name": "Prototype C3 Aura: Increased Allies Initiative",
             "Details": "C3i network",
             "Icon": "uixSvgIcon_status_ECM-missileDef"
           },

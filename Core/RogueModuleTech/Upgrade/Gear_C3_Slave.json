@@ -10,12 +10,6 @@
       "C3ECMPenalty: -2, +20%",
       "ExplainC3"
     ],
-    "Flags": [
-      "not_broken"
-    ],
-    "IBLS": {
-      "StorageSize": 1
-    },
     "DecoratorComponent": [
       {
         "Text": "S",
@@ -23,7 +17,13 @@
         "Icon": "ComponentGearIcons_HEXAGON",
         "Importance": 50
       }
-    ]
+    ],
+    "Flags": [
+      "not_broken"
+    ],
+    "IBLS": {
+      "StorageSize": 1
+    }
   },
   "Description": {
     "Cost": 250000,
@@ -50,7 +50,6 @@
   "AllowedLocations": "All",
   "DisallowedLocations": "All",
   "CriticalComponent": false,
-  "Auras": [],
   "statusEffects": [
     {
       "durationData": {

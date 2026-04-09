@@ -31,7 +31,7 @@
   },
   "ChassisID": "chassisdef_archer_ARC-JNT",
   "Description": {
-    "Cost": 19658473,
+    "Cost": 19676960,
     "Rarity": 4,
     "Purchasable": false,
     "UIName": "Archer 'Jonathon'",
@@ -40,7 +40,7 @@
     "Details": "Whoever this \"Jonathon\" was, he had access to some very high-tech equipment. A pair of Enhanced LRM-20 Artemis launchers are backed up by a handheld \"Avenger Rifle\", which is some kind of hand-held RAC/5 comparable to the best RISC technology. Maybe it would be more appropriate to call that thing the primary weapon, as it carries more than twice as much ammo as the meager three tons of missiles. This is all wrapped in a thick shell of top-of-the-line mimetic stealth armor.\n\n<b><color=#e62e00>Quirk: Command Mech</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.06</color></b>",
     "Icon": "archerorig"
   },
-  "simGameMechPartCost": 148458,
+  "simGameMechPartCost": 148075,
   "Locations": [
     {
       "Location": "Head",
@@ -273,13 +273,6 @@
       "DamageLevel": "Functional"
     },
     {
-      "MountedLocation": "RightArm",
-      "ComponentDefID": "HandHeld_Weapon_Autocannon_RAC_5",
-      "ComponentDefType": "Weapon",
-      "HardpointSlot": 0,
-      "DamageLevel": "Functional"
-    },
-    {
       "MountedLocation": "LeftArm",
       "ComponentDefID": "Linked_ArmorMod_ChameleonLightPolarizationShield_Improved",
       "ComponentDefType": "Upgrade",
@@ -328,6 +321,13 @@
       "DamageLevel": "Functional"
     },
     {
+      "MountedLocation": "RightArm",
+      "ComponentDefID": "HandHeld_Weapon_Autocannon_RAC_5",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional"
+    },
+    {
       "MountedLocation": "LeftTorso",
       "ComponentDefID": "Gear_Supercharger",
       "ComponentDefType": "Upgrade",
@@ -342,14 +342,6 @@
       "DamageLevel": "Functional"
     },
     {
-      "MountedLocation": "LeftArm",
-      "ComponentDefID": "Gear_Attachment_ArtemisIV",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "TargetComponentGUID": "WeaponAttachment0"
-    },
-    {
       "MountedLocation": "CenterTorso",
       "ComponentDefID": "Gear_ArmorMod_ChameleonLightPolarizationShield_Improved",
       "ComponentDefType": "Upgrade",
@@ -362,6 +354,14 @@
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Gear_Attachment_ArtemisIV",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "TargetComponentGUID": "WeaponAttachment0"
     },
     {
       "MountedLocation": "LeftTorso",
