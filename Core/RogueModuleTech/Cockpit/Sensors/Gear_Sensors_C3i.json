@@ -14,12 +14,6 @@
       "C3ECMPenalty: -2, +20%",
       "ExplainC3"
     ],
-    "Flags": [
-      "not_broken"
-    ],
-    "IBLS": {
-      "StorageSize": 2
-    },
     "DecoratorComponent": [
       {
         "Text": "I",
@@ -27,7 +21,13 @@
         "Icon": "ComponentGearIcons_HEXAGON",
         "Importance": 50
       }
-    ]
+    ],
+    "Flags": [
+      "not_broken"
+    ],
+    "IBLS": {
+      "StorageSize": 2
+    }
   },
   "Description": {
     "Cost": 800000,
@@ -84,7 +84,7 @@
           "nature": "Buff",
           "Description": {
             "Id": "C3i_network_bonus_initiative",
-            "Name": "C3i Aura: Improved Allies Initiative",
+            "Name": "C3i Sensors Aura: Increased Allies Initiative",
             "Details": "C3 network",
             "Icon": "uixSvgIcon_status_ECM-missileDef"
           },

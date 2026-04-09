@@ -17,6 +17,14 @@
       "C3ECMPenalty: -2, +20%",
       "ExplainC3"
     ],
+    "DecoratorComponent": [
+      {
+        "Text": "I",
+        "Color": "#FF9901",
+        "Icon": "ComponentGearIcons_HEXAGON",
+        "Importance": 50
+      }
+    ],
     "Flags": [
       "not_broken",
       "not_destroyed",
@@ -25,15 +33,7 @@
     ],
     "IBLS": {
       "StorageSize": 1
-    },
-    "DecoratorComponent": [
-      {
-        "Text": "I",
-        "Color": "#FF9901",
-        "Icon": "ComponentGearIcons_HEXAGON",
-        "Importance": 50
-      }
-    ]
+    }
   },
   "Description": {
     "Cost": 0,
@@ -90,7 +90,7 @@
           "nature": "Buff",
           "Description": {
             "Id": "C3i_network_bonus_initiative",
-            "Name": "BA C3i Aura: Improved Allies Initiative",
+            "Name": "BA C3i Aura: Increased Allies Initiative",
             "Details": "C3 network",
             "Icon": "uixSvgIcon_status_ECM-missileDef"
           },

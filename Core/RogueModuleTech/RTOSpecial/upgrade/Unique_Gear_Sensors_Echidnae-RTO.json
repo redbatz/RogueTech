@@ -8,6 +8,12 @@
         "CategoryID": "C3Equipment"
       }
     ],
+    "WorkOrderCosts": {
+      "Install": {
+        "TechCost": "0.1 * [[Chassis.Tonnage]]",
+        "CBillCost": "1.15 * [[Chassis.Tonnage]]"
+      }
+    },
     "BonusDescriptions": [
       "C3Master",
       "C3i",
@@ -19,18 +25,6 @@
       "Sharer",
       "ExplainC3"
     ],
-    "Flags": [
-      "not_broken"
-    ],
-    "WorkOrderCosts": {
-      "Install": {
-        "TechCost": "0.1 * [[Chassis.Tonnage]]",
-        "CBillCost": "1.15 * [[Chassis.Tonnage]]"
-      }
-    },
-    "IBLS": {
-      "StorageSize": 1
-    },
     "DecoratorComponent": [
       {
         "Text": "IM",
@@ -38,7 +32,13 @@
         "Icon": "ComponentGearIcons_HEXAGON",
         "Importance": 50
       }
-    ]
+    ],
+    "Flags": [
+      "not_broken"
+    ],
+    "IBLS": {
+      "StorageSize": 1
+    }
   },
   "Description": {
     "Cost": 1650000,
@@ -95,7 +95,7 @@
           "nature": "Buff",
           "Description": {
             "Id": "C3_network_master_grant",
-            "Name": "Prototype C3 RTO / Aura C3 network: C3 Master Network",
+            "Name": "Prototype C3 RTO Aura: C3 Master Network",
             "Details": "C3 network",
             "Icon": "uixSvgIcon_status_ECM-missileDef"
           },
@@ -183,7 +183,7 @@
           "nature": "Buff",
           "Description": {
             "Id": "C3i_network_bonus_accuracy",
-            "Name": "Prototype C3i: Improved Allies Accuracy",
+            "Name": "Prototype C3 RTO Aura: Improved Allies Accuracy",
             "Details": "C3i network",
             "Icon": "uixSvgIcon_status_ECM-missileDef"
           },
@@ -211,7 +211,7 @@
           "nature": "Buff",
           "Description": {
             "Id": "C3i_network_bonus_initiative",
-            "Name": "Prototype C3i Aura: Improved Allies Initiative",
+            "Name": "Prototype C3 RTO Aura: Increased Allies Initiative",
             "Details": "C3i network",
             "Icon": "uixSvgIcon_status_ECM-missileDef"
           },

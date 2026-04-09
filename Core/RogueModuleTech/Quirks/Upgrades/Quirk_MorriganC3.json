@@ -17,15 +17,6 @@
       "C3ECMPenalty: 0, +20%",
       "ExplainC3"
     ],
-    "Flags": [
-      "not_broken",
-      "not_destroyed",
-      "default",
-      "no_salvage"
-    ],
-    "IBLS": {
-      "StorageSize": 1
-    },
     "CarryLeftOverUsageLeftOverTopOffFactor": 0.5,
     "DecoratorComponent": [
       {
@@ -34,7 +25,16 @@
         "Icon": "ComponentGearIcons_HEXAGON",
         "Importance": 50
       }
-    ]
+    ],
+    "Flags": [
+      "not_broken",
+      "not_destroyed",
+      "default",
+      "no_salvage"
+    ],
+    "IBLS": {
+      "StorageSize": 1
+    }
   },
   "Description": {
     "Cost": 1910000,
@@ -358,7 +358,7 @@
       "nature": "Debuff",
       "Description": {
         "Id": "C3_Signature_Increase",
-        "Name": "Morrigan C3: Increased Sensor Signature",
+        "Name": "Morrigan C3:Increased Sensor Signature",
         "Details": "Increases this unit's sensor signature, making it easier to detect.",
         "Icon": "uixSvgIcon_status_ECM-ghost"
       },

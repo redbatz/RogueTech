@@ -5,6 +5,12 @@
         "CategoryID": "Armor"
       }
     ],
+    "WorkOrderCosts": {
+      "Install": {
+        "TechCost": "0.05 * [[Chassis.Tonnage]]",
+        "CBillCost": "5 * [[Chassis.Tonnage]]"
+      }
+    },
     "BonusDescriptions": [
       "KineticProtection: 25%",
       "MissileProtection: 25%",
@@ -15,26 +21,20 @@
       "ArmorTPCost: x1.2",
       "ArmorCBCost: x1.4"
     ],
+    "ArmorRepair": {
+      "ArmorTPCost": 1.2,
+      "ArmorCBCost": 1.4
+    },
+    "Color": "Gold",
     "Flags": [
       "default",
       "not_broken",
       "no_salvage",
       "autorepair"
     ],
-    "ArmorRepair": {
-      "ArmorTPCost": 1.2,
-      "ArmorCBCost": 1.4
-    },
-    "WorkOrderCosts": {
-      "Install": {
-        "TechCost": "0.05 * [[Chassis.Tonnage]]",
-        "CBillCost": "5 * [[Chassis.Tonnage]]"
-      }
-    },
     "IBLS": {
       "StorageSize": 1
     },
-    "Color": "Gold",
     "Lootable": "Gear_Armor_ReactivePlating"
   },
   "Description": {
@@ -156,7 +156,7 @@
       "nature": "Buff",
       "Description": {
         "Id": "StatusEffect-ReactiveBonus3",
-        "Name": "Heat Resistant: Decreased Handheld Damage Taken",
+        "Name": "Heat Resistant: Decreased Support Weapon Damage Taken",
         "Details": "Takes less Handheld Damage.",
         "Icon": "uixSvgIcon_mwFury"
       },

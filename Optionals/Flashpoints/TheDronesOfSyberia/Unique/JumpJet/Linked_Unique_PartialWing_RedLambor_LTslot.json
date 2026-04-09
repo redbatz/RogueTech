@@ -50,7 +50,7 @@
       "nature": "Buff",
       "Description": {
         "Id": "StatusEffect-JumpHeat",
-        "Name": "Lambor Boosting Pack: Increased Jump Heat Generated",
+        "Name": "Linked Lambor Boosting Pack: Increased Jump Heat Generated",
         "Details": "This Jump Jet's Heat Generation",
         "Icon": "uixSvgIcon_equipment_ThermalExchanger"
       },
