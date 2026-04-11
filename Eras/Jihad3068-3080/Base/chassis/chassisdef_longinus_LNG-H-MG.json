@@ -8,14 +8,14 @@
       "Exclude": false,
       "Include": true
     },
-    "LootableUniqueMech": {
-      "ReplaceID": "mechdef_longinus_LNG-FL"
-    },
     "CustomWidgetChassis": {
       "TopRightWidget": {
         "Label": "Internals",
         "Slots": 5
       }
+    },
+    "LootableUniqueMech": {
+      "ReplaceID": "mechdef_longinus_LNG-FL"
     }
   },
   "CustomParts": {

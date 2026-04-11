@@ -8,14 +8,14 @@
       "Exclude": false,
       "Include": true
     },
-    "LootableUniqueMech": {
-      "ReplaceID": "mechdef_fa_shih_FS-MG"
-    },
     "CustomWidgetChassis": {
       "TopRightWidget": {
         "Label": "Internals",
         "Slots": 6
       }
+    },
+    "LootableUniqueMech": {
+      "ReplaceID": "mechdef_fa_shih_FS-MG"
     }
   },
   "CustomParts": {

@@ -8,9 +8,6 @@
       "Exclude": false,
       "Include": true
     },
-    "LootableUniqueMech": {
-      "ReplaceID": "mechdef_gray_death_scout_GDSC-STD"
-    },
     "CustomWidgetChassis": {
       "TopLeftWidget": {
         "Label": "Chassis",
@@ -20,6 +17,9 @@
         "Label": "Internals",
         "Slots": 4
       }
+    },
+    "LootableUniqueMech": {
+      "ReplaceID": "mechdef_gray_death_scout_GDSC-STD"
     }
   },
   "CustomParts": {

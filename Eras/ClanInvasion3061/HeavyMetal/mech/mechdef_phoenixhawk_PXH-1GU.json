@@ -126,7 +126,6 @@
       "ComponentDefID": "Gear_EngineCore_270",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
-      "SimGameUID": "",
       "DamageLevel": "Functional"
     },
     {
@@ -134,7 +133,6 @@
       "ComponentDefID": "Weapon_Laser_Binary_Light",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
-      "SimGameUID": "",
       "DamageLevel": "Functional"
     },
     {
@@ -149,7 +147,6 @@
       "ComponentDefID": "Weapon_MachineGun",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
-      "SimGameUID": "",
       "DamageLevel": "Functional"
     },
     {
@@ -157,7 +154,6 @@
       "ComponentDefID": "Weapon_Laser_Binary_Light",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
-      "SimGameUID": "",
       "DamageLevel": "Functional"
     },
     {
@@ -172,7 +168,6 @@
       "ComponentDefID": "Weapon_MachineGun",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
-      "SimGameUID": "",
       "DamageLevel": "Functional"
     },
     {
@@ -180,7 +175,6 @@
       "ComponentDefID": "Ammo_AmmunitionBox_MachineGun",
       "ComponentDefType": "AmmunitionBox",
       "HardpointSlot": -1,
-      "SimGameUID": "",
       "DamageLevel": "Functional"
     },
     {
@@ -202,7 +196,6 @@
       "ComponentDefID": "Gear_JumpJet_Standard",
       "ComponentDefType": "JumpJet",
       "HardpointSlot": -1,
-      "SimGameUID": "",
       "DamageLevel": "Functional"
     },
     {

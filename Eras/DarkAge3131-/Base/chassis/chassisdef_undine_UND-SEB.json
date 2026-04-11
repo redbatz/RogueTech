@@ -8,14 +8,14 @@
       "Exclude": false,
       "Include": true
     },
-    "LootableUniqueMech": {
-      "ReplaceID": "mechdef_undine_UND-STD"
-    },
     "CustomWidgetChassis": {
       "TopRightWidget": {
         "Label": "Internals",
         "Slots": 4
       }
+    },
+    "LootableUniqueMech": {
+      "ReplaceID": "mechdef_undine_UND-STD"
     }
   },
   "CustomParts": {
