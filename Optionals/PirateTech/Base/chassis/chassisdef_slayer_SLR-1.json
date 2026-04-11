@@ -8,14 +8,14 @@
       "Exclude": false,
       "Include": true
     },
-    "LootableUniqueMech": {
-      "ReplaceID": "mechdef_svartalfa_SVA-1"
-    },
     "CustomWidgetChassis": {
       "TopRightWidget": {
         "Label": "Internals",
         "Slots": 4
       }
+    },
+    "LootableUniqueMech": {
+      "ReplaceID": "mechdef_svartalfa_SVA-1"
     }
   },
   "CustomParts": {

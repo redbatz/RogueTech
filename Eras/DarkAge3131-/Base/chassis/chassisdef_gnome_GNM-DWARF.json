@@ -8,14 +8,14 @@
       "Exclude": false,
       "Include": true
     },
-    "LootableUniqueMech": {
-      "ReplaceID": "mechdef_gnome_GNM-MRR"
-    },
     "CustomWidgetChassis": {
       "TopRightWidget": {
         "Label": "Internals",
         "Slots": 5
       }
+    },
+    "LootableUniqueMech": {
+      "ReplaceID": "mechdef_gnome_GNM-MRR"
     }
   },
   "CustomParts": {

@@ -8,14 +8,14 @@
       "Exclude": false,
       "Include": true
     },
-    "LootableUniqueMech": {
-      "ReplaceID": "mechdef_trinity_TRI-YL-P"
-    },
     "CustomWidgetChassis": {
       "TopRightWidget": {
         "Label": "Internals",
         "Slots": 5
       }
+    },
+    "LootableUniqueMech": {
+      "ReplaceID": "mechdef_trinity_TRI-YL-P"
     }
   },
   "CustomParts": {

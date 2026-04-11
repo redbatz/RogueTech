@@ -8,9 +8,6 @@
       "Exclude": false,
       "Include": true
     },
-    "LootableUniqueMech": {
-      "ReplaceID": "mechdef_sylph_SYL-STD"
-    },
     "CustomWidgetChassis": {
       "TopLeftWidget": {
         "Label": "Chassis",
@@ -20,6 +17,9 @@
         "Label": "Internals",
         "Slots": 4
       }
+    },
+    "LootableUniqueMech": {
+      "ReplaceID": "mechdef_sylph_SYL-STD"
     }
   },
   "CustomParts": {
