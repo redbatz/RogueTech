@@ -173,14 +173,14 @@
     },
     {
       "MountedLocation": "LeftLeg",
-      "ComponentDefID": "Gear_BattleArmor_Weight_1000kg",
+      "ComponentDefID": "Gear_BattleArmor_Weight_2500kg",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
     },
     {
       "MountedLocation": "LeftLeg",
-      "ComponentDefID": "Gear_BattleArmor_Weight_500kg",
+      "ComponentDefID": "Gear_BattleArmor_Weight_100kg",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
