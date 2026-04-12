@@ -156,6 +156,13 @@
     },
     {
       "MountedLocation": "LeftLeg",
+      "ComponentDefID": "Gear_BattleArmor_Weight_1000kg",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "LeftLeg",
       "ComponentDefID": "Gear_BattleArmor_Weight_500kg",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
@@ -164,13 +171,6 @@
     {
       "MountedLocation": "LeftLeg",
       "ComponentDefID": "Gear_BattleArmor_Weight_250kg",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "LeftLeg",
-      "ComponentDefID": "Gear_BattleArmor_Weight_100kg",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
@@ -250,7 +250,7 @@
       ],
       "Tonnage": 0,
       "InventorySlots": 2,
-      "MaxArmor": 55,
+      "MaxArmor": 36,
       "MaxRearArmor": -1,
       "InternalStructure": 15
     },
@@ -264,7 +264,7 @@
       ],
       "Tonnage": 0,
       "InventorySlots": 2,
-      "MaxArmor": 55,
+      "MaxArmor": 36,
       "MaxRearArmor": -1,
       "InternalStructure": 15
     },
@@ -278,7 +278,7 @@
       ],
       "Tonnage": 0,
       "InventorySlots": 2,
-      "MaxArmor": 55,
+      "MaxArmor": 36,
       "MaxRearArmor": -1,
       "InternalStructure": 15
     },
@@ -292,7 +292,7 @@
       ],
       "Tonnage": 0,
       "InventorySlots": 13,
-      "MaxArmor": 55,
+      "MaxArmor": 36,
       "MaxRearArmor": -1,
       "InternalStructure": 15
     },
@@ -306,7 +306,7 @@
       ],
       "Tonnage": 0,
       "InventorySlots": 2,
-      "MaxArmor": 55,
+      "MaxArmor": 36,
       "MaxRearArmor": -1,
       "InternalStructure": 15
     },
