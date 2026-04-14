@@ -21,14 +21,14 @@
     }
   },
   "Description": {
-    "Cost": 60000,
+    "Cost": 0,
     "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": "Generic",
     "Model": "S",
-    "UIName": "Proto Jump Jet (UH)",
-    "Id": "Gear_Protomech_JumpJet_UltraHeavy_5",
-    "Name": "UltraHeavy Proto Jump Jet",
+    "UIName": "Extended Proto Jump Jet",
+    "Id": "Gear_Protomech_JumpJet_Extended_5",
+    "Name": "Extended Proto Jump Jet",
     "Details": "ProtoMech jump jets are functionally identical to their larger cousins', simply scaled down.",
     "Icon": "uixSvgIcon_action_jump"
   },
@@ -40,9 +40,9 @@
   "PrefabIdentifier": "JumpJet",
   "BattleValue": 0,
   "InventorySize": 1,
-  "Tonnage": 0.75,
-  "MinTonnage": 50,
-  "MaxTonnage": 75,
+  "Tonnage": 0,
+  "MinTonnage": 0,
+  "MaxTonnage": 100,
   "AllowedLocations": "All",
   "DisallowedLocations": "All",
   "CriticalComponent": false,
@@ -62,7 +62,7 @@
       "nature": "Buff",
       "Description": {
         "Id": "StatusEffect-QuirkWings",
-        "Name": "ProtoMech Proto Jump Jet (UH): Increased Jump Heat Generated",
+        "Name": "Extended Proto Jump Jet: Increased Jump Heat Generated",
         "Details": "Heat generation reduced by 20%.",
         "Icon": "uixSvgIcon_equipment_ThermalExchanger"
       },
@@ -88,7 +88,7 @@
       "nature": "Buff",
       "Description": {
         "Id": "StatusEffect-JumpAmount",
-        "Name": "ProtoMech Proto Jump Jet (UH): Max Jump Jets per MP",
+        "Name": "Extended Proto Jump Jet: Max Jump Jets per MP",
         "Details": "Max Jump Jet Amount per Walk MP",
         "Icon": "uixSvgIcon_equipment_ThermalExchanger"
       },

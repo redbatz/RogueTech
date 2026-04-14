@@ -2,7 +2,7 @@
   "Custom": {
     "Category": [
       {
-        "CategoryID": "BAWeight"
+        "CategoryID": "TrooperWeight"
       },
       {
         "CategoryID": "FieldRepairsBlacklisted"
@@ -26,7 +26,7 @@
     "Manufacturer": "Generic",
     "Model": "Standard",
     "UIName": "YOU SHOULD NOT SEE THIS",
-    "Id": "Gear_BattleArmor_Weight_2500kg",
+    "Id": "Gear_Trooper_Weight_250kg",
     "Name": "YOU SHOULD NOT SEE THIS",
     "Details": "IF YOU SEE THIS ITEM, OPEN A TICKET ON DISCORD",
     "Icon": "interface"
@@ -38,14 +38,14 @@
   "PrefabIdentifier": "",
   "BattleValue": 0,
   "InventorySize": 1,
-  "Tonnage": 2.5,
+  "Tonnage": 0.25,
   "AllowedLocations": "LeftLeg",
   "DisallowedLocations": "All",
   "CriticalComponent": false,
   "ComponentTags": {
     "items": [
       "component_type_stock",
-      "BattleArmorEquipment",
+      "TrooperEquipment",
       "BLACKLISTED",
       "LootMagnetBlacklist",
       "move_to_none_location"
