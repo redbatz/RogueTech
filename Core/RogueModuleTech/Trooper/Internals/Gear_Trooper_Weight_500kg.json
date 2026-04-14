@@ -2,35 +2,33 @@
   "Custom": {
     "Category": [
       {
-        "CategoryID": "ProtoMechHeatSink"
+        "CategoryID": "TrooperWeight"
       },
       {
         "CategoryID": "FieldRepairsBlacklisted"
       }
     ],
     "Flags": [
-      "no_salvage",
+      "not_broken",
       "not_destroyed",
       "default",
       "ignore_damage",
-      "not_broken",
-      "hide_equip",
-      "hide"
+      "no_salvage"
     ],
     "IBLS": {
       "StorageSize": 1
     }
   },
   "Description": {
-    "Cost": 10000,
-    "Rarity": 8,
+    "Cost": 0,
+    "Rarity": 0,
     "Purchasable": false,
     "Manufacturer": "Generic",
     "Model": "Standard",
-    "UIName": "Protomech Heatsinks x 5",
-    "Id": "Gear_Protomech_Heatsink",
-    "Name": "Protomech Heatsinks x 5",
-    "Details": "Deadweight item representing 1 ProtoMech heatsink for point",
+    "UIName": "YOU SHOULD NOT SEE THIS",
+    "Id": "Gear_Trooper_Weight_500kg",
+    "Name": "YOU SHOULD NOT SEE THIS",
+    "Details": "IF YOU SEE THIS ITEM, OPEN A TICKET ON DISCORD",
     "Icon": "interface"
   },
   "BonusValueA": "",
@@ -40,14 +38,14 @@
   "PrefabIdentifier": "",
   "BattleValue": 0,
   "InventorySize": 1,
-  "Tonnage": 1.25,
+  "Tonnage": 0.5,
   "AllowedLocations": "LeftLeg",
   "DisallowedLocations": "All",
   "CriticalComponent": false,
   "ComponentTags": {
     "items": [
-      "ProtoMechEquipment",
       "component_type_stock",
+      "TrooperEquipment",
       "BLACKLISTED",
       "LootMagnetBlacklist",
       "move_to_none_location"

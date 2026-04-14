@@ -8,14 +8,14 @@
       "Exclude": false,
       "Include": true
     },
+    "LootableUniqueMech": {
+      "ReplaceID": "mechdef_inner_sphere_standard_IS-MG"
+    },
     "CustomWidgetChassis": {
       "TopRightWidget": {
         "Label": "Internals",
         "Slots": 5
       }
-    },
-    "LootableUniqueMech": {
-      "ReplaceID": "mechdef_inner_sphere_standard_IS-MG"
     }
   },
   "CustomParts": {
@@ -91,6 +91,41 @@
       "DamageLevel": "Functional"
     },
     {
+      "MountedLocation": "LeftLeg",
+      "ComponentDefID": "Gear_Trooper_Weight_2500kg",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "LeftLeg",
+      "ComponentDefID": "Gear_Trooper_Weight_1000kg",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "LeftLeg",
+      "ComponentDefID": "Gear_Trooper_Weight_10kg",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "LeftLeg",
+      "ComponentDefID": "Gear_Trooper_Weight_5kg",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "LeftLeg",
+      "ComponentDefID": "Gear_Trooper_Weight_1kg",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
       "MountedLocation": "Head",
       "ComponentDefID": "Gear_BattleArmor_JumpJet_3",
       "ComponentDefType": "JumpJet",
@@ -142,41 +177,6 @@
     {
       "MountedLocation": "RightTorso",
       "ComponentDefID": "Gear_BattleArmor_BattleClaws",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "LeftLeg",
-      "ComponentDefID": "Gear_BattleArmor_Weight_2500kg",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "LeftLeg",
-      "ComponentDefID": "Gear_BattleArmor_Weight_1000kg",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "LeftLeg",
-      "ComponentDefID": "Gear_BattleArmor_Weight_10kg",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "LeftLeg",
-      "ComponentDefID": "Gear_BattleArmor_Weight_5kg",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "LeftLeg",
-      "ComponentDefID": "Gear_BattleArmor_Weight_1kg",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"

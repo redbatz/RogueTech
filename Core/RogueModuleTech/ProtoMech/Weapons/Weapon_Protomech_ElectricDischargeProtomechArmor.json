@@ -79,7 +79,7 @@
     "Manufacturer": "Clans",
     "Model": "Generic",
     "UIName": "Electric Discharge ProtoMech Armor",
-    "Id": "Weapon_Protomech_EDPA",
+    "Id": "Weapon_Protomech_ElectricDischargeProtomechArmor",
     "Name": "Electric Discharge ProtoMech Armor",
     "Details": "When a ProtoMech using EDP armor performs a physical attack it can enable the discharge of the armor's capacitors, resulting in the attack acting as a taser.",
     "Icon": "uixSvgIcon_equipment_TTS"

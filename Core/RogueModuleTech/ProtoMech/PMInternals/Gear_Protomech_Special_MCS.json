@@ -26,13 +26,13 @@
     "CarryCapacityFactor": 0
   },
   "Description": {
-    "Cost": 15000,
+    "Cost": 0,
     "Rarity": 0,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "MCS",
     "UIName": "Magnetic Clamp System",
-    "Id": "Gear_Protomech_Special_MCS_Heavy",
+    "Id": "Gear_Protomech_Special_MCS",
     "Name": "Magnetic Clamp System",
     "Details": "The Magnetic Clamp System allows a ProtoMech to ride on BattleMechs, in similar fashion to Battle Armor.",
     "Icon": "space-suit"
@@ -44,9 +44,7 @@
   "PrefabIdentifier": "",
   "BattleValue": 0,
   "InventorySize": 1,
-  "Tonnage": 2.5,
-  "MinTonnage": 30,
-  "MaxTonnage": 45,
+  "Tonnage": 0,
   "AllowedLocations": "CenterTorso",
   "DisallowedLocations": "All",
   "CriticalComponent": false,
