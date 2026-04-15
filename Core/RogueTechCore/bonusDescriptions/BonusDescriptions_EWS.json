@@ -554,6 +554,18 @@
       "Full": "This unit can participate in standard C3 Master/Slave and in C3i networks, but do not receive any bonuses from other members"
     },
     {
+      "Bonus": "C4MasterAffectedSystems",
+      "Short": "C3 Hack",
+      "Long": "Hack C3 Systems",
+      "Full": "Scrambles {0} systems, both friendly and enemy."
+    },
+    {
+      "Bonus": "C4MasterPenalties",
+      "Short": "C3Penalty",
+      "Long": "C3 Penalties",
+      "Full": "All units carrying affected C3 equipment: {0}."
+    },
+    {
       "Bonus": "SLICNetwork",
       "Short": "SLIC Network",
       "Long": "SLIC Network",
