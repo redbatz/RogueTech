@@ -6,8 +6,9 @@
       }
     ],
     "BonusDescriptions": [
-      "C4MasterAffectedSystems: C3 Master/Slave, C3i, and Nova CEWS",
-      "C4MasterPenalties: removed from the network and suffer an additional -10 Accuracy."
+      "C4MasterAffectedSystems",
+      "C4MasterPenalties",
+      "HeatPerTurn: +20"
     ],
     "Flags": [
       "not_broken"
@@ -33,7 +34,7 @@
     "UIName": "C4 Master (P)",
     "Id": "Gear_C4_Master_Pirate",
     "Name": "C4 Network Master unit",
-    "Details": "What in the world...",
+    "Details": "This is basically a C3 Master module, but it's been overcharged and reconfigured to hijack <i>all</i> C3 networks on the battlefield, replacing their targeting data with what appears to be continuous recordings of an Anti-Missile System firing. It's incredibly sophisticated; too bad it's also incredibly stupid.",
     "Icon": "C3Systems"
   },
   "BonusValueA": "",
@@ -45,7 +46,7 @@
   "AbsoluteModifier": 0,
   "BattleValue": 0,
   "InventorySize": 4,
-  "Tonnage": 3,
+  "Tonnage": 4,
   "AllowedLocations": "All",
   "DisallowedLocations": "All",
   "CriticalComponent": false,
@@ -64,6 +65,7 @@
       "EnemyStealthAffection": "None",
       "IsNegativeToAlly": true,
       "IsNegativeToEnemy": true,
+      "Icon": "C3Systems",
       "statusEffects": [
         {
           "durationData": {
@@ -73,24 +75,22 @@
           "targetingData": {
             "effectTriggerType": "Passive",
             "effectTargetType": "AlliesWithinRange",
-            "showInTargetPreview": false,
-            "showInStatusPanel": false
+            "showInStatusPanel": true
           },
           "effectType": "StatisticEffect",
           "nature": "Debuff",
           "Description": {
-            "Id": "C4Master-Interference-AccuracyDebuff",
-            "Name": "C4 Master (P): C3 Network Interference",
-            "Details": "C4 network",
-            "Icon": "uixSvgIcon_status_ECM-missileDef"
+            "Id": "C4Master-Interference-ResolvePenalty",
+            "Name": "C4 Master (P): Network Interference",
+            "Details": "''C4'' Network disables C3 and penalizes resolve gain.",
+            "Icon": "uixSvgIcon_equipment_Comms"
           },
           "statisticData": {
-            "abilifierId": "C3_network_master_bonus",
-            "statName": "AccuracyModifier",
+            "abilifierId": "C4_master_interference",
+            "statName": "resolveRoundBaseMod",
             "operation": "Float_Add",
-            "modValue": "10.0",
-            "modType": "System.Single",
-            "targetCollection": "Weapon"
+            "modValue": "-2.0",
+            "modType": "System.Single"
           }
         },
         {
@@ -101,24 +101,22 @@
           "targetingData": {
             "effectTriggerType": "Passive",
             "effectTargetType": "EnemiesWithinRange",
-            "showInTargetPreview": false,
-            "showInStatusPanel": false
+            "showInStatusPanel": true
           },
           "effectType": "StatisticEffect",
           "nature": "Debuff",
           "Description": {
-            "Id": "C4Master-Interference-AccuracyDebuff",
-            "Name": "C4 Master (P): C3 Network Interference",
-            "Details": "C4 network",
-            "Icon": "uixSvgIcon_status_ECM-missileDef"
+            "Id": "C4Master-Interference-ResolvePenalty",
+            "Name": "C4 Master (P): Network Interference",
+            "Details": "''C4'' Network disables C3 and penalizes resolve gain.",
+            "Icon": "uixSvgIcon_equipment_Comms"
           },
           "statisticData": {
-            "abilifierId": "C3_network_master_bonus",
-            "statName": "AccuracyModifier",
+            "abilifierId": "C4_master_interference",
+            "statName": "resolveRoundBaseMod",
             "operation": "Float_Add",
-            "modValue": "10.0",
-            "modType": "System.Single",
-            "targetCollection": "Weapon"
+            "modValue": "-2.0",
+            "modType": "System.Single"
           }
         },
         {
@@ -129,19 +127,18 @@
           "targetingData": {
             "effectTriggerType": "Passive",
             "effectTargetType": "AlliesWithinRange",
-            "showInTargetPreview": false,
             "showInStatusPanel": false
           },
           "effectType": "StatisticEffect",
           "nature": "Debuff",
           "Description": {
-            "Id": "C4Master-Interference-NetworkBlock",
+            "Id": "C4Master-Interference-C3Block",
             "Name": "C4 Master (P): C3 Network Interference",
             "Details": "C4 network",
-            "Icon": "uixSvgIcon_status_ECM-missileDef"
+            "Icon": "C3Systems"
           },
           "statisticData": {
-            "abilifierId": "C3_network_master_bonus",
+            "abilifierId": "C4_master_interference",
             "statName": "ADD_ENCOUNTER_TAG_C3_network",
             "operation": "Float_Add",
             "modValue": "-10",
@@ -156,19 +153,18 @@
           "targetingData": {
             "effectTriggerType": "Passive",
             "effectTargetType": "EnemiesWithinRange",
-            "showInTargetPreview": false,
             "showInStatusPanel": false
           },
           "effectType": "StatisticEffect",
           "nature": "Debuff",
           "Description": {
-            "Id": "C4Master-Interference-NetworkBlock",
+            "Id": "C4Master-Interference-C3Block",
             "Name": "C4 Master (P): C3 Network Interference",
             "Details": "C4 network",
-            "Icon": "uixSvgIcon_status_ECM-missileDef"
+            "Icon": "C3Systems"
           },
           "statisticData": {
-            "abilifierId": "C3_network_master_bonus",
+            "abilifierId": "C4_master_interference",
             "statName": "ADD_ENCOUNTER_TAG_C3_network",
             "operation": "Float_Add",
             "modValue": "-10",
@@ -183,19 +179,18 @@
           "targetingData": {
             "effectTriggerType": "Passive",
             "effectTargetType": "AlliesWithinRange",
-            "showInTargetPreview": false,
             "showInStatusPanel": false
           },
           "effectType": "StatisticEffect",
           "nature": "Debuff",
           "Description": {
-            "Id": "C4Master-Interference-NetworkBlock",
-            "Name": "C4 Master (P): C3 Network Interference",
+            "Id": "C4Master-Interference-C3AIBlock",
+            "Name": "C4 Master (P): C3AI Network Interference",
             "Details": "C4 network",
-            "Icon": "uixSvgIcon_status_ECM-missileDef"
+            "Icon": "C3Systems"
           },
           "statisticData": {
-            "abilifierId": "C3_network_master_bonus",
+            "abilifierId": "C4_master_interference",
             "statName": "ADD_ENCOUNTER_TAG_C3AI_network",
             "operation": "Float_Add",
             "modValue": "-10",
@@ -210,173 +205,18 @@
           "targetingData": {
             "effectTriggerType": "Passive",
             "effectTargetType": "EnemiesWithinRange",
-            "showInTargetPreview": false,
             "showInStatusPanel": false
           },
           "effectType": "StatisticEffect",
           "nature": "Debuff",
           "Description": {
-            "Id": "C4Master-Interference-NetworkBlock",
-            "Name": "C4 Master (P): C3 Network Interference",
+            "Id": "C4Master-Interference-C3AIBlock",
+            "Name": "C4 Master (P): C3AI Network Interference",
             "Details": "C4 network",
-            "Icon": "uixSvgIcon_status_ECM-missileDef"
+            "Icon": "C3Systems"
           },
           "statisticData": {
-            "abilifierId": "C3_network_master_bonus",
-            "statName": "ADD_ENCOUNTER_TAG_C3AI_network",
-            "operation": "Float_Add",
-            "modValue": "-10",
-            "modType": "System.Single"
-          }
-        }
-      ]
-    },
-    {
-      "Id": "Gear_C4_Slave_Aura",
-      "Name": "C4 network",
-      "ReticleColor": "#00f2ff",
-      "Range": 8000,
-      "RemoveOnSensorLock": false,
-      "State": "Persistent",
-      "ApplySelf": false,
-      "HideOnNotSelected": true,
-      "FloatieAtEndOfMove": false,
-      "AllyStealthAffection": "None",
-      "EnemyStealthAffection": "None",
-      "IsNegativeToAlly": true,
-      "IsNegativeToEnemy": true,
-      "statusEffects": [
-        {
-          "durationData": {
-            "duration": -1,
-            "stackLimit": 1
-          },
-          "targetingData": {
-            "effectTriggerType": "Passive",
-            "effectTargetType": "AlliesWithinRange",
-            "showInTargetPreview": false,
-            "showInStatusPanel": false
-          },
-          "effectType": "StatisticEffect",
-          "nature": "Debuff",
-          "Description": {
-            "Id": "C4Master-Interference-AccuracyDebuff",
-            "Name": "C4 Master (P): C3 Network Interference",
-            "Details": "C4 network",
-            "Icon": "uixSvgIcon_status_ECM-missileDef"
-          },
-          "statisticData": {
-            "abilifierId": "C3_network_slave_bonus",
-            "statName": "AccuracyModifier",
-            "operation": "Float_Add",
-            "modValue": "10.0",
-            "modType": "System.Single",
-            "targetCollection": "Weapon"
-          }
-        },
-        {
-          "durationData": {
-            "duration": -1,
-            "stackLimit": 1
-          },
-          "targetingData": {
-            "effectTriggerType": "Passive",
-            "effectTargetType": "EnemiesWithinRange",
-            "showInTargetPreview": false,
-            "showInStatusPanel": false
-          },
-          "effectType": "StatisticEffect",
-          "nature": "Debuff",
-          "Description": {
-            "Id": "C4Master-Interference-AccuracyDebuff",
-            "Name": "C4 Master (P): C3 Network Interference",
-            "Details": "C4 network",
-            "Icon": "uixSvgIcon_status_ECM-missileDef"
-          },
-          "statisticData": {
-            "abilifierId": "C3_network_slave_bonus",
-            "statName": "AccuracyModifier",
-            "operation": "Float_Add",
-            "modValue": "10.0",
-            "modType": "System.Single",
-            "targetCollection": "Weapon"
-          }
-        },
-        {
-          "durationData": {
-            "duration": -1,
-            "stackLimit": 1
-          },
-          "targetingData": {
-            "effectTriggerType": "Passive",
-            "effectTargetType": "AlliesWithinRange",
-            "showInTargetPreview": false,
-            "showInStatusPanel": false
-          },
-          "effectType": "StatisticEffect",
-          "nature": "Debuff",
-          "Description": {
-            "Id": "C4Master-Interference-NetworkBlock",
-            "Name": "C4 Master (P): C3 Network Interference",
-            "Details": "C4 network",
-            "Icon": "uixSvgIcon_status_ECM-missileDef"
-          },
-          "statisticData": {
-            "abilifierId": "C3_network_slave_bonus",
-            "statName": "ADD_ENCOUNTER_TAG_C3_network",
-            "operation": "Float_Add",
-            "modValue": "-10",
-            "modType": "System.Single"
-          }
-        },
-        {
-          "durationData": {
-            "duration": -1,
-            "stackLimit": 1
-          },
-          "targetingData": {
-            "effectTriggerType": "Passive",
-            "effectTargetType": "EnemiesWithinRange",
-            "showInTargetPreview": false,
-            "showInStatusPanel": false
-          },
-          "effectType": "StatisticEffect",
-          "nature": "Debuff",
-          "Description": {
-            "Id": "C4Master-Interference-NetworkBlock",
-            "Name": "C4 Master (P): C3 Network Interference",
-            "Details": "C4 network",
-            "Icon": "uixSvgIcon_status_ECM-missileDef"
-          },
-          "statisticData": {
-            "abilifierId": "C3_network_slave_bonus",
-            "statName": "ADD_ENCOUNTER_TAG_C3_network",
-            "operation": "Float_Add",
-            "modValue": "-10",
-            "modType": "System.Single"
-          }
-        },
-        {
-          "durationData": {
-            "duration": -1,
-            "stackLimit": 1
-          },
-          "targetingData": {
-            "effectTriggerType": "Passive",
-            "effectTargetType": "AlliesWithinRange",
-            "showInTargetPreview": false,
-            "showInStatusPanel": false
-          },
-          "effectType": "StatisticEffect",
-          "nature": "Debuff",
-          "Description": {
-            "Id": "C4Master-Interference-NetworkBlock",
-            "Name": "C4 Master (P): C3 Network Interference",
-            "Details": "C4 network",
-            "Icon": "uixSvgIcon_status_ECM-missileDef"
-          },
-          "statisticData": {
-            "abilifierId": "C3_network_slave_bonus",
+            "abilifierId": "C4_master_interference",
             "statName": "ADD_ENCOUNTER_TAG_C3AI_network",
             "operation": "Float_Add",
             "modValue": "-10",
@@ -390,120 +230,19 @@
           },
           "targetingData": {
             "effectTriggerType": "Passive",
-            "effectTargetType": "EnemiesWithinRange",
-            "showInTargetPreview": false,
-            "showInStatusPanel": false
-          },
-          "effectType": "StatisticEffect",
-          "nature": "Debuff",
-          "Description": {
-            "Id": "C4Master-Interference-NetworkBlock",
-            "Name": "C4 Master (P): C3 Network Interference",
-            "Details": "C4 network",
-            "Icon": "uixSvgIcon_status_ECM-missileDef"
-          },
-          "statisticData": {
-            "abilifierId": "C3_network_slave_bonus",
-            "statName": "ADD_ENCOUNTER_TAG_C3AI_network",
-            "operation": "Float_Add",
-            "modValue": "-10",
-            "modType": "System.Single"
-          }
-        }
-      ]
-    },
-    {
-      "Id": "Gear_C3i_Aura",
-      "Name": "C4i network",
-      "ReticleColor": "#00f2ff",
-      "Range": 8000,
-      "RemoveOnSensorLock": false,
-      "State": "Persistent",
-      "ApplySelf": false,
-      "HideOnNotSelected": true,
-      "FloatieAtEndOfMove": false,
-      "AllyStealthAffection": "None",
-      "EnemyStealthAffection": "None",
-      "IsNegativeToAlly": true,
-      "IsNegativeToEnemy": true,
-      "statusEffects": [
-        {
-          "durationData": {
-            "duration": -1,
-            "stackLimit": 1
-          },
-          "targetingData": {
-            "effectTriggerType": "Passive",
             "effectTargetType": "AlliesWithinRange",
-            "showInTargetPreview": false,
             "showInStatusPanel": false
           },
           "effectType": "StatisticEffect",
           "nature": "Debuff",
           "Description": {
-            "Id": "C4Master-Interference-AccuracyDebuff",
-            "Name": "C4 Master (P): C3i Network Interference",
+            "Id": "C4Master-Interference-C3iBlock",
+            "Name": "C4 Master (P): C3n Network Interference",
             "Details": "C4 network",
-            "Icon": "uixSvgIcon_status_ECM-missileDef"
+            "Icon": "C3Systems"
           },
           "statisticData": {
-            "abilifierId": "C3i_network_bonus",
-            "statName": "AccuracyModifier",
-            "operation": "Float_Add",
-            "modValue": "10.0",
-            "modType": "System.Single",
-            "targetCollection": "Weapon"
-          }
-        },
-        {
-          "durationData": {
-            "duration": -1,
-            "stackLimit": 1
-          },
-          "targetingData": {
-            "effectTriggerType": "Passive",
-            "effectTargetType": "EnemiesWithinRange",
-            "showInTargetPreview": false,
-            "showInStatusPanel": false
-          },
-          "effectType": "StatisticEffect",
-          "nature": "Debuff",
-          "Description": {
-            "Id": "C4Master-Interference-AccuracyDebuff",
-            "Name": "C4 Master (P): C3i Network Interference",
-            "Details": "C4 network",
-            "Icon": "uixSvgIcon_status_ECM-missileDef"
-          },
-          "statisticData": {
-            "abilifierId": "C3i_network_bonus",
-            "statName": "AccuracyModifier",
-            "operation": "Float_Add",
-            "modValue": "10.0",
-            "modType": "System.Single",
-            "targetCollection": "Weapon"
-          }
-        },
-        {
-          "durationData": {
-            "duration": -1,
-            "stackLimit": 1
-          },
-          "targetingData": {
-            "effectTriggerType": "Passive",
-            "effectTargetType": "AlliesWithinRange",
-            "showInTargetPreview": false,
-            "showInStatusPanel": false
-          },
-          "effectType": "StatisticEffect",
-          "nature": "Debuff",
-          "Description": {
-            "Id": "C4Master-Interference-NetworkBlock",
-            "Name": "C4 Master (P): C3i Network Interference",
-            "Details": "C4 network",
-            "Icon": "uixSvgIcon_status_ECM-missileDef"
-          },
-          "statisticData": {
-            "abilifierId": "C3i_network_bonus",
+            "abilifierId": "C4_master_interference",
             "statName": "ADD_ENCOUNTER_TAG_C3i_network",
             "operation": "Float_Add",
             "modValue": "-10",
@@ -518,97 +257,23 @@
           "targetingData": {
             "effectTriggerType": "Passive",
             "effectTargetType": "EnemiesWithinRange",
-            "showInTargetPreview": false,
             "showInStatusPanel": false
           },
           "effectType": "StatisticEffect",
           "nature": "Debuff",
           "Description": {
-            "Id": "C4Master-Interference-NetworkBlock",
-            "Name": "C4 Master (P): C3i Network Interference",
+            "Id": "C4Master-Interference-C3iBlock",
+            "Name": "C4 Master (P): C3n Network Interference",
             "Details": "C4 network",
-            "Icon": "uixSvgIcon_status_ECM-missileDef"
+            "Icon": "C3Systems"
           },
           "statisticData": {
-            "abilifierId": "C3i_network_bonus",
+            "abilifierId": "C4_master_interference",
             "statName": "ADD_ENCOUNTER_TAG_C3i_network",
             "operation": "Float_Add",
             "modValue": "-10",
             "modType": "System.Single"
           }
-        }
-      ]
-    },
-    {
-      "Id": "Gear_C3n_Aura",
-      "Name": "C4n network",
-      "ReticleColor": "#00f2ff",
-      "Range": 8000,
-      "RemoveOnSensorLock": false,
-      "State": "Persistent",
-      "ApplySelf": false,
-      "HideOnNotSelected": true,
-      "FloatieAtEndOfMove": false,
-      "AllyStealthAffection": "None",
-      "EnemyStealthAffection": "None",
-      "IsNegativeToAlly": true,
-      "IsNegativeToEnemy": true,
-      "statusEffects": [
-        {
-          "durationData": {
-            "duration": -1,
-            "stackLimit": 1
-          },
-          "targetingData": {
-            "effectTriggerType": "Passive",
-            "effectTargetType": "AlliesWithinRange",
-            "showInTargetPreview": false,
-            "showInStatusPanel": false
-          },
-          "effectType": "StatisticEffect",
-          "nature": "Debuff",
-          "Description": {
-            "Id": "C4Master-Interference-AccuracyDebuff",
-            "Name": "C4 Master (P): C3n Network Interference",
-            "Details": "C4 network",
-            "Icon": "uixSvgIcon_status_ECM-missileDef"
-          },
-          "statisticData": {
-            "abilifierId": "C3n_network_bonus",
-            "statName": "AccuracyModifier",
-            "operation": "Float_Add",
-            "modValue": "10.0",
-            "modType": "System.Single",
-            "targetCollection": "Weapon"
-          }
-        },
-        {
-          "durationData": {
-            "duration": -1,
-            "stackLimit": 1
-          },
-          "targetingData": {
-            "effectTriggerType": "Passive",
-            "effectTargetType": "EnemiesWithinRange",
-            "showInTargetPreview": false,
-            "showInStatusPanel": false
-          },
-          "effectType": "StatisticEffect",
-          "nature": "Debuff",
-          "Description": {
-            "Id": "C4Master-Interference-AccuracyDebuff",
-            "Name": "C4 Master (P): C3n Network Interference",
-            "Details": "C4 network",
-            "Icon": "uixSvgIcon_status_ECM-missileDef"
-          },
-          "statisticData": {
-            "abilifierId": "C3n_network_bonus",
-            "statName": "AccuracyModifier",
-            "operation": "Float_Add",
-            "modValue": "10.0",
-            "modType": "System.Single",
-            "targetCollection": "Weapon"
-          }
         },
         {
           "durationData": {
@@ -618,19 +283,18 @@
           "targetingData": {
             "effectTriggerType": "Passive",
             "effectTargetType": "AlliesWithinRange",
-            "showInTargetPreview": false,
             "showInStatusPanel": false
           },
           "effectType": "StatisticEffect",
           "nature": "Debuff",
           "Description": {
-            "Id": "C4Master-Interference-NetworkBlock",
+            "Id": "C4Master-Interference-C3nBlock",
             "Name": "C4 Master (P): C3n Network Interference",
             "Details": "C4 network",
-            "Icon": "uixSvgIcon_status_ECM-missileDef"
+            "Icon": "C3Systems"
           },
           "statisticData": {
-            "abilifierId": "C3n_network_bonus",
+            "abilifierId": "C4_master_interference",
             "statName": "ADD_ENCOUNTER_TAG_C3n_network",
             "operation": "Float_Add",
             "modValue": "-10",
@@ -645,22 +309,125 @@
           "targetingData": {
             "effectTriggerType": "Passive",
             "effectTargetType": "EnemiesWithinRange",
-            "showInTargetPreview": false,
             "showInStatusPanel": false
           },
           "effectType": "StatisticEffect",
           "nature": "Debuff",
           "Description": {
-            "Id": "C4Master-Interference-NetworkBlock",
+            "Id": "C4Master-Interference-C3nBlock",
             "Name": "C4 Master (P): C3n Network Interference",
             "Details": "C4 network",
-            "Icon": "uixSvgIcon_status_ECM-missileDef"
+            "Icon": "C3Systems"
           },
           "statisticData": {
-            "abilifierId": "C3n_network_bonus",
+            "abilifierId": "C4_master_interference",
             "statName": "ADD_ENCOUNTER_TAG_C3n_network",
             "operation": "Float_Add",
             "modValue": "-10",
+            "modType": "System.Single"
+          }
+        },
+        {
+          "durationData": {
+            "duration": -1,
+            "stackLimit": 1
+          },
+          "targetingData": {
+            "effectTriggerType": "Passive",
+            "effectTargetType": "AlliesWithinRange",
+            "showInStatusPanel": false
+          },
+          "effectType": "StatisticEffect",
+          "nature": "Debuff",
+          "Description": {
+            "Id": "C4Master-Interference-MapJam",
+            "Name": "C4 Master (P): C3 Network Interference",
+            "Details": "C4 network",
+            "Icon": "C3Systems"
+          },
+          "statisticData": {
+            "abilifierId": "C4_master_interference",
+            "statName": "MINIMAP_JAMMED",
+            "operation": "Float_Add",
+            "modValue": "1.0",
+            "modType": "System.Single"
+          }
+        },
+        {
+          "durationData": {
+            "duration": -1,
+            "stackLimit": 1
+          },
+          "targetingData": {
+            "effectTriggerType": "Passive",
+            "effectTargetType": "EnemiesWithinRange",
+            "showInStatusPanel": false
+          },
+          "effectType": "StatisticEffect",
+          "nature": "Debuff",
+          "Description": {
+            "Id": "C4Master-Interference-MapJam",
+            "Name": "C4 Master (P): C3 Network Interference",
+            "Details": "C4 network",
+            "Icon": "C3Systems"
+          },
+          "statisticData": {
+            "abilifierId": "C4_master_interference",
+            "statName": "MINIMAP_JAMMED",
+            "operation": "Float_Add",
+            "modValue": "1.0",
+            "modType": "System.Single"
+          }
+        },
+        {
+          "durationData": {
+            "duration": -1,
+            "stackLimit": 1
+          },
+          "targetingData": {
+            "effectTriggerType": "Passive",
+            "effectTargetType": "AlliesWithinRange",
+            "showInStatusPanel": false
+          },
+          "effectType": "StatisticEffect",
+          "nature": "Debuff",
+          "Description": {
+            "Id": "C4Master-Interference-MapUJam",
+            "Name": "C4 Master (P): C3 Network Interference",
+            "Details": "C4 network",
+            "Icon": "C3Systems"
+          },
+          "statisticData": {
+            "abilifierId": "C4_master_interference",
+            "statName": "MINIMAP_UNITS_JAMMED",
+            "operation": "Float_Add",
+            "modValue": "1.0",
+            "modType": "System.Single"
+          }
+        },
+        {
+          "durationData": {
+            "duration": -1,
+            "stackLimit": 1
+          },
+          "targetingData": {
+            "effectTriggerType": "Passive",
+            "effectTargetType": "EnemiesWithinRange",
+            "showInStatusPanel": false
+          },
+          "effectType": "StatisticEffect",
+          "nature": "Debuff",
+          "Description": {
+            "Id": "C4Master-Interference-MapUJam",
+            "Name": "C4 Master (P): C3 Network Interference",
+            "Details": "C4 network",
+            "Icon": "C3Systems"
+          },
+          "statisticData": {
+            "abilifierId": "C4_master_interference",
+            "statName": "MINIMAP_UNITS_JAMMED",
+            "operation": "Float_Add",
+            "modValue": "1.0",
             "modType": "System.Single"
           }
         }
@@ -668,6 +435,31 @@
     }
   ],
   "statusEffects": [
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInStatusPanel": false
+      },
+      "effectType": "StatisticEffect",
+      "nature": "Buff",
+      "Description": {
+        "Id": "StatusEffect-Heat_GenPirateTC",
+        "Name": "C4 Master (P): Decreased Cooling",
+        "Details": "Heat generation increased by 20.",
+        "Icon": "uixSvgIcon_equipment_ThermalExchanger"
+      },
+      "statisticData": {
+        "statName": "HeatSinkCapacity",
+        "operation": "Int_Add",
+        "modValue": "-20",
+        "modType": "System.Int32"
+      }
+    }
   ],
   "ComponentTags": {
     "items": [

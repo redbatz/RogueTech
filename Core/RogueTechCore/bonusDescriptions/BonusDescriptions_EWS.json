@@ -557,13 +557,13 @@
       "Bonus": "C4MasterAffectedSystems",
       "Short": "C3 Hack",
       "Long": "Hack C3 Systems",
-      "Full": "Scrambles {0} systems, both friendly and enemy."
+      "Full": "Scrambles C3, C3i, and C3 Nova systems. Both friendly and enemy systems affected."
     },
     {
       "Bonus": "C4MasterPenalties",
-      "Short": "C3Penalty",
-      "Long": "C3 Penalties",
-      "Full": "All units carrying affected C3 equipment: {0}."
+      "Short": "C4Penalty",
+      "Long": "C4 Penalties",
+      "Full": "All units carrying affected C3 equipment are removed from the network and suffer -2 Resolve generation per round."
     },
     {
       "Bonus": "SLICNetwork",
