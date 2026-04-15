@@ -68,8 +68,8 @@
     },
     "DecoratorComponent": [
       {
-        "Text": "M",
-        "Color": "#FF9901",
+        "Text": "P",
+        "Color": "#24c040",
         "Icon": "ComponentGearIcons_HEXAGON",
         "Importance": 50
       }
