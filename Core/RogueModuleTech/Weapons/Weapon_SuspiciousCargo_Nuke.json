@@ -31,7 +31,7 @@
         "Heat": 100,
         "Stability": 200,
         "Range": 360,
-        "Chance": 3,
+        "Chance": 4.0,
         "FireTerrainChanceActorStat": "EngineExplodeFireChance",
         "FireTerrainStrengthActorStat": "EngineExplodeFireStrength",
         "FireDurationWithoutForestActorStat": "EngineExplodeTerrainDuration",
@@ -174,7 +174,7 @@
       "statisticData": {
         "statName": "EngineExplodeChance",
         "operation": "Float_Add",
-        "modValue": "3",
+        "modValue": "4.0",
         "modType": "System.Single",
         "effectsPersistAfterDestruction": true
       }

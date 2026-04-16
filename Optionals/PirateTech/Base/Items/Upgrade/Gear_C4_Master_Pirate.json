@@ -34,7 +34,7 @@
         "Heat": 15,
         "Stability": 60,
         "Range": 120,
-        "Chance": 3.0,
+        "Chance": 4.0,
         "ExplosionMessage": "C4 DETONATED",
         "VFX": "vfxPrfPrtl_artilleryImpact_single",
         "VFXScaleX": 1.6,
