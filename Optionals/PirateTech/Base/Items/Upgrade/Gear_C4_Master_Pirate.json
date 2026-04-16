@@ -11,7 +11,7 @@
       "HeatPerTurn: +20",
       "ActiveAOEBoom",
       "AreaOfEffect: 120",
-      "AreaOfEffectDmg: 150",
+      "AreaOfEffectDmg: 200",
       "AreaOfEffectHeatDmg: 15",
       "AreaOfEffectSTABDmg: 60"
     ],
@@ -22,7 +22,7 @@
       "CanNotBeActivatedManualy": false,
       "ButtonName": "BOOM",
       "ActivationMessage": "BOOM",
-      "DeactivationMessage": "C4 Ready",
+      "DeactivationMessage": "<color=#C40707>C4 Ready</color>",
       "ActivationIsBuff": false,
       "CanActivateAfterMove": true,
       "CanActivateAfterFire": false,
@@ -30,7 +30,7 @@
       "ExplodeOnFail": true,
       "SelfCrit": true,
       "Explosion": {
-        "Damage": 150,
+        "Damage": 200,
         "Heat": 15,
         "Stability": 60,
         "Range": 120,
