@@ -4,6 +4,7 @@
       "unit_mech",
       "unit_legendary",
       "unit_unique",
+      "unit_stealth",
       "unit_killteam",
       "unit_core",
       "unit_era_clan_invasion",
@@ -120,6 +121,53 @@
       "ComponentDefID": "Gear_AdvancedMaterials1",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Gear_ArmorMod_ChameleonLightPolarizationShield",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "LeftArm",
+      "ComponentDefID": "Linked_ArmorMod_ChameleonLightPolarizationShield",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Linked_ArmorMod_ChameleonLightPolarizationShield",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "RightArm",
+      "ComponentDefID": "Linked_ArmorMod_ChameleonLightPolarizationShield",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "LeftLeg",
+      "ComponentDefID": "Linked_ArmorMod_ChameleonLightPolarizationShield",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "RightLeg",
+      "ComponentDefID": "Linked_ArmorMod_ChameleonLightPolarizationShield",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "IsFixed": true,
       "DamageLevel": "Functional"
     },
     {
@@ -258,46 +306,6 @@
       "DamageLevel": "Functional"
     },
     {
-      "MountedLocation": "LeftArm",
-      "ComponentDefID": "Linked_ArmorMod_ChameleonLightPolarizationShield",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "IsFixed": true,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Linked_ArmorMod_ChameleonLightPolarizationShield",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "IsFixed": true,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "RightArm",
-      "ComponentDefID": "Linked_ArmorMod_ChameleonLightPolarizationShield",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "IsFixed": true,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "LeftLeg",
-      "ComponentDefID": "Linked_ArmorMod_ChameleonLightPolarizationShield",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "IsFixed": true,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "RightLeg",
-      "ComponentDefID": "Linked_ArmorMod_ChameleonLightPolarizationShield",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "IsFixed": true,
-      "DamageLevel": "Functional"
-    },
-    {
       "MountedLocation": "CenterTorso",
       "ComponentDefID": "Gear_Supercharger",
       "ComponentDefType": "Upgrade",
@@ -307,13 +315,6 @@
     {
       "MountedLocation": "LeftTorso",
       "ComponentDefID": "Gear_Turret",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "RightTorso",
-      "ComponentDefID": "Gear_ArmorMod_ChameleonLightPolarizationShield",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"

@@ -130,9 +130,17 @@
     },
     {
       "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Gear_Armor_LAM_Stealth",
+      "ComponentDefID": "Gear_ArmorMod_WraithSignatureSuppressionSystem",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "LeftArm",
+      "ComponentDefID": "Linked_ArmorMod_WraithSignatureSuppressionSystem",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "IsFixed": true,
       "DamageLevel": "Functional"
     },
     {
@@ -181,6 +189,53 @@
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Linked_ArmorMod_WraithSignatureSuppressionSystem",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Linked_ArmorMod_WraithSignatureSuppressionSystem",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "RightArm",
+      "ComponentDefID": "Linked_ArmorMod_WraithSignatureSuppressionSystem",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "LeftLeg",
+      "ComponentDefID": "Linked_ArmorMod_WraithSignatureSuppressionSystem",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "RightLeg",
+      "ComponentDefID": "Linked_ArmorMod_WraithSignatureSuppressionSystem",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Gear_Armor_LAM_Stealth",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
       "DamageLevel": "Functional"
     },
     {
@@ -195,54 +250,6 @@
       "ComponentDefID": "Gear_Actuator_Omni_Lower",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "LeftArm",
-      "ComponentDefID": "Linked_ArmorMod_WraithSignatureSuppressionSystem",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "IsFixed": true,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Linked_ArmorMod_WraithSignatureSuppressionSystem",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "IsFixed": true,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "RightTorso",
-      "ComponentDefID": "Linked_ArmorMod_WraithSignatureSuppressionSystem",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "IsFixed": true,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "RightArm",
-      "ComponentDefID": "Linked_ArmorMod_WraithSignatureSuppressionSystem",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "IsFixed": true,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "LeftLeg",
-      "ComponentDefID": "Linked_ArmorMod_WraithSignatureSuppressionSystem",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "IsFixed": true,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "RightLeg",
-      "ComponentDefID": "Linked_ArmorMod_WraithSignatureSuppressionSystem",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional"
     },
     {
@@ -263,13 +270,6 @@
       "MountedLocation": "RightTorso",
       "ComponentDefID": "Special_AddOn_Exchanger",
       "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Gear_ArmorMod_WraithSignatureSuppressionSystem",
-      "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
     },
