@@ -71,7 +71,7 @@
       "ExclusionTags": {
         "items": [
           "assassinate_overlordfight_cooldown",
-          "assassinate_overlordfight_exhausted"
+          "assassinate_overlordfight_loot_exhausted"
         ],
         "tagSetSourceFile": ""
       }
@@ -118,7 +118,7 @@
       "Requirements": {},
       "AddedTags": {
         "items": [
-          "assassinate_overlordfight_exhausted"
+          "assassinate_overlordfight_loot_exhausted"
         ],
         "tagSetSourceFile": ""
       },
@@ -127,7 +127,7 @@
         "tagSetSourceFile": ""
       },
       "TemporaryResult": true,
-      "ResultDuration": 720
+      "ResultDuration": 600
     }
   ],
   "OnContractFailureResults": [],
