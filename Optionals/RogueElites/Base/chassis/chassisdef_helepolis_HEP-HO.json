@@ -1,12 +1,15 @@
 {
   "Custom": {
     "DropCostFactor": {
-      "DropModifier": 0.89
+      "DropModifier": 0.97
     },
     "AssemblyVariant": {
       "PrefabID": "helepolis",
       "Exclude": false,
       "Include": true
+    },
+    "LootableUniqueMech": {
+      "ReplaceID": "mechdef_helepolis_HEP-2H"
     }
   },
   "CustomParts": {
@@ -22,7 +25,7 @@
     }
   ],
   "Description": {
-    "Cost": 1006569,
+    "Cost": 669514,
     "Rarity": 2,
     "Purchasable": true,
     "Manufacturer": "",
@@ -30,14 +33,16 @@
     "UIName": "Helepolis",
     "Id": "chassisdef_helepolis_HEP-HO",
     "Name": "Helepolis",
-    "Details": "Triple Mixed Tech, Questionable at Best. This Primitive Helepolis was Picked up by a well Respected Mechwarrior Outfit, upgraded it with IS Gear to be Functional Atleast. Swapped Hands and then installed Clan Gear in its Interior, as a Test bed so to Speak. There are so many different Doohickeys just to have everything work together, im Amazed it doesnt Short circuit itself.\n\n<b><color=#e62e00>Quirk: Stable</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 0.89</color></b>\n\n<color=#FFEF00>Arm Actuator Limit: Right Upper</color>",
+    "Details": "Triple Mixed Tech, Questionable at Best. This Primitive Helepolis was Picked up by a well Respected Mechwarrior Outfit, upgraded it with IS Gear to be Functional Atleast. Swapped Hands and then installed Clan Gear in its Interior, as a Test bed so to Speak. There are so many different Doohickeys just to have everything work together, im Amazed it doesnt Short circuit itself.\n\n<b><color=#e62e00>Quirk: Stable</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 0.97</color></b>\n\n<color=#FFEF00>Arm Actuator Limit: Right Upper</color>",
     "Icon": "helepolis"
   },
   "VariantName": "HEP-HO",
   "ChassisTags": {
     "items": [
       "ArmLimitUpperRight",
-      "Primitive"
+      "EliteMech",
+      "Primitive",
+      "OneHanded"
     ],
     "tagSetSourceFile": ""
   },
@@ -83,7 +88,7 @@
       "Location": "Head",
       "Hardpoints": [
         {
-          "WeaponMountID": "Energy",
+          "WeaponMountID": "Ballistic",
           "Omni": false
         }
       ],
@@ -101,7 +106,7 @@
           "Omni": false
         },
         {
-          "WeaponMountID": "Energy",
+          "WeaponMountID": "Ballistic",
           "Omni": false
         },
         {
@@ -123,10 +128,6 @@
           "Omni": false
         },
         {
-          "WeaponMountID": "Missile",
-          "Omni": false
-        },
-        {
           "WeaponMountID": "Special",
           "Omni": false
         }
@@ -141,10 +142,6 @@
       "Location": "CenterTorso",
       "Hardpoints": [
         {
-          "WeaponMountID": "AntiPersonnel",
-          "Omni": false
-        },
-        {
           "WeaponMountID": "Missile",
           "Omni": false
         }
@@ -158,6 +155,18 @@
     {
       "Location": "RightTorso",
       "Hardpoints": [
+        {
+          "WeaponMountID": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMountID": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMountID": "Ballistic",
+          "Omni": false
+        },
         {
           "WeaponMountID": "AntiPersonnel",
           "Omni": false
@@ -178,6 +187,10 @@
       "Hardpoints": [
         {
           "WeaponMountID": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMountID": "AntiPersonnel",
           "Omni": false
         },
         {

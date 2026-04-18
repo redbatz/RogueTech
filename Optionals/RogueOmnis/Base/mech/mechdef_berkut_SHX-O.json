@@ -55,7 +55,7 @@
   },
   "ChassisID": "chassisdef_berkut_SHX-O",
   "Description": {
-    "Cost": 13096020,
+    "Cost": 12166020,
     "Rarity": 1,
     "Purchasable": false,
     "UIName": "Berkut SHX-O",
@@ -141,6 +141,13 @@
   ],
   "inventory": [
     {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Gear_Armor_LAM_Stealth",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
       "MountedLocation": "LeftArm",
       "ComponentDefID": "Linked_Armor_LAM_Stealth",
       "ComponentDefType": "Upgrade",
@@ -186,13 +193,6 @@
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Gear_Armor_LAM_Stealth",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
       "DamageLevel": "Functional"
     },
     {

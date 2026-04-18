@@ -36,7 +36,7 @@
   },
   "ChassisID": "chassisdef_berkut_SHX-FB",
   "Description": {
-    "Cost": 19703126,
+    "Cost": 17998126,
     "Rarity": 1,
     "Purchasable": false,
     "UIName": "Berkut 'Firebird'",
@@ -129,6 +129,13 @@
       "DamageLevel": "Functional"
     },
     {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Gear_Armor_LAM_Stealth",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
       "MountedLocation": "LeftArm",
       "ComponentDefID": "Linked_Armor_LAM_Stealth",
       "ComponentDefType": "Upgrade",
@@ -174,13 +181,6 @@
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Gear_Armor_LAM_Stealth",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
       "DamageLevel": "Functional"
     },
     {
