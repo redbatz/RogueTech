@@ -5,23 +5,24 @@
       "unit_assault",
       "unit_advanced",
       "unit_bracket_med",
+      "unit_elite",
+      "unit_legendary",
+      "unit_unique",
       "unit_role_sniper",
       "unit_lance_assassin",
       "unit_lance_support",
       "unit_clan",
-      "unit_optional_era",
+      "unit_optional_rogue_elites",
       "unit_era_dark_ages",
       "unit_proxy_model",
       "unit_release",
+      "unit_rt_custom",
       "unit_chassis_amarok",
       "unit_tonnage_100",
-      "unit_rarity_equipment_level_1",
-      "unit_rt_custom",
-      "unit_legendary",
-      "unit_elite",
-      "unit_optional_rogue_elites",
-      "ClanProtectorate",
+      "unit_rarity_dangerous",
+      "unit_rarity_equipment_level_2",
       "ClanNovaCat",
+      "ClanProtectorate",
       "ClanSeaFox3150",
       "clanwolf",
       "WolfEmpire",
@@ -41,16 +42,16 @@
   },
   "ChassisID": "chassisdef_amarok_AMA-SP",
   "Description": {
-    "Cost": 17477351,
+    "Cost": 14750023,
     "Rarity": 2,
     "Purchasable": false,
     "UIName": "Amarok 'Spina'",
     "Id": "mechdef_amarok_AMA-SP",
     "Name": "Amarok SP",
-    "Details": "A Prototype variant of the Amarok, built in the Golden Era. Most of the Tech on this Beast is also preserved, meaning you got yourself some Ancient ass Tech. I hope that we dont need a Specialist to Install this stuff, my Knowledge only goes so Far Boss. Apart from the ancient gear, this Amarok still boasts most of the Typical Amarok Gear, I think, i dont know actually.\n\n<b><color=#e62e00>Quirk: Battle Fists</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.24</color></b>",
+    "Details": "A Prototype variant of the Amarok, built in the Golden Era. Most of the Tech on this Beast is also preserved, meaning you got yourself some Ancient ass Tech. I hope that we dont need a Specialist to Install this stuff, my Knowledge only goes so Far Boss. Apart from the ancient gear, this Amarok still boasts most of the Typical Amarok Gear, I think, i dont know actually.\n\n<b><color=#e62e00>Quirk: Battle Fists</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.32</color></b>",
     "Icon": "uixTxrIcon_amarok"
   },
-  "simGameMechPartCost": 387804,
+  "simGameMechPartCost": 243138,
   "Locations": [
     {
       "Location": "Head",
@@ -141,6 +142,48 @@
       "DamageLevel": "Functional"
     },
     {
+      "MountedLocation": "Head",
+      "ComponentDefID": "Gear_Cockpit_LifeSupportA_Guts",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Head",
+      "ComponentDefID": "Gear_Cockpit_LifeSupportB_Gunnery",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Head",
+      "ComponentDefID": "Gear_Cockpit_Rangefinder_Plus",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Head",
+      "ComponentDefID": "Gear_FCS_Predator",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Head",
+      "ComponentDefID": "Gear_Sensors_Improved_Clan",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Gear_Gyro_XL",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
       "MountedLocation": "CenterTorso",
       "ComponentDefID": "Gear_EngineCore_400",
       "ComponentDefType": "HeatSink",
@@ -185,84 +228,14 @@
       "DamageLevel": "Functional"
     },
     {
-      "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Gear_Gyro_XL",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Ammo_AmmunitionBox_LRM_Deadfire",
-      "ComponentDefType": "AmmunitionBox",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "Head",
-      "ComponentDefID": "Gear_Cockpit_LifeSupportA_Guts",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "Head",
-      "ComponentDefID": "Gear_FCS_Predator",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "Head",
-      "ComponentDefID": "Gear_Sensors_Improved_Clan",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "Head",
-      "ComponentDefID": "Gear_Cockpit_Rangefinder_Plus",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "Head",
-      "ComponentDefID": "Gear_Cockpit_LifeSupportB_Gunnery",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "RightLeg",
-      "ComponentDefID": "Gear_HeatSink_Double_Clan",
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "LeftArm",
-      "ComponentDefID": "Gear_HeatSink_Double_Clan",
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "LeftArm",
-      "ComponentDefID": "Gear_HeatSink_Double_Clan",
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "RightArm",
+      "MountedLocation": "LeftTorso",
       "ComponentDefID": "Weapon_Autocannon_AC_10_CE",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
       "DamageLevel": "Functional"
     },
     {
-      "MountedLocation": "RightArm",
+      "MountedLocation": "LeftTorso",
       "ComponentDefID": "Weapon_LRM_10_CE",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
@@ -290,28 +263,14 @@
       "DamageLevel": "Functional"
     },
     {
-      "MountedLocation": "RightTorso",
-      "ComponentDefID": "Ammo_AmmunitionBox_AC_10_AP",
-      "ComponentDefType": "AmmunitionBox",
-      "HardpointSlot": -1,
+      "MountedLocation": "RightArm",
+      "ComponentDefID": "Weapon_Autocannon_AC_10_CE",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
       "DamageLevel": "Functional"
     },
     {
-      "MountedLocation": "RightTorso",
-      "ComponentDefID": "Ammo_AmmunitionBox_AC_10_AP",
-      "ComponentDefType": "AmmunitionBox",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "RightTorso",
-      "ComponentDefID": "Ammo_AmmunitionBox_LRM_Deadfire",
-      "ComponentDefType": "AmmunitionBox",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "LeftTorso",
+      "MountedLocation": "RightArm",
       "ComponentDefID": "Weapon_LRM_10_CE",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
@@ -319,13 +278,27 @@
     },
     {
       "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Weapon_Autocannon_AC_10_CE",
-      "ComponentDefType": "Weapon",
-      "HardpointSlot": 0,
+      "ComponentDefID": "Ammo_AmmunitionBox_AC_10_AP",
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
       "DamageLevel": "Functional"
     },
     {
-      "MountedLocation": "LeftTorso",
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Ammo_AmmunitionBox_LRM_Deadfire",
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Ammo_AmmunitionBox_AC_10_AP",
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "RightTorso",
       "ComponentDefID": "Ammo_AmmunitionBox_AC_10_AP",
       "ComponentDefType": "AmmunitionBox",
       "HardpointSlot": -1,
@@ -335,6 +308,34 @@
       "MountedLocation": "RightTorso",
       "ComponentDefID": "Ammo_AmmunitionBox_LRM_Deadfire",
       "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Ammo_AmmunitionBox_LRM_Deadfire",
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "LeftArm",
+      "ComponentDefID": "Gear_HeatSink_Double_Clan",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "LeftArm",
+      "ComponentDefID": "Gear_HeatSink_Double_Clan",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "RightLeg",
+      "ComponentDefID": "Gear_HeatSink_Double_Clan",
+      "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
     }

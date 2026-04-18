@@ -95,21 +95,14 @@
     },
     {
       "MountedLocation": "Head",
-      "ComponentDefID": "Weapon_PPC_Light",
-      "ComponentDefType": "Weapon",
-      "HardpointSlot": 0,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Weapon_PPC_Light",
+      "ComponentDefID": "Weapon_Laser_Small",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
       "DamageLevel": "Functional"
     },
     {
       "MountedLocation": "Head",
-      "ComponentDefID": "Weapon_Laser_Small",
+      "ComponentDefID": "Weapon_PPC_Light",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
       "DamageLevel": "Functional"
@@ -120,10 +113,17 @@
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
       "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Weapon_PPC_Light",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
-    "Cost": 1217095,
+    "Cost": 1334095,
     "Rarity": 1,
     "Purchasable": true,
     "Manufacturer": "",

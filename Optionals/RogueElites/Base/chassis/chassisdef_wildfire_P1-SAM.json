@@ -1,12 +1,15 @@
 {
   "Custom": {
     "DropCostFactor": {
-      "DropModifier": 1.09
+      "DropModifier": 1.17
     },
     "AssemblyVariant": {
       "PrefabID": "wildfire",
       "Exclude": false,
       "Include": true
+    },
+    "LootableUniqueMech": {
+      "ReplaceID": "mechdef_wildfire_P1-WF"
     }
   },
   "CustomParts": {
@@ -22,7 +25,7 @@
     }
   ],
   "Description": {
-    "Cost": 1076435,
+    "Cost": 633403,
     "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": "",
@@ -30,13 +33,15 @@
     "UIName": "Wildfire",
     "Id": "chassisdef_wildfire_P1-SAM",
     "Name": "Wildfire",
-    "Details": "Samuel Lyre, a Prominent Periphery Bounty Hunter Commissioned this Wildfire that he acquired from the AFFS. According to Rumors, Samuel hunted Pirate outfits in the Periphery, after he made a Small fortune, he got mixed into a Heritage Scandal of some lower House. After that he Upgraded the Wildfire from the AFFS with questionable Hardware. Hardened Armour Plates and Clan Gear, This Wildfire is built to near Perfection. Considering how Smooth this entire Ride goes, i think some NAIS scientists even helped work on this, but its not documented. Some silent Tongues say Samuel was a High Davion Command Officer, but you didnt hear that from me.\n\n<b><color=#e62e00>Quirk: Well Balanced</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.09</color></b>\n\n<color=#FFEF00>Arm Actuator Limit: Left Lower</color>",
+    "Details": "Samuel Lyre, a Prominent Periphery Bounty Hunter Commissioned this Wildfire that he acquired from the AFFS. According to Rumors, Samuel hunted Pirate outfits in the Periphery, after he made a Small fortune, he got mixed into a Heritage Scandal of some lower House. After that he Upgraded the Wildfire from the AFFS with questionable Hardware. Hardened Armour Plates and Clan Gear, This Wildfire is built to near Perfection. Considering how Smooth this entire Ride goes, i think some NAIS scientists even helped work on this, but its not documented. Some silent Tongues say Samuel was a High Davion Command Officer, but you didnt hear that from me.\n\n<b><color=#e62e00>Quirk: Well Balanced</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.17</color></b>\n\n<color=#FFEF00>Arm Actuator Limit: Left Lower</color>",
     "Icon": "uixTxrIcon_mistlynx"
   },
   "VariantName": "P1-SAM",
   "ChassisTags": {
     "items": [
       "ArmLimitLowerLeft",
+      "EliteMech",
+      "OneHanded",
       "mr-resize-1.01-1.24-0.93"
     ],
     "tagSetSourceFile": ""
@@ -123,6 +128,10 @@
       "Location": "LeftTorso",
       "Hardpoints": [
         {
+          "WeaponMountID": "Energy",
+          "Omni": false
+        },
+        {
           "WeaponMountID": "Special",
           "Omni": false
         }
@@ -150,6 +159,18 @@
     {
       "Location": "RightTorso",
       "Hardpoints": [
+        {
+          "WeaponMountID": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMountID": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMountID": "Missile",
+          "Omni": false
+        },
         {
           "WeaponMountID": "Special",
           "Omni": false

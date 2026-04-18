@@ -3,7 +3,7 @@
 	<LancherUpdateUrl>https://discourse.modsinexile.com/t/rogue-tech/134</LancherUpdateUrl>
 	<RequiredBattleTechVersion>1.9.1</RequiredBattleTechVersion>
 	<RequiredLauncherVersion>1.3.16</RequiredLauncherVersion>
-	<SecureHash>Fg8WIRbiFiMWshbrFrYWlhauFv0WFha8FoUWghZ6Fho=</SecureHash>
+	<SecureHash>FtkWYxZpFqYWVxbgFvgW8RbuFvQW/xZrFnQWHxZCFro=</SecureHash>
 	<showCoreItems>false</showCoreItems>
 	<Tasks>
 		<InstallTask>
@@ -770,7 +770,7 @@
 			<Id>JihadEra</Id>
 			<additionalUiContext/>
 			<canSelect>true</canSelect>
-			<dependsOn/>
+			<dependsOn>CivilWarEra</dependsOn>
 			<difficultyModifier>0.0</difficultyModifier>
 			<excludePaths>log.txt</excludePaths>
 			<influenceMode>0</influenceMode>
@@ -789,7 +789,7 @@
 			<Id>RepublicEra</Id>
 			<additionalUiContext/>
 			<canSelect>true</canSelect>
-			<dependsOn/>
+			<dependsOn>CivilWarEra,JihadEra</dependsOn>
 			<difficultyModifier>0.0</difficultyModifier>
 			<excludePaths>log.txt</excludePaths>
 			<influenceMode>0</influenceMode>
@@ -808,7 +808,7 @@
 			<Id>DarkAgeEra</Id>
 			<additionalUiContext/>
 			<canSelect>true</canSelect>
-			<dependsOn/>
+			<dependsOn>CivilWarEra,JihadEra,RepublicEra</dependsOn>
 			<difficultyModifier>0.0</difficultyModifier>
 			<excludePaths>log.txt</excludePaths>
 			<influenceMode>0</influenceMode>

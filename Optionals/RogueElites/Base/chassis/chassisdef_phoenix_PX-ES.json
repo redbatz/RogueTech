@@ -1,12 +1,15 @@
 {
   "Custom": {
     "DropCostFactor": {
-      "DropModifier": 0.82
+      "DropModifier": 0.9
     },
     "AssemblyVariant": {
       "PrefabID": "phoenix",
       "Exclude": false,
       "Include": true
+    },
+    "LootableUniqueMech": {
+      "ReplaceID": "mechdef_phoenix_PX-3R"
     }
   },
   "CustomParts": {
@@ -22,7 +25,7 @@
     }
   ],
   "Description": {
-    "Cost": 785040,
+    "Cost": 385926,
     "Rarity": 2,
     "Purchasable": true,
     "Manufacturer": "",
@@ -30,14 +33,16 @@
     "UIName": "Phoenix",
     "Id": "chassisdef_phoenix_PX-ES",
     "Name": "Phoenix",
-    "Details": "The Personal Mech of a John Smeaton, MekTek of an unnamed Periphery Militia. While you're asking yourself why he had a Mech, my question is why this Puppy is Equipped with some real Exotic gear for the Periphery. That Endo Composite didnt just fall off a Truck Boss, and neither did those Light AC's. Apart from the obvious upgrades, its a recent-ish Refit of the Venerable Phoenix.\n\n<b><color=#e62e00>Quirk: Easy to Maintain</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 0.82</color></b>\n\n<color=#FFEF00>Arm Actuator Limit: Right Upper</color>",
+    "Details": "The Personal Mech of a John Smeaton, MekTek of an unnamed Periphery Militia. While you're asking yourself why he had a Mech, my question is why this Puppy is Equipped with some real Exotic gear for the Periphery. That Endo Composite didnt just fall off a Truck Boss, and neither did those Light AC's. Apart from the obvious upgrades, its a recent-ish Refit of the Venerable Phoenix.\n\n<b><color=#e62e00>Quirk: Easy to Maintain</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 0.9</color></b>\n\n<color=#FFEF00>Arm Actuator Limit: Right Upper</color>",
     "Icon": "uixTxrIcon_phoenix"
   },
   "VariantName": "PX-ES",
   "ChassisTags": {
     "items": [
       "ArmLimitUpperRight",
-      "Primitive"
+      "EliteMech",
+      "Primitive",
+      "OneHanded"
     ],
     "tagSetSourceFile": ""
   },
@@ -81,12 +86,7 @@
   "Locations": [
     {
       "Location": "Head",
-      "Hardpoints": [
-        {
-          "WeaponMountID": "AntiPersonnel",
-          "Omni": false
-        }
-      ],
+      "Hardpoints": [],
       "Tonnage": 0,
       "InventorySlots": 6,
       "MaxArmor": 45,
@@ -96,6 +96,10 @@
     {
       "Location": "LeftArm",
       "Hardpoints": [
+        {
+          "WeaponMountID": "Ballistic",
+          "Omni": false
+        },
         {
           "WeaponMountID": "Ballistic",
           "Omni": false
@@ -135,7 +139,12 @@
     },
     {
       "Location": "CenterTorso",
-      "Hardpoints": [],
+      "Hardpoints": [
+        {
+          "WeaponMountID": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
       "Tonnage": 0,
       "InventorySlots": 13,
       "MaxArmor": 160,
@@ -145,6 +154,14 @@
     {
       "Location": "RightTorso",
       "Hardpoints": [
+        {
+          "WeaponMountID": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMountID": "Missile",
+          "Omni": false
+        },
         {
           "WeaponMountID": "Special",
           "Omni": false
@@ -159,6 +176,10 @@
     {
       "Location": "RightArm",
       "Hardpoints": [
+        {
+          "WeaponMountID": "Ballistic",
+          "Omni": false
+        },
         {
           "WeaponMountID": "Ballistic",
           "Omni": false
