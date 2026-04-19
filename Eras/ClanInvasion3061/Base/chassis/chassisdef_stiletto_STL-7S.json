@@ -165,7 +165,7 @@
     }
   ],
   "Description": {
-    "Cost": 1217095,
+    "Cost": 1179987,
     "Rarity": 1,
     "Purchasable": true,
     "Manufacturer": "",
@@ -248,7 +248,7 @@
         }
       ],
       "Tonnage": 0,
-      "InventorySlots": 6,
+      "InventorySlots": 9,
       "MaxArmor": 275,
       "MaxRearArmor": -1,
       "InternalStructure": 130
@@ -296,7 +296,7 @@
         }
       ],
       "Tonnage": 0,
-      "InventorySlots": 13,
+      "InventorySlots": 16,
       "MaxArmor": 275,
       "MaxRearArmor": -1,
       "InternalStructure": 130
