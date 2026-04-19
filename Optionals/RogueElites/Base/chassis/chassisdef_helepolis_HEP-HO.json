@@ -97,7 +97,7 @@
       "Location": "LeftArm",
       "Hardpoints": [
         {
-          "WeaponMountID": "Ballistic",
+          "WeaponMountID": "Missile",
           "Omni": false
         },
         {
@@ -177,7 +177,7 @@
       "Location": "RightArm",
       "Hardpoints": [
         {
-          "WeaponMountID": "Ballistic",
+          "WeaponMountID": "Missile",
           "Omni": false
         },
         {
