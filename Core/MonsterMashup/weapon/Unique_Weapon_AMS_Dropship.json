@@ -14,7 +14,10 @@
       "default",
       "ignore_damage",
       "not_broken"
-    ]
+    ],
+    "InternalAmmoTonnage": {
+      "InternalAmmoTons": 0
+    }
   },
   "Auras": [
     {

@@ -39,7 +39,8 @@
   "VariantName": "HBK-C",
   "ChassisTags": {
     "items": [
-      "ClanMech"
+      "ClanMech",
+      "UniqueMech"
     ],
     "tagSetSourceFile": ""
   },
