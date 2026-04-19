@@ -263,18 +263,36 @@
       "DamageLevel": "Functional"
     },
     {
-      "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Gear_Engine_XL",
-      "ComponentDefType": "HeatSink",
+      "MountedLocation": "RightArm",
+      "ComponentDefID": "Gear_Attachment_Aphrodite",
+      "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional"
+      "DamageLevel": "Functional",
+      "TargetComponentGUID": "WeaponAttachment0"
     },
     {
-      "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Linked_Engine_Size_3",
-      "ComponentDefType": "HeatSink",
+      "MountedLocation": "RightArm",
+      "ComponentDefID": "Weapon_Thunderbolt_20",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional",
+      "LocalGUID": "WeaponAttachment0"
+    },
+    {
+      "MountedLocation": "LeftArm",
+      "ComponentDefID": "Gear_Attachment_Aphrodite",
+      "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional"
+      "DamageLevel": "Functional",
+      "TargetComponentGUID": "WeaponAttachment1"
+    },
+    {
+      "MountedLocation": "LeftArm",
+      "ComponentDefID": "Weapon_Thunderbolt_20",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional",
+      "LocalGUID": "WeaponAttachment1"
     },
     {
       "MountedLocation": "RightTorso",
@@ -291,16 +309,16 @@
       "DamageLevel": "Functional"
     },
     {
-      "MountedLocation": "LeftArm",
-      "ComponentDefID": "Gear_Actuator_Arm_Upper_Recoil",
-      "ComponentDefType": "Upgrade",
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Ammo_AmmunitionBox_Thunderbolt_20_Thermo",
+      "ComponentDefType": "AmmunitionBox",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
     },
     {
-      "MountedLocation": "LeftArm",
-      "ComponentDefID": "Gear_Actuator_WeaponMount_Recoil",
-      "ComponentDefType": "Upgrade",
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Ammo_AmmunitionBox_Thunderbolt_20_Thermo",
+      "ComponentDefType": "AmmunitionBox",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
     },
@@ -313,8 +331,22 @@
     },
     {
       "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Special_AddOn_HeatBank",
-      "ComponentDefType": "HeatSink",
+      "ComponentDefID": "Ammo_AmmunitionBox_Thunderbolt_20_Thermo",
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Ammo_AmmunitionBox_Thunderbolt_20_Thermo",
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Ammo_AmmunitionBox_Thunderbolt_20_Thermo",
+      "ComponentDefType": "AmmunitionBox",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
     },
@@ -347,23 +379,30 @@
       "DamageLevel": "Functional"
     },
     {
-      "MountedLocation": "RightArm",
-      "ComponentDefID": "Weapon_Autocannon_RAC_10_Clan",
-      "ComponentDefType": "Weapon",
-      "HardpointSlot": 0,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Ammo_AmmunitionBox_RAC_10_Caseless",
+      "MountedLocation": "LeftLeg",
+      "ComponentDefID": "Ammo_AmmunitionBox_Thunderbolt_TB20_HE",
       "ComponentDefType": "AmmunitionBox",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
     },
     {
-      "MountedLocation": "RightTorso",
-      "ComponentDefID": "Ammo_AmmunitionBox_AMS",
+      "MountedLocation": "RightLeg",
+      "ComponentDefID": "Gear_ModularArmor_Mk1",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "RightLeg",
+      "ComponentDefID": "Ammo_AmmunitionBox_Thunderbolt_TB20_HE",
       "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "LeftArm",
+      "ComponentDefID": "Gear_ModularArmor_Mk1",
+      "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
     },
