@@ -9,7 +9,7 @@
       "Include": true
     },
     "LootableUniqueMech": {
-      "ReplaceID": "mechdef_taipan_TPN-89"
+      "BlockAssembly": true
     },
     "CustomWidgetChassis": {
       "TopLeftWidget": {

@@ -70,8 +70,7 @@
       },
       "ExclusionTags": {
         "items": [
-          "assassinate_overlordfight_cooldown",
-          "assassinate_overlordfight_exhausted"
+          "assassinate_overlordfight_cooldown"
         ],
         "tagSetSourceFile": ""
       }
@@ -80,7 +79,7 @@
   "OnContractSuccessResults": [
     {
       "Scope": "Company",
-      "Requirements": { },
+      "Requirements": {},
       "AddedTags": {
         "items": [],
         "tagSetSourceFile": ""
@@ -93,14 +92,13 @@
         {
           "Type": "System_ShowRewards",
           "value": "itemCollection_MonsterMash",
-          "valueConstant": null,
           "additionalValues": null
         }
       ]
     },
     {
       "Scope": "Company",
-      "Requirements": { },
+      "Requirements": {},
       "AddedTags": {
         "items": [
           "assassinate_overlordfight_cooldown"
@@ -113,22 +111,6 @@
       },
       "TemporaryResult": true,
       "ResultDuration": 120
-    },
-    {
-      "Scope": "Company",
-      "Requirements": { },
-      "AddedTags": {
-        "items": [
-          "assassinate_overlordfight_exhausted"
-        ],
-        "tagSetSourceFile": ""
-      },
-      "RemovedTags": {
-        "items": [],
-        "tagSetSourceFile": ""
-      },
-      "TemporaryResult": true,
-      "ResultDuration": 720
     }
   ],
   "OnContractFailureResults": [],

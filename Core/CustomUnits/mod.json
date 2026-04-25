@@ -78,6 +78,7 @@
     "VehicleComponentOneAllowed": "VehicleLimited",
     "VehicleComponentForbiddenTag": "VehicleForbidden",
     "VehicleComponentCategoryTagPrefix": "VehicleComponentFamily-",
+    "VehicleComponentIgnoreEnergyHeat": "VehicleIgnoreEnergyHeat",
     "MechBaySwitchIconMech": "mech",
     "MechBaySwitchIconVehicle": "vehicle",
     "MechBaySwitchIconUp": "weapon_up",

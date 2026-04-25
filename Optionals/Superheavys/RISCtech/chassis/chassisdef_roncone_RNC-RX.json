@@ -9,7 +9,7 @@
       "Include": true
     },
     "LootableUniqueMech": {
-      "ReplaceID": "mechdef_roncone_RNC-X1"
+      "BlockAssembly": true
     },
     "CustomWidgetChassis": {
       "TopLeftWidget": {

@@ -464,6 +464,12 @@
       "Full": "Goat-Fi: {0} Initiative for Company units in range."
     },
     {
+      "Bonus": "ExplainC3",
+      "Short": "C3",
+      "Long": "C3 Network",
+      "Full": "C3 Networked Units calculate attack range penalties from the position of the Networked Unit closest to the target."
+    },
+    {
       "Bonus": "C3Master",
       "Short": "C3 Master",
       "Long": "C3 Master",
@@ -530,6 +536,12 @@
       "Full": "All Company units with {0} gear receive non-stacking bonus of {1}."
     },
     {
+      "Bonus": "C3ECMPenalty",
+      "Short": "{0}ECM",
+      "Long": "{0} ECM/{1} Sig",
+      "Full": "C3 Systems interfere with electronic countermeasures. Unit suffers {0} to ECM shield and {1} to sensor signature."
+    },
+    {
       "Bonus": "XenoLink",
       "Short": "XenoLink",
       "Long": "XenoLink",
@@ -540,6 +552,18 @@
       "Short": "C3 Slave/C3i",
       "Long": "C3 Slave/C3i",
       "Full": "This unit can participate in standard C3 Master/Slave and in C3i networks, but do not receive any bonuses from other members"
+    },
+    {
+      "Bonus": "C4MasterAffectedSystems",
+      "Short": "C3 Hack",
+      "Long": "Hack C3 Systems",
+      "Full": "Scrambles C3, C3i, and C3 Nova systems. Both friendly and enemy systems affected."
+    },
+    {
+      "Bonus": "C4MasterPenalties",
+      "Short": "C4Penalty",
+      "Long": "C4 Penalties",
+      "Full": "All units carrying affected C3 equipment are removed from the network and suffer -2 Resolve generation per round."
     },
     {
       "Bonus": "SLICNetwork",

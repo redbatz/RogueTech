@@ -4,6 +4,7 @@
       "unit_mech",
       "unit_legendary",
       "unit_unique",
+      "unit_stealth",
       "unit_killteam",
       "unit_dlc",
       "unit_optional_pirate_tech",
@@ -128,6 +129,61 @@
       "DamageLevel": "Functional"
     },
     {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Gear_ArmorMod_VoidSignatureSystem",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "LeftArm",
+      "ComponentDefID": "Linked_ArmorMod_VoidSignatureSystem",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Linked_ArmorMod_VoidSignatureSystem",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Linked_ArmorMod_VoidSignatureSystem",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "RightArm",
+      "ComponentDefID": "Linked_ArmorMod_VoidSignatureSystem",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "LeftLeg",
+      "ComponentDefID": "Linked_ArmorMod_VoidSignatureSystem",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "RightLeg",
+      "ComponentDefID": "Linked_ArmorMod_VoidSignatureSystem",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "DamageLevel": "Functional"
+    },
+    {
       "MountedLocation": "RightTorso",
       "ComponentDefID": "Gear_AdvancedMaterials3",
       "ComponentDefType": "Upgrade",
@@ -212,54 +268,6 @@
       "DamageLevel": "Functional"
     },
     {
-      "MountedLocation": "LeftArm",
-      "ComponentDefID": "Linked_ArmorMod_VoidSignatureSystem",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "IsFixed": true,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Linked_ArmorMod_VoidSignatureSystem",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "IsFixed": true,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "RightTorso",
-      "ComponentDefID": "Linked_ArmorMod_VoidSignatureSystem",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "IsFixed": true,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "RightArm",
-      "ComponentDefID": "Linked_ArmorMod_VoidSignatureSystem",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "IsFixed": true,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "LeftLeg",
-      "ComponentDefID": "Linked_ArmorMod_VoidSignatureSystem",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "IsFixed": true,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "RightLeg",
-      "ComponentDefID": "Linked_ArmorMod_VoidSignatureSystem",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "IsFixed": true,
-      "DamageLevel": "Functional"
-    },
-    {
       "MountedLocation": "LeftTorso",
       "ComponentDefID": "Special_AddOn_AdvancedOptics_Mk1",
       "ComponentDefType": "Upgrade",
@@ -276,13 +284,6 @@
     {
       "MountedLocation": "LeftTorso",
       "ComponentDefID": "Gear_Supercharger",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Gear_ArmorMod_VoidSignatureSystem",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"

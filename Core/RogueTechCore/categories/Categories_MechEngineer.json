@@ -193,7 +193,7 @@
       ]
     },
     {
-      "Name": "StealthArmorMod",
+      "Name": "SensorStealthMod",
       "DefaultCustoms": {
         "InventorySorter": "10",
         "Sorter": 10
@@ -206,7 +206,7 @@
       ]
     },
     {
-      "Name": "MimeticArmorMod",
+      "Name": "MimeticStealthMod",
       "DefaultCustoms": {
         "InventorySorter": "10",
         "Sorter": 10

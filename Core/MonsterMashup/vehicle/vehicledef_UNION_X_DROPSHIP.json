@@ -158,6 +158,13 @@
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
 			"DamageLevel": "Functional"
+		},
+		{
+			"MountedLocation": "Front",
+			"ComponentDefID": "Unique_Weapon_AMS_Dropship",
+			"ComponentDefType": "Weapon",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional"
 		}
 	]
 }

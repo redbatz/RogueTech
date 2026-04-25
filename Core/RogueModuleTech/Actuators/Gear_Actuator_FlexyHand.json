@@ -7,14 +7,14 @@
     ],
     "BonusDescriptions": [
       "HandHeldQuirk: +1",
-      "ChassisBasedWeight: 1.5%",
+      "ChassisBasedWeight: 1%",
       "HandActuator"
     ],
     "Flags": [
       "not_broken"
     ],
     "Weights": {
-      "ComponentByChassisFactor": 0.015
+      "ComponentByChassisFactor": 0.01
     },
     "IBLS": {
       "StorageSize": 1
@@ -25,10 +25,10 @@
     "Rarity": 99,
     "Purchasable": true,
     "Manufacturer": "Coventry",
-    "Model": "Alpha",
+    "Model": "Liberator",
     "UIName": "Flexy Hand",
     "Id": "Gear_Actuator_FlexyHand",
-    "Name": "Coventry Alpha Handgun Mod",
+    "Name": "Coventry Liberator Handgun Mod",
     "Details": "This upgraded Hand Actuator allows better maneuverability and aim for a weapon held in the 'Mech's hand.",
     "Icon": "uixSvgIcon_equipment_ActuatorArm"
   },

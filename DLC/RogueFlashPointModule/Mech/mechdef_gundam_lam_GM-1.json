@@ -40,7 +40,7 @@
   },
   "ChassisID": "chassisdef_gundam_lam_GM-1",
   "Description": {
-    "Cost": 12387966,
+    "Cost": 12356966,
     "Rarity": 4,
     "Purchasable": true,
     "UIName": "Gundam LAM GM-1",
@@ -213,13 +213,6 @@
       "MountedLocation": "LeftTorso",
       "ComponentDefID": "Special_AddOn_AdvZoom_Mk3",
       "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "RightTorso",
-      "ComponentDefID": "Gear_Booster_LAM_SuperBurner_2",
-      "ComponentDefType": "JumpJet",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
     },

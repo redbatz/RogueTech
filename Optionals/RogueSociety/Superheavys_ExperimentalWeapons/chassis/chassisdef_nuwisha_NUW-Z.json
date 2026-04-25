@@ -9,7 +9,7 @@
       "Include": true
     },
     "LootableUniqueMech": {
-      "ReplaceID": "mechdef_nuwisha_NUW-Prime"
+      "BlockAssembly": true
     },
     "CustomWidgetChassis": {
       "TopLeftWidget": {

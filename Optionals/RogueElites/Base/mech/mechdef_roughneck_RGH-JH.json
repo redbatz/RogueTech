@@ -83,7 +83,7 @@
   },
   "ChassisID": "chassisdef_roughneck_RGH-JH",
   "Description": {
-    "Cost": 15097329,
+    "Cost": 14684829,
     "Rarity": 3,
     "Purchasable": true,
     "UIName": "Roughneck 'Jarhead'",
@@ -178,13 +178,6 @@
     {
       "MountedLocation": "RightTorso",
       "ComponentDefID": "Gear_ModularArmor_Mk3",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "RightArm",
-      "ComponentDefID": "Gear_AdvancedMaterials1",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
