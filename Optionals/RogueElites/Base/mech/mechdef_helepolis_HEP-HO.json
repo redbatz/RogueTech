@@ -358,13 +358,6 @@
       "DamageLevel": "Functional"
     },
     {
-      "MountedLocation": "LeftArm",
-      "ComponentDefID": "Weapon_Autocannon_RAC_10_Clan",
-      "ComponentDefType": "Weapon",
-      "HardpointSlot": 0,
-      "DamageLevel": "Functional"
-    },
-    {
       "MountedLocation": "CenterTorso",
       "ComponentDefID": "Weapon_Rocket_Heavy_15",
       "ComponentDefType": "Weapon",
@@ -380,7 +373,7 @@
     },
     {
       "MountedLocation": "LeftLeg",
-      "ComponentDefID": "Ammo_AmmunitionBox_Thunderbolt_TB20_HE",
+      "ComponentDefID": "Ammo_AmmunitionBox_Thunderbolt_20",
       "ComponentDefType": "AmmunitionBox",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
@@ -394,7 +387,7 @@
     },
     {
       "MountedLocation": "RightLeg",
-      "ComponentDefID": "Ammo_AmmunitionBox_Thunderbolt_TB20_HE",
+      "ComponentDefID": "Ammo_AmmunitionBox_Thunderbolt_20",
       "ComponentDefType": "AmmunitionBox",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
@@ -403,20 +396,6 @@
       "MountedLocation": "LeftArm",
       "ComponentDefID": "Gear_ModularArmor_Mk1",
       "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "RightTorso",
-      "ComponentDefID": "Ammo_AmmunitionBox_RAC_10_Caseless",
-      "ComponentDefType": "AmmunitionBox",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "RightTorso",
-      "ComponentDefID": "Ammo_AmmunitionBox_RAC_10_Caseless",
-      "ComponentDefType": "AmmunitionBox",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
     }
