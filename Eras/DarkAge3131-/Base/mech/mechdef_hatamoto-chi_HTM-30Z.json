@@ -180,6 +180,13 @@
     },
     {
       "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Weapon_C3_Master_TAG",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "CenterTorso",
       "ComponentDefID": "Gear_Gyro_XL",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
