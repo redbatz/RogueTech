@@ -142,6 +142,13 @@
     },
     {
       "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Weapon_C3_Master_TAG",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "CenterTorso",
       "ComponentDefID": "Gear_EWS_WatchdogEWS",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
