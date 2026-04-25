@@ -5,7 +5,7 @@
 	"DependsOn": [ "CustomVoices"],
 	"ConflictsWith": [ ],
 	"Description": "ClanVoices",
-	"Author": "Weiz",
+	"Author": "Wiez",
   "Website": "https://github.com/BattletechModders/RogueTech/",
   "CustomResourceTypes": [ "VoicePackDef", "AudioFile", "AudioFileSettings" ],
   "Manifest": [
