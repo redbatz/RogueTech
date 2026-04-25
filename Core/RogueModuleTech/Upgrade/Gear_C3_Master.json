@@ -48,7 +48,7 @@
     "UIName": "C3 Master",
     "Id": "Gear_C3_Master",
     "Name": "C3 Network Master unit",
-    "Details": "Normally carried by a lance commander, the C3 Master unit offers greatly improved processing of tactical data over a standard C3 unit.",
+    "Details": "Normally carried by a lance commander, the C3 Master unit offers greatly improved processing of tactical data over a standard C3 unit. The C3 Master computer includes an integrated TAG.",
     "Icon": "C3Systems"
   },
   "BonusValueA": "",
