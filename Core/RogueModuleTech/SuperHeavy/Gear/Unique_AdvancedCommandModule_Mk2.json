@@ -76,7 +76,7 @@
     "UIName": "Adv. Command Mod Mk II",
     "Id": "Unique_AdvancedCommandModule_Mk2",
     "Name": "Advanced Command Module",
-    "Details": "The Advanced Command Module Mark II is a further improvement of the original Module from the Cyclops line of 'Mechs. By utilizing the increased space and internals available on a superheavy 'Mech the functionality is further improved and optimized.",
+    "Details": "The Advanced Command Module Mark II is a further improvement of the original Module from the Cyclops line of 'Mechs. By utilizing the increased space and internals available on a superheavy 'Mech the functionality is further improved and optimized. The Command Module includes an integrated TAG.",
     "Icon": "uixSvgIcon_special_Equipment"
   },
   "BonusValueA": "",

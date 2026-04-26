@@ -76,7 +76,7 @@
     "UIName": "Adv. Command Mod",
     "Id": "Unique_AdvancedCommandModule",
     "Name": "Advanced Command Module",
-    "Details": "The Cyclops HQ comes equipped with a sophisticated and powerful Advanced Command Module. Granting the entire Command Improved Communication and Coordination.",
+    "Details": "The Cyclops HQ comes equipped with a sophisticated and powerful Advanced Command Module. Granting the entire Command Improved Communication and Coordination. The Command Module includes an integrated TAG.",
     "Icon": "uixSvgIcon_special_Equipment"
   },
   "BonusValueA": "",
